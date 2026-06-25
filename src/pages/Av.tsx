@@ -39,8 +39,8 @@ const Av = () => {
 <HR><P>
 <FONT SIZE=4> <STRONG>GUEST SPEAKERS</STRONG> <BR>RealAudio  <P></FONT> 
 <TABLE cellspacing=12>
-<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/nader.jpg" WIDTH=122 HEIGHT=150><BR><STRONG>Ralph Nader</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/noam1.jpg" WIDTH=110 HEIGHT=150><BR><STRONG>Noam Chomsky</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/mosdef.jpg" WIDTH=116 HEIGHT=150><BR><STRONG>Mos Def</STRONG></TD></TR>
-<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/korten15.jpg" WIDTH=116 HEIGHT=150><BR><STRONG>David Korten</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/suzuki.jpg" WIDTH=130 HEIGHT=150><BR><STRONG>David Suzuki</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/michaelc.jpg" WIDTH=101 HEIGHT=150><BR><STRONG>Michael Crichton</STRONG></TD></TR>
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bigmed2000/skins/portrait/nader.jpg" WIDTH=122 HEIGHT=150><BR><STRONG>Ralph Nader</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bigmed2000/skins/portrait/noam1.jpg" WIDTH=110 HEIGHT=150><BR><STRONG>Noam Chomsky</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bigmed2000/skins/portrait/mosdef.jpg" WIDTH=116 HEIGHT=150><BR><STRONG>Mos Def</STRONG></TD></TR>
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bigmed2000/skins/portrait/korten15.jpg" WIDTH=116 HEIGHT=150><BR><STRONG>David Korten</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bigmed2000/skins/portrait/suzuki.jpg" WIDTH=130 HEIGHT=150><BR><STRONG>David Suzuki</STRONG></TD><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bigmed2000/skins/portrait/michaelc.jpg" WIDTH=101 HEIGHT=150><BR><STRONG>Michael Crichton</STRONG></TD></TR>
 </TABLE><P>
 
 

@@ -27,20 +27,21 @@ F<FONT SIZE=-1>REQUENTLY</FONT> A<FONT SIZE=-1>SKED</FONT> Q<FONT SIZE=-1>UESTIO
 
 <IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=50% HEIGHT=3 vspace=5></CENTER>
 
-<BLOCKQUOTE><BLOCKQUOTE><STRONG>The campaign being so fresh and all, about the only questions we seem to hear frequently are:
+<table align="center" style="margin: 0 auto;"><tr><td align="left">
+<STRONG>The campaign being so fresh and all, about the only questions we seem to hear frequently are:
 <UL>
 <LI>You really intend to go through with this?
 <LI>Are you out of your fucking mind?
 <LI>When do we get paid?<BR>
+</UL>
 <HR WIDTH=100 SIZE=3 align=left>
-{ Answers }
+<P><STRONG>{ Answers }</STRONG></P>
 <UL>
 <LI>Yes
 <LI>Perhaps
 <LI>Soon
 </UL>
 <HR WIDTH=100 SIZE=3 align=left>
-</UL>
 <CENTER>Hopefully we shall soon enjoy  a higher plane of inquiry.<BR>
 We look forward to your queries.
 <P>
@@ -52,7 +53,7 @@ issues central to this site to:<BR>
 
 <CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=50% HEIGHT=2 vspace=9></CENTER>
 
-</STRONG></BLOCKQUOTE></BLOCKQUOTE></CENTER>
+</STRONG></td></tr></table>
 
 
 
