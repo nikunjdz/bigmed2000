@@ -1,0 +1,249 @@
+import { useEffect } from "react";
+
+const FdlapKashmirPledges = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<P>
+<HR WIDTH=260 ALIGN=center SIZE=3>
+<CENTER><h2><B>Indo-Pakistani Pledges on Kashmir<BR></h2>
+</B>
+References courtesy of <BR><A HREF="http://www.kashmiri-cc.ca"><STRONG>Kashmir Canada</STRONG></A>
+</CENTER>
+<HR WIDTH=260 ALIGN=center SIZE=3>
+<P>
+<STRONG>Mohammed Ali Jinnah</STRONG>, first Prime Minister of Pakistan:
+<BLOCKQUOTE>Welcoming the Indian Independence Act in 1947:
+ "constitutionally and legally the Indian states will be independent sovereign states on termination of paramountcy and they will be free to decide for themselves to adopt any course they like. It is open to them to join the Hindustan Constituent Assembly or the Pakistan Constituent Assembly or remain independent.."<P></BLOCKQUOTE>
+
+<STRONG>Jawaharlal Nehru</STRONG>, first Prime Minister of Pakistan:
+
+<ul>
+<li> In his telegram to the Prime Minister of Pakistan,
+&quot;I
+should like to make it clear that the question of aiding Kashmir
+in this emergency is not designed in any way to influence the
+state to accede to India. Our view which we have repeatedly made
+public is that the question of accession in any disputed territory
+or state must be decided in accordance with wishes of people and
+we adhere to this view&quot;. (Telegram 402 Primin-2227 dated
+27th October, 1947 to PM of Pakistan repeating telegram addressed
+to PM of UK).<BR>
+
+<P>
+<li> In his statement in the Indian Constituent Assembly
+on 5th March, 1948, &quot;Even at the moment
+of accession, we went out of our way to make a unilateral declaration
+that we would abide by the will of the people of Kashmir as declared
+in a plebiscite or referendum. We insisted further that the Government
+of Kashmir must immediately become a popular government. We have
+adhered to that position throughout and we are prepared to have
+a Plebiscite with every protection of fair voting and to abide
+by the decision of the people of Kashmir&quot;.
+<P>
+<li> In his press-conference in London on 16th January,
+1951, as reported by the daily &quot;Statesman&quot; on 18th January,
+1951, &quot;India has repeatedly offered
+to work with the United Nations reasonable safeguards to enable
+the people of Kashmir to express their will and is always ready
+to do so. We have always right from the beginning accepted the
+idea of the Kashmir people deciding their fate by referendum or
+plebiscite. In fact, this was our proposal long before the United
+Nations came into the picture. Ultimately the final decision of
+the settlement, which must come, has first of all to be made basically
+by the people of Kashmir and secondly, as between Pakistan and
+India directly. Of course it must be remembered that we (India
+and Pakistan) have reached a great deal of agreement already.
+What I mean is that many basic features have been thrashed out.
+We all agreed that it is the people of Kashmir who must decide
+for themselves about their future externally or internally. It
+is an obvious fact that even without our agreement no country
+is going to hold on to Kashmir against the will of the Kashmiris&quot;.
+
+<P>
+<li> In his report to All Indian Congress Committee
+on 6th July, 1951, &quot;Kashmir has been wrongly
+looked upon as a prize for India or Pakistan. People seem to forget
+that Kashmir is not a commodity for sale or to be bartered. It
+has an individual existence and its people must be the final arbiters
+of their future. It is here today that a struggle is bearing fruit,
+not in the battlefield but in the minds of men&quot;.
+<P>
+<li> In a letter dated 11th September, 1951, to the
+U.N. representative, Pandit Nehru wrote, &quot;The Government
+of India not only reaffirms its acceptance of the principle that
+the question of the continuing accession of the state of Jammu
+and Kashmir to India shall be decided through the democratic method
+of a free and impartial plebiscite under the auspices of the United
+Nations but is anxious that the conditions necessary for such
+a plebiscite should be created as quickly as possible&quot;. 
+
+<P>
+<li> On 2nd January, 1952, in reply to Dr. Mookerji's question
+in the Indian Legislature as to what the Congress Government was going
+to do about one third of territory still held by Pakistan, &quot; is not the property of either India or Pakistan.
+It belongs to the Kashmiri people. When Kashmir acceded to India,
+we made it clear to the leaders of the Kashmiri people that we
+would ultimately abide by the verdict of their Plebiscite. If
+they tell us to walk out, I would have no hesitation in quitting.
+We have taken the issue to United Nations and given our word of
+honour for a peaceful solution. As a great nation we cannot go
+back on it. We have left the question for final solution to the
+people of Kashmir and we are determined to abide by their decision&quot;.
+
+<P>
+<li> In his statement in the Indian Parliament on
+7th August, 1952, &quot;Let me say clearly
+that we accept the basic proposition that the future of Kashmir
+is going to be decided finally by the goodwill and pleasure of
+her people. The goodwill and pleasure of this Parliament is of
+no importance in this matter, not because this Parliament does
+not have the strength to decide the question of Kashmir but because
+any kind of imposition would be against the principles that this
+Parliament holds. Kashmir is very close to our minds and hearts
+and if by some decree or adverse fortune, ceases to be a part
+of India, it will be a wrench and a pain and torment for us. If,
+however, the people of Kashmir do not wish to remain with us,
+let them go by all means. We will not keep them against their
+will, however painful it may be to us. I want to stress that it
+is only the people of Kashmir who can decide the future of Kashmir.
+It is not that we have merely said that to the United Nations
+and to the people of Kashmir, it is our conviction and one that
+is borne out by the policy that we have pursued, not only in Kashmir
+but everywhere. Though these five years have meant a lot of trouble
+and expense and in spite of all we have done, we would willingly
+leave if it was made clear to us that the people of Kashmir wanted
+us to go. However sad we may feel about leaving we are not going
+to stay against the wishes of the people. We are not going to
+impose ourselves on them on the point of the bayonet&quot;.<BR>
+
+<P>
+<li> In his statement in the Lok Sabha on 31st March,
+1955, &quot; Kashmir is perhaps the most difficult
+of all these problems between India and Pakistan. We should also
+remember that Kashmir is not a thing to be bandied between India
+and Pakistan but it has a soul of its own and an individuality
+of its own. Nothing can be done without the goodwill and consent
+of the people of Kashmir&quot;.
+
+<BR>
+</ul>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+More of the same available at <A HREF="http://www.kashmiri-cc.ca">Kashmir Canada</A>...
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}fdlap/fdlalert.html"><STRONG>Back to Alerts</A></STRONG> | 
+<A href="${BASE_URL}fdlap/fdlpaper.html#essayarc"><STRONG>Main Archives</A></STRONG><BR>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+<FONT  SIZE=2><A HREF="mailto:Secretariat@fdlap.org"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
+<A href="${BASE_URL}fdlap/kashmir/fdlorg.html#address">Our Address...</A></FONT>
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default FdlapKashmirPledges;

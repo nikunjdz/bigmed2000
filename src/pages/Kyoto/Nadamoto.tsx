@@ -1,0 +1,254 @@
+import { useEffect } from "react";
+
+const KyotoNadamoto = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<FONT  SIZE=4 COLOR=#400000><CENTER><EM><STRONG>Kyoto's Luminous "Other" People</STRONG></EM></FONT><BR>
+<IMG SRC="${BASE_URL}graph/kyoto.gif" WIDTH=200 HEIGHT=84 vspace=15>
+<TABLE BORDER=5 CELLPADDING=5>
+
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=200 HEIGHT=4> <BR><BR><FONT  SIZE=4><STRONG>DISCRIMINATION FROM BOTH<BR>SIDES OF THE SKIN</STRONG><BR> An Interview with Buraku Abolitionist <BR><STRONG>N<FONT SIZE=-1>ADAMOTO</FONT> M<FONT SIZE=-1>ASAHISA</FONT></STRONG></FONT><BR><BR><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=200 HEIGHT=4></TD><TD>
+<IMG SRC="${BASE_URL}kyoto/graph/buraku.jpg" WIDTH=212 HEIGHT=220 BORDER=2 HSPACE=15 VSPACE=15 BORDER=3  ALT="Pre-tenement buraku scene"><BR></TD></TR>
+</TABLE>
+
+<BR><BR>
+
+
+
+
+<IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6></CENTER><P>
+
+<FONT  SIZE=4>
+<!----******************************************MAIN TEXT******************************************-->
+<BLOCKQUOTE>
+<BLOCKQUOTE><FONT  COLOR=#800000><STRONG>Nancho Advisory</STRONG>: 
+
+Some three million Japanese are <EM>burakumin</EM>, a hereditary group who for centuries were the untouchables of Japanese society. Although their legal outcast status was abolished in 1871, many people still regard them as unmentionable, unemployable or unmarriable. Burakumin (literally,, "hamlet people") is the modern, official word, but in private the traditional and highly pejorative term eta is widely used. Nadamoto Masahisa works at the Buraku History Institute in Kyoto. A Kobe native, he holds a degree in contemporary history from Kyoto University.
+
+</FONT></BLOCKQUOTE>
+
+
+</BLOCKQUOTE>       
+<HR WIDTH=220 ALIGN=center SIZE=3>
+<CENTER><STRONG>- <EM>Verbatim Excerpts</EM> -</STRONG></CENTER>
+<HR WIDTH=220 ALIGN=center SIZE=3><P>
+<CENTER><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+
+<FONT  SIZE=4>
+
+<BLOCKQUOTE></BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+What is the content of your job?</FONT></H4>
+
+<BLOCKQUOTE><STRONG>Nadamoto Masahisa</STRONG>: There are 149 buraku communities in Kyoto prefecture, and we mainly do research on their histories. Sometimes we deal with their current problems.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000><STRONG> Nancho:</STRONG>  
+What is the historical background of the buraku communities?
+</FONT></H4>
+
+<BLOCKQUOTE>
+<STRONG>NM: </STRONG>The burakumin were constituted as a class under the Edo shogunate's social order of shi-n6-ko-sho (warriors, farmers, artisans, merchants), so that oppressed peasants could aim their suppressed feelings and anger downward at the outcast class. But this was not a sudden political decision. From the end of the Heian period (about the twelfth century) there were so-called medieval-era outcast groups appearing gradually. Some of those have to do with the current burakumin and some don't. They were excluded from regular village communities, and they had particular occupations and formed their own communities. One of the occupations that has continued to the present day is the handling of dead animals and human corpses, including butchering and tanning. That was a special occupation because at the end of the Heian period, the idea of <EM>shoku-e</EM> [touching defilement], and the belief that it invited ominous things, spread from the nobility to the common people. For example, a noble family was defiled during the mourning period after a death, and those who came into contact with them were defiled to the second degree, and could transmit the defilement to others, in the third degree. Giving birth was also a defilement, and was done outside the main house.<P>
+
+In the Edo era the outcasts maintained their "defiling" trades, although they lived much like peasants. During Meiji, their economic base was destroyed, by the government's deflationary policy and then the development of capitalism. By 1910, buraku communities became the cores of the many slum areas that grew up in various parts of the country, and since then they have tended to suffer from poverty as well as discrimination.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+Did the idea of defilement originate in a religious tradition?
+</FONT></H4>
+
+<BLOCKQUOTE><STRONG>NM: </STRONG>
+Defilement is a universal concept, found
+in cultures throughout the world. In
+Japan, it was combined with Buddhism.
+The idea of <EM>jodo</EM>, the pure land, is the
+conceptual opposite of <EM>shoku-e</EM>.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+How has the situation of the buraku
+hanged in recent years?
+</FONT></H4>
+
+<BLOCKQUOTE><STRONG>NM: </STRONG>
+The biggest changes came during the
+1960's, the period of rapid economic
+growth. The labor market was expanding
+and the lives of the lower-class laborers,
+including many burakumin, began to
+improve. Also. in 1969 the government
+became serious about an assimilation
+program, which has continued since
+then. During the sixties the term "human
+rights" came into wide use. Before then
+there were peasant movements and labor movements, and they had been known as "social movements." From the late sixties, the issues of minorities and pollution and citizen's rights began, little by little, to receive recognition from the general public.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+These days there are lots of messages on buses, on municipal signs, and on the radio-, which say "Let's stop discrimination, " or "Let's build a bright society and stop discrimination. " What do you think is actually happening in this connection?
+</FONT></H4>
+
+<BLOCKQUOTE><STRONG>NM: </STRONG>
+There are various groups who suffer from discrimination. As for burakumin, the situation has improved quite a bit, especially in terms of education and job opportunities. I think marriage is the most important thing. These days about sixty to eighty percent of marriages are with non-burakumin. For burakumin who are now in their sixties, the intermarriage rate was around ten percent. The young people don't care so much, but among older people there is still strong resistance. This generation gap causes problems for young people who want to intermarry. I myself suffered from it. These days you hardly ever hear of people committing suicide because of it. But often when I am invited to speak to university classes, the students consult with me about this. There is also much less discrimination now in the area of jobs. But still, people are often hired through some kind of personal connections, especially in smaller companies, so whether or not the employers intend to discriminate, the selection process tends to do so. As for discrimination in housing, I think it is now nil, unless you come right out and say to the landlord, "I am a burakumin" when you are trying to rent an apartment. People used to be able to look up your <EM>koseki </EM>[family registrations and find out if you were from a buraku neighborhood, but not anymore.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+I've heard that if you move several times,
+then you can't be traced back to the buraku community. But those communities still exist.
+</FONT></H4>
+
+<BLOCKQUOTE><STRONG>NM: </STRONG>
+Yes. As long as you live in a buraku community, there is a strong possibility that you will be discriminated against. Those neighborhoods are losing population. For one thing, the young people tend to move to the suburbs because it's impossible to find new houses in the cities, whether in a buraku neighborhood or not, especially in Kyoto.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+What is your personal feeling about the efforts which are being made to rectify the various problems?
+</FONT></H4>
+
+<BLOCKQUOTE><STRONG>NM: </STRONG>
+My interpretation is different from that of the mainstream buraku organizations. Since the war, the assimilation movement has been geared towards economic improvement, to upgrade the environment and education of the burakumin. The government set up special scholarship funds and public housing programs. I think that after a certain point the direction should change, It's no good to get something from the government all the time. That used to be considered progressive, but simply continuing those things is backward, in my opinion. They say things like, "There is still a 10% gap in average income, so we deserve administrative help," or "Our higher education rate is such and such, we need more government scholarships."
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+What direction do you think the movement should take?
+</FONT></H4>
+
+<BLOCKQUOTE><STRONG>NM: </STRONG>
+I believe there needs to be a change of consciousness so that people have confidence in themselves, rather than asking for something from the outside. It seems to me that they lack the personality of independent individuals. They have probably been shaped by the patterns of discrimination and the corrective movement over the past thirty years. They have a sense of disgrace as children of the <EM>eta</EM>. Everyone thinks discrimination
+comes only from the outside world, and that is the source of their pain. But it is actually coming from inside themselves, too. They think negatively about themselves, so they suffer in terms of the value system of the outside world. If that were not the case, they would not be suffering. I don't think they have realized that yet, because the movement has been oriented toward the outside world.<P>
+You see, the difficult thing about the buraku problem is that burakumin are social beings, not racial beings. You can't tell that I am from the buraku community just by looking at me, can you? So if I am socially successful, it might seem best to hide my background. It is unusual for successful people to say they are from the buraku community. But that is crucial to the development of a new consciousness. Those who succeed tend to hide their origin, and those who remain identified as burakumin maintain negative self-images. While there is generally no need to worry about people's origins, in this sense, I feel the necessity to declare that I'm a burakumin. I live in an apartment building, and our neighbors know that I am from the buraku community, and that my wife is not. We could have chosen not to tell anyone. but doesn't bother us.
+
+
+
+
+<P><CENTER> - End -</CENTER>
+<P></FONT>
+<FONT  SIZE=-1 COLOR=#400000>Nancho Rep: Matsuya Toshiro</FONT></BLOCKQUOTE></FONT><P>
+
+
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}kyoto/kyoijin.html"><IMG SRC="${BASE_URL}butts/btljapan.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1998 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default KyotoNadamoto;

@@ -1,0 +1,226 @@
+import { useEffect } from "react";
+
+const MemesMemework = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<BR>
+<TABLE BORDER=4 WIDTH=100% CELLPADDING=5 >
+
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/birdmem2.gif" BORDER=3 ALT="Buddhist Meme Winging West" WIDTH=200 HEIGHT=199  vspace=10><BR>
+Buddhist Meme in Migration</TD> <td> <BR>
+<CENTER>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=400 HEIGHT=8>
+<H2><FONT  COLOR=#800000>Memes to Come &amp; Memes to Go</FONT></H2>
+
+ <FONT SIZE=+1><STRONG>Memetics is the study of the spread of ideas <BR>and its mastery is the key to changing minds, <BR>behavior and thus social reality.</STRONG><br><BR>
+
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=400 HEIGHT=8>
+
+
+
+</FONT></CENTER><P></td></TR>
+</TABLE>
+
+
+<BR>
+
+ <BLOCKQUOTE><FONT SIZE=3>Academically, the field of memetics used to be a high-testosterone thunderdome where a host of theorists, researchers and journalists all competed for seminal influence on how the "meme" meme would evolve and who would finally be called "Daddy". The incessant warfare between the hip-shooting virus/disease-metaphor mongers and the reductionist mathematical geneticist wannabes eventually exhausted everyone, it seems, and the whole discipline is currently in the doldrums. Even the basic definition of the term is still in dispute, but an entry level explanation in wide circulation is:
+
+<P><BLOCKQUOTE><B><STRONG>MEME</STRONG></B><BR>
+	(rhymes with 'dream') A contagious information pattern that replicates
+          by infecting human minds and altering their
+          behavior, causing them to propagate the pattern. (Term coined
+          by Richard Dawkins, by analogy with "gene".) <P>Individual concepts, slogans,
+melodies, inventions, and fashions are
+          typical memes. An idea or information pattern is not a meme
+          until it is replicated or repeated to
+          someone else. All education and transmitted knowledge is memetic. <br>
+		  <br>
+		  The key thing to remember is that memes instruct recipients on "how to" do something - how to evaluate something, how to play something, how to build something, sing something, incite something, worship something, etc. How we will marry, bury our dead, educate our children, conceive of our own worth and rights, and regard other communities are all largely determined by the dominant memes in our consciousness (both those already in mind &amp; memory and those reverberating in the immediate social surround). The outcome of meme wars thus define us as a people and set our evolutionary course, so it is vital that we at least learn enough to prevail over the mind-numbing/soul-crushing corporate meme storm at hand.   
+(See the <A href="${BASE_URL}memes/memlex.html"><STRONG>Meme Lexicon</STRONG></A>)</BLOCKQUOTE><BR>
+
+The Academic Theory Wars are great fun  (witness the ancient chaos at the <A HREF="http://groups.google.com/group/alt.memetics/" target="_blank">alt.memetics</A> newsgroup), but while they rage in the abstract altitudes, thousands of white-collar meme mechanics put in their daily 9-to-5 churning out pernicious or simply pointless memetic contagions for the likes of Madison Ave, mega-corporate legal persons,  Hollywood, and the world's enduring Ministries of Truth. These mercenary professionals are much like modern acupuncturists who have to blithely ignore the theoretical mess their field is in to get on with what they feel/see/know will work.  Decrying the ominous or inane content of this crowd's memetic output does not detract from their often elegant craftsmanship or distributive genius. So, for better or worse, professional flacks, hacks and marketing whores are perhaps our guides of choice if we seek to quickly excel in the craft ourselves. 
+
+<BLOCKQUOTE>Yes, this is a bit sordid, but recall our basic challenge. The trinity of memes we propose to spread are both virtually unknown and officially unpopular. Consider:
+<UL TYPE=disc>
+<LH></LH>
+<LI><STRONG><A href="${BASE_URL}arcmain.html#kipapers" target="_blank">The Ki Meme</A></STRONG> - which would awaken public awareness of the extraordinary qualities, powers and industrial theft of human attention (as well as its vital role in sex, healing and corporate bodybuilding):
+<LI><STRONG><A href="${BASE_URL}bigbody/apforum1.html">The Big Body Meme</A></STRONG> - which would expose mega-corporate bodies as truly alive, in charge and out of control;
+<LI><STRONG><A HREF="http://www.magic10percent.net/content/view/26/46/" target="_blank">The Earth Hour Meme</A></STRONG> - which would arouse recurrent revolutionary experience of our specie's essential unity and erotic identity with Gaia.
+</UL>
+
+Since all are controversial and each abets the others to either transcend, transform or subvert current corporate reality, we face a Goliath of a challenge. We thus need -- besides the more conventional virtues -- all the practical guile, cunning and underhanded artistry we can muster. (Check out the overall strategy for <A href="${BASE_URL}memes/sitstrat.html">Meme Cascades</A>.)</BLOCKQUOTE>
+
+<BR><A NAME="links">That all being said</A>,  a little knowledge is still a dangerous thing and thus of potential utility. Pick up a bit of your own below:
+</BLOCKQUOTE>
+
+<UL>
+<LI><A href="${BASE_URL}memes/memlex.html">Memetic Lexicon</A>  <CENTER>A basic (but still fluid and klunky) glossary of memespeak</CENTER> <BR>
+
+<LI><A HREF="http://pespmc1.vub.ac.be/MEMES.html" target="_blank">Principia Cybernetica's Meme Pages</A>  <CENTER>Reasonable articles and discussions on memetic phenomena.</CENTER> <BR>
+
+<LI><A HREF="http://www.aleph.se/Trans/Cultural/Memetics/" target="_blank">Memetics</A>  <CENTER>Simple primer page on memes and recent theories.</CENTER> <BR>
+
+            <LI><A HREF="http://www.memecentral.com/" target="_blank">Memecentral.com</A><CENTER>Homebase for Richard "Virus of the Mind" Brodie and
+<br>
+ his rather disease-intensive interpretation of meme dynamics.</CENTER><P>
+
+             <LI><A HREF="http://jom-emit.cfpm.org/" target="_blank">Journal of Memetics - Evolutionary Models of Information Transmission</A><CENTER>
+Dead since 2005, the archives still offer some fascinating <br>
+papers - as well as a major dose of the pretentious bafflegab <br>
+that doomed the journal in the first place.</CENTER><P>
+ 
+
+
+            <LI><A HREF="http://users.lycaeum.org/~sputnik/Memetics/" target="_blank"> Memetics Resource Index</A><CENTER>THE exhaustive listing of meme texts, links and controversies</CENTER><P>
+
+
+
+<LI><A HREF="http://groups.google.com/group/alt.memetics/"  target="_blank">alt.memetics</A> -- Google Group rebirth of the original newsgroup<BR><BR><CENTER> Often fascinating but always noisy with the harangues, hormones<BR> and aspiring  heroics of a hot field being born. </CENTER><P>
+
+
+<LI><A href="${BASE_URL}memes/abexotic.html">The Abhorrence of the Exotic</A> -- Japan's Comparative Advantage in Memetic Immunity <BR><BR><CENTER>A very colloquial interpretation of memes, <BR>marauding hierarchies and the democracy problem in Japan.</CENTER> <P>
+
+<LI><A href="${BASE_URL}memes/infoviru.html">Memetics</A> --  The Science of Information Viruses<BR><BR><CENTER>Keith Henson's early, influential (though rather pathology-intensive)<BR> essay on memetics </CENTER><P>
+
+            <LI><A HREF="http://www.smartmeme.org/" target="_blank"><i>smart</i>Meme.org</A><CENTER>
+"The smartMeme Strategy & Training Project is a nonprofit collective<br>
+that works to apply meme theory and a narrative analysis of power to <br>
+strengthen social change efforts." - Cool allies!</CENTER><P>
+
+
+<LI><A HREF="http://www.susanblackmore.co.uk/memetics/" target="_blank">Memetics Lab - UK</a> -- Homebase for Susan "The Meme Machine" Blackmore<P>
+
+<LI><A HREF="http://virus.lucifer.com/" target="_blank"> Church of the Virus</a> -- Strange, provocative and beautiful<P>
+
+<LI><A HREF="http://jasss.soc.surrey.ac.uk/2/2/review4.html" target="_blank">Thought Contagion </A>-- How Belief Spreads Through Society: The New Science of Memes<BR><BR><CENTER>A review of Aaron Lynch's serious and influential (but also pretty sloppy and disease-obsessed) <BR>look at memes and the psychic environment</CENTER><P>
+
+
+
+</UL>
+<BR>
+<HR WIDTH=90% ALIGN=center SIZE=3><BR>
+<CENTER>Once you catch the drift of memes, <BR>
+flow on to more strategic applications</CENTER>
+<UL>
+<LI><A href="${BASE_URL}memes/orthodoc.html">So You Want to be an Orthodoctor?</A><FONT  SIZE=-1> -- 3 Big Body Revelations &amp; a Little Heresy to Go</FONT><BR><BR><CENTER>Battle Big Body orthodoxy <BR>with rogue memes, meta-medical craft and placebo power</CENTER><P>
+</UL><P></STRONG>
+ <CENTER>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=500 HEIGHT=5><P><P>
+<STRONG>One Simple Way to Spread Benevolent Contagions:<BR>Distribute the Buttons Below with Our URL,<BR>or Better Yet, Design Some Sexier Ones Yourself!</STRONG><P>
+<HR WIDTH=95% ALIGN=center SIZE=3>
+<IMG SRC="${BASE_URL}butts/ehsalt2.gif" ALT="Saltation Logos I" WIDTH=153 HEIGHT=57 BORDER=3>
+<IMG SRC="${BASE_URL}butts/ehsaltsn.gif" ALT="Saltation Logos II" WIDTH=153 HEIGHT=57 BORDER=3>
+<IMG SRC="${BASE_URL}butts/ehsaltyr.gif" ALT="Saltation Logos III" WIDTH=153 HEIGHT=57 BORDER=3>
+<HR WIDTH=95% ALIGN=center SIZE=3>
+<BR>
+
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=330 HEIGHT=6>
+<HR WIDTH=120 ALIGN=center SIZE=3>
+<A href="${BASE_URL}arcmain.html#memetics">Main Archive</A>
+<HR WIDTH=120 ALIGN=center SIZE=3>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=330 HEIGHT=6>
+
+</FONT>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default MemesMemework;

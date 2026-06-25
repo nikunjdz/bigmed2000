@@ -1,0 +1,176 @@
+import { useEffect } from "react";
+
+const Corperson14amend = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `<a href="${BASE_URL}corperson/index.html"><img src="${BASE_URL}graph/BIGBODBM.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Personhood Index"></a>
+
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
+<STRONG> <FONT  SIZE=4 COLOR=#000055> SHOULD NOT THE 14th AMENDMENT BE AMENDED?</font><br>
+by Edward T. Lee </STRONG><br>
+
+
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
+<table width="550" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td>
+<strong>
+
+
+<div align="center">SHOULD NOT THE 14th AMENDMENT TO THE CONSTITUTION <br>
+OF THE UNITED STATES BE AMENDED? <p>An Address to the Gary, Indiana, Bar Association <br>
+by Edward T. Lee, <br>Dean 
+of The John Marshall Law School Chicago<br>
+November 20th, 1936  </div><p>
+<hr width="500" size="3">
+
+President Fletcher and Members of the Gary Bar,<p>
+
+ As you know, the 14th Amendment to the Constitution of the United States, ratified in 1868, is one of three "War Amendments," following the close of the Civil War. The 13th Amendment abolished slavery, the 15th forbade the denial of the franchise to citizens of the United States on account of race, color or previous condition of servitude. Section 1 of the Amendment reads as follows: 
+
+<blockquote>"All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are <I>citizens </I>of the United States and of the State wherein they reside. No State shall make or enforce any law which shall abridge the privileges or immunities of <I>citizens </I>of the United States; nor shall any State deprive any <I>person </I>of life, liberty, or property, without due process of law; nor deny to any <I>person </I>within its jurisdiction the equal protection of the laws."</blockquote> 
+
+In the entire Constitution and the Amendments thereto, the word "person" is used thirty-four times; in thirty-three times, it refers only and can refer only to creatures of flesh and blood. And in the 14th Amendment, the word is used five times, three times in Section 1, and in four of the five times it is used, it is obvious that natural persons alone can be meant, as only natural persons can be born or naturalized, become citizens, be deprived of 1ife and liberty, be electors, hold any civil or military office, or furnish the basis of representation in Congress. Being used then thirty-three times out of thirty-four in one and the same sense, and in the 14th Amendment four times out of five in the same sense, the Rule of Interpretation would require that this should be held to be the meaning of the word when used elsewhere, unless specifically narrowed or enlarged� 
+
+<p>The people must know and understand; their laws must be expressed in such language as they can understand. And when this amendment was under consideration in Congress and in the State legislatures they understood that the word "person" meant a human being. And for seventeen years the Supreme Court of the United States shared with the plain people this understanding of the meaning of the word "person." 
+
+<p>
+In 1885, however, the field was prepared for a "revolution of our Constitutional Law," to use the language of Charles A. Beard of Columbia University, an authority on American history, of whom you people of his native State of Indiana may be justly proud. In that year there appeared for the defendant in the case of San Mateo County v. Southern Pacific Railroad Company, 116 U. S. 138, a trio of great lawyers, Wm. M. Evarts, Attorney-General under Johnson, Secretary of State under Hayes, George F. Edmunds, a leader of the U. S. Senate, practicing law on the side, and a former distinguished U. S. Senator, then a corporation lawyer, Roscoe Conkling of New York, whose political power had vanished when, after resigning in a huff in a fight for patronage with President Garfield, the legislature of his State refused to re-elect him. 
+
+<p>
+The defendant railroad alleged that it was in danger of being deprived of its property in violation of the 14th Amendment, Section 1. Conkling, in his argument told the Court that he had been a member of the Joint Committee of Fifteen of Congress on Reconstruction that had framed the 14th Amendment (which later had been steamrollered through Congress in 1868 by the radical republican faction under Thaddeus Stevens and Charles Sumner). He exhibited to the Court and read extracts from the forgotten Journal of that Committee. It was in manuscript form and had never been ordered printed and distributed by Congress. On the basis of this Journal and his asserted knowledge as a member of the Committee, he claimed that the word "person" used in Section 1 was intended to be applied to corporations as well as to natural persons. He did this notwithstanding the fact that Mr. Justice Miller had said, in 1882, in the Slaughter-House Cases, 16 Wallace 36:  
+<blockquote>"On the most  casual examination of the  language of these Amendments [13th , 14th and 15th ], no one can fail to be impressed with the one pervading purpose found in them all, lying at the foundation of each, and without which none of them would have been even suggested : we mean the freedom of the slave race, the security and firm establishment of that freedom, and the protection of the newly made free man the citizens from the oppression of those who had formerly exercised unlimited dominion over him... That its [the 14th Amendment's] main purpose was to establish the citizenship of the negro can admit of no doubt." </blockquote>
+
+The Court, however, did not pass upon the point raised by Conkling in the San Mateo case, as the railroad company paid the amount of taxes involved and the case was dismissed. 
+
+But in the following year, in the case of Santa Clara County vs. Southern Pacific Railroad Company, 118 U. S. 394, � case similar to the San Mateo County case � Chief Justice Waite, at the opening of the case said: 
+
+<blockquote>"The Court does  not wish to hear arguments on the question whether the provision of the 14th Amendment to the Constitution which forbids a State to deny any person within its jurisdiction the equal protection of the laws, applies to corporations. We are all of the opinion that it does."</blockquote> 
+
+Arthur T. Hadley, then President of Yale University, in an article entitled "Constitutional Position of Property in America," published in the Independent,* a leading journal of its day, wrote in 1908: <blockquote>"The Fourteenth Amendment was framed to protect the negroes from oppression by the whites, not to protect corporations from oppression by the Legislatures. It is doubtful whether a single one of the members of Congress had any conception that it would touch the question of corporate regulation at all."</blockquote> 
+
+Nor did anyone else suppose such a thing. Congress and the States were not intending to give to corporations the rights given to natural persons, any more than they intended to give the black man rights that the white man did not or could not possess. Neither in the Declaration of Independence, nor in the Constitution of the United States, is the word "corporation" used. Did the men who wrote the Declaration of Independence and pledged "Our lives, our fortunes, and our sacred honor," fought the Revolutionary War and framed the Constitution of the United States, have in mind that "artificial being, invisible, intangible, and existing only in contemplation of law" � the corporation? 
+
+<p>In a book entitled "The Fourteenth Amendment and the States," (1912) Charles Wallace Collins, tells that in the first forty-four years of the life of this Amendment 604 cases were taken to the Supreme Court of the United States, of which only 28 involved a question concerning the negro race, and 312 concerned a corporation as the principal party. Since then this disproportion has been maintained, private corporation litigation continually leading in number of cases. Gradually the door was closed to a crack for the negro, after his "250 years of unrequited toil" and thrown wide-open to the "bear that walks like a man." Collins concludes: 
+
+
+<blockquote>"Although it was a humanitarian measure in origin and purpose and was designed as a charter of liberty for human rights, it has become the magna charta of accumulated wealth and organized capital."</blockquote> 
+
+Corporations, as we know, are creatures of the State. Many of them are formed by citizens of a State who go into another State for the purpose of securing a more favorable charter, then return to the State where they intend to operate, there obtain a license as a foreign corporation and so become practically independent both of the State of their creation and of the State of their domicile; and in time of legal trouble they seek the Federal courts and finally the Supreme Court of the United States as their place of refuge and security. Against their momentum, the individual is oftentimes helpless. And the material resources and the legal talent are with the corporation. Even a State is frequently at a disadvantage in these respects, and its sovereignty is "cribbed, cabined and confined" by its own corporations, under the present interpretation of this amendment. As a consequence, greater and greater strain is placed upon the Supreme Court and upon the Federal courts � a strain which would be better born if distributed among the forty-eight States of the Union. <p>
+
+Joint Resolution presented to the U. S. House and Senate by Edward T. Lee:  <blockquote>"ARTICLE _______________________" "SECTION 1. The provisions of section 1 of the fourteenth amendment to the Constitution of the United States shall be held to apply only to natural persons and not to corporate or other artificial persons created by law."</blockquote> 
+
+
+<hr size="3">
+<hr width="90%" size="2">
+<hr size="3">
+	</strong>
+	</td>
+</tr>
+</table></div>
+
+
+<br><div align="center"><a href="${BASE_URL}newchau/" target="_top"><img src="${BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<font size="-1">The Way  Home</font></a></div><p>
+<div align="center"><font SIZE="-1" face="Verdana,Arial,Helvetica"><a href="${BASE_URL}newchau/ccgoals.html">Goals</a> | <a href="${BASE_URL}newchau/ccplay.html">Play</a> |  <a href="${BASE_URL}newchau/gospels.html">Study</a> | <a href="${BASE_URL}newchau/ccnews.html">News</a> | <a href="${BASE_URL}newchau/faq.html">FAQ</a> | <a href="${BASE_URL}newchau/contact.html">Contact</a> | <a href="${BASE_URL}newchau/cchelp.html">Help</a> | <a href="${BASE_URL}newchau/nchistry.html">Archives</a></font></div>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Corperson14amend;

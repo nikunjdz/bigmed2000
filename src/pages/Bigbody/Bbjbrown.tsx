@@ -1,0 +1,123 @@
+import { useEffect } from "react";
+
+const BigbodyBbjbrown = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER>
+<IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=330 HEIGHT=5>
+<H2><U>Corporations: A Real-Life Frankenstein</U></H2> <FONT  SIZE=-1><EM>By Jerry Brown</EM></FONT><P>
+<IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=330 HEIGHT=5><BR><BR>
+
+</CENTER>
+<BR><BLOCKQUOTE>
+<p><CENTER><STRONG>The corporation is an out-of-control Frankenstein</STRONG>. <BR>The 13th Amendment abolished involuntary servitude; the 14th amendment said no person shall be denied the due process of law in taking their life, liberty or property; the 15th said the right to vote shall not to be abridged on the basis of color.	The Supreme Court applied this bill of rights to the corporation, saying a corporation as a legal entity is to be treated as a person, entitled to all those due processes. Once the corporation got the same bill of rights and the same constitutional protections as a person, there was a complete imbalance.</CENTER><P>
+	The corporation is not a person; it is a legal fiction backed up by guns and police and jail cells and taxing authorities and the regulators called government. Take that away and there is no corporation; it's just paper.<p>	General Motors derives its power because it can exist forever under this legal framework. Once it exists forever, it accumulates money and can be liable for its debts, but the people who invest in it can never lose, can never be held personally liable. <p>	If General Motors kills 50,000 people through its cars, the head of General Motors is not guilty. The owner of General Motors stock, the true owner, is not liable. It's that separation of ownership and legal liability which is the dark genius of the corporate entity. Unless you can strip that away and make the corporation subject to environmental and human justice restraints, we're never going to make any progress.<p>	Corporations not only get tax breaks and often subsidies as well, but are dependent on billions of dollars of workers' wages in the form of pensions. For example, the pension plan of State of California workers, the Public Employees Retirement System (PERS), has somewhere in the neighborhood of \$45 billion. They are the biggest shareholder of Bank of America. It is Bank of America that leads the charge for NAFTA and facilitates the transfer of investment capital to Mexico in a way that is creating misery on both sides of the border under the guise of progress. <p>	Corporations are ripping us off and we need to understand the mechanism. The mechanism is the tax dollar through bought-off politicians and wages that are not paid today but put into a pension fund, which then buys the stock of large corporations like Bank of America, General Electric, and Goodyear Tire Company, and sends that capital all over the world looking for the cheapest worker.<p>	A story in the New York Times illustrates how shipping jobs to Mexico and other countries in Malaysia and Central America has been affecting the Congress, the country, and the people throughout the nation. The New York Times let the cat out of the bag in a story entitled "Out of Crisis and Opportunity" about the fall of the peso and its effect on one company--Goodyear. They also mentioned Allied Signal, Mattel Toys, General Electric (owner of NBC) and Zenith. All have moved plants to Mexico after having first laid off Americans. The New York Times is the same newspaper that vigorously advocated the NAFTA trade agreement. <p>	This story gets to the heart of the matter. Fifteen miles north of Mexico City, Goodyear has a plant. As soon as the peso started dropping last December, the manager created in his office a war room and established "three thousand" as the number of tires per day that he estimated would not be bought in Mexico because of the peso's fall. So the tire plant was converted to an exporting factory. And Goodyear is not alone. Autos and tires and televisions and other products are being made in Mexico because labor costs in dollars have fallen by more than a third. That means you literally double the profit of your enterprise just by moving south. The Mexican government is now pressing American companies in Mexico to buy local supplies and parts from Mexican plants instead of importing them from the United States.<p>	When NAFTA went in, the Mexican manager told the Goodyear workers, "The tariff is now coming down and you Mexican workers must agree to cut 20 percent of the workforce." So they cut 20 percent out of the workforce, changed the work rules, and started modernizing the old hissing, clanking machines in this factory that had been getting along fine supplying the Mexican market. Because they've been able to break the union work rules and get more efficient, they have increased their productivity. Now they've got to find a market for the excess tires that they're producing, particularly now that Mexico is facing millions more unemployed people because of the economic crisis. So even more jobs will be switched from Goodyear plants in the U.S. to Goodyear plants in Mexico.<p>	The Goodyear tire plant story is a metaphor or emblem of the structure of efficiency that requires the downward pressure on wages, the export of jobs to places like Mexico and even cheaper markets. Truth now can be seen in all its ugly detail--the utter insincerity of accepting free trade as business well-being when there are horrific noneconomic consequences in family breakdowns, environmental destruction, distrust of government authority, and all the rest.<p>In that context, look at what's happening in the welfare debate. We were lied to on NAFTA; we were deceived by Clinton and the Republicans and Democrats who voted for it; and real people are suffering in America and in Mexico because of this effort to create a tire with less time, less money and less personnel. <p>	Is that the fundamental issue when they're talking about nine million kids on welfare and getting those women out to work just when jobs are being killed and wages are dragged down by the competition from Mexico?<p>	George Will, a conservative, wrote a column in the Washington Post which he titled "Women and Children First." In it he criticizes Phil Gramm who has said welfare recipients are people in the wagon who ought to get out and help the rest of us pull. <p>	George Will points out that even if you get all those free-riding, nine million children in wee harnesses, the wagon won't move much faster. He concludes that welfare reform may give a whole new meaning to the phrase "Women and Children first," which is usually what they say when a boat is going down. <p>	But in the U.S. today in Congress, they want "women and children first" off welfare into the unemployment lines and into the devastating abandonment of the urban desert-all in the context of the sucking sound of jobs going to Mexico. <p>	Will's column also reports the percentage of people who at one time or another in a year fall under welfare in five cities: in Detroit, 67%; Philadelphia, 57%; Chicago, 46%; New York, 39%; Los Angeles, 38%. That's incredible. Welfare is a terrible idea. The only worse idea is to take people off it and cast them to the wolves--"women and children first." <p>	We were lied to before NAFTA was passed, and now NAFTA is doing precisely what the critics said it would. The logic of moving a plant south is irresistible. And after the plant moves to Mexico, if the product can be made cheaper in El Salvador, the logic will be irresistible to move there too. <p>	The question is: Is the community better off? Is the environment better off? Are these decisions being made wisely? I say no! And the profit is becoming more unequal, more unjust, with each lurch forward in "progress" and free trade and innovation. When people wake up and realize, "Hey, we've been really screwed and lied to," there's going to be shooting in the streets.<p>	Another New York Times story ties into this: "Blame History Not the Liberals" by John Kenneth Galbraith. Galbraith says the liberals can't claim credit for "liberal" programs like unemployment insurance, social security, and welfare. He says that in rural America, there was no social security. In fact, social security was irrelevant until relatively recently. Welfare appeared a little bit in the depression and then in the latter part of the '60s, but only became prominent in the '80s and '90s. And unemployment didn't exist in early American farms and villages. <p>	Unemployment insurance actually came about in response to changed conditions. It was a response of those running the country, the leadership, the elite Republicans, Democrats, so-called conservatives, because they had no other choice. <p>	For the first time there were unemployed people, widows and orphans, families that didn't have the family ties of the rural area, so needed a safety net. Otherwise, there would be beggars and pathetic people wandering the streets like the dark hole of Calcutta. It was a structural response to maintain the stability of the system. <p>	Because NAFTA facilitates turmoil and destruction of jobs in Mexico and the United States, we need to understand and re-frame the dynamic. NAFTA didn't create all these relationships between Mexico and the United States in terms of increased trade, but it did create the economic banking and investment framework and security and intimidation. <p>	NAFTA enabled the Mexican and American manager of the plant in Mexico to intimidate the unions and get them to accept cutbacks, givebacks. NAFTA enabled them to retool with a cowed labor force that could expand activities and replace the cowed labor force in the U.S. <p>	We're up against a structure that is a combination of global banking, the integration of the computer and communications, and the increase in capital. Corporate structures can manage as easily over a 10,000-mile spread in 20 different countries as over 20 blocks. <p>	You cannot unring that bell. You can, however, demand that political leaders commit themselves to explain the real truth and to mitigate the harshness, the impact, on children and on cities. <p>When Bill Clinton put on the wall of his Little Rock headquarters the guiding motto of his campaign "It's the economy, stupid," he was profoundly mistaken. It is not the economy. It is something much deeper. It is the recapturing of moral authority, of nonmarket principles like justice, friendship, obligation, that are the base of civilization and culture and tribal solidarity. <p>	It's not too late to close the barn door. People are just getting warmed up. Even some of the Republican candidates are fighting NAFTA. The only people that don't seem to get it are the incumbent Democrats and their fellow-traveler, watered-down, wimpy, go-along liberals. <p>	What is required now is a new basis, a new language, a new philosophy, derived from looking at the problem as it is. The problem is compounded by economics, economic thinking, technology and all the rest, because there is no principle of justice. Maybe it was justified to build atomic bombs, automobiles, buses, and space shuttles, but now the goal must be more social justice and environmental sustainability. <p>	The technological innovation will have to take place within the context of spiritual and human values. You can see where we are if you look at the way campaign financing works, if you look at the way the whole corporate structure works, if you look at how weak the labor movement is and where the civil rights movement isn't, and if you look at the media--concentrated, driven by advertising, representing just a relatively small number of people at the top. <p>	We need to have very clear rules of trade that do not allow any employer or purchaser or business to benefit from exploited labor. If we were really committed to the common good, we would determine what is exploited labor around the world and figure the difference between that and a fair wage/good working conditions/good environmental standards. That difference could be covered by a tariff levied on the goods as they come in; and that money could be plowed into taking care of a lot of things now being cut back. That's called a "social tariff." It is completely revolutionary. That's the way world trade could produce prosperity. <p>	A social tariff would work like this: If you make Nikes in Indonesia and pay 20� an hour, you probably make them for \$10-15. To create the right kind of conditions, you'd have to add another \$40 a pair and levy that as a tariff. Then I bet someone would ask, "Why don't we make those shoes in Seattle or Oakland or San Jose or somewhere?" It would totally change the conditions!<p>	If the people who work in a plant are owners of that plant, you have a totally different situation. They have a stake in the return on investment as well as their wages. That's the cooperative that exists in different parts of the world. But until conditions get further deteriorated and people get more together, more organized, more clear about what's going on, we are not going to see that kind of organization. Not yet, but it's coming.<p>	Economics is not what America is about. America is about liberty, about solidarity, about people being able to create their own life in collaboration with their neighbors and their friends and like-minded souls. <p>	America is about issues of morality and self-help and mutual aid and how to bring about a just, self-governing system, the noneconomic, nonmarket values that are more akin to religion or ecology or friendship, figuring out how to blend the machine and the computer with the highest and most elegant way of human endeavor and activity. That's not happening when at one time or another during the year 57% of the children in Philadelphia are on welfare, in intolerable conditions that are utterly shameful. <p>	If we don't create another basis of participation, income, and dignity, we're going to get a revolution.<p>
+</BLOCKQUOTE>
+This article was excerpted by Doret Kollerer from Jerry Brown's "We The People" radio broadcasts and published in North Coast XPress. Contact "We The People," at 1-800-426-1112 or by mail at 200 Harrison St., Oakland, CA 94607.<CENTER><H5>Copyright &copy; 1995-1996 <A HREF="http://www.eden.com/~reporter/">The Progressive Populist</A><BR></H5></CENTER>
+<HR WIDTH=150 ALIGN=center SIZE=3>
+<CENTER>Back to<BR><STRONG><A href="${BASE_URL}arcmain.html#bbpathology">Big Bodies</A></STRONG></CENTER>
+<HR WIDTH=150 ALIGN=center SIZE=3>
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default BigbodyBbjbrown;

@@ -1,0 +1,230 @@
+import { useEffect } from "react";
+
+const Bigmed2001Nanmain2 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<CENTER>
+<FONT  SIZE=4 COLOR=#00006A ><EM><STRONG><Nancho presents></STRONG> </EM></FONT>
+<TABLE BORDER=3 cellpadding=7>
+<TR><TD BGCOLOR=#0000A0 ALIGN=MIDDLE>
+
+
+<FONT  SIZE=4 COLOR=#DBDCA3>
+<STRONG><U>BIG MEDICINE 2000</U> <BR>
+KUBIAK FOR PRECEDENT</STRONG></FONT><BR>
+<FONT  COLOR=#FFFFE8><IMG SRC="${BASE_URL}bigmed2001/graph/vision5.jpg" ALT="Let us lift our vision..." WIDTH=378 HEIGHT=93 HSPACE=9 VSPACE=9 BORDER=3>
+
+</FONT>
+
+</TD></TR></TABLE><BR>
+</CENTER>
+
+ <BLOCKQUOTE><BLOCKQUOTE><STRONG><CENTER><IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=380 HEIGHT=4 VSPACE=6> <BR><FONT  COLOR=#D20020 FONT  Size=4>INTRODUCING BIG MEDICINE</FONT>
+<BR>A Broad Spectrum Antidote <BR>to Corporate Pathology<BR>
+
+ <BR><IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=380 HEIGHT=4 VSPACE=9><BR><FONT  Size=3>
+<CENTER><FONT  fontFACE="arial; helvetica" SIZE=2><STRONG><A HREF="#aisatsu">Welcome</A> |
+<A HREF="#purpose">Intent</A> |  
+<A HREF="#approach">Approach</A>
+ |        <A HREF="#goals">Goals</A>
+ |        <A HREF="#figure">Figurehead</A> |
+    <A HREF="#appeal">Appeal</A>
+<P>
+
+<FONT  COLOR=#0000dd> <A href="${BASE_URL}bigmed2001/bbonline.html" target="_parent" tabindex="."><BLINK>!</BLINK> Big Body Conference Archive <BLINK>!</BLINK></A><BR>
+
+
+</STRONG></FONT></CENTER>
+<IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=380 HEIGHT=4 VSPACE=9>
+
+
+
+<P><FONT  Size=3>
+
+<CENTER>
+<HR WIDTH=300 ALIGN=center SIZE=3>
+<p>
+
+
+</CENTER>
+<HR WIDTH=300 ALIGN=center SIZE=3>
+
+
+<A NAME="aisatsu"></A>
+<FONT  COLOR=#D20020><U>Welcome</U></FONT><BR>
+<H3><FONT  COLOR=#0000dd> A<FONT SIZE=-1>MAZING </FONT>G<FONT SIZE=-1>RACE </FONT>Ver. 1.01<P><FONT  COLOR=#DF0000>
+BIG MED SWEEPS NEW HAMPSHIRE <BR>Kubiak carries all counties in <BR>New Hampshire Democratic VP  Primary</FONT>
+<P>
+<FONT  COLOR=#0000dd> Click here to see <BR><A href="${BASE_URL}bigmed2001/nhfinal.html">Final NH Results</A><BR>or<BR><A href="${BASE_URL}bigmed2001/nhpr2.html">Big Med Press Release</A></FONT></H3>
+
+
+
+
+
+ </CENTER>
+<BLOCKQUOTE>
+<FONT  COLOR=#00006A > My fellow Americans (and other  usurped sovereign peoples of the world),<P>
+
+I've come home to America after long absence to harness the squandered power of this election and   help you  stop the Big Body takeover of our world. I myself am not exceptionally important, but the news I bear is vital for your survival as a free and sensual people, and must be communicated immediately.
+Though strenuously ignored in the Big media, it is not terrorism or nationalism that most threatens our freedoms and future now. It is corporate fundamentalism and the widening dominion of Big Bodies over our politics, planet and consciousness. 
+<P>
+ For many years I lived and played politics in Japan, the Galapagos Islands of corporate life. I also studied corporate physiology there and learned their secrets of anthroculture (the art of breeding, training & developmentally retarding human beings for lifelong incorporation). Most importantly, I discovered how we can reclaim our existence from these vast malignant bodies for once and for all. Those secrets will all be revealed here, and give our body politic's immune forces (the eco-socially active 10% of you who always inexplicably care) the tools you need to heal the world. <P>In other words, I run for thy Bully Pulpit not as a professional politician, but as a messenger and agent of long delayed change - a change toward the small, the erotic, the truly democratic.  
+<P>
+In effect, this  campaign and all my claims upon your attention rest on the following three promises. 
+
+<UL>
+<LI><DL><FONT  COLOR=#950000><STRONG>I know how we can cure 80%  of America and the world's military, social and environmental ills within the next ten years, and the other candidates don't.</STRONG></FONT> <DD>
+Of course they would too if they studied this site, but all major contenders are still grin-deep in Big Body pockets and can't afford to notice quite yet.</DL><P>
+
+<LI><DL><FONT  COLOR=#950000><STRONG>I can and will tell you so you can do it yourselves. </STRONG></FONT> <DD>
+In the course of this campaign, we shall show you how to provoke this evolutionary transformation on your own -- with or without the aid of my virtuous/virtual presidency. </DL><P>
+
+<LI><DL><FONT  COLOR=#950000><STRONG>We only need 10% of you to pull it off. </STRONG></FONT> <DD>
+Once this news cascades through just the NGO immuno-activist networks, we should already have the critical momentum necessary for a social saltation or quantum leap in our courage, awareness and democratic power. This is going to happen, and starts right now, right where you're reading this. The only real question is what role will you play?
+
+
+</DL>
+</UL>
+Looking forward <BR>to your Big interest,<BR><BR>
+for the wild,<BR>
+w. david kubiak<P></BLOCKQUOTE>
+<A NAME="purpose"></A>
+<CENTER><IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=350 HEIGHT=4 VSPACE=9></CENTER><P>
+<FONT  COLOR=#D20020>PURPOSE</FONT><BR>
+
+<FONT COLOR=#00006A >Big Medicine 2000 is a campaign to quell the dominant power of Big Bodies in America, especially the vast corporations that have wrested control of our economy,  public consciousness and evolutionary heading. We shall show that these social organisms constitute a literal new species, which has both overtaken our own and caused most of the modern dis-ease afflicting our minds, communities and natural environment. Big Bodies have also clearly usurped our sovereign role in governance, so reclaiming our democracy is the first order of business. However, since they also control 90% of the money, media and mercenary lawyers in the land as well as our two main political parties, attacking them head on presents a few Big Problems.
+<A NAME="approach"></A>
+<P>
+<FONT  COLOR=#D20020>APPROACH</FONT><BR>
+Our initial approach therefore is oblique and memetic. That is, we trust in the power of new <A href="${BASE_URL}memes/memework.html">memes</A> or contagious ideas to unleash abrupt insights into the true nature of our current dis-ease.
+New perceptions can change our understanding and behavior, and thus transform social reality. Once these ideas reach and activate our <A href="${BASE_URL}sithere.html">eco-social immune system</A> (the random 10% of us who always inexplicably "care"), we should have enough collective force to stop corporate pathology with bio-political craft. 
+<P>
+At present, many citizens and activists feel as futile as medieval doctors who worked desperately on local symptoms, but couldn't stop the spreading plague.  We thus offer a "germ theory" of social medicine that looks beyond our body politic's superficially diverse symptoms  (agro-toxins, GM crops, electoral corruption, deforestation, offshore sweat shops, downsizing, nuclear perils, global warming, toxic waste, media violence, NAFTA/WTO/MAI, etc, etc.) toward the common pathogen and thus allows a comprehensive cure.<P>
+
+To dramatize the need for such a cure, we both enumerate Big Body symptoms and also show how thoroughly they have enfeebled our body politic and dealigned our ends and means. Consider, for example, the strange fact that our respective medical, police/prison and military bodies are all being budgetarily rewarded for increases in disease, crime, and national insecurity. It is indeed an odd incentive system. An outbreak of health, peace or safety would abruptly devastate these multi-billion dollar industries, demonstrating that their "protective" interests now diametrically oppose our own. This is so obviously insane that it should be sparking a fiery debate, if not among our Big Body-dependent  presidential candidates, then at least among our disserved people.
+<A NAME="goals"></A>
+<P>
+<FONT  COLOR=#D20020>GOALS</FONT><BR>
+
+The key political issue is simply, "Why should vast, aggressively anti-democratic hierarchic bodies be allowed any political role whatever in a democratic society, let alone predominant power?" <P>Our initial practical goal is therefore to radically strengthen popular democracy by immediately revoking all Big Bodies' "human" rights (rights they furtively assumed over a century ago without our  notice or legislative permission). <P>
+Our second and ultimate goal is the rapid resolution of Big Bodies back to human-scale entities rooted in their communities, responsive to the environment, and democratically accountable to their members and neighbors. Both of these objectives may seem revolutionary or utopian, but they are totally within our Constitutional power as a sovereign people.  We must simply create the political will to wield that power by demonstrating the increasingly unbearable social and environmental costs of Big Body rule.
+<P>
+Deliquescing or melting down Big Bodies will alleviate most of our eco-social ills, but it will not solve all the problems of our universe. We will still have to deal with low-level feuds, greed, stupidity and all our other classical follies, but they will be confined to a  more local, human level, a level we have leverage over, a level we can handle. Moreover, we expect that many of you will be truly astounded at how quickly the demise of Big Bodies and their feverish consumptive influence will help remedy problems as seemingly distinct as mental illness, street crime. alcoholism. divorce, race/sex/age discrimination, family violence, and even sexual dysfunction.
+<A NAME="figure"></A>
+<P>
+
+<FONT  COLOR=#D20020>FIGUREHEAD</FONT><BR>
+Our Sixties recidivist candidate, the Kubiak, is only a stalking horse for the return of popular sovereignty, and will gratefully split the stage as soon as you reclaim your rightful power. In the meantime, he will say some outrageously unfamiliar things (like Big Bodies are alive, feed on their members' attention, and have hypnotized us into devouring  the Earth) that you may soon suspect you knew all along.  Whenever you hear something farfetched like "Big Bodies emasculate their underlings" or "after sunlight, human attention is the Earth's most nourishing power" don't feel obliged to believe it, just compare it to your own experience. If it seems to make sense, it becomes yours and thus your move. If it doesn't yet compute, doubt until your heart's content. Late awakeners are the cavalry in our last reel.
+<A NAME="appeal"></A>
+<P>
+<FONT  COLOR=#D20020><U>APPEAL</U></FONT><BR>
+Although Big Medicine requires (and urgently invites) a certain amount of financial assistance (we're obviously not attracting any corporate donors), we primarily hope that you will help with your mind and time and unique personal gifts. Since this is actually an evolutionary battle, the campaign against Big Bodies is truly everyone's fight and will require everyone's talents and tactics to prevail. If you agree with our diagnosis and prescriptions, you are welcome to either assist us or strike out on your own. 
+<P>
+Since we have no intention of building a Big Body of our own, you can't really "join" Big Medicine, but you certainly can practise it. Once you understand the principles and share a sense of common purpose, award yourself a doctorate and just go to work. Do check in here regularly, though, for campaign news, progress reports and therapeutic suggestions, and if any of this proves of value to you, please return the favor in <A href="${BASE_URL}bigmed2001/aidabet.html">kind</A> or drop some loose change in the <A href="${BASE_URL}bigmed2001/support.html">pot</A>.
+
+</UL>
+
+</FONT>
+</BLOCKQUOTE></BLOCKQUOTE>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2001Nanmain2;

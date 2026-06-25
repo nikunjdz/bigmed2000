@@ -1,0 +1,609 @@
+import { useEffect } from "react";
+
+const MemesInfoviru = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+
+<BR><BR>
+<CENTER>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=330 HEIGHT=8>
+<H2>MEMETICS</H2>
+<H3>  The Science of Information Viruses</H3>
+<EM> By Keith Henson</EM><P>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=330 HEIGHT=8>
+</CENTER>
+<BR><BR>
+
+
+
+
+<HR WIDTH=90% ALIGN=center SIZE=3><BR>
+ <FONT SIZE=+1 ><BLOCKQUOTE><FONT COLOR="#800000"><STRONG>Nancho Advisory: </STRONG>While this treatment focuses on the pathological "viral" aspects
+of ideas, it might be helpful to also keep in mind their adaptive
+gene-like functions. Conventional wisdom implies that, like germs
+and Indians, the only good virus is a dead one. Yet we know that
+memes like liberty, democracy, small-is-beautiful, et salubrious cetera have played
+an actively benevolent role in human social evolution. To
+inoculate the earth against the abusive ideas traced below we may
+have to set a meme to catch (and supplant) a meme...</FONT></BLOCKQUOTE>
+  <HR WIDTH=90% ALIGN=center SIZE=3><BR>
+  
+<BLOCKQUOTE>
+  	<STRONG>We don't have a science of social prediction.</STRONG> Until recently
+  we haven't even had much in the way of theories. Our continual
+  surprise at the development of cults, religions, wars, fads, and
+  other social movements is a notable exception to the steady
+  progress humans have made in building better models of our
+  environment. Our lack of good models must be considered a major
+  deficiency.<P>
+  
+  	A successful theory for the development of social movements
+  will have to provide a unifying theory for events that make up
+  much of the evening news. It will have to discover common
+  features that lie behind the diverse trends causing problems in
+  Nicaragua, South Africa, Northern Ireland and the Middle East. It
+  should be able to produce a plausible model for the breakup of
+  the Rajneesh cult. The theory should be able to predict the
+  conditions under which Turkey will be subverted by a
+  fundamentalist version of Islam similar to that which has led to
+  so much grief in Iran.<P>
+  
+  	Tentative answers to these questions are beginning to emerge
+  from the new field of memetics. Memetics (from meme, which rhymes
+  with cream) is an outgrowth of evolutionary biology. It takes the
+  age-old saying "ideas have a life of their own" literally, and
+  applies models from biology to the evolution, spread and
+  persistence of ideas (memes) in human culture.<P>
+  
+  	One aspect of memetics can be thought of as "germ theory
+  applied to ideas." Social movements can be modeled as side
+  effects of infectious ideas that spread among people in a way
+  mathematically identical to the way epidemic disease spreads.
+  Drug fads, for example, have closely followed epidemic-like
+  curves. I don't think it can be demonstrated that civil authority
+  has any more effect on the course of the "epidemics" than it had
+  on the course of the Black Death. At a deeper level, research in
+  neuroscience and artificial intelligence is starting to develop
+  an understanding of why we are susceptible to "infectious
+  information," both the benign and the deadly.<P>
+  
+  	"Meme" is a word coined in purposeful analogy to "gene" by
+  Richard Dawkins in his 1976 book, The Selfish Gene. To understand
+  memes, you must have a good understanding of the modern concepts
+  of evolution, and this is a good source. In the last chapter of
+  Dawkin's book memes were defined as replicating information
+  patterns that use minds to get themselves copied much as a virus
+  uses cells to get itself copied. (Dawkins credits several others
+  for developing the concepts, especially the anthropologist F.T.
+  Cloak.) Like genes, memes are pure information, whether the
+  sequence is coded in DNA, printed on paper, or written on
+  magnetic tape.<P>
+  
+  	Humans are not the only creatures that pass memes about.
+  Birds can learn variations of songs. The songs of whales are also
+  replicating information patterns that fit the model of a meme. So
+  is the termite-catching technique that chimps pass from
+  generation to generation.<P>
+  	Meme is similar to "idea", but not all ideas are memes. A
+  passing idea which you do not communicate to others, or one which
+  fails to take root in others, falls short of being a meme. The
+  important part of the "meme about memes" is that memes a re
+  subject to adaptive evolutionary forces very similar to those
+  that select for genes. That is, their variation is subject to
+  selection in the environment provided by human minds,
+  communication channels, and the vast collection of cooperating
+  and competing memes that make up human culture. The analogy is
+  remarkably close. For example, genes in cold viruses that cause
+  sneezes by irritating noses spread themselves by this route to
+  new hosts and become more common in the gene pool of a cold
+  virus. Memes cause those they have successfully infected to
+  spread the meme by both direct methods (proselytizing) and
+  indirect methods (such as writing). Such memes become more common
+  in the culture pool.<P>
+  
+  	The entire topic would be academic except that there are two
+  levels of evolution (genes and memes) involved and the memetic
+  level is only loosely coupled to the genetic. Memes which
+  override genetic survival, such as those which induce young
+  Lebanese Shiites to blow themselves "into the next world" from
+  the front seat of a truck loaded with high explosives, or induce
+  untrained Iranians to volunteer to charge Iraqi machine guns, or
+  the WWII Kamikaze "social movement" in Japan are all too well
+  known. I have proposed the term "memeoid" for people whose
+  behavior is so strongly influenced by a replicating information
+  pattern (meme) that their survival becomes inconsequential in
+  their own minds.<P>
+  
+  	For a vivid example we can hark back a few years ago to  the
+  Reverend Jim Jones and the People's Temple incident, where 912
+  people, including Jones, died of complications - poison and
+  gunshot wounds - induced by an information disease. The
+  Children's Crusades of the middle ages were larger and more
+  lethal; only two of 20,000 returned from one crusade. The mass
+  suicide in the first century by the Jews at Masada is a clear
+  example of information patterns in people's minds having more
+  influence over their behavior than fear of death.<P>
+  
+  	 A more seductive example of a social movement set off by a
+  lethal meme comes from South Africa. In the 1850's, a meme
+  (originally derived from a dream) led to a great sacrifice by the
+  Xhosa people during which they killed their cattle, burned their
+  grain, and refrained from planting in the belief that doing so
+  would cause their ancestors to come back from the dead and expel
+  the whites. At least 20,000 and perhaps as many as 60,000 people
+  starved when the predicted millennium of plenty failed to arrive.
+  Known as the Cattle Killing, it was not a unique response for a
+  primitive society being displaced by a more technically advanced
+  one. <P>
+  
+  	Memes that bring about suicidal behavior are, at least,
+  self-limiting. Those which induce one group of people to kill
+  another are much worse, and the social movements they induce are
+  often much larger. The scope of the social movement known as the
+  Inquisition is seldom mentioned in history textbooks, but:<P>
+  
+  	   <BLOCKQUOTE>"The number of victims claimed by the witch-hunts, which
+  	lasted for three hundred years, is reckoned by historians to
+  	be between five and six million people; it therefore caused
+  	more deaths than all the wars waged over the period...
+  	   "It is only when one takes into account the brutal,
+  	pitiless expression of mass mania, and that a belief in the
+  	devil, his traffic with witches and warlocks, was constantly
+  	being fanned anew by the Church...that it is possible to
+  	gain any measure of understanding..."*</BLOCKQUOTE>
+  
+  	The depredations and brutality of the Inquisition were
+  typical of deadly memes stemming from religions or closely
+  related social movements, such as Marxist-Leninist communism. In
+  the last decade the people of Kampuchea were infested with an
+  anti-intellectual agrarian utopian meme clearly mutated (in the
+  minds of Pol Pot and his close associates) from the communist
+  meme. They were Eric Hoffer's "True Believers" of the most
+  extreme stripe. The resulting social movement was a massive
+  self-genocide. Over one-third of the population of Kampuchea,
+  including almost all of the city dwellers and the educated, died
+  before the Vietnamese (embarrassed by news stories of rivers
+  clogged with bodies) invaded and put a stop to the killing. Many
+  more would have died had the social movement run its course
+  without interference. Kampuchea will take decades to recover.<P>
+  
+  	History classes have made us more aware of the genocidal
+  depredations resulting from the "master race" meme that was part
+  of the Nazi meme complex. Considered from the viewpoint of memes,
+  Hitler was less a prime mover than a willing victim of this
+  particularly nasty and pervasive variety of information disease.
+  Had plague struck Germany in the '30s instead of Nazism, we would
+  have understood it in terms of susceptibility, vectors and
+  disease organisms. What did happen any soon be modeled and
+  understood in terms of the social and economic disruptions of the
+  time increasing the number of people susceptible to fanatic
+  beliefs, just as poor diet is known to increase the number of
+  those susceptible to tuberculosis. Communication in the form of
+  personal contact, the written word, radio, and amplified voices
+  are substitutes for disease vectors. A pool of "sub-memes", many
+  of them ancient myth, contributed to the syncretic Nazi meme in
+  much the same way mobile genes contribute to the virulence of the
+  influenza viruses.<P>
+  
+  	Nazism was not the only fanatical movement growing and
+  evolving in the fertile social media of Germany between the wars.
+  The Marxist-Leninist meme was a visible competitor in the early
+  period. Even though most of those infected with the Nazi meme
+  were conquered or killed, and Nazism became a suppressed meme, it
+  cannot be said to have died. As a replicating information pattern
+  that has gone through a great deal of information honing, it
+  still infects susceptible people today.<P>
+  
+  	A fascinating footnote to the horrors of the German
+  experience with Nazism happened in 1969 when Ron Jones, a teacher
+  in Palo Alto, exposed a high school history class to an
+  intensive, five-day experience with the ideas that made up the
+  Nazi meme. The experience of that week was originally published
+  as "Take as Directed" in the CoEvolution Quarterly (CQ #9,
+  p.152), and a few years ago was made into a TV movie, The Wave.
+  Over four days, Jones introduced and drilled his students in
+  concepts of Strength through Discipline, Community, Action, and
+  Pride. (The fifth day was devoted to showing them how easily they
+  had started to slip into the abyss.) The enthusiasm which most of
+  the class adopted the memes and spread them to their friends,
+  swelling a 40 student class to 200 in five days, made it one of
+  the most frightening events the teacher had ever experienced.
+  Given the track record of the Nazi meme, the mini-social movement
+  his experiment set off is no more surprising in retrospect than
+  the medical effects would have been if the teacher had sprayed
+  smallpox virus on the class.<P>
+  
+  	An empirical characteristic of large, long-lived religious
+  movements or related social movements (at least in the West) is a
+  scripture or body of written material. This may function to
+  standardize the meme involved or at least slow its evolution as
+  the number of people infected with it grows. From Scientology
+  right back to the Hindu Vedas, I can think of no
+  counterexamples. Social movements involving more than a few
+  thousand people or lasting more than a few years may have been
+  rare before writing came along.<P>
+  
+  	I have noticed several features of social movements derived
+  from dangerous memes. One is self-isolation of the infected
+  group, or at least of new recruits, from the rest of society.
+  This need not be an "intelligent" action taken by the "leaders".
+  There may be no more thought involved than the evolution of white
+  moths into dark ones in grimy industrial England. The "fanatic
+  cult" memes which incorporate isolation are the ones we observe;
+  those which do not incorporate isolation are like the light
+  moths, gone and not observable.<P>
+  
+  	In the case of the Soviet Union, the communist meme survives
+  in a society largely isolated from the rest of the world. In
+  recent years the isolation may have resulted from reasoned
+  considerations about the fragility of the communist meme in open
+  competition with other memes. A more parsimonious view would note
+  that without originally having a strong isolation component, the
+  communist meme would have had no more social influence in the
+  USSR than it has had in, say, France.<P>
+  
+  	Isolation makes possible exposure to single meme (or meme
+  set) many times a day for months or years without much contact
+  with other memes. Exclusive exposure to one meme (also known as
+  brainwashing) induces a "dependent mental state" in some people.<P>
+  
+  	Thankfully, most of us have not experienced the dependent
+  mental state firsthand, but we have all seen such people in the
+  news programs boarding buses for the front in Iran, or been
+  harassed by them in airports, or had them knock on our doors and
+  try to infect us. It is clear that people who suffer from extreme
+  cases of "information disease" have lost much of their ability to
+  take care of themselves or their children. Truly dedicated people
+  often fail to replace themselves, since too much of their life
+  energies are channeled into propagating the infecting meme. One
+  example comes from the largest sub-division of Christianity,
+  where celibacy among its most dedicated has long been
+  institutionalized. The Rajneesh cult practiced the opposite of
+  celibacy, but discouraged births to the point of sterilizing the
+  barely pubescent female children of its resident members.
+  <P>
+  	Given that memes have been interfering with our reproduction
+  for a long time, one must wonder why humans are still so
+  susceptible to information diseases. The answers to such
+  questions are starting to come from research into artificial
+  intelligence, neuroscience and archeology. It is becoming
+  apparent that our vulnerabilities are a direct consequence of the
+  way our minds are organized, and that organization is a direct
+  consequence of our evolutionary history.<P>
+  
+  	Marvin Minsky (a principal founder of AI) and Michael
+  Gazzaniga (one of the major workers in split brain research) have
+  independently come to a virtually identical model of the mind.
+  Both view minds as vast collections of interacting, largely
+  parallel (co-conscious) modules or "agents", or a "Society of
+  Mind."** The lowest level of such a society of agents consists of
+  a small number of nerve cells that innervate a section of muscle.
+  A few of the higher-level modules have been isolated in clever
+  experiments by Gazzaniga, some of them on patients whose right
+  and left hemispheres have been divided by trauma or surgery.<P>
+  
+  	One surprise from this work is that we seem to have our
+  mental modules arranged in a way that guarantees that we will
+  form beliefs. What we believe in depends, at least in part, on
+  what we are exposed to and the order in which we are exposed.
+  Gazzaniga argues that we slowly evolved the ability to form
+  beliefs because the ability provides a major advantage in
+  surviving. Being able to infer, that is to form new beliefs, and
+  to learn, in the sense of acquiring such beliefs from others, was
+  a major advance over learning by trial and error. Being able to
+  pass the rare new ways of our ancestors found for chipping rock
+  or making pots from person to person and generation to generation
+  was vital in allowing humans to spread over the Earth.<P>
+  
+  	But as this ability became the norm, communicating human
+  minds formed a "primal soup" in which a new kind of
+  non-biological evolution, that of replicating information
+  patterns or memes, could get started. A wide variety of competing
+  memes has evolved in the intervening seventy thousand years or
+  so. It should not be surprising that the survivors of this
+  process, like astrology or religions, are so effective at
+  inducing their hosts to spread and defend them. It is also
+  plausible that in the tens of millennia since memetic evolution
+  became a major factor there has been biological co-evolution. The
+  parts of our brains that hold our belief systems have probably
+  undergone biological adaption to be better at detecting dangerous
+  memes and more skeptical about memes that result in death and
+  seriously interfere with reproductive success.<P>
+  
+  	This type of co-evolution is known as an "arms race" to
+  biologists. One such biological arms race has resulted in almost
+  perfect egg mimicry by the cuckoo and in correspondingly sharp
+  visual discrimination in the birds it parasitizes. By analogy,
+  while we get better at spotting dangerous memes, the memes may be
+  evolving to be more effective at infecting us. Advancing
+  technology (which itself is an improving collection of memes)
+  changes the environmental conditions where memes survive or fail
+  as well. The modern telephone system and the tape cassette player
+  were major factors in the takeover of Iran. It has been argued
+  that the rise of the Nazis depended strongly on radio reaching a
+  previously unexposed and unsophisticated population.<P>
+  
+  	I have picked dangerous examples for vivid illustrations and
+  to point out that memes have a life of their own. The ones that
+  kill their hosts make this hard to ignore. However, most memes,
+  like most microorganisms, are either helpful or at least
+  harmless. Some memes may even provide a certain amount of defense
+  from the very harmful ones. It is the natural progression of
+  parasites to become helpful symbiotes, and the first such
+  behavior that emerges in a proto-symbiote is for it to start
+  protecting its host from other parasites. I have come to
+  appreciate the common religions in this light. Even if they were
+  harmful when they started, the ones that survive over generations
+  evolve and do not cause too much damage to their hosts. Calvin
+  (who had dozens of people executed over theological disputes)
+  would hardly recognize Presbyterians three hundred years later.
+  Contrariwise, the Shaker meme is now confined to books, and the
+  Shakers are gone. It is clearly safer to believe in a well-aged
+  religion than to be susceptible to a potentially fatal cult.<P>
+  
+  	History doesn't change, but our interpretation of it can.
+  For example, the contemporary "causes" of historical epidemics
+  (such as the miasma theory) have been totally supplanted by germ
+  theory explanations. Before germ theory came along, memes of
+  causality for epidemics were remarkably stable. The "explanation"
+  for the Black Death of l348 was still in use for the Philadelphia
+  Yellow Fever epidemic of 1796. Similarly, various "explanations"
+  for wars have been with us for hundreds of years.<P>
+  
+  	Memetics provides a new way to analyze recent wars and the
+  roots of current disputes. In this view, the ultimate (though
+  unaware) protagonists of World War II were memes such as the Nazi
+  "master race," and the Marxist-Leninist meme (MLM). The current
+  clash between the Soviets and the Western world can be viewed (in
+  a grossly simplified way) as a meme conflict for space in minds
+  between the religion-like, competition-intolerant mono-meme of
+  communism and the western tolerance meta-meme. While it is not a
+  religion by any reasonable definition, the Marxist-Leninist meme
+  is clearly in competition for the "belief space" in minds usually
+  occupied by religious memes. It, and its more cultish offshoots,
+  have the typical virtues and excesses of cult-stage religious
+  memes. In an amusing twist, the "godless" communist meme is the
+  more religious in tenor of the two in its battle for mind space
+  with secular Western culture!<P>
+  
+  	Reviewers of an earlier draft of this article objected to my
+  description of Soviet memes. Words like "tolerant" and
+  "intolerant" have acquired a great deal of positive/negative
+  connotation in the Western world, but in describing memes, I am
+  using them in the same way we would say that a mold colony is
+  intolerant of a bacterial invasion. With respect to the belief
+  system that dominates the meme pool of the other superpower, I am
+  trying to be descriptive, not partisan.<P>
+  
+  	If anything, i would think that understanding the memetic
+  nature of religions and related movements like communism would
+  defuse the emotional connections and substitute something closer
+  to dispassionate understanding of the parasitic-to-symbiotic
+  memes behind such social movements. It has had that effect on me.
+  Even the most gruesome features of communism are what they are
+  simply because those features were (and are) necessary for the
+  meme to exist in a world of competing memes. Isolation, for
+  example, is a common feature of virtually all successful
+  religious-type memes while they are in the cult stage. Anyone who
+  has studied history knows that suppression of competitive memes
+  by the power of the state is a common experience once a meme of
+  this class has infected the leaders or they have been replaced by
+  those infected. And if the Christian religion was a mainstay of
+  the aristocracy, serving to keep the peasants in place, Soviet
+  Communism is no less supportive of its own hereditary elite. As a
+  successful and persistent meme, that has appeal even to people
+  who know the realities of its practice. It commands a certain
+  grudging respect.<P>
+  
+  	From a meme's viewpoint, tolerance of other memes is not a
+  virtue. It is, in fact, a fatal characteristic for a particular
+  meme, as memes inducing intolerance to other memes would soon
+  displace it. On the other hand, a meta-meme of limited
+  toleration, or even cooperation among memes, is possible. The
+  Western meta-meme of tolerance seems to have emerged from an
+  ecosystem of memes in much the same way that cooperative behavior
+  has been modeled as emerging from an ecosystem of individuals.***
+  In the area of meme tolerance the Western world may be unique. We
+  think of censorship as evil; where but in an advanced ecosystem
+  of memes could such a strange idea have emerged?<P>
+  
+  	There are historical traces for the development of the
+  meta-meme of tolerance. This particular character of our
+  ecosystem of memes has been developing at least since the
+  writings of the Greeks and Romans were rediscovered during the
+  Renaissance. Studying inactive pagan religions may have been the
+  first step in developing a tolerance for a variety of religious
+  memes. The fragmentation of the dominant religion during the
+  Reformation led to a series of largely indecisive religious wars
+  in most of the major countries of Europe. Sheer exhaustion may
+  have been one of the most significant factors in developing a
+  grudging tolerance, which in these later times has taken a patina
+  of virtue in the division of our culture known as "liberal."<P>
+  
+  	In this view, Western culture is a vast ecosystem where
+  memes of many classes engage in "fair" competition with each
+  other. Attempts to subvert fair competition by changing laws or
+  education (such as introducing "creation science" into schools)
+  draw opposition from defenders of a wide variety of memes which
+  have evolved within this environment. This model may provide
+  testable explanations for both Western culture's tolerance of
+  intolerant memes (such as creation science and the MLM) and the
+  hostility these memes evoke from various segments of the culture.
+  David Brin's "Dogma of Otherness" in the April l986 issue of
+  Analog is recommended for those who want to consider the origins
+  of such peculiar ambiguities in our culture.<P>
+  
+  	Several current social movements are obvious candidates for
+  examination with memetic theory. Given the available data, we may
+  be able to predict the remaining course of the "non-literate
+  graffiti epidemic," which has spread in the past 15 years from
+  New York City to remote corners of the country. There are
+  substantial financial reasons (such as the cost of mark-resistant
+  walls) to want to know if scribbler behavior will be a limited
+  epidemic, or will this behavior become an endemic part of our
+  culture?<P>
+  
+  	Drug use, clearly a replicating pattern of behavior passed
+  from person to person, is another "social movement" where the
+  similarity to epidemic waxing and waning has been widely used by
+  reporters, and noted without much explanation in a number of
+  learned journals. If it were formally considered as an epidemic
+  with memes as the infecting agents, the ways by which the
+  behavior spreads might get more attention. Antidrug programs
+  might be evaluated in terms of how well they induce reasonable
+  behavior. Some efforts in the past, especially those which wildly
+  exaggerated the dangers of a drug such as marijuana, may have
+  increased the behavior of taking other drugs. These efforts may
+  have immunized those exposed against believing any official
+  pronouncements about drugs.<P>
+  
+  	Formal consideration of drug use as an epidemic of
+  meme-induced behavior might also lead to the realization that the
+  percentage of people susceptible to abusing most drugs is not all
+  that large. (Cigarette smoking is an exception.) For example,
+  most of the people I know who have tried cocaine don't care for
+  it. Not liking the effect, they wouldn't use it if it were free.
+  People who really like opiates aren't that common either.<P>
+  
+  	If most conflict in the world is an indirect effect of
+  memes, memetics holds as much potential for reducing human misery
+  as the germ theory of disease. Just being able to model the
+  interactions among the Soviets, the West, and the Islamic groups
+  may make the world a safer place. Widespread understanding of
+  hard-to-avoid human susceptibilities and an ecosystem-like model
+  of replicating information patterns that have no short-term
+  interest in their host (and indeed no consciousness at all) may
+  lead to the development of meme evaluating "mental health
+  practices" just as knowledge of disease has changed our behavior
+  in regard to drinking ditchwater.<P>
+  
+  	If this article has succeed in infecting you with the
+  meme-about-memes, perhaps it will help you be more responsible
+  about the memes you spread and less likely to be infected with a
+  meme that will harm you or those around you.<P>
+  </FONT></BLOCKQUOTE>
+<HR WIDTH=350 ALIGN=left SIZE=2><BR>
+  <FONT  SIZE=-1>*    p.163, <U>Five Thousand Years of Medicine</U>, Gerhard Venzmer;
+  	Taplinger Publishing, NY '68.<BR>
+  **   <U>The Society of Mind</U>, Marvin Minsky; Doubleday, NY '86.<BR>
+  ***  <U>The Evolution of Cooperation</U>, Robert Axelrod; 
+  	Basic Books, NY '84.<BR><BR>
+  <HR WIDTH=200 ALIGN=left SIZE=1>
+  		This article reproduced from the meme-intensive<BR>
+  		"Signal" issue of Whole Earth Review, #57<BR>
+<HR WIDTH=350 ALIGN=left SIZE=2>
+</FONT>
+<BR>
+ <CENTER>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=330 HEIGHT=6>
+<HR WIDTH=150 ALIGN=center SIZE=3>
+<A href="${BASE_URL}memes/memework.html#links.html">Memework</A> | <A href="${BASE_URL}arcmain.html#memes">Main Archive</A> 
+<HR WIDTH=150 ALIGN=center SIZE=3>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=330 HEIGHT=6>
+
+
+
+</FONT>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default MemesInfoviru;

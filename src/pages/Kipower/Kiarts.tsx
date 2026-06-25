@@ -1,0 +1,859 @@
+import { useEffect } from "react";
+
+const KipowerKiarts = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<div align="center">
+
+
+
+
+
+<TABLE BORDER=0 WIDTH="800">
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+<table width="780" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td width="180" align="center"><TABLE BORDER=4 CELLPADDING=3 HSPACE=15 VSPACE=5>
+<CAPTION ALIGN=bottom>Ki Series Part I</CAPTION>
+<TR><TD><IMG SRC="${BASE_URL}graph/kijis.gif" WIDTH=80 HEIGHT=79 vspace="9" ALT="The Ki Character"></TD></TR>
+</TABLE></td>
+    <td width="600" align="center">
+<IMG SRC="${BASE_URL}bulls/redblk50.gif" WIDTH=390 HEIGHT=5>
+<H2><U><EM>Ki </EM>in the Arts of Sex, Healing <BR>and Corporate Body Building</U></H2> <FONT  SIZE=3><EM>By W.David Kubiak</EM></FONT>
+<br>
+<FONT  SIZE=2><a href="http://www.kyotojournal.org/kjback/kjback05-8.html" target="_blank">Kyoto Journal #5, 1988</a></FONT><P>
+<IMG SRC="${BASE_URL}bulls/redblk50.gif" WIDTH=390 HEIGHT=5><BR><BR>
+
+</td>
+</tr>
+</table></td></tr>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td><td>
+
+<BR>
+  
+                            
+  
+     <STRONG>I began to suspect Japan</STRONG> was going to be a new experience when
+  I first came across six different people waiting for  'No Walk'
+  signals to change in the middle of the night on a deserted
+  street. I noticed a second time when an 85 lb. girl, an aikido
+  student, threw me over her shoulder so hard and fast she
+  dislocated joints in half my arm. A third revelation occured two
+  weeks later when the still impressive arm pain was turned down
+  and switched off like the volume on a radio by an old man
+  twirling a needle in the opposite wrist. Those events mesmerized
+  me and pretty well determined my course of study for the last 15
+  years - research primarily on corporate psychology, genius &
+  mastery, and traditional Eastern medicine. In the Japanese
+  context all three subjects turned out to be knotted together with
+  a commom vocabulary of ki terms and a shared reliance on ki
+  phenomena to achieve their effects. Gradually you could see in
+  the patterns of their usage all these little fingers pointing to
+  both a large black hole in the English language, and a shadowy
+  biosocial technology which clarifies many of this culture's
+  apparent mysteries and contradictions. <P>
+  
+     The concept of ki has of course gained some currency in the
+  West recently, migrating with the widening interest in Oriental
+  medicine, particularly acupuncture, and the Eastern martial arts.
+  But while ki is regularly invoked in these disciplines as an
+  explanatory principle, few writers or practitioners, either
+  Eastern or Western, spend much time intelligibly explaining ki
+  itself. Many offer only the vaguest definitions such as "mystic
+  force", "subtle psycho-somatic energy" or "vital power". Some,
+  equally unhelpful, compare ki to other elusive and unfamiliar
+  concepts like "prana" or "pneuma".<P>
+  
+     Westerners do lack a convenient single term for specifying ki
+  phenomena but we recognize their existence and effects with
+  enough other expressions to discuss the concept quite lucidly.
+  But before I try to relate ki to Western thought and show its
+  importance in dispelling "inscrutibility", a word on the word
+  itself:<P>
+  
+     Although the concept and ideogram for ki originated in pre-Han
+  Dynasty China, its modern Chinese usage has remained largely
+  confined to medical and meteorological terms. After its
+  introduction to Japan in the seventh century, however, the
+  concept assumed a much wider significance and came to permeate
+  colloquial speech. Recent dictionaries, for example, list over
+  600 common Japanese terms and expressions employing the ideogram
+  compared to barely 50 in Chinese. I cite this semantic vigor to
+  defend my use of ki, the Japanized pronunciation, rather than
+  ch'i or qi, the more venerable Chinese readings.       <P>
+  
+       As a working concept ki dates back at least 22 centuries in
+  China to the Yellow Emperor's Classic of Internal Medicine, which
+  laid out the basic terms and energetic relationships that would
+  inform oriental medicine (and Confucian statecraft) up into the
+  present century. Etymologically, the ideogram is believed to
+  depict energy raising the lid of a heated cooking pot. Adding the
+  radical for water to the frame of the character we get the common
+  ideogram for steam. But ki was not merely a primitive
+  apprehension of invisible energy. It was conceived of as a
+  patterned, directed power. Dr. Manfred Porkert defines ki in his
+  text, The Theoretical Foundations of Chinese Medicine, as
+  "configurational energy - i.e, energy of a definite direction in
+  space, of a definite arrangement, quality, or structure." It is,
+  in other words, an applied energy or power flow that bridges the
+  traditional divide between pure energy and physical or social
+  structure. (A useful parallel from modern physics is the concept
+  of light as a flow of 'energy packets' that synthesized the
+  wave/particle dilemma.)</td></tr>
+  </TABLE>
+<TABLE BORDER=0 WIDTH=800>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+
+     But ki is perhaps best understood in terms of the
+  relationships it empowers. A basic tenet of Chinese bio-social
+  theory states that "i (<img src="${BASE_URL}kipower/kigraphs/i-kanji.gif">) leads to ki (<img src="${BASE_URL}kipower/kigraphs/ki-kanji.gif">), which in turn leads
+  to chi (<img src="${BASE_URL}kipower/kigraphs/chi-kanji2.gif">)" (These are all Japanese pronunciations, by the way;
+  chi should not be confused with the Chinese for ki. And all of
+  these words rhyme with the mi of music's do-re-mi.) I in this
+  formula means intent, desire or will; and chi corresponds to
+  physical or behavioral structure. A crude psychological example
+  might be - a desire to play the piano (i) leads to attentive
+  exertion (ki) which forms the structured habits and reflexes
+  (chi) needed for mastery. A social parallel might likewise run -
+  a policy (i) leads to a 'budget' or application of resources (ki)
+  which in turn generates a physical or organizational structure
+  (chi).<P>
+  
+      Ki has always been associated with life processes. It was
+  generated within the macrocosmic and microcosmic living systems
+  that constituted Chinese reality. (Contemporary Western ideas
+  like the controversial "Gaia Hypothesis" [that the earth
+  constitutes a single living entity], or modern conceptions of
+  complex groups as "meta-organisms", were usually considered
+  self-evident in much early Chinese thought.)<P>
+  
+     Where there was life and growth there was ki. The Chinese were
+  not at all animistic about such energy, however, and sought
+  reasonable causal principles. Indeed the ideogram and its most
+  common variants graphically suggest the conversion of heat to ki
+  (oxidation, solar influence, fervor, etc.) or of food to ki
+  (digestive metabolism). <P>
+  
+     Whatever its physical source, the resulting force was force at
+  work within a system, usually a system that included or
+  constituted man. Macrocosmically, for example, the ancients
+  perceived vital forces at play in the atmosphere, forces which
+  could affect not only the natural environment but also human
+  psychosomatic functioning. Thus the dynamic variations of
+  pressure, humidity, precipitation, temperature - in short,
+  weather - represented qualitative expressions of the ki of
+  heaven, or tenki, as it is known in Japan. Likewise, they noted
+  the psychosomatic influences of geographical features - low
+  wetlands, high arid plains, mountains, beaches, etc. - which they
+  interpreted in their geomancy as expressions of chiki, the ki of
+  the earth. Because they could in-fluence, or literally "flow
+  into" and affect human being, these environmental ki's were
+  holistically included in the study of disease and therapeutics.
+  Man's ki was thus inseparably linked - consciously or
+  unconsciously - to the ki of his immediate natural environment.  <P>
+  
+     In all these larger systems or fields of environmental force
+  man's presence was always implicit, at least as a participant and
+  reference. (The Chinese were of course not so
+  anthropocentric as to believe the earth could not exist without
+  man. But like a biologically persisting "brain-dead" body, the
+  earth deprived of human consciousness seemed an unimaginably
+  impoverished entity.) If man's activities rarely - at least in
+  those days - affected the quality and circulation of the planet's
+  vast natural energies, he at least came to recognize them. And
+  his dawning consciousness of their objective existence and
+  subjective effects did allow early man to order them for
+  systematic apprehension, classification and eventual use.<P>
+  
+     But it is within the more intimate confines of the human body
+  and social groups, that ki is most dramatically apparent, as a
+  simple experiment may show. Select the tip of one of your fingers
+  for contemplation (i). Next concentrate upon it quietly and
+  totally for a few minutes - inducing ki. Now many of you should
+  begin to notice increasing warmth and sensitivity in the finger
+  as your attention enhances its circulation and neural acuity.
+  (The effect is even more dramatic if the extremity chosen is
+  erogenous.) The increased blood flow bears with it increased
+  oxygen and vital nutrients. Were you attending instead to a
+  muscle that you were exercising those nutrients would feed and
+  accelerate the tissue's growth and structural development, i.e.,
+  yielding our aforementioned chi. (The former "90 lb. weakling"
+  crowd might recall that such exercises are the core and secret of
+  Charles Atlas' "dynamic tension" body building regimes.)<P>
+  
+    In a similar manner, Chinese medicine calls upon the
+  blood-borne resources of our immunological system. Using
+  pressure, needles, heat, shocks, etc. it attracts the body's
+  attention or ki to weakened, distressed areas. This internal
+  attention again serves two vital functions. It augments the flow
+  of healing/nutritive resources to the afflicted cellular
+  community and materially assists its recovery. Secondly, it
+  heightens the entire body's awareness of suffering among its
+  cellular constituents, hopefully inducing its executive 'head'
+  toward corrective changes in behavior. <P>
+  
+     Within the healthy body the functioning of ki was felt to be
+  as tangible and straightforward as any other physiological
+  process. Bio-electrical ki channels or "meridians" rivered the
+  body together with a flow of diverse cellular energies. As blood
+  flow distributed informational hormones and physical nutrients,
+  ki flow gathered and disbursed vitality and sensation. As a
+  distributor, ki flow moved energy from tissues or organs in
+  surplus to areas suffering temporary deficits.<P>
+  
+     (In this respect, ki is a medium of power sharing like the
+  vibratory airfoil effect many species of waterfowl employ during
+  long migratory flights. With precise spacing, angulation and
+  synchronization of wingbeats, the birds set up an undulating
+  current of air surrounding their V-shaped formations. This wave
+  front receives power from the flock's strongest fliers and
+  transmits to resting or weaker members as a lift-enhancing
+  rhythmic wave.)<P>
+  
+     Since it could clearly affect and be affected by both the
+  cells and the psyche of the body, ki operated at the psycho-
+  somatic interface. Attending to it could both alter physiological
+  processes (as in our finger), and raise subtle biological
+  functions to awareness and conscious control. Recent biofeedback
+  techniques employ sensitive prosthetic machinery to return this
+  awareness and control to modern man. But one can imagine that in
+  less drugged, hurried or media-distracted cultures, a good number
+  of people might enjoy enough bodily sensitivity to achieve these
+  effects unaided.<P>
+  
+     Chinese thinking about ki also penetrated the social sphere
+  and traced its workings across the narrow divide between complex
+  biological systems, like humans, and the complex social systems -
+  nation-states, corporations, churches, etc. - that they spend
+  their lives in. Heuristic comparisons of physical and social
+  organisms, now deemed so racy and avant garde in Western
+  management circles, were conventional wisdom two millenia ago in
+  the East. As early as the The Yellow Emperor's Classic, Chinese
+  medicine was suggestively interchanging political and medical
+  concepts. Chinese of the time, of course, could not imagine the
+  electronically integrated complexity of the social organisms we
+  face today. But they spent a lot of centuries thinking about
+  governance and the maintenance of order with the minimum of
+  force. Such concerns inevitably drew their attention to
+  biological systems, and to the human body in particular as a
+  model of harmonious integration. Here is the Yellow Emperor on
+  health and disease:<P>
+  
+         <BLOCKQUOTE>When the body's monarch is intelligent and enlightened,
+         there is peace and contentment among his subjects; they
+         can thus reproduce, bring up their offspring, pursue their
+         diverse functions, and lead a long and happy life.
+         But when the monarch is not intelligent and enlightened,
+         the twelve officials [the organs of the body] become      
+         afflicted and dangerous; the paths [of ki] are obstructed
+         and blocked, and it no longer circulates warnings of local
+         distress.</BLOCKQUOTE><P>
+  
+     In treating the physical body as a body politic, and vice
+  versa, early Chinese thinking clearly prefigured modern "living
+  systems" theories. It also foreshadowed Japan's later fascination
+  with ki's social or interpersonal implications. What most
+  captured the Japanese imagination was not ki's internal
+  functioning but the fact that it operated in a system open and
+  responsive to the environment, particularly the social
+  environment. Focusing on the neglected interactive aspects of the
+  ki concept, Japan developed its own rich vocabulary for ki
+  dynamics in the psycho-social sphere.<P>
+  
+     One Japanese commentator traces the ideogram for ki back to
+  earlier characters which "originally related to eating and
+  represented both the energetic inner quality of man and the outer
+  activities of demanding and reaching." When this "demanding &
+  reaching" are considered with reference to perception, we are
+  clearly talking about something approaching our idea of
+  attention. This also harks back to the patterned force or
+  directed energy. Recalling the derivation of "attention" from the
+  Latin "ad tendere" - 'to stretch towards', we can begin to build
+  an interesting case for the two concepts' homology, if not
+  identity.  <P>
+  
+     "Ki o tsukeru", for example, is the Japanese for "to attend
+  to". Literally it means "to fasten one's ki upon (something or
+  someone)". Ki like attention is "paid out" and "attracted". It
+  can equally be "focused" or "diffused" as it stretches forth to
+  fasten upon the environment. In a passable definition of "rapt
+  attention" Kiyoshi Hamano of Kyoto University writes of "Kishoku"
+  [literally, the "ki of color or sensuality"], that it "represents
+  not only the concept of the appearance of nature, but also the
+  direct fusion of people with it." Hamano has studied ki from a
+  psychoanalytic perspective and the following lines are excerpted
+  from his work. Please try substituting the word 'attention' each
+  time he mentions ki:<P>
+  
+        <UL>
+<LI>"Ki is thought to be something like radio waves     
+         between people, and the capacity for 'tuning in' to     
+        others."
+<LI>        "Ki is regarded as psychic energy, and is closely
+       related to the body."
+<LI>       "Ki is felt to extend of itself toward the other, as if
+       it were some mysterious filament."
+<LI>       "Ki appears or turns up before a subject in relation to
+     an object as if it were a knot connecting the two."
+</UL>
+
+  
+  He concludes:<P>
+  
+    "Ideally ki can be viewed as:
+       <UL>
+<LI>a) that which is perceived in relationships between a
+         subject and the world around him;
+<LI>       b) that which is perceived in relationships between people;
+<LI>      c) that which is perceived as identical with the subject's
+        own thoughts, feelings, or moods...
+</UL>
+
+  
+    "Everything - things, persons, and events - can be moved into
+  the field of ki... The place where it proceeds is what is called
+  psychic reality."<P>
+  
+     There is a surfeit of circumstantial evidence for this
+  analogy, but now that the point has been made a disclaimer is
+  perhaps in order: Ki is not merely an Asian word for attention.
+  In fact attention is a rather underdeveloped Western concept for
+  a profound psycho-biological phenomenon that ki terminology far
+  better represents. The remainder of this piece thus concerns some
+  aspects of ki or attention function that have rarely been pointed
+  out in English.<P>
+  
+     The first of these has to with Japanese perceptions of ki's
+  role as a current of psychosomatic vitality. As we noted above
+  somatic ki does not circulate in a closed system. Through the
+  operations of the psyche in particular, ki is incessantly
+  reaching into and receiving from the world. Porkert writes that
+  it: "manifests itself and is spent in the psychic reactions in
+  general and especially in the psychic reaction par excellence,
+  the directed will." <P>
+  
+     Such environmental expenditures of ki intimately affect the
+  body's energy balance. All this 'stretching out' and 'fastening'
+  awareness to things, persons and objectives is a form of work,
+  work that consume energy. This psychosomatic energy - in
+  Japanese: kiryoku, literally, "ki power" - has certain basic
+  attributes:<P>
+  
+    <UL>
+<LI>   Like any energy it can neither be created or destroyed
+  and thus is subject to the basic "whence and whither" conversion
+ analyses of thermo-dynamics.<P>
+
+   <LI>     It is highly correlated with physical vitality, resistance
+  to disease, self-assertiveness, and sexual potency. Though
+  occuring of course in both sexes, these attributes led many in
+  Asia it to label it an extremely 'yang' or masculine energy. In
+  fact some of the more male chauvinist Japanese/English
+  dictionaries define it simply as virility.<P>
+  
+  <LI>      Though constantly generated by healthy body tissue it can
+  be dangerously exhausted by disease, physical exertion, stress,
+  or, most interestingly, its unreciprocated discharge into the
+  social environment.<P>
+  
+    <LI>    Conversely, its reserves can be enhanced by factors like
+  contact with Nature, meditation, and sensual arousal, as well as
+  directly from the ki or attention 'paid' to you by other
+  individuals.<P>
+  </UL>
+     We can thus begin to see the outlines of the dynamic ki
+  economy that many Japanese believe link physiological and social
+  well-being. Two suggestive analogies for discussing ki
+  transactions can be drawn from fiscal accounting and 
+  electromagnetic theory. In the fiscal metaphor ki or attention is
+  treated as a currency that may be paid out, received,
+  accumulated, squandered, invested, etc. Each healthy individual
+  is thought to begin each day with a 'subsistence allowance' of ki
+  from the collective contributions of his physiological
+  constituents. His net balance at any particular moment, however,
+  is largely determined by the profitability of his subsequent
+  transactions with the natural and social environment. A kind of
+  double-entry bookkeeping can thus be imagined balancing attention
+  received against attention paid out. Social relations are
+  therefore occasions of vital trade, and far more is at stake than
+  mere ego massage. Not only does a regular ki surplus increase
+  your energy, potency, and vital charisma, but running a deficit
+  can impoverish your sex life and eventually your health. </td></tr>
+  </TABLE>
+<TABLE BORDER=0 WIDTH=800>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+
+     Japanese students of ki whom I polled for an earlier study
+  implicated chronic attentional deficits as a factor in problems
+  as diverse as overeating, domestic violence, developmental
+  retardation in orphanages, and the high death rate among widowed
+  or retired men. A few also noted the prevalence of mental
+  disorders among live-in daughters-in-law, the archetypical ki
+  debtors of Japan. They suffer extraordinarily high rates of a
+  neurotic neurasthenia said to afflict over half of the nation's
+  300,000 mental patients. <P>
+  
+     Conversely, in the upper attentional income brackets,
+  consistent ki surpluses were cited as a factor in the uncommon
+  longevity of judges, conductors, political & religious leaders,
+  etc. "Good listeners" were deemed ki donors. Thus regular
+  exposure to attentive, enthusiastic audiences could dramatically
+  heighten the recipients' vitality. (This phenomenon is in fact
+  frequently mentioned in the memoirs of political and stage
+  personalities. Hubert Humphrey often remarked that no matter how
+  sick he was, if he could make it to a podium in front of a
+  fired-up crowd he would come away cured.) Several respondents
+  also noted that this ki-induced vitality powerfully charges the
+  libido as well. One, only half-jokingly, blamed it for the
+  promiscuity scandals now bedeviling many prominent political and
+  religious figures.<P>
+  
+     In the electro-magnetic analogy each individual is presumed to
+  generate, store, transmit, and receive ki as a psychsomatic
+  current or charge. Let us imagine a "watt" of psychic energy -
+  the power, for example, the average person expends in 60 seconds
+  of undivided conscious attention. Let us provisionally call this
+  unit a psy-watt and further imagine it - ideally - as being
+  projected from each attentive ego out onto the environment in a
+  focused beam. <P>
+  
+     To better visualize this, consider the sensation of 'being
+  watched' that most people experience at one time or another. Many
+  Japanese claim particular sensitivity to such probes of
+  attention, and cite the subtle palpability of others' stares to
+  explain the origin of common expressions like <EM>chumoku sareru</EM> -
+  'to have eyes poured upon one.'<P>
+  
+     This laser metaphor helps to envision many aspects of ki, but
+  it is usually employed with regard to group attention or <EM>ninki</EM>.
+  <EM>Ninki</EM>, literally the "ki of other people", is an important and
+  positive concept in Japan. To have <EM>ninki </EM>is to enjoy popular
+  favor, attendance, or "drawing power". But again the implications
+  are wider than mere social approbation.<P>
+  
+     Anyone who has ventured near the stage front during a large
+  and wild rock concert, for example, knows that it is a locus of
+  uncanny and as yet unnamed power. Unnamed at least in Western
+  terms. In the East this is ninki at peak voltage. If we could
+  perceive each spectator at such events projecting his ki or
+  psy-wattage as a visible laser, the focal charge at the stage -
+  and in the performers - would be blinding. The radiant
+  terminology applied to celebrity in the West - 'star',
+  'luminary', 'dazzler', etc. - perhaps reflects a recognition of
+  the phenomenon, but it tends to relegate the audience to a purely
+  passive role.
+  <P>
+     In the case of rock concerts the charge that the musicians
+  receive is of primary interest only to the performers themselves
+  and perhaps to the groupies they will later scorch with it. But
+  there are far more valuable and intelligent uses of the effect,
+  uses epitomized in the religious technologies of healing.        
+  <P>
+     All manner of deities and occult forces are traditionally
+  invoked and credited in ceremonial group healings. But if we
+  impiously ignore for a moment the religious persuasions of the
+  assembled faithful, we generally find two basic approaches to
+  healing - the mediated and the direct. <P>
+
+In the mediated form -
+  exemplified by revivalist tent healers, voodoo priests, witch
+  doctors, etc. - one person stirs the passion and wonder of the
+  group, focusing its ki or attention upon himself. Like a kind of
+  animate battery he accumulates some fraction of the group's
+  focalized ki energy and discharges it upon the individual to be
+  healed. These priest-to-patient transfusions of vitality are
+  usually performed at the climax of an orchestrated crescendo of
+  collective ki excitation. Although one is free to credit the
+  equally nebulous influences of suggestion or placebo effects, in
+  many cases something of therapeutic virtue does appear to occur.
+  The problem with this style of healing, of course, arises when
+  the priest-figure mistakes his mediating agency for a
+  supernatural personal potency. Though the earth has doubtless
+  been blessed with a number of individuals uniquely capable of
+  concentrating the ki of natural creation and transmitting it to
+  their suffering brethren, it appears to be a much rarer
+  transaction than borrowing from Peter to heal Paul. <P>
+  
+     The direct form - exemplified by charismatic healing circles,
+  Balinese ketchak rites, white magic covens, etc. - appears to be
+  a rather more straightforward affair and less open to egoistic
+  abuse. In this style, each member of the collective applies his
+  ki or attention to the 'patient' directly. While they will
+  frequently employ shared rhythms, prayers or incantations to
+  synchronize and enhance their individual emmissions, members of
+  these circles each approach the subject and his pain alone. <P>
+  
+     Judging from their recurring appearance in a diversity of
+  epochs and cultures, these ceremonies do deliver. In terms of ki
+  dynamics they can be analyzed in two ways: <P>
+  
+       1) As an acute therapy: These collective attention furnaces
+  provided high wattage ki transfusions which charged the
+  psychosoma of the target individual like a jolt of ethereal B
+  vitamins. This is 'drug grade' ki, so to speak, which Oriental
+  medicine deems useful in resuscitative emergencies but too
+  powerful and addictive a stimulant for regular use. (In the West
+  this is viscerally understood by ki junkies or attention-
+  dependent types who are usually found performing their way to the
+  high at the center of any available circle);<P>
+  
+       2) As a long term regimen: One effect of receiving intense
+  and sympathetic group attention is a lingering warm self-
+  consciousness. During this afterglow the recipient is likely to
+  regard himself more positively and hence more frequently. In
+  oriental medicine this mirroring back upon the self of ki's
+  generally outgoing or extroverted flow is believed to vitalize
+  the being, rendering it more psychosomatically assertive and
+  immunologically aggressive. <P>
+  
+     The terms self-respect, self-regard, self-esteem partially
+  express the dialectic by implying that the self is attended to
+  because of its value and that its value is enhanced by reflexive
+  attention. But compared to group-generated, megadose ninki,
+  individual self-regard offers attention in only "herbal" or
+  homeopathic amounts - which is often adequate in normal,
+  non-pathological times.
+  <P>
+     In most holistic disciplines based on yoga, meditation,
+  mantras, tai chi, etc. the main therapeutic value is found in
+  their mindful attention to the self, and an hour or so a day is
+  considered sufficient. While a tithe of one's daily ki budget may
+  be enough to maintain health, psychosomatic technologies like the
+  Chinese qi gung (kiko in Japanese) advise those wishing to
+  acquire 'powers' to spend only 30% of one's attention upon the
+  world and retain 70% for the irrigation of the self and internal
+  environment. Heightening internal ki charges the endocrine
+  system. Acupuncture journal studies, for example, document that
+  ki stimulation techniques in men consistently raise the blood
+  level of adrenalin and testosterone, as well as most other male
+  hormones and steroids. This richened broth of androgen and energy
+  molecules make the subject more behaviorially and biologically
+  male - more self-confident, aggressive and sensual. These are
+  also the power molecules of Tantric and Taoist liberation
+  techniques that use sensual arousal to raise the creative heat
+  and awareness of mature adepts. Pleasure and passion are natural
+  allies in these disciplines, synergizing ki flow to and in the
+  body and enhacing the sense of self. In the everyday world also,
+  the more self-directing one becomes, the more often the self
+  turns to the things and activities it enjoys until pleasure and
+  profession merge. "You become good at what you like...", as the
+  Japanese proverb goes. 
+  <P>
+     This melting down of conflict between personal desires and
+  practical responsibilities, between needs and obligations, is
+  comparable in ways to a loss of circuit resistance or
+  superconductivity. It frees enormous psychic energy, and tends to
+  drive the process of individual maturation to completion: a sense
+  of power and wellbeing promotesls confidence, which increases
+  spontaneity, which in turn yields creative surprise or
+  "master-pieces". And, by displaying the unpredictable,
+  unprogrammed & thus unique aspects of a person, it marks him out
+  as special, an individual, and makes his "name". <P>
+  
+     Human individuation is thus the social analogue of speciation
+  and can be justly credited with the lush historical diversity our
+  planet has enjoyed. But whatever its evolutionary merit, it is
+  also a centrifugal social force, and a schismatic threat to all
+  complex corporate bodies. 
+  <P>
+  <br>
+  
+<CENTER><IMG SRC="${BASE_URL}bulls/redblk50.gif" WIDTH=400 HEIGHT=5></CENTER>
+  
+            <BLOCKQUOTE>"Every society is characterized by a certain level of
+             individuation beyond which the normal individual
+             cannot go." ~ Erich Fromm, <U>Escape from Freedom</U></BLOCKQUOTE>
+  
+     In precorporate societies individuation was a path of power.
+  To achieve it many traditional disciplines, both occult and
+  overt, used attention-intensive techniques to focus energy on the
+  self. These practices were generally designed to incubate a
+  cultural rebirth and the manifestation of one's indwelling deity
+  or "genius". In most religious and artistic traditions the
+  emergence of this spirit and its seminal power marked one's
+  passage from disciplehood to mastery and full adult rights. 
+  (Certain ancient Japanese professions like medicine continue to
+  call apprentices well into their twenties, tamago [eggs] in
+  recognition of the internal effort and external care that is
+  still required to birth the autonomous practitioner.) The
+  archetypical master was a fully mature and energized being -
+  sexually active, physically skilled, psychicly fertile. He cuts a
+  splendid figure in an open field, but in a hierarchy he is likely
+  to burst forth as a charismatic, insubordinate pain in the ass.  
+  <P>
+     Keeping followers' personal ki levels subdued is an ancient
+  hierarchical concern. Sexual vitality and assertive <EM>kiryoku </EM>do
+  not correlate very well with corporate docility and obedience.
+
+
+  Authoritarian collectives have thus treated ki like a "controlled
+  substance" and made body-negating and anti-sensual themes
+  incessant leitmotifs in their teachings. Unisex Mao jackets,
+  Christian hair shirts, Islamic purdah, school uniforms, in fact
+  uniforms of any kind, are further tactics to lessen attention
+  paid to individual bodies and beings. New "somebodies" erupting
+  out of the faceless "flocks" or "masses" attracted influence with
+  the attention, and authoritarian ki politics is a zero sum game. </td></tr>
+  </TABLE>
+<TABLE BORDER=0 WIDTH=800>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+
+     Psychiatric incarceration, castration and auto-de-fe are only
+  the most overt methods great collectives have used to rid
+  themselves insubordinate personalities. Less well known are the
+  sophisticated psychosomatic techniques they employ to stop their
+  members from acquiring independent identities in the first place.
+  If the urge to individuation and autonomy is a common and natural
+  evolutionary drive, successful social organisms like churches,
+  states, corporations, etc. have apparently discovered some
+  powerful technologies to suppress it. To either beat or join
+  their game requires some working knowledge of these techniques
+  and the ki dynamics which empower them. Two areas of primary
+  import are the nature of group bonding and socialization
+  strategies for strengthening it.<P>
+  
+<CENTER><IMG SRC="${BASE_URL}bulls/redblk50.gif" WIDTH=400 HEIGHT=5></CENTER><BR>
+  
+            <BLOCKQUOTE>
+			"Just how much a Japanese depends on, and expects from, 
+            his co-workers may be incomprehensible to the outsider.
+            There are no clear lines which divide one's own from 
+            another's..." ~ Dr. Chie Nakane,<U> Japanese Society</U></BLOCKQUOTE>
+  
+     Recent research in social embryology and organizational
+  development has begun to describe intragroup bonds with a new
+  theory of "attention structure". Developed in African field
+  studies by anthropologists M.B.R. Chance and Clifford Jolly, the
+  approach used "attention maps", graphing how often and how long
+  primate troop members visually refer to each other, to decipher
+  group structure. The methodology was inspired by the etymologies
+  of words like re-spect, re-gard, and re-verence -- ki-intensive
+  terms which denote human importance in terms of the re-peated
+  looks (<EM>'specere'</EM>), heed (<EM>'garder'</EM>), and wariness (<EM>'verery'</EM>)
+  individuals attract. Attention structure thus represents the
+  flickering web of ki channels that bind and integrate a social
+  body (cf., Hamano's "mysterious filaments"). 
+  <P>
+     Their maps unsurprisingly demonstrated that dominant members
+  receive the lion's share of the group's ki. Although ferocity was
+  observed to be a major advantage in attaining dominance,
+  coalition-building 'politician' apes and resourceful
+  'entertainers' could also occasionally achieve it. This was
+  surprising since these types clearly require group feedback, and
+  ethology traditionally defines a dominant individual as one whom
+  other members look to for reference, while he himself is not
+  obliged to refer to anyone. (In cowboy movie terms, the
+  stranger's joke is not funny til the gang boss laughs.) Their
+  findings called into question the old 'who can clobber whom'
+  hierarchy models. The political success of relatively
+  non-threatening leaders showed that individuals were dominant
+  because they attracted the most attention and not vice versa.
+  Parenthetically, the researchers also noted that the troops'
+  least attended to male members were, or became, almost sexually
+  inert.<P>
+  
+     Their attention distribution charts proved quite stable over
+  time and showed that ki circulation within a specific social
+  group can become as patterned, routinized and metaphorically
+  'hard-wired' as in a physical body. In human systems, for
+  example, this is dramatically evidenced in the extraordinarily
+  high mortality rates among older men who abruptly lose the
+  accustomed attention of wives and/or work groups. Once external
+  sources of attention are integrated into one's internal ki
+  economy, the individual becomes dependent upon this larger whole
+  for energy and identity. The sudden severance of these
+  interpersonal ki channels can cause the equivalent of
+  psychosomatic hemorrhage and anemia, and drain the victim all the
+  way down to the immune system.<P>
+  
+     Enlarging and perfecting these group circulatory systems are
+  arguably the main objectives of all Japanese socialization
+  processes. Comparative childrearing studies have noted, for
+  example, that while the American child is considered to be a
+  dependent entity who must be helped to independence, the Japanese
+  child is felt to be an independent being who must be drawn into
+  dependence. This conditioning for incorporation continues
+  throughout schooling and beyond. Japanese corporations complete
+  the process by encouraging:<P>
+  
+       <BLOCKQUOTE>a deep receptivity, empathy and openness in each new member 
+       which allows him to make others a part of himself (<EM>jibun
+       no naka ni aite o ireru</EM>, literally 'putting others inside  
+       oneself').</BLOCKQUOTE><P>
+  <P>
+     The resulting social ki linkages can be almost palpably
+  apparent. Several Japanese social critics have graphically
+  compared groups here to bowls of <EM>natto </EM>(fermented soybeans
+  swaddled together with shining mucilaginous strands). In group
+  life this pulsating web of mutual attention quite literally
+  ob-ligates its members and powerfully affects their behavior.
+  Kurt Singer, a German economist who worked in Japan's great
+  bureaucracies in the '30's, vividly captured the effect:<P>
+  
+       <BLOCKQUOTE>Where the quasi-magical force of rite and custom
+       prevails, the give and take, address and reply, the warp of
+       daily life, assume the harmonious aspects of a
+       self-regulated organic process. The movements of a Japanese
+       seem not to originate in his frail body but to avail
+       themselves of it, making him bend and bow and vibrate like a
+       tree in wind and rain. </BLOCKQUOTE>  
+  <P>
+     In addition to energy then, ki bonds or attention channels
+  distribute sensory and motor information throughout a social
+  organism like a rudimentary nervous system. It is this mechanism
+  that ties diverse members into a functional whole, and the power
+  of <EM>kiryoku </EM>invested in it determines a corporate body's
+  integration, productive efficiency, and responsiveness to central
+  command. <P>
+  
+     These are issues of deep concern to leaders trying to organize
+  vast groups for governance, industry or war, and in Japan, where
+  the importance of ki distribution is pervasively understood, a
+  great deal of thought has gone into ki technology. From preserved
+  umbilicals and emporer worship to estrogenic soybeans and chronic
+  test stress, many ingenious methods have been developed to
+  psychosomatically condition Japanese to foreswear individuation,
+  and attentively embrace and subserve collective systems. The
+  extraordinary vitality of Japan's corporate bodies certifies the
+  final effectiveness of these techniques, as do the less well
+  remarked side effects of neurosis, apathy and psycho-sexual
+  retardation many overmilked salarimen have learned to endure. 
+  <P>
+     For those interested in economic miracles then, or the
+  evolutionary competition between human and corporate bodies,
+  Japan's group consciousness and its attentional arts & sciences
+  deserve some serious study. 
+      
+
+
+</td>
+</tr>
+</table></div><p>&nbsp;</p>
+<CENTER><IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=400 HEIGHT=5><BR><BR>
+<A href="${BASE_URL}kipower/kisoma.html"><STRONG>Part II</STRONG></A>   |    <A href="${BASE_URL}kipower/mindbind.html"><STRONG>Part III</STRONG></A>   |    <A href="${BASE_URL}arcmain.html#kipapers"><STRONG>Main Archive</STRONG></A><BR><BR>
+<IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=400 HEIGHT=5></CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default KipowerKiarts;

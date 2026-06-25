@@ -1,0 +1,35 @@
+P   {
+	font-size : 11pt;
+	font-family : sans-serif;
+	font-color : #330000;
+}
+
+H1  {
+	font-size : 16pt;
+	font-family : sans-serif;
+	font-weight : bold;
+	padding-top : 10%;
+	color : #660000;
+}
+
+H2  {
+	font-size : 12pt;
+	font-family : sans-serif;
+	font-weight : bold;
+	font-color : #330000;
+	font-style : italic;
+	padding-bottom : 5%;
+}
+
+H3  {}
+
+A  {}
+
+A:Visited  {}
+
+A:Active  {}
+
+A:Hover  {}
+
+BODY  {}
+

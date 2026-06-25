@@ -1,0 +1,115 @@
+<HTML>
+<HEAD>
+<TITLE>Big Medicine 2001</TITLE>
+<STYLE>.spanstyle {
+        COLOR: #FF8000; FONT-FAMILY: Arial; FONT-SIZE: 10pt; FONT-WEIGHT: normal; POSITION: absolute; TOP: -50px; VISIBILITY: visible
+}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+var message="Exploit 2001: Year of Serpentine Magic & Power!!";
+var x,y; var step=12; var flag=0;
+message=message.split(""); var xpos=new Array();
+for (i=0;i<=message.length-1;i++) {xpos[i]=-50;}
+var ypos=new Array();
+for (i=0;i<=message.length-1;i++) {
+ypos[i]=-50;
+}
+function handlerMM(e) {
+x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX+20;
+y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY;
+flag=1;
+}
+function makesnake() {
+var thisspan;
+if (flag==1 && document.all) {
+for (i=message.length-1; i>=1; i--) {
+xpos[i]=xpos[i-1]+step;
+ypos[i]=ypos[i-1];}
+xpos[0]=x+step;
+ypos[0]=y;
+for (i=0; i<=message.length-1; i++) {
+thisspan = eval("span"+(i)+".style");
+thisspan.posLeft=xpos[i];
+thisspan.posTop=ypos[i];
+thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255;}
+}
+else if (flag==1 && document.layers) {
+for (i=message.length-1; i>=1; i--) {
+xpos[i]=xpos[i-1]+step;
+ypos[i]=ypos[i-1];}
+xpos[0]=x+step;
+ypos[0]=y;
+for (i=0; i<message.length-1; i++) {
+thisspan = eval("document.span"+i);
+thisspan.left=xpos[i];
+thisspan.top=ypos[i];
+thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255;}
+}
+else if (flag==1 && document.layers) {
+for (i=message.length-1; i>=1; i--) {
+xpos[i]=xpos[i-1]+step;
+ypos[i]=ypos[i-1];}
+xpos[0]=x+step;
+ypos[0]=y;
+for (i=0; i<message.length-1; i++) {
+thisspan = eval("document.span"+i);
+thisspan.left=xpos[i];
+thisspan.top=ypos[i];
+thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255;}
+}
+}
+</SCRIPT>
+
+<SCRIPT language=javascript>
+for (i=0;i<=message.length-1;i++) {
+document.write("<span id='span"+i+"' class='spanstyle'>");
+document.write(message[i]);
+document.write("</span>");
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+</SCRIPT>
+
+<SCRIPT language=javascript>
+function pageonload() {
+makesnake();
+window.setTimeout("pageonload();", 2);
+}
+</SCRIPT>
+
+
+</HEAD>
+<BODY  BGCOLOR="#000000" TEXT=#FFFFFF LINK="#FF0000" VLINK="#FF4A4A">
+<FONT  COLOR=#00DB6D></FONT>
+<script language="javascript">
+pageonload();
+</script>
+<CENTER><IMG SRC="../graph/dawn.jpg" WIDTH=600 HEIGHT=124><BR>
+
+<IMG SRC="../graph/firework!.gif" WIDTH=100 HEIGHT=100><BR>
+<IMG SRC="../graph/snakeup!.gif" WIDTH=30 HEIGHT=209>
+<IMG SRC="../graph/grlotus1.jpg" ALT= "Alex Grey's Chakra Tree" WIDTH=189 HEIGHT=209>
+<IMG SRC="../graph/snakeup!.gif" WIDTH=30 HEIGHT=209>
+<H3>
+Click on our patient below to move on to <BR><A HREF="http://www.nancho.net/">BIG MEDICINE 2001, <BR>the Real Millennium and
+<BR>Year of the Golden Serpent</A></H3>
+<STRONG>A time of seductive arts, rising illumination and strange numinous power.</STRONG><BR>
+(In case you don't put much stock in these quaint superstitions, <BR>
+recall that 2000 was a Golden Dragon Year, infamous in the Orient <BR>
+for unpredictable eruptions and uproar. Considering just Milosevitch, Israel, the NASDAQ,<BR>
+and America's electoral carnage, the elder Asians would simply smile, "Q.E.D".<P>
+<P><P>
+
+<H4>BIG MED'S PATIENT OF THE YEAR<BR>
+A Fever Chart of Planet Earth</H4>
+
+
+
+<A HREF="http://www.nancho.net/bigmed2001/index.html"><IMG SRC="../graph/earthlis.jpg" WIDTH=599 HEIGHT=278></A>
+<BR><FONT  SIZE=+1>Bright Areas Show Malignant Spread of Corporate Hives</FONT><BR>(Where corporate driven consumption threatens the Earth and all mankind.)
+</CENTER>
+</BODY>
+</HTML>

@@ -1,0 +1,244 @@
+import { useEffect } from "react";
+
+const Bigmed2001Platform = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER>
+<BLOCKQUOTE><BLOCKQUOTE>
+"<STRONG><FONT  COLOR=#004000>The government has ceased to function, <BR>the corporations are the 
+government</FONT></STRONG>."<BR> - - Theodore Dreiser<P>
+
+
+<IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=75% HEIGHT=5 vspace=7><BR>
+<EM><FONT  COLOR=#000066><FONT  SIZE=6><STRONG>B<FONT SIZE=4>IG </FONT> M<FONT SIZE=4>EDICINE</FONT></STRONG></FONT><BR><FONT  SIZE=5>The Nancho Platform</FONT></FONT></EM><BR>
+<IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=75% HEIGHT=5 vspace=7></CENTER><P>
+
+<CENTER><TABLE>
+<TR><TD>
+
+<STRONG><U>FOREWORD</U><BR>
+"<FONT  COLOR=#004000>
+If there be a principle that ought not to be questioned <BR>
+within the United States, it is that every man has a right <BR>
+to abolish an old government and establish a new one. <BR>
+This principle is not only recorded in every public archive, <BR>
+written in every American heart, and sealed with the blood <BR>
+of a host of American martyrs, but is the only lawful tenure <BR>
+by which the United States hold their existence as a nation.</FONT></STRONG>"<BR>
+  - - James Madison</FONT></TD></TR>
+</TABLE></CENTER></BLOCKQUOTE></BLOCKQUOTE><P>
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=75% HEIGHT=5 vspace=7></CENTER><P>
+<BLOCKQUOTE><STRONG><U>FOUNDATION</U><BR>
+A truly democratic platform is largely a do-it-ourselves project since we the people are still theoretically in charge. Although we have slipped pretty damn far from that theory of late, our sovereign power abides, and with it our Constitutional duty to defend our hard-won freedoms from all threats foreign and domestic. This duty is particularly pressing when our government itself is undermined and suborned by antidemocratic bodies of unprecedented power, bodies which have assumed human rights, usurped human sovereignty, and imperiled human health and evolution. Big Medicine therefore bases its platform upon an invitational commitment to radically slash the scale, sway and metastatic spread of Big Bodies within our borders and around the planet. 
+
+<P>
+<STRONG><U>PLANKS</U><BR>
+Big Med's platform planks are thus largely hewn from Greenish Small-extolling and/or Libertarian timber and many are still being milled. Be warned, however, that we aren't going to promise you a lot of things that we will do "for you" if and when you put "us" into power. Since the whole point is to put you yourselves - the "Sovereign People" - back in control of your homes, communities and common future, our  planks suggest things you yourselves should be doing with or without the aid of our increasingly feckless leaders. As such our platform is more a prescription for emergency self-help than a political promissory note, and thus remains an operative agenda whatever the electoral results. For openers, it generically advises:
+<P>
+<UL>
+<FONT  COLOR=#D20020><LI><DL><U>For Personal Health</U></FONT> <BR><FONT  COLOR=#00006A>- Get Big Bodies out of your bloodstreams. bedrooms and babies' dreams</FONT><DD>
+Restore our adult rights over our bodies &amp; private behavior, rescind victimless "crimes", and detox violent, ad-drenched media.</DL><P>
+<FONT  COLOR=#D20020><LI><DL><U>For Public Health</U></FONT> <BR><FONT  COLOR=#00006A>- Get Big Bodies out of your pockets, polls and public policy-making.</FONT><DD>
+Tourniquet corporate welfare, PAC funds,  and torrential lobby lubrication.</DL><P>
+<FONT  COLOR=#D20020><LI><DL><U>For Planetic Health</U></FONT> <BR><FONT  COLOR=#00006A>- Get Big Bodies out of your atmosphere, oceans, wilderness and agriculture.</FONT><DD>
+Put Big Bodies on a tax/statute-enforced diet to reduce their inhuman bulk and distance from the Earth, 
+while imposing a 12-step program that enforces "Zero Toxic Emissions" within five years.</DL>
+
+</UL>
+
+Although many of these reforms require specific political action, all can be accelerated by the creative activity by NGOs, informal citizen groups and ingenious individuals. The melting of vast social organisms back to human scale, social utility and ecological harmlessness is everybody's business, but government can play a vital role if it is under your control.  We therefore recommend the adoption of following policies at the federal, state and/or local level to both correct the gross distortions that Big Bodies have bequeathed us and re-enchant the future for generations yet to come.
+<P>
+<FONT  COLOR=#D20020>TAX POLICY
+
+<UL>
+<LI><DL><U>The Fat Tax</font></U> (Tax assets, not income.)<DD>
+<FONT  COLOR=#00006A> - Replace the income tax with a flat tax on aggregate corporate/individual wealth with deductions only for education, insurance, and charitable donations</DL></FONT>
+<FONT  COLOR=#D20020><LI><DL><U>Tax Compresses</U></font>  (To control hemorrhage, swelling or  infection)<DD>
+<FONT  COLOR=#00006A>Applied to carbon-based fuels; mass market advertising; disposable/non-recyclable goods; short-term transactions in  currency, real estate, stocks, other financial instruments, etc;</DL></FONT>
+<FONT  COLOR=#D20020><LI><DL><U>Tax Relief</U></font> (To lessen pain and suffering)<DD>
+<FONT  COLOR=#00006A> For small businesses (particularly worker-owned enterprises), small farms (particularly non-toxic operations), teachers, and the self-employed.</DL></FONT>
+</UL>
+
+
+<FONT  COLOR=#D20020>ELECTORAL REFORM</font>
+
+<UL>
+<FONT  COLOR=#D20020><LI><DL><U>Public Funding of All Elections</U></font>
+<FONT  COLOR=#00006A><DD>For the per capita price of a half decent lunch, Americans could clean corrosive Big Money out of our elections for good. Christ and Gandhi fasted 40 days. We should be able to stand 4 hours.</font></DL><P>
+<FONT  COLOR=#D20020><LI><U>Periodic Nationalization of the Airwaves during Major Elections</U></font>
+<UL>
+<FONT  COLOR=#00006A><LI>It's economical - free in fact. We shouldn't have to pay hundreds of millions for the air time to study our candidates in depth. The airwaves are ours. We own the damn things and can borrow them back whenever our national interest requires. 
+<P>
+<LI>It's legal, and well precedented. Our military and even police have always had the right to commandeer vehicles in the line of duty, especially public duties affecting national security or general safety. What greater public duty then than a national election and who discharges it more rightfully than the Sovereign People in Chief?<P>
+<LI>It's logical and natural - we own the damn things.</FONT>
+</UL>
+<FONT  COLOR=#D20020><LI><DL><U>Distribute Primaries by Lot</U></font><DD>
+<FONT  COLOR=#00006A>After the Iowa and New Hampshire contests, set the dates for subsequent state primaries by lottery, spreading them out over a 4-month period. The current front-loading of the primary system ensures that only Big Body backed candidates can ever afford to play or be heard.</FONT></DL>
+
+
+</UL>
+
+<FONT  COLOR=#D20020>EDUCATION</font><P>
+
+<FONT  COLOR=#D20020><DL><U>Radically Downsize &amp; Diversify  Schooling</U> </font><DD><FONT  COLOR=#00006A>Education should prepare youth to experience and uphold a creatively diverse, socially just, and eco-sustainable future. Currently, however, it mainly trains and sorts children for corporate utility and inclusion.<P>
+
+The Big problem with our schools is that they have abandoned personalized education for corporate instruction. To educate once meant to educe or draw out and nurture what was special and worthy in each individual child. To instruct means to insert common structures and standards, so any equally graded child can largely replace any other in the offices and factories of our Big Bodied world. 
+<P>
+Schools now use overly large classes to suppress individuation and screen for corporate virtues - foremost of which are generic obedience, cheerful subordination, abstract cerebral &amp; memory skills, and the willingness to sit docilely at desks 40 hours a week for years on end. Education of the heart, hand, spirit or senses withers in this environment and those with talents not useful to corporate end users often feel doomed and rebellious from the outset. True education demands far more personalized attention with classes no larger than 12-15 students and intense community involvement/interaction at the secondary level. New curricula must also be introduced which stress:<P>
+<UL>
+<LI>Personal individuation, maturation and responsibility (e.g., critical thinking, viable post-corporate skills/arts/trades, and techniques for medical/legal/media "self-defense");
+<LI>Our indivisible relationship with Nature and the planet (e.g., <A HREF="http://cgee.hamline.edu/see/crs_and_concept/see_essay_role_of_arts.htm#ecological literacy" target="_blank">Eco-literacy</A>, <A href="${BASE_URL}advisors/vanmatt.html">Earth Education</A>, and <A HREF="http://www.permaculture.net/about/index.html" target="_blank">Permaculture</A>); 
+<LI>The extraordinary creative potential and evolutionary importance of focused human attention;  and 
+<LI>The threat huge collective entities consistently pose to our cultures, environment and spiritual/sensual/physical well-being.
+</UL><P>
+
+Staff and students at high schools, colleges and universities should also be drawn into direct political/social/environmental problem-solving and experimentation. Educational resources and institutions must be mustered at all levels until the Big Body siege is over.</font><P>
+
+</DL>
+<FONT  COLOR=#D20020>PRO-CHOICE/PRO-LIFE<P>
+<UL>
+<LI><DL>Teach basic ovulation awareness and <U>then</U> demand responsibility.</FONT><DD>
+<FONT  COLOR=#00006A>The climbing abortion rate is an undeniable tragedy and  the saddest proof that our current system to train minds for corporate inclusion has virtually instructed us right out of our sensual bodies. 40 years of biofeedback studies offer dramatic proof that ordinary people can be quite rapidly trained to consciously feel and control extremely subtle physical processes. Ovulation is hardly a subtle process. It sends torrents of hormones storming through the female body for a few days each month, yet nearly 8 out of 10 of women still don't have a clue when it occurs. Ovulation awareness should be at the compulsory heart of women's physical education, perhaps even a graduation requirement like swimming or gym now is in many secondary schools. Once women know when they are fertile, we can start to talk about "responsibility" and social sanctions for subsequent behavior.</font></DL>
+</BLOCKQUOTE>
+
+</UL>
+
+<FONT  COLOR=#D20020>DEFENSE<P>
+<UL>
+<LI><DL><U>Mobilization of the National IQ</U></font><DD>
+<FONT  COLOR=#00006A>Recruit <U>everyone</U> for a year of military/academic/popular debate on the major threats to our country and commonweal, and realign the Pentagon's mandate, budget and agenda accordingly.</FONT></DL>
+
+<FONT  COLOR=#D20020><LI><DL><U>Third World Prophylaxis</U> </font><DD>
+<FONT  COLOR=#00006A>Since the biggest threat to our common future is arguably the increasing poverty, inequality, desperation and rage in the Third World, our defense policy should target tyrannies of any flavor, Big Body predators, and women. Target tyrannies with elite-distressing actions, predators with stunning tax sanctions, and women with free schooling (since true democracies have never warred upon each other; most inequity and rage are due to Big Exploitation; and  women's education is the only factor that has consistently reduced birth rates always and everywhere). In other words, prioritize democracy, social justice and population control over military preparedness for the violent consequences of inaction.</FONT></DL>
+<FONT  COLOR=#D20020><LI><DL><U>Experiments with the Swiss Paradigm</U></font><DD>
+<FONT  COLOR=#00006A><U>Seriously</U> study the Swiss model of universal service, universal guerrilla training and universal arms possession. In Switzerland's ethnically/religiously/linguistically divided but  relatively perfect democracy, this system has yielded 150 years of peace and a crime rate a tenth of our own. Is America ready for such adulthood? The Founding Fathers thought so.</FONT></DL>
+
+</UL>
+
+
+<P>
+<FONT  COLOR=#D20020>UN REFORM</font>
+<UL>
+<LI><FONT  COLOR=#00006A>True democratic reform might prove impossible since all members by law, custom and inertia respond solely to government pressure rather than popular will.  Big Med thus advocates the creation of a parallel (and soon predominant) Assembly of United Peoples, all of whose members are directly elected for five-year non-refusable/non-renewable terms by the citizens in each land. As originally suggested by the world's indigenous peoples, this body should be headed by  an Eco-Social Security Council devoted to the protection of the planet's air, water, soil, habitats and human rights. Its decisions should be final on all matters affecting the biosphere, and it should possess enough power to briskly overrule the WTO, GATT and other vestigial Big Body proxies whenever necessary.</FONT>
+</UL>
+</DL>
+<BLOCKQUOTE>MORE PLANKS ON HEALTH CARE, AGRICULTURE, ETC. NOW BEING MILLED</BLOCKQUOTE>
+
+</STRONG>
+
+</BLOCKQUOTE>
+
+
+
+
+
+
+
+
+
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2001Platform;

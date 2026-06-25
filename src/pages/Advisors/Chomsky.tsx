@@ -1,0 +1,404 @@
+import { useEffect } from "react";
+
+const AdvisorsChomsky = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Dr. Noam Chomsky </CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<CENTER><IMG SRC="${BASE_URL}advisors/graphics/chomsky.gif" WIDTH=115 HEIGHT=160  HSPACE=15 VSPACE=15 BORDER=3  ALT="Noam-sensei"></CENTER><BR><BR></TD></TR>
+</TABLE>
+<BR><BR>
+
+
+
+<IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+
+<BLOCKQUOTE><FONT  COLOR=#400000>Godfather of modern linguistics, and
+tireless planetary partisan, Dr. Noam Chomsky has been called the "most important intellectual in America today" by the New York Times. Thanks to his heretical and meticulously researched condemnations of amoral US foreign policy and corporate tyranny, he is also the most invisible in the nation's mass media. Although later meetings focused more ferociously on corporate and imperialist atrocities, this initial consultation was confined to the good doctor's first love - the mysterious interplay of language and consciousness. 
+.</FONT></BLOCKQUOTE>
+
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+<CENTER><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6><P></CENTER>
+
+
+
+
+
+<!----******************************************MAIN TEXT******************************************-->
+
+<FONT  SIZE=+1>
+<P>
+
+
+<FONT  COLOR=#400000><STRONG>Nancho</STRONG>: You spoke today under a banner reading <EM>Pax mundi per
+lingua</EM> ("World peace through languages"). How many languages do you think it is necessary for an
+individual to learn to planetize or at least deprovincialize the
+consciousness?</font><BR><BR>
+<BLOCKQUOTE>
+<STRONG>Dr. Noam Chomsky:</STRONG> I really don't think that's the right
+criterion. I mean there are people who know many, many languages
+who are monsters. And there are people who know one language who
+devote themselves selflessly and tirelessly to world peace.
+There's no doubt that first of all knowing a language in itself
+contributes very little to your conception of the nature of the
+human species and the need for human cooperation and so on. This
+would begin to happen if you know not just a language, but a
+language as part of a culture and part of a society. So you begin
+to gain richer perspectives and broader understanding. And that
+certainly is one contributing...could be, could be - it need not
+be - but could be a contributory factor towards making a more
+sympathetic, understanding human being. But I don't think there's
+anything mechanical about it.</BLOCKQUOTE><BR>
+
+<FONT  COLOR=#400000>No, but doesn't it help triangulate your belief system or your
+own preconceptions?</font><BR>
+
+<BLOCKQUOTE><STRONG>NC:</STRONG> Well, a language...learning another language does not
+necessarily give you a perspective, a broader perspective on your
+own belief system. It requires much more than learning another
+language. It means gaining some empathy and understanding of the
+values and perspectives of people that live differently and think
+differently. And you can often do that in your own society. 
+<P>
+For
+example, I've lived most of my adult life in Cambridge,
+Massachusetts among the elite intelligentsia. And those circles,
+they don't have to go to central Africa to gain another
+perspective. They could go to downtown Boston and find a society
+that they don't know anything about and have never had any
+contact with and has problems that they don't conceive of and so
+on and so forth. So we tend to live - especially privileged
+elites - in extreme...in cocoons, in very narrow worlds. I don't
+exempt myself from that. I probably know more about South America
+or the Middle East than I do about downtown Boston.</BLOCKQUOTE><BR>
+
+<FONT  COLOR=#400000>As you speak and write to the problems of the mechanisms of
+language acquisition, does using that ability more than once have
+any benefit for consciousness or the being...</font><BR>
+
+<BLOCKQUOTE><STRONG>NC:</STRONG> I think it undoubtedly can contribute to your intellectual
+growth. Whether it can contribute to your human understanding is
+another question. That depends entirely on the context in which
+it takes place. The gaining of
+knowledge of another language is part of coming to terms with
+another society, another set of values, another set of problems,
+another way of dealing with common human problems, another
+literature and so on. If that's part of learning a language, the
+answer to your question is yes. If learning a language is
+learning a new set of irregular verb forms, the answer is no.</BLOCKQUOTE><BR>
+
+<FONT  COLOR=#400000>Well, I was trying to ask about all
+the embryologically prewired neural complexes that allow us to
+acquire language in the first place. In Japan and the US, it seems, that simply using them once almost exhausts their evolutionary potential...</font><BR>
+
+<BLOCKQUOTE><STRONG>NC:</STRONG> Oh, no. No, look, there are children, for example...I mean,
+the United States and Japan are misleading examples. English and
+Japanese, those languages, or collections of languages, happen to
+be unusual in that they're rather isolated. They both emerged
+from island societies for one thing, so people tend to learn a
+narrow range of dialects and not to be acquainted with broadly
+different ones. If you go to, say, continental Europe the
+situation is radically different and individuals are commonly in
+contact with widely different languages, even language types. And
+it's not unusual for a child in Europe, or even more so in
+countries like, say, Africa where there's a wide diversity of
+languages within a small region, it's not uncommon for a child to
+grow up speaking a number of languages with complete
+comprehension and competence. 
+<P>
+My closest colleague, for example,
+in the office next to me at MIT, is a man who grew up in Eastern
+Europe in Latvia, and he spoke five languages natively by the
+time he was five years old. And we don't know what the limits
+are. I mean, in so-called primitive societies - meaning low level
+of technology but high level often of other kinds of cultural
+wealth - in such so-called primitive societies it's very commom
+for a child to grow up in a quite complex linguistic environment
+with the mother speaking one language and the father speaking
+another language and the uncle speaking another language and some
+teenage ritual introducing a third...still another language and
+so on and so forth. And this is entirely within the range of
+normal human competence. Our own - both in the United States and
+Japan - we have a rather misleading sense of this because of the
+relative isolation of our linguistic communities.</BLOCKQUOTE><BR>
+
+<FONT  COLOR=#400000>Is there any maturational or developmental horizon to this,
+like the sealing off of the epiphysis?</font><BR>
+
+<BLOCKQUOTE><STRONG>NC:</STRONG> Well, that's not known...I don't think that's known at the
+level of science. It's a very hard thing to demonstrate when you
+can't do experiments but experience and
+anecdotal evidence and so on strongly suggest that there's a
+rather significant change at about puberty, roughly at that
+point. And that acquiring a second language after that point
+is probably done by rather different mechanisms. So as an
+adult, if I were to try to learn Japanese, let's say, I would be
+grafting it on to my native English. I  would be learning it
+essentially as a translation of English. And maybe I could go far
+enough so that I'd more or less internalize it but there are
+undoubtedly many subtleties of the language that I would never
+acquire. 
+<P>
+On the other hand, if a five-year-old American  were to come here, within a year or two he'd be
+speaking Japanese virtually like a native. I recall going to
+Italy a number of years ago with my wife and our young
+child - a boy of about 10. My wife and I
+were very eager to learn Italian. And we were studying and
+reading and so on and so forth - listening to television so we
+could hear it in the evening and talking to people. My son was
+very reluctant to learn Italian. He didn't want to leave the
+United States, didn't want to go to a new school, you know,
+didn't want to go to an Italian school. He had his friends back
+in the United States and he didn't like travel and so on and so
+forth. He was very grumpy about the whole business and was making
+no effort particularly to learn Italian. But within two months,
+if there was a telephone call I'd have to ask him to translate
+for me. I mean, you know, we'd go to a
+restaurant and the waiter would ask us how come we're sitting
+here with this Italian child. Everyone who's traveled abroad has
+had this embarrassing experience if they've been with children.
+So, though there isn't any scientific evidence I think there's
+very little doubt that something happens and it seems to be
+roughly at puberty.</BLOCKQUOTE><BR>
+
+<FONT  COLOR=#400000>This developmental or evolutionary urge toward communication
+that goes to such elaborate cellular and developmental lengths to express itself,
+does this mean anything overall for the
+development of a widening consciousness on Earth...</font><BR>
+
+<BLOCKQUOTE><STRONG>NC:</STRONG> Well, here I'd be really cautious. For one thing, human
+language is not particularly or specifically a communication
+system. There are many communication systems. In fact, every
+animal we know, down to ants, has a communication system. And all
+sorts of different devices are used for communication among
+animals - chemical exchange, gesture, all sorts of things. And
+humans do have communications systems of the animal variety -
+human gestures, for example, are similar in many respects to the
+gestural communication systems of other animals. Human language
+is used for communication, of course, but it would be very
+hard to say that that's its 'function'. 
+<P>
+
+If human language has a
+function at all it's for expression of thought. So if you just
+think about your own use of language, a rather small
+part is used for communication. Much of human language is just
+used to establish social relations. Suppose you go to a bar in
+Kyoto and you spend an evening talking to your
+friends. You're not 'communicating'. You're rarely communicating.
+You're not presenting them with any information that changes
+their belief systems. You're simply engaged in a kind of social
+play. You're establishing social relations and creating warm
+interactions or determining your relationship to someone or
+whatever. Or you can use language simply for play, or for its
+aesthetic function. 
+<P>
+In fact, there are innumerable uses and
+functions of which communication is one, but by no means a
+central or essential one. And in this respect human language is
+quite different than other systems - gestural systems, animal
+cries, chemical exchanges among ants, and so on and so forth.
+Those are in fact communication systems. Human language is much
+richer, much more diverse, and commonly is used as a way of
+clarifying thought, as expressing thought, with communication
+being a distinctly secondary end.  Even take the case which looks
+like communication par excellence, say, take writing a scientific
+article. There it seems it's an obvious example of
+communication. But if you think about it isn't. I mean, a
+creative scientist or scholar or anyone using their intellectual
+talents in a creative fashion through language has the intent of
+communicating, but it's not really the primary intent. I mean,
+anyone is and should be, I think, much more
+eager to be right or to discover something, than to convince other
+people that there's been a discovery. 
+<P>
+I mean, if you're in a sort of
+intrumental situation - let's say you have to pass an exam or be promoted or something - then your purpose is to
+communicate. But if you're just working on your own, your purpose
+is to discover, to understand, and to express that understanding.
+And if you can communicate it to other people so much the better.
+But that's not the real goal...you know, if you can convince yourself and
+if you can get that sense of insight and understanding - that is
+far beyond, far beyond the ability to communicate in
+importance.</BLOCKQUOTE><BR>
+
+<FONT  COLOR=#400000>What do you see as the evolutionary significance of the
+diversity of languages?</font><BR>
+
+<BLOCKQUOTE><STRONG>NC:</STRONG> Well, from a scientific point of view it's a very curious
+phenomenon. I mean, one of the things it's important to do is to
+learn how to be surprised by simple things right in front of us.
+Modern scince, for example, begins when people became puzzled
+about the fact that if you drop a stone it falls down and not up,
+and it falls down at a certain rate. I mean, as long as you think
+of the things happening around you as just natural - so a stone
+falls because its natural place is in the earth. As long as you
+as you simply accept what is around you as obvious and natural
+you have no science and you have no understanding. And the same
+is true here. We are just used to the fact that there are a lot
+of different languages, but it's a very puzzling phenomenon. 
+<P>
+I
+mean, one might have imagined that evolutionary development would
+have led to essentially one language with many, perhaps
+very minor variations depending on environment. And in fact to a
+certain extent that's true. It's true to a much larger extent
+than we believe, in fact. The variety of human languages is
+striking. On the other hand, their uniformity is also extremely
+striking when you penetrate down to their inner nature. 
+
+<P>Human
+languages are a very narrow subclass of the type of systems you
+could imagine developing. So it is on the one hand true that in a
+certain sense there is just one language with a lot of different
+dialects. But nevertheless there's obviously a diversity. We often 
+don't understand people in another region of the same city
+even, but certainly across linguistic boundaries. The question of
+why that happens is not at all clear. It's a mystery of human
+evolution, like most questions of evolution.<P><CENTER> - End -</CENTER>
+<P>
+<FONT  SIZE=-1 COLOR=#400000>Nancho Rep: W. David Kubiak</FONT>
+</BLOCKQUOTE>
+
+
+
+
+
+</FONT>
+<HR>
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, 
+ SEE ZNET'S:<BR> <A HREF="http://www.zmag.org/chomsky/index.cfm" target="_blank">CHOMSKY ARCHIVE</A><P>
+OR CHECK OUT HIS WRITINGS:<BR> 
+
+<A HREF="http://www.amazon.com/exec/obidos/generic-quicksearch-query/002-6054758-7689428" target="_blank"> THE CHOMSKY OPUS<BR><FONT  SIZE=-1>(at Amazon.com)</FONT></A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsChomsky;

@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+	<TITLE>Nancho Big Med 2000</TITLE>
+</HEAD>
+
+
+
+<FRAMESET framespacing="0" border="false" frameborder="0" rows="82, *"> 
+ 
+    <FRAME NAME="menu" SRC="nantop.html" MARGINWIDTH=0 MARGINHEIGHT=0 NORESIZE SCROLLING=no> 
+
+
+  <FRAMESET COLS="130,*"> 
+    <FRAME  NAME="top" SRC="nanmenu.html" MARGINWIDTH=0 MARGINHEIGHT=0 NORESIZE SCROLLING=no> 
+    <FRAME  NAME="main" SRC="bigmedic.html" MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=auto> 
+
+  </FRAMESET> 
+</FRAMESET> 
+
+</HTML>

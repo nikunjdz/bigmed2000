@@ -1,0 +1,158 @@
+import { useEffect } from "react";
+
+const Bigmed2000GospelsVentura2 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/advline2.gif" WIDTH=400 HEIGHT=5></CENTER>
+<CENTER><H2>&nbsp;REVOLUTION II
+<HR WIDTH=200 ALIGN=center SIZE=3> W<FONT SIZE=-1>HERE </FONT>W<FONT SIZE=-1>E'VE </FONT>B<FONT SIZE=-1>EEN AND </FONT>W<FONT SIZE=-1>HERE</FONT> T<FONT SIZE=-1>O </FONT>G<FONT SIZE=-1>O</FONT></H2>
+
+<P>
+BY MICHAEL VENTURA</CENTER><P>
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/advline2.gif" WIDTH=400 HEIGHT=5></CENTER>
+<STRONG>
+<BLOCKQUOTE>
+
+There's no such thing as doing "nothing". Doing nothing is itself an act: the act of letting other people do something to you. The price of accepting powerlessness is, in the long run, higher than the price of fighting -- and it's not as much fun. When you accept powerlessness, you (and your children) have no chance: when you fight for power, you just might win. Even if you lose you'll still have two priceless gifts that powerlessness can never bestow: dignity and a story to inspire your descendants. But before we can begin to move toward our own power, we have to look at the part we ourselves played in becoming powerless.<P>
+
+We know that we live now in a land where corporate execs make more and more while people who labor make less and less. Where stockholders prosper every time a company "downsizes" while laboring people lose good work. Where so-called "American" moguls move thousands of factories and millions of jobs out of America -- for which they are rewarded not only with larger salaries and dividends, but with government tax breaks that ultimately come out of our paychecks. (It is we, not the corporations, who are being made to assume the burden of the national debt). All of which is to say: we live in a land that has turned against us. But we must face the fact that the fault is ours. Only when we see what we gave up can we imagine how to get it back.<P>
+
+A century ago, working Americans had no rights, no benefits and little pay. Six-day weeks of twelve-to- sixteen-hour days were normal. Seven-day workweeks weren't unusual. Children often worked as hard as adults. Working conditions were dangerous and unsanitary. Most laborers didn't live to be 50.<P>
+
+Out of this situation grew a labor movement that struggled for power, pay and benefits. Business and government fought workers mercilessly, often violently. Yet by the Second World War (1941-1945) -- I give the dates because education is now so bad that many young people don't know them -- the labor movement had won the eight-hour day, the five-day week, child-labor laws, workers' compensation and Social Security. Contrary to modern myth, these advances were not generously conferred upon the people by the Democratic Party and President Franklin Roosevelt. These rights were conceived of and fought for by working people who, over many years, organized strike after strike, demonstration after demonstration, until politicians could no longer resist.<P>
+
+At the outset of the Second World War, the labor movement had not won power but power was still its goal. "Power" means the right to a seat at the decision-making table and a say in long-range company policy; access to the secrets of the company -- the data on which a business lives; and above all, the right not merely to higher wages but to a fair share of the profits. (Investors and inventors deserve their share, too, but their investments and inventions would be useless without our labor, so they don't deserve the whole share. We deserve at least a third).<P>
+
+The Second World War produced a kind of prosperity: industry increased its capacities and resources incredibly, while the workforce was militarized and asked to minimize its demands in the name of national security. To defeat the Nazis, this made some sense. But right after the war, before military demobilization was complete, business moved to destroy labor's greatest weapon. In 1947, one of the few years in which Republicans controlled both houses of Congress, the Taft-Hartley Act was passed. President Harry Truman vetoed it, saying that it was a vicious move against working people, but Congress overrode his veto and Taft-Hartley became law. One of its provisions was that workers in one union could not strike to support workers in another. Thus it became illegal for working people in different industries to act together toward a common goal. With one stroke, the fragmentation of labor was accomplished. The people could not act as one.<P>
+
+The workforce surrendered to Taft-Hartley meekly. One reason they did so was that, also in 1947 (in fact, during the very same weeks that Taft-Hartley was debated), Congress pushed the Red Scare, which would continue for more than a decade. Under the cloak of fighting communism, the government drove those most concerned with workers' rights from the unions and the workforce in general. Regimented by war, frightened by the new atomic bomb, and misled by a hysterical press which printed Red Scare lies as fact, the American people fell for this ruse like a giant tree falling under a small sharp axe.<P>
+
+With their most militant leaders silenced, workers became shortsighted. And we became greedy. We forgot what had happened to our parents and grandparents. Unions still fought for higher wages and better benefits, but they no longer demanded power. We got our wages and benefits -- for about three decades. The "radicals" warned that higher wages and better benefits weren't enough. They warned that once American businesses gained the strength (through our labor) to expand internationally, the factories would leave this country for cheaper labor elsewhere. When they did, these "radicals" predicted, not only our higher wages and benefits, but our very jobs, would be lost. The few who could foresee this were labeled "Reds". It was assumed that prosperity would prevail forever. The experts and newspapers told us so and that's what we wanted to believe. But in the late 1970's, those "radical" predictions began to come true.<P>
+
+Now in 1995 the damage has been done. Because we settled for benefits and job security instead of power; because we were so eager to believe anyone who promised us comfort; because once we had our comforts we forgot about workers elsewhere who had none; because, in short, we were bought off -- we are now losing the very benefits that we sold our birthright for. And many millions have lost their jobs as well. A century of struggle has been wasted.<P>
+
+The people who do the work of this land must start again from scratch. Their movement must reinvent itself. And its goal must be power.<P>
+
+What sort of power? Not "socialism", certainly. Socialism was a tragic but understandable error. It was understandable to hope that people could own their own industries in cooperation with a central committee which would distribute the goods fairly to everyone. But in practice, the people didn't own anything; the state bureaucracy did. And no central committee anywhere proved smart enough to competently decide the incredibly complex issues of what should be produced, who should produce it and how it should be distributed. Decisions had to be made too far in advance; things changed too much between when a decision was made and implemented. The system was too inflexible to deal with the swift fluctuations in what people need and want. On top of that, socialism stifled initiative. The fact that everyone got paid pretty much the same, though some worked harder and were more inventive than others -- coupled with the fact that nobody could really own what they earned (their homes, their land, belonged to the state) -- created new injustices that were worse than the old. Workers turned out to have far less power under state socialism than under capitalism. A century of experiments in many countries proved that this way of doing things was, to put it mildly, a mistake.
+So what sort of power should we struggle for?<P>
+
+I see a land in which a worker in any business -- large or small; manufacturing, agricultural or service -- gets a piece of the action. A fair piece, because labor is valued equally with invention and investment, since no one element is potent without the others. I see a workplace where workers have complete access to company records and are integral to the decision-making process for all company policies. Where we don't just have "input," but power, because labor owns at least a third. I see a land with no fetters on expression, organization or non-violent action. A land in which businesses that affect the whole community (utilities, communications) or affect the environment must have their major decisions ratified by a vote of the community affected. I see a land where, under these conditions, businesses compete freely, with no centralized control.<P>
+
+ Yes, there will be inequalities. That's life. But they will be inequalities of talent and luck, not inequalities of opportunity and authority.<P>
+
+ Yes, there will be conflict (that's life, too), but it will be the conflict of people with equal access, equal voice.<P>
+
+ I see a land where "free enterprise" doesn't mean the freedom to be ruthless but the freedom to go as far as creativity and courage allow -- a freedom limited only by its constant give and take with the freedoms of others. A land of both cooperation and competition but not domination, where no one is silenced by the fear of losing their livelihood. It's a long way off, but I can see it.<P>
+
+</BLOCKQUOTE><P> </STRONG>
+<H4>Back to: <A href="${BASE_URL}bigmed2000/gospels/ventura.html">Part 1: Primer on Revolution</A></H4>
+<H4>Next to: <A href="${BASE_URL}bigmed2000/gospels/ventura3.html">Part 3: How To Get There</A></H4><P>
+<I>(Reprinted in the <A HREF="http://www.wwfreepress.com/">World Wide Free Press</A> from the Austin <BR>Chronicle by permission of Michael Ventura).</I><P><CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/advline2.gif" WIDTH=300 HEIGHT=5></CENTER>
+
+<CENTER><H4><A href="${BASE_URL}bigmed2000/2000ally.html">Allies</A> | <A href="${BASE_URL}bigmed2000/advisors.html">Advisors</A> | <A href="${BASE_URL}bigmed2000/nanmain.html">Home</A> | <A href="${BASE_URL}bigmed2000/bigstudy.html">Study</A></H4></CENTER>
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/advline2.gif" WIDTH=300 HEIGHT=5></CENTER>
+
+
+ `;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2000GospelsVentura2;

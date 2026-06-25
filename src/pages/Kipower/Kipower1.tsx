@@ -1,0 +1,1074 @@
+import { useEffect } from "react";
+
+const KipowerKipower1 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<div align="center"><table width="700" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td width="696" valign="top">
+
+
+<CENTER><H3><U><EM>NARRATION SCRIPT</EM></U></H3></CENTER>
+
+<BLOCKQUOTE><TABLE BORDER=4 CELLPADDING=6 ALIGN=LEFT  HSPACE=15 >
+<CAPTION ALIGN=bottom><FONT  SIZE=1>Click Here<BR>For Order Information</FONT></CAPTION>
+<TR><TD><A HREF="#order"><IMG SRC="${BASE_URL}graph/kicover3.jpg" WIDTH=83 HEIGHT=150 ALT="Video Cover"></A></TD></TR>                                                             
+</TABLE></BLOCKQUOTE>
+<P>
+<CENTER>
+<IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=330 HEIGHT=5>
+
+<H2>KI & THE POWERS OF JAPAN<BR><FONT  SIZE=3><EM>An A/V Investment Proposal</EM></FONT></H2>
+
+        
+                                  <EM>A Highly Condensed Assembly of Ideas <BR>for a Documentary Series on <BR>Ki, Sex, Healing and Corporate Anthroculture</EM><br>
+
+
+<IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=330 HEIGHT=5>
+<BR><BR><BR>
+
+</CENTER>
+<BR>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/kipivot.jpg" ALT="Point well taken" WIDTH=150 HEIGHT=112 HSPACE=26 BORDER=3 ALIGN=right><BR><BR>
+<TABLE BORDER=0 WIDTH=80%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" WIDTH=2>
+</td>
+
+<td>
+<FONT  SIZE=+1>
+<STRONG><U>Titles</U></STRONG><BR><P>
+
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3 SIZE=3><STRONG>Images:</STRONG>  Weird "Ki Masters"        <BR>   
+
+<STRONG>Music:</STRONG> "It's a Miracle" by Boy George             <BR>
+<STRONG>Text Screens</STRONG> <P>Japan's media and economy rely heavily upon public <BR>ignorance of ki activity in corporate anthroculture.
+<HR WIDTH=200 ALIGN=left SIZE=3> Ki phenomena are therefore rarely discussed <BR>or confined to carnival freak shows.
+<HR WIDTH=200 ALIGN=left SIZE=3><FONT  SIZE=2><STRONG> John Allen: "Because there are many forces that <BR>prefer to keep ignorance as a state of humanity."</STRONG></FONT><HR WIDTH=200 ALIGN=left SIZE=3> That is all about to change.<HR WIDTH=200 ALIGN=left SIZE=3> <BR>
+
+<CENTER><FONT  SIZE=4><STRONG>KI & THE POWERS OF JAPAN</STRONG><P>A Low Budget, Highly Condensed Proposal <BR>for Activism and Investment to Develop <BR>Educational Media Introducing Attentional Ki as:</CENTER>
+<BLOCKQUOTE><UL>
+<LI>Existentially Nourishing
+<LI>Physically Healing
+<LI>Socially Adhesive
+<LI>A Memetic Antidote to Corporate Gaian Disease
+</UL></FONT></BLOCKQUOTE>
+
+
+   </FONT>
+</BLOCKQUOTE>
+
+</font></td></tr></table>
+
+<TABLE BORDER=0 WIDTH=90%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" WIDTH=2>
+</td>
+
+<td>
+<FONT  SIZE=+1>
+
+<STRONG><U>Opening Sequence</U></STRONG><BR><BR><BR>
+<IMG SRC="${BASE_URL}kipower/kigraphs/blgoggle.jpg" WIDTH=150 HEIGHT=113 ALT="Ogle" HSPACE=10 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> People/animals gazing, glaring and gaping        <BR>
+
+<STRONG>Music:</STRONG> "I Stand in Wonder" by Joe Cocker             <BR>
+<STRONG>Sound:</STRONG> Voices repeating, "What are you looking at?"</FONT></BLOCKQUOTE><BR>
+
+<STRONG>Prof. Michael Moerman:</STRONG> Pretty simple question really, pretty important one, too, when you
+think about it, because for most of us, what we look at largely determines the
+content of our consciousness, our memories and gradually our
+identities. Not to mention the content of this program. <P>
+
+The face that you are now presumably looking at belongs to Michael Moerman, an
+anthropologist and student of the structures of human communication. I also have the presumed pleasure of entering your minds and memories as your host for the next hour as we explore some quite new and ancient ways of looking at the world, ways of looking that offer unique perspectives on this business we call reality - especially as it is perceived and practiced in Japan.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Anthropologist intro, people bowing, bowing, bowing                    <BR>
+<STRONG>Words:</STRONG> Jerome Kagan: "Japanese parents, Japanese teachers, Japanese  society tell their children, "Be sensitive to the opinions of others. Don't irritate others. Don't offend others. Be concerned with how they act toward you...."</FONT></BLOCKQUOTE>
+
+<STRONG>MM:</STRONG> We would like to direct your attention to some of the
+greatest enigmas we face today - the mysteries surrounding corporate bodies: how they form and function, why they hold together and why some of them - Japanese corporations, for example - seem so much more aggressive, powerful and, well, evolved than others. 
+<P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Japanese crowds, factory hordes, slime mold                    <BR>
+
+<STRONG>Words:</STRONG> "In Japan, the Japanese "group" is composed of not really independant individuals - that would be the Western group, but the Japanese group is composed of interdependent  - interdependent - individuals, and that makes for a very different ballgame..."
+<HR WIDTH=75% ALIGN=center SIZE=3>
+"We must be a team with one purpose only - everyone thinking only of the company."
+</FONT></BLOCKQUOTE>
+Then we would like offer meditations on the unexpected ways these great social organisms affect our dreams, lives and societies. 
+Why, for example: 
+<P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Professorial face         <BR>
+<STRONG>Words:</STRONG> "Nothing causes quicker stupefaction than discussions of
+      consumer society, and nothing will produce a more vicious anger than
+      suggestions that we change it."</FONT></BLOCKQUOTE>
+And...
+     <BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images: </STRONG> Madonna with cameraman and Warren Beatty   <BR>
+
+<STRONG>Words:</STRONG> Cameraman:  "Do you want to talk at all off-camera?" <BR>Beatty: "She doesn't want to live off-camera. There's nothing to say off-camera. Why would you say something if it's off-camera. What point is there of existing?"</FONT></BLOCKQUOTE>
+    And...
+     <BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Black comic grabbing crotch         <BR>
+<STRONG>Words:</STRONG>  "Why do black men always hold their dicks?"</FONT></BLOCKQUOTE>
+    And...
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Magic glasses scene from "They Live!"         <BR>
+<STRONG>Music:</STRONG> "Mr. Jones" by Dylan</FONT></BLOCKQUOTE>
+
+<P>
+<STRONG>MM: </STRONG> Which brings us back full circle to our opening question and true
+starting point, "What you are looking at? Or, in slightly more
+important words, where is your attention?<P>
+
+For perhaps the first step in fathoming Ki and the Powers of Japan is
+learning to perceive ki as the power of attention. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Attention riveting: Burning piano, Suicide bluff, Semen stains, Kids explaining<BR><STRONG>Words:</STRONG> "It's like if people know you - it doesn't matter how they know you - it's just if they do..."</FONT></BLOCKQUOTE>
+
+What's so important about attention anyway? When you pay attention where does it come from, what does it cost you and what do those who get actually receive? What is attention good for and why do so many of us need it?<P>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/madonjob.jpg" ALT="Madonna rehearsal" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3>
+<STRONG>Images:</STRONG> Attention getting: flashers, monster cars,  muscles, crotch threats, Madonna  fellatio, etc.     <BR>
+
+<STRONG>Music:</STRONG> "Shine your Light on Me" by Dylan              <BR>
+<STRONG>Sound:</STRONG>: Voices saying: "Your attention, please," "May I have your attention," "Pay attention," etc.
+ </font></BLOCKQUOTE><BR><BR>
+
+In the West these are suspiciously neglected areas of inquiry, but
+in Japan they have pondered these questions for many centuries. And they coined many interesting concepts and expressions to answer them. The Chinese gave Japan a big advantage of course. They gave her Ki.<P>
+
+Over a millennium ago, when Japanese scholars sailed as students to China, they returned awash with ki. Ki terminology permeated China's medicine, martial arts, meteorology, geomancy and even statecraft.<P>
+
+The Chinese did not invent ki of course, anymore than Newton invented gravity. But they were perhaps the first to recognize and name it, and grasp its importance as a guiding, formative force in all levels of being.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/kikanji.jpg" ALT="Ki ideogram" WIDTH=150 HEIGHT=145 HSPACE=14 BORDER=3 ALIGN=right>
+
+Their ancient ideogram for ki depicts an invisible force lifting the
+lid of a heated vessel. Ki was not merely random energy it was a
+moving force with pattern, direction, duration. In life ki expressed
+itself in flows of semi-sentient power that rivered through the
+biosphere, our bodies, and all living processes. And the Chinese,
+you must remember, saw life in places we are only now beginning to appreciate:  <P><BR>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/cloudscp.jpg" ALT="Cumulous ocean" WIDTH=150 HEIGHT=112 HSPACE=14 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Koyanasquatsish cycle from streams to clouds to rain to sea       <BR>
+<STRONG>Music:</STRONG> Tantric Choir              <BR>
+</FONT></BLOCKQUOTE>
+<BR>
+As a working concept, ki dates back at least 22 centuries to the
+<U>Yellow Emperor's Classic of Internal Medicine</U>, a book which
+laid out the basic terms and energy relationships that informed 
+oriental medicine (and Confucian politics) up into the
+present century.<P>
+
+In it the mythical sage wrote that the body's ki flows distribute
+vitality and sensation the way blood distributes our lunch. And he
+compared the body to a nation or living community in which energy
+and resources had to be equitably distributed for the health of the
+whole.<P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Fat stock broker, rag pickers, street riot      <BR>
+
+</FONT></BLOCKQUOTE>
+ He warned that when certain organs of the community took
+more than their fair share, other members of the social body would
+inevitably starve, and cry out in pain for more
+care, ki and attention.
+</font></td></tr></table>
+
+<TABLE BORDER=0 WIDTH=90%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" WIDTH=2>
+</td>
+
+<td>
+<FONT  SIZE=+1>
+
+  
+The early Japanese recognized the wisdom and power of these views, and readily adopted acupuncture, moxibustion and all the
+other ki technologies of Chinese medicine. But what really fascinated them most about ki was its psychological and social
+effects. 
+<P>
+
+Japanese students of ki looked at the world and saw that the streams of directed consciousness that connect each of us to our
+families, fellows and environment were, in essence, also ki, psycho-social ki if you will, or, as we call it in the West, attention. 
+<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/telegrok.jpg" ALT="Telegrok" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Eyes fawning, connecting, surveying </font></BLOCKQUOTE><BR><BR><BR>
+They began to track this attentional ki, following its flows
+between the mind and body, between persons and their
+surroundings, and between the members of social bodies.
+<P>
+
+And as they explored these living nets of conscious ki, they
+discovered the three great open secrets of attention:
+<P>
+FIrst, attention is nourishing. After light it is probably Nature's
+most important nutrient - a rich existential fertilizer that feeds
+creative growth and development wherever it is lavished.
+<P>
+Second, attention is healing. It can increase vitality, boost the
+immune system, even intensify the libido in those who receive it in
+great measure.
+<P>
+Last, but no less important to corporate-minded Japanese, attention is adhesive. It is in fact the psychic glue that bonds families, groups and vast social organisms together. <P>
+
+Since all these ki phenomena have quite extraordinary implications
+for our lives, environment and common future, they deserve more
+detailed explanations:<P></FONT>
+
+
+<FONT  SIZE=+1 COLOR=#005128><STRONG>NARRATION</STRONG><P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Kids with miner beams, magnifying glass, family album, honey tongue, lizard snap, ax murder 
+
+</FONT></BLOCKQUOTE>
+
+<EM>Ki o tsukeru</EM>, the Japanese say, when you pay out attention and
+fasten your ki to something. Like a beam of light in the darkness,
+ki puts parts of the world in contact with your mind and creates a
+living channel of conscious energy. <P>
+
+As an incoming flow, ki "in-fluence" can connect our minds to the
+small, the distant, the past. It can reach out and capture food for
+thought - psychic and sensual nourishment - - that is sometimes
+agreeable - - - and sometimes not. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/virtvie2.jpg" ALT="Terminator shopping" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Terminator vision, Predator clips. Deep Throat
+</FONT></BLOCKQUOTE><BR><BR><BR>
+
+Attentional ki streams through our senses so effortlessly we are
+usually unaware of its comings and goings. But experienced from a
+slightly altered perspective, ki activities become more obvious.<P>
+
+While incoming ki changes the content of consciousness, outgoing ki
+can change the content of the world. <P>
+                     <CENTER><BLOCKQUOTE><STRONG>Section I Title: </STRONG> KI IS NOURISHING</BLOCKQUOTE></CENTER>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Busker gleaning, Bugsy lavishing, Papa nursing     
+<BR><STRONG>Words:</STRONG> "How about that? Another ten, that's \$60,000. It just makes me sick when I don't bring pleasure to someone I admire."<BR>
+<STRONG>Music: </STRONG> "Mighty Clouds of Joy"</FONT></BLOCKQUOTE>
+
+Whenever and wherever attention flows, it draws other nutrients in
+its wake. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/thermarm.jpg" ALT="Charlie Atlas Lite" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=right><BR>
+Ki also nourishes the energy and form of the human body. As Charles
+Atlas so profitably discovered, concentrating on a muscle during
+exercise speeds the flow of blood and nutrients to it, quickly
+increasing its mass and power.<P><BR>
+
+The Chinese in fact believed ki was central to every creative process,
+and coined a simple formula to explain all growth and evolution. "I
+kara ki, ki kara chi." I leads to ki, ki leads to chi. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/ikichi.jpg" ALT="i kara ki kara chi" WIDTH=150 HEIGHT=108 HSPACE=14 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Ideagram graphics         </FONT></BLOCKQUOTE><BR><BR><BR>
+
+The character for 'i' combines two older characters - 'on' or sound;
+and shin, the ideogram for the heart.<P>
+
+So "i" is literally a 'sound in the heart'- an inner voice,
+inspiration, or impulse that provokes action. Depending upon the
+message and person, 'i' can fade away like a whim, strengthen to a
+purpose or seethe as an obsession. <P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Suicide whim, Son/drunk dad rap, Pusher bust         <BR><STRONG>Words:</STRONG> "Jets, I wanna fly jets. I joined the Navy."
+<HR WIDTH=100% ALIGN=left SIZE=3>
+"I wanna shoot you so bad my dick's hard." </FONT></BLOCKQUOTE>
+But to take form, 'i' must pour out of the mind and contact the world
+and i in outward movement provokes the power of ki. <P>
+
+Ki was first depicted as the power of the cauldron, of vapor aroused
+and channeled, the power of directed excitation.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Guitar riffs, Taichi, Muscle-building, Obsessive creation         </FONT></BLOCKQUOTE>
+In the psychic realm, ki is the lush stream of consciousness. Ki
+flowing toward a goal collects and deposits substance and begins to
+generate "chi" or structure - either routines, skills and other
+structured behavior; or true physical structures: muscles, objects,
+organization. But whatever the arena, the pattern holds i arouses ki,
+ki nourishes chi.
+
+
+
+</font></td></tr></table>
+
+<TABLE BORDER=0 WIDTH=90%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" WIDTH=2>
+</td>
+
+<td>
+<FONT  FONT  COLOR=#005128 SIZE=+1>
+<IMG SRC="${BASE_URL}kipower/kigraphs/devilmnt.jpg" ALT="Mount Close Encounter" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Clips from "Fame," "Personal Best," "Rocky," " "Field of Dreams," "Bugsy"        <BR>
+<STRONG>Music:</STRONG>  "Fire Down Below" by Bob Seger            <BR>
+<STRONG>Words:</STRONG> "I kara ki, ki kara chi"
+</FONT></BLOCKQUOTE><BR><BR>
+
+The "i" could be a simple love of music, ki the attention poured into
+practice and chi the solid mastery of performance.<P>
+
+Or "i" could be a hope or an ambition, a quiet voice or a blazing vision
+
+<P>
+And once brought into existance, one level of "chi" can inspire new
+"i" and further rounds of creation...<P>
+                                   
+<CENTER><BLOCKQUOTE><STRONG>Section II Title: </STRONG> KI IS HEALING</BLOCKQUOTE></CENTER><P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/pa&babe.jpg" ALT="Papa & babe before shutdown" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Doting parents, Still face experiment<BR><STRONG>Words: </STRONG> "Researchers have devised what they call the "still face experiment" to see what happens when interactions are disrupted. We asked the father of 3-month-old Stephen to avoid his son's efforts to make contact. When the child can't get a response, he becomes anxious. It took only a few seconds to cause happy and buoyant Stephen to become sad and dejected. Imagine the unending distress of a child who rarely or never experiences intimate interactions.<P>"It can be a father. It can be a mother. It can be a combination of the two or someone else entirely, but the child needs these interactions almost as much as he needs the air he breathes."
+
+
+    </FONT></BLOCKQUOTE>
+
+Attentional ki not only delivers nutrients, it communicates vital
+energy. Paying out attention expresses and expends our vitality. It
+also charges and enlivens individuals who receive it. <P>
+ <IMG SRC="${BASE_URL}kipower/kigraphs/cribabe.jpg" ALT="Home Alone" WIDTH=150 HEIGHT=112 HSPACE=14 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Institutionalized child, neurotic monkey babe       </FONT></BLOCKQUOTE><BR><BR><BR>
+
+And ki deprivation can be devastating. As early as the '40s, studies
+focused attention on the slower development and increased sickliness
+of institutionalized children. During just a few weeks of
+hospitalization, this calm and cheerful child became acutely
+dependent, and then totally exhausted and desolate. This is the face
+of ki anemia, and it is not just a human phenomenon. It can afflict
+any unattended young social animal, diminishing its vitality, health
+and development.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Douglas digs Douglas, Thermochromagraphy        </FONT></BLOCKQUOTE>
+
+Youngsters suffer more from inattention because they spend so little
+of their ki upon their person. Adults, however, can often recharge
+themselves. Besides the broadly energizing effects of self-regard or
+self-esteem, we can focus ki internally, and consciously route heat,
+nutrients and immune cells to any part of the body.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Drug commercials, Moxibustion/acupuncture         </FONT></BLOCKQUOTE>
+
+Perhaps the most familiar call to inner focus is pain, the body's
+cry for attention to a weakened or wounded area. While western
+medicine strives to stifle these cries with pain-killers, Oriental
+healers closely attend to their messages and draw ki to depleted,
+endangered areas with warmth and precise stimulation.<P>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/jorei2.jpg" ALT="Helping hand" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Chigung treatments, <EM>Johrei </EM>session         </FONT></BLOCKQUOTE><BR><BR><BR>
+
+Eastern medicine is energy medicine. Its masters feel the energy body
+is the template of the physical, and the source of all creative,
+sexual and immune vitality. They thus work to boost and balance body
+energy, and have developed many techniques for ki transfusion. Chi
+gung - literally, the "skill of ki" - is now a licensed specialty in
+all Chinese hospitals, and in Japan thousands of  <EM>johrei </EM>adepts
+attentively channel ki to patients battling afflictions of all kinds<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Brainwave scans, zazen, prayer, slow sex        </FONT></BLOCKQUOTE>
+
+Ki research has revealed that interpersonal flows can harmonize the
+brain waves of senders and recipients. Focused "ki-nections" entrain
+the neural firing of both into slow, steady alpha rhythms, the wave
+pattern of meditation, prayer and quiet, sensuous love.<P>
+
+But if one ki donor is good, wouldn't lots be even better? Many
+cultures seem to have sensed this possibility and independently
+developed two common techniques of collective healing - mediated
+transfer and direct induction. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/healears.jpg" ALT="De-waxing" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Star healing from "Elmer Gantry"       <BR>
+</FONT></BLOCKQUOTE><BR><BR><BR>
+
+Mediation is the star system. A group charges and illuminates a focal individual,  who then
+discharges the collective ki into a patient. Often without
+acknowledging its true source.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/ketchak1.jpg" ALT="Manumission" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Balinese ketchak rite, Chigung      
+</FONT></BLOCKQUOTE><BR><BR><BR>
+
+In the direct style or ki coven, there are no middlemen. Though now
+often performed as an art, the Balinese ketchak was first a village
+rite to induce healing or oracle with torrents of focused attention.
+Primed with hours of chant and yogic breathing, participants pour
+their ki to the center in rhythmic flares. <P>
+
+Sick villagers or sensitive girls then dance through the heart of
+this psychic furnace until its power cures or possesses them with
+prophetic trance.<P>
+
+But whether healing with force or with delicacy, the circuits of ki
+bind the people involved and thus create a greater whole.<P>
+
+<CENTER><BLOCKQUOTE><STRONG>Section III Title: </STRONG> KI IS ADHESIVE</BLOCKQUOTE></CENTER>
+<IMG SRC="${BASE_URL}kipower/kigraphs/bondlady.jpg" ALT="Family ties" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Chains, Indenture, Passion gropes, Indebtedness  <BR>
+<STRONG>Music:</STRONG> "Chain of Fools" By Arethra Franklin<BR>
+
+  <STRONG>Words:</STRONG> Indonesian tribal elder: "We are held in a tension of generations, a web. The children must have exchanges to finish. They must have debts to bind them, debts to each other. Then we are rich. I am in your debt, you are in my heart. I am in your heart, you are in my debt."
+</FONT></BLOCKQUOTE><BR>
+
+Many kinds of bonds command our attention - penal bonds, the bonds
+of indenture and servitude, male bonding, the bonds of friendship,
+lust, and passion, as well as the social bonds of convention and
+indebtedness.  <P>
+
+By far, the most ancient and intense kinection is the mother-
+child bond, and the reciprocal ki flows are almost visible.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/titmama.jpg" ALT="Sucking up to the boss" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Mother love, Brother battle, Grouper grope,  Tough love      <BR>
+
+<STRONG>Music:</STRONG> "Tight Connection to my Heart" by Dylan  </FONT></BLOCKQUOTE><BR><BR>
+But however they arise, powerful ki interactions bind people tightly
+together - as male competitions often noisily suggest.<P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Rough grapple to love</FONT></BLOCKQUOTE>
+Sexual bonding can also get off on this aggressive foot - until ki
+flows begin to connect and synchronize.<P>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/bakababe.jpg" ALT="And I do mean babe" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Kiddie lust, Dance attraction, Petrel love <BR><STRONG>Music:</STRONG> "Respect" by Arethra Franklin</FONT></BLOCKQUOTE><BR><BR><BR>
+
+Fortunately, pair bonding usually begins less stormily with sensual
+interest and attraction, ideally mutual attraction.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/lawnkiss.jpg" ALT="Your lips or mine" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=right><BR>
+But whether aroused by lust or contest, intense ki melts physical
+resistance and generates unmistakable drawing power. Unchecked, this
+power can draw a couple into feelings of emotional union and sensual
+fusion.<P>
+
+
+Marriage rituals stiffly re-enact this unifying attraction and
+consecrate it to spawn new diversity. Relations of blood, dependency
+and proximity open channels of ki flow among family members, tieing
+them into unique living systems.  <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/jwedclan.jpg" ALT="In-law Excelsis" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Marriages, Families, Clans        <BR>
+</FONT></BLOCKQUOTE><BR><BR><BR>
+
+Although family bonds are strong, and furnish many metaphors for
+modern corporate life, more informal bodies seem to be the true
+ancestors of today's great social organisms.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/vgeese.jpg" ALT="Heading out" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Geese, Wolf pack, Caribou herd,    </FONT></BLOCKQUOTE><BR><BR><BR>
+
+Most animal species only form non-family groups for special purposes
+- migration, self-defense or the hunt. Before and after these
+collective efforts, they contentedly dwell apart with their families
+or simply go it alone.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/barnroof.jpg" ALT="Amish at play" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Whale pull, Expeditions, Rites, Battle, Barn-raising         </FONT></BLOCKQUOTE><BR><BR><BR>
+
+Unrelated humans too once only congregated for efforts requiring
+special power - exploration, worship, war or construction. For all
+these tasks, the group fastened its collective ki upon specially
+skilled masters who orchestrated it for common ends. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Indonesian grave construction, Union rally, Charged elders   
+</FONT></BLOCKQUOTE>
+
+Traditional work groups clearly embody the animating power of
+synchronized ki. For those who head and control these bodies, the
+feeling of vitality is intoxicating. <P>
+
+Basking in focused group ki not only feels good, it confers real
+authority - the power to subdue, to transfix, to motivate. To turn
+random spontenaity into synchronized order. But once individuals
+have experienced the charge of collective ki, the break up of their
+group often leaves them feeling drained and desolate. <P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Post-fest leader depression - union, tribal, Amish<BR><STRONG>Music:</STRONG> "The Thrill is Gone" by Arethra
+
+</FONT></BLOCKQUOTE>
+The same deflation occurs when any group activity comes to its
+natural end and its respective leaders sink back into shadow. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/inqufire.jpg" ALT="Illuminating examples" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Armed attacks, Inquisition burnings, "Dr. Strangelove"         </FONT></BLOCKQUOTE><BR><BR>
+
+How to hold on to the spotlight  and maintain the vital flow of ki?
+Leaders with military and religious skills quickly discovered, they
+could prolong their command of public attention almost endlessly by
+kindling chronic fear in the neighborhood. <P>
+
+With terrible threats,
+weapons and [<FONT  COLOR=#000000>"the international communist conspiracy to sap and impurify all our precious bodily fluids" {Dr. Strangelove}</FONT>], they continually reinvented their
+"neededness" and guaranteed that in all future leadership
+[<FONT  COLOR=#000000>"it would be absolutely vital that our top government and military men be included to foster and impart the required principles of leadership and tradition. Sieg heil!" {Dr. Strangelove}</FONT>] and, equally important, that anxious public ki would
+always be available to nourish the structures that enshrine and
+protect them. <P>
+
+But both armies and churches are at bottom rigid and parasitic
+bodies. They can rule and order societies, but rarely aid or even
+tolerate their members' evolution. Productive work groups thus
+became the focus of human social progress. <P>
+
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Japanese work group segment        <BR>
+<STRONG>Words:</STRONG> Murray Sales: "The basic unit of organization of Japanese society is the corporate work group. The work group is also an emotional unit. It provides the focus for the energies and loyalties of the Japanese. Within a work group Japanese feel relaxed and secure. I think that life for Japanese has always revolved much more around work - around working in a group - than around family life or around play."</FONT></BLOCKQUOTE>
+
+Small work groups were healthy - creative and bonded yet diverse,
+personal and temporary. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/halswarm.jpg" ALT="Togetherness at the factory" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Swarming factories, Huge meetings,  Zombie managers, Vast offices </FONT></BLOCKQUOTE><BR><BR><BR>
+
+Big work groups, however, can quickly expand beyond human scale,
+values or control. As managers specialize and lose productive
+skills, they become totally dependent upon the corporate body to
+feed and protect them. They in turn now must defend the body, and
+their positions, against all threats, and this requires incessant
+growth. <P>
+
+
+Corporations thus take on a life of their own, and soon
+grow too vast and impersonal to focus attention on members' needs or
+identities. Only those at the top have face - either to lose or
+attend to. All other individuals are uniformly "effaced" - becoming
+"workers," and then simply "labor."  And fall into shadow forever.<P>
+
+To better understand these vast collectivities and why millions
+submit to their bondage, it helps to consult the ancient ones.<P>
+<CENTER>
+<H3>Parable of the Micro-Beast</H3></CENTER> 
+
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Protozoa on speed, partying, scoring        <BR>
+<STRONG>Music:</STRONG> Philip Glass             <BR>
+<STRONG>Words:</STRONG> "Who you callin' a goofy white motherfucker?", Orgasmic hoots</FONT></BLOCKQUOTE>
+
+Like our selves at a distance, our protozoan forefathers seem pretty
+similar, simple and hyper. But viewed with a bit more intimacy, they
+turn out to be pretty regular guys. They dig hanging out, partying,
+deep relationships. 
+</font></td></tr></table>
+
+<TABLE BORDER=0 WIDTH=90%>
+
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" WIDTH=2>
+</td>
+
+<td>
+<FONT  SIZE=+1 COLOR=#005128>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Protozoan schizophrenics, romance, Feeding frenzy, Slime mold intro        </FONT></BLOCKQUOTE>
+<IMG SRC="${BASE_URL}kipower/kigraphs/smschiz.jpg" ALT="Micro-ambivalence" WIDTH=150 HEIGHT=102 HSPACE=12 BORDER=3 ALIGN=right>
+In youth, they too are often pretty mixed up
+about what direction to take with their lives. Some become solitary
+and meditative, aspiring to higher things. Some just cruise around
+looking for love, and finally pair up and start their own
+free-wheeling households. And some families go on to become stable
+dynastic clans.<P><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Music:</STRONG> "Summertime" by Janice Joplin</font></BLOCKQUOTE>
+
+But some, like these Myxomycetes, seem to prefer fast living and the
+joys of high consumption. When they have devoured everything in the
+environment, however, they too grow quite anxious and insecure.<P>
+ <BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Music:</STRONG> "We Gotta Get Outta this Place" by the Animals</font></BLOCKQUOTE>
+<A NAME="grex">They race</A> around, looking for leaders, trying to find their way back
+to the good times in movements, trends, or <EM>ryuko</EM>, as the Japanese
+call them - 'flow-alongs'.<P>
+
+<CENTER><TABLE BORDER=3 CELLPADDING=3 CELLSPACING=3>
+<CAPTION ALIGN=bottom>Grex Arising</CAPTION>
+
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}kipower/kigraphs/slymtrak.jpg" ALT="To the bandwagon" WIDTH=150 HEIGHT=110 HSPACE=4 BORDER=3></TD><TD><IMG SRC="${BASE_URL}kipower/kigraphs/grexcity.jpg" ALT="Babylon rising" WIDTH=150 HEIGHT=110 HSPACE=4 BORDER=3></TD><TD><IMG SRC="${BASE_URL}kipower/kigraphs/grex150.jpg" ALT="All aboard!" WIDTH=150 HEIGHT=110 HSPACE=4 BORDER=3></TD></TR>
+</TABLE></CENTER>
+
+ <BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Music:</STRONG> "Just a Closer Walk with Thee" </FONT></BLOCKQUOTE>
+
+
+Like early humans, they converge to gain special powers, and
+hundreds of thousands of individuals may join bodies pledging
+protection and deliverance. <P>
+
+Among the myxomycetes these corporate bodies are called grexes and
+they are true to their word.<P>
+
+Although grexes lack nerves, veins or any other internal structures,
+synchronized ki flows animate these bodies with extraordinary grace
+and esprits du corps. <P>
+
+While incorporated, most members have few responsibilities beyond
+obedience and self-synchronization, and they soon lose the need 
+or ability to decide anything for themselves. <P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Grex ballets         <BR>
+
+<STRONG>Words:</STRONG> John Houseman ("Rollerball"): "Now everyone has all the comforts, you know that. No poverty, no sickness, no needs, and many luxuries which you enjoy just as if you were in the executive class. Corporate society takes care of everything - and all it asks of anyone - all it's ever asked of anyone ever - is not to interfere with management decisions."</FONT></BLOCKQUOTE>
+This second childhood is only a brief transition, however, and
+prepares them for resurrection in a final act called "fruition."<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/grexrise.jpg" ALT="Heading out" WIDTH=150 HEIGHT=114 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Grex migration and fruition        <BR>
+
+<STRONG>Music:</STRONG> "Exodus" by Bob Marley       </FONT></BLOCKQUOTE><BR><BR>
+
+When a grex finally senses greener pastures it hunkers down and
+sends its membership aloft in a blossom of cocoon-like spores. The
+incorporated brothers then break out, ride the wind, and awaken
+again in new situations as free individuals.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  Spore liberation and rebirth       <BR>
+<STRONG>Music:</STRONG>  "I Feel Good!"       </FONT></BLOCKQUOTE>
+
+Perhaps the most striking aspect of grex corporate behavior is the
+altruism of its executive class - here dyed a distinctive red. <P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/grxleadr.jpg" ALT="Grex steering committee" WIDTH=150 HEIGHT=114 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  Dyed executive cells, fruition, ascent of spore case     </FONT></BLOCKQUOTE><BR><BR>
+
+Unlike their passive followers, grex managers are movers and
+shakers. They drive themselves furiously - conferencing, writing
+molecular memos, generating constructive consensus. Their decisions
+totally control the corporate mission, but once it is fulfilled,
+they gallantly yield all the escape craft to their child-like
+charges. The executives all stay behind in the base, stalk and empty
+cradle of their brethren's rebirth.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/massgrex.jpg" ALT="Bigger and bigger, forever and ever" WIDTH=150 HEIGHT=112 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Grex rampant        <BR>
+<STRONG>Music:</STRONG>  "Keep it Together" by Madonna       </FONT></BLOCKQUOTE><BR><BR>
+
+But what if grex managers weren't quite so noble? After all, why
+relinquish power? Why break up such an enormously good thing? Why
+not perpetuate it like a church or army, and make the
+collective enterprise not a means, but an end in itself?  <P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Tribal beauty show, Koyanosquatsi crowd and traffic flows    </FONT></BLOCKQUOTE>
+
+The metaphor is not strained. While humans have evolved infinitely
+richer individuality than ancestral amoeba, our collective behaviors
+have progressed little. From certain angles, the ki flows of the
+body politic still appear quite fluid, organic, and primal.<P>
+<IMG SRC="${BASE_URL}kipower/kigraphs/sokamass.jpg" ALT="Mega-mob" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Swarming Soka Gakkai convention, Hierarchic acrobatics        <BR>
+<STRONG>Sound:</STRONG> Crowd screams</FONT></BLOCKQUOTE><BR><BR>
+
+The collective instincts abide. Vast gatherings continue to excite
+us, to exercise synchronized power, develop routines, and finally to
+generate structure and hierarchies.<P>
+
+We are obviously still drawn to these assemblies for amusement,
+protection or special occasions. But the mystery remains why some of
+us so willingly surrender our individuality to them as a permanent
+life condition. <P>
+<CENTER><H3>KI BONDING</H3></CENTER>
+One answer is suggested by the remote power of upper chakra or
+cerebral ki bonds. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Flag raising, Crotch/heart/head chakras        </FONT></BLOCKQUOTE>
+<IMG SRC="${BASE_URL}kipower/kigraphs/flamebod.jpg" ALT="Fire body" WIDTH=150 HEIGHT=121 HSPACE=8 BORDER=3 ALIGN=right><BR>
+In the East, we noted, the body is not considered a thing, but a
+spire of energy, with three ki centers: the sexual or lower chakras,
+the central heart chakras and the cerebral upper chakras.<P><BR><BR>
+
+<CENTER><H3>Lower Chakra Bonds</H3></CENTER>
+<IMG SRC="${BASE_URL}kipower/kigraphs/handtale.jpg" ALT="Shake on it" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Sexual bonds, family groups        </FONT></BLOCKQUOTE><BR><BR><BR>
+
+Lower chakra bonds are personal, intimate, and equitable. Their
+hormone nourishing ki flows feed genetic, familial structures as
+well as courage, will and curiosity. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  Testosterone transformations, crotch regards       </FONT></BLOCKQUOTE>
+<CENTER><TABLE BORDER=3 CELLPADDING=3 CELLSPACING=3>
+<CAPTION ALIGN=bottom>Holding their own...</CAPTION>
+
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}kipower/kigraphs/baseball.jpg" ALT="Check" WIDTH=150 HEIGHT=106 HSPACE=4 BORDER=2></TD><TD><IMG SRC="${BASE_URL}kipower/kigraphs/rwcrotch.jpg" ALT="Re-check" WIDTH=150 HEIGHT=118 HSPACE=4 BORDER=2></TD><TD><IMG SRC="${BASE_URL}kipower/kigraphs/gungnuts.jpg" ALT="Attack" WIDTH=150 HEIGHT=101 HSPACE=4 BORDER=2></TD></TR>
+</TABLE></CENTER>
+
+
+
+
+In men, the ki
+evolutionary  molecules are called androgens - male makers - and
+speaking of their source and symbol  [<FONT  COLOR=#000000> "Everyone say Testicles" {"Commitments"}</font>] Attention to them
+boosts testosterone, confidence and assertive individuality. Without
+androgens, a male remains a submissive child, but add just a touch,
+and a distinct man begins to evolve. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Love muckles, Sexual energy bonds        </FONT></BLOCKQUOTE>
+<IMG SRC="${BASE_URL}kipower/kigraphs/lawnglu2.jpg" ALT="Becoming part of something" WIDTH=145 HEIGHT=109 HSPACE=12 BORDER=3 ALIGN=right>
+
+Sensual ki and hormones embolden the claims of the self, and their
+ancient bonds have little respect for outside authority. Fired by love or tantric
+practice, mutual ki intercourse can even grow numinous, fusing
+individuals into a single soaring energy body. <BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Basic training ordeals, ball busting - complex and crude   <BR><STRONG>Words:</STRONG> Drill instructor: "You better stop eyeballing me, boy. I'll rip those eyeballs out of their sockets and skull-fuck you to death!"</FONT></BLOCKQUOTE>
+
+ Social body
+builders must break these bonds at their source to free up ki for
+corporate calling. Their modern weapons are acute and chronic 
+stress which produce estrogen-like molecules that quench male
+hormones and cockiness. But when all else fails, there are always
+the old ways, to prepare men for corporate function.<P>
+
+<CENTER><H3>Heart Chakra Bonds</H3></CENTER>
+<IMG SRC="${BASE_URL}kipower/kigraphs/ballet4.jpg" ALT="Pas de quatre" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Music groups, Sports teams, Gorilla band, Gangs,  Environmental attention    </FONT></BLOCKQUOTE><BR><BR>
+
+Ki flows from the heart chakras conjoin people in sympathy,
+compassion and close cooperation, and are thus also quite equal.
+They unite individuals into teams, bands and fellowships - as well
+as emotionally connecting them to the world of nature.<P>
+
+<CENTER><H3>Upper Chakra Bonds</H3></CENTER>
+<IMG SRC="${BASE_URL}kipower/kigraphs/police.jpg" ALT="One for All and All for All" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Limp salute, Company women bowing to TV, Flag salutes, Police/military phalanxes    </FONT></BLOCKQUOTE><BR><BR>
+
+Upper chakra bonds, however, are purely mental attachments. These
+ties of duty and allegiance can siphon off ki to distant unifying
+symbols, and thus grow very impersonal and unequal. They therefore
+can also unite monstrous organizations with little regard for
+members' identities or environments. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  Individual attention scenes, Team bonding       </FONT></BLOCKQUOTE>
+
+Equal bonds are those that distribute attentional ki evenly within a
+relationship. Reciprocal ties of love, friendship and mutual respect
+nurture both individuality and a natural sense of community. But
+since equal bonds derive their strength from intimate contact, they
+cannot bind large groups over time. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Bridge dangle, Cool Hand Luke breakdown, Ecclesiastic homage, Naked threat    </FONT></BLOCKQUOTE>
+
+In inequal bonds - such as those generated by debt, fear or fealty -
+certain persons continuously pay more ki into the relationship than
+they receive. Some members therefore always command a ki surplus,
+while others endure chronic deficits. <P>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/audibows.jpg" ALT="In Japan, the crowd bows..." WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Hierarchy tableaux from church, court, Forbidden City eunuchs, Salariman assembly    </FONT></BLOCKQUOTE><BR><BR>
+
+Under pressure, unequal flows gradually solidify into hierarchal
+systems. Lower ranking members instinctively submit and channel
+their attention to group leaders and purposes. And as submission
+becomes second-nature: <EM>E pluribus unum</EM> - Out of the ki of many,
+One...<P>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Words:</STRONG> "Gung Ho" Manager: "We must build spirit. We must be a team with one purpose only - everyone thinking only of company."  </FONT></BLOCKQUOTE>
+But for this new "One" to persist and prosper, it must continue to
+dominate its members' attention, and therefore retard their growth
+as individuals.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Mass production lines, Group wave effects, Frenzied production    </FONT></BLOCKQUOTE>
+
+Attentional ki is the binding, animating protoplasm of the social
+organism. The less members claim for their persons, or leak to
+affairs outside the collective membrane, the more ki there is to
+quicken the corporate body. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  Japanese executive discipline classes   </FONT></BLOCKQUOTE>
+
+Since independent values, sensuality or a sense of personal rights
+all distract ki from collective esprit de corps, the best members
+are the most docile and child-like.<P>
+
+In Japan, therefore, the ideal worker is a <EM>hanninmae</EM> or <EM>eien
+kobun</EM> - literally, an "unfinished man" or "perpetual child-
+figure." <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  "Last Emperor": Gauze cloud eunuch game, Ghostly trading floor </FONT></BLOCKQUOTE>
+
+In corporate anthroculture, the term is "homuncell" - 
+a diminished man who quietly performs the cellular roles of the
+social body. Like all good cells, homuncells are dependent,
+anonymous and sexually indistinct. They are the totally
+incorporated, those who have fused their fate, minds, and identities
+with the corporate body. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>  Salariman collage </FONT></BLOCKQUOTE>
+<IMG SRC="${BASE_URL}kipower/kigraphs/smlines.jpg" ALT="Usual suspects" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=right>
+Japan's homuncell archetype is the so-called <EM>salariman</EM>, 
+a neotenous white collar worker, with weak family bonds, few
+assertive hormones, and little time for either nature or society.
+Salariman/homuncells generally channel two thirds of their daily ki
+to corporate function, and redefine their own growth in terms of
+fashions, games and consumption. <P>
+
+Although salarimen are individually unimpressive, and constitute
+less than 20% of the nation's workforce, their aggressive corporate
+bodies dominate Japan's politics, media and education, as well as
+the world economy.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Disorderly school babes -> Regimentation in class and company      </FONT></BLOCKQUOTE>
+
+The task of modern anthroculture is thus quite simple - how to
+prepare human minds and bodies for perfect incorporation - how to
+simplify this, to this, to this without destroying useful forms of
+intelligence.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Soviet Young Pioneers street marches, Baseball East & West    </FONT></BLOCKQUOTE>
+
+Thanks to Soviet corporate body builders [<FONT  COLOR=#000000>"we know now that 8- to 14-year-olds fear humiliation almost as much as the possible death of a parent."</FONT>] in light of
+which we might consider how certain children are taught baseball.
+For these kids, team sports are "played," and they learn how to
+compete and cooperate without losing individuality. For Japanese
+children, teams are serious and stressful business, that teach them
+their place, and train them to obediently channel their ki to the
+authorities directing their lives. <P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Words:</STRONG> "It matters how you play the game. Winning and losing are all-important  A bad play has consequences. (Knock in head) It all depends on the cues children receive, the models they see."</FONT></BLOCKQUOTE>
+
+Although other modern societies now invest heavily in homuncell
+development, Japanese corporate anthroculture still enjoys a few
+peculiar advantages:<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Reflexively prostrating subjects, soldiers, wenches   </FONT></BLOCKQUOTE>
+
+<UL>
+<LI>Millennia of feudal, Confucian mythology glorifying    
+submissiveness and obedient self-sacrifice; 
+</UL>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Cram school scenes
+<BR> <STRONG>Words:</STRONG> "I go to cram school 5 nights a week from 5:30 to 9:30. Cram school is a special school I go to after regular school to help me prepare for those entrance exams. Some kids start <EM>juku</EM> - that's the Japanese word for cram school - as early as nursery school, but I started when I was eight. <P>It's late when I get home from juku. I don't like to study by myself so mom keeps me company until I'm finished around midnight. I'd like to play more, but I feel now is the time to study - otherwise I'll fail my exams." </FONT></BLOCKQUOTE>
+
+<UL>
+<LI>School stress levels sufficient to stifle pubertal hormones;
+</UL>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Lancet article
+<BR> <STRONG>Text: </STRONG>   "We found a surprising level of plant estrogens in Japanese urine -
+<STRONG>  100 to 1,000 times higher than in other countries</STRONG> we have tested.
+  These are biologically significant amounts and they seem to come
+  from estrogenic isoflavanoids in soy foods like tofu, miso, shoyu,
+  age, etc.  </FONT></BLOCKQUOTE>
+
+<UL>
+<LI>Soy food diets with enough plant estrogens to seriously disrupt 
+male maturation; 
+</UL>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Ambivalent mom<BR>
+<STRONG>Words:</STRONG> "We have a saying that, 'The nail that's sticking up will be hammered down.'"  </FONT></BLOCKQUOTE>
+<UL>
+<LI>And maternal resignation to their sons' repression. 
+</UL>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Slime mold cityscapes, Juvenile porno, Cement ecology, Women's street marches, Asian slums, Clear-cut forests        </FONT></BLOCKQUOTE>
+
+Japan's massive diversion of personal ki to corporate goals has
+repercussions, however: falling birth rates, violent and juvenile
+sexuality, environmental loss, and the near total feminization of
+civil society - not to mention a brutal disregard of peoples and
+problems outside the corporate membrane.<P>
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>   Koyanasquatsish crowd scenes, Superman breakouts, Craft work, Family scenes      <BR>
+<STRONG>Music:</STRONG> "I'm Free of Your Spell"      </FONT></BLOCKQUOTE>
+
+But what if homuncells are only temporarily arrested? What if the
+bodies they entered to escape post-war poverty, were to finally call
+the mission complete? What if our corporate grexes were now to
+fruit, and liberate the salarimen and their ki for a grand new round
+of adulthood and re-evolution? What if???<P></FONT>
+
+<P>
+
+<FONT  SIZE=+1>
+<STRONG><U>End of Narrated Insert</U></STRONG><P>
+  
+
+                
+
+<STRONG>Michael Moerman: </STRONG> I guess the basic message is "Ki ni ki o tsukete." Start paying
+attention to attention, or watch where you fasten your ki. It makes a difference. <P>
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/kibudget.jpg" ALT="Ki budget graph" WIDTH=150 HEIGHT=127 HSPACE=8 BORDER=3 ALIGN=left><BR><BR>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG>   Animated Graph of Attention Expeniditures      </FONT></BLOCKQUOTE><BR><BR><BR>
+
+
+In ki workshops here in Japan, people are asked to draw up personal budgetary accounts for their attention.<P>
+
+
+"How many minutes of ki do you spend each day on your most intimate surroundings - your body, family, neighborhood? How many go to your company or work? How many are given to society's problems, spiritual concerns or spent on behalf of the planet? 
+<P>
+And how many just go down this tube? <P>
+
+
+<IMG SRC="${BASE_URL}kipower/kigraphs/hardhatv.jpg" ALT="Neo-brotherhood" WIDTH=150 HEIGHT=113 HSPACE=8 BORDER=3 ALIGN=left>
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> TV ki suction collage <BR><STRONG>Words:</STRONG>   "One hundred million North Americans spend a quarter of their waking lives watching television."     <HR WIDTH=180 ALIGN=center SIZE=3>
+"Taking time off people's hands, draining off their lives. We suck it - hours, minutes, seconds - suck it out of you, suck it, suck it, suck it..."</FONT></BLOCKQUOTE>
+
+<P>
+Ki sluiced into the TV is not totally lost, by the way. 
+
+<BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Images:</STRONG> Clips illustrating apathy, breast size anxiety, shopping frenzy, rising stock index, vast dump site     </FONT></BLOCKQUOTE>
+Quite expensive
+studies show that it reliably nourishes political apathy, personal
+insecurities, consumerism, corporate profits and the volume of garbage. 
+So ye also serve who only sit and watch...
+<P>
+At any rate, we hope that this brief and highly unauthorized
+introduction has offered at least a glimpse of what attentional ki
+is, how it works and why it's important to watch where it goes. 
+<P>
+As I trust our opening disclaimer makes clear, this presentation is
+intended only for potential allies and investors -
+that is, for all those concerned with these ideas and willing to help develop and
+popularize them. <P>
+
+We're looking now at educational videos, children's books, CDROMs and 
+computer games. What are you looking at?<P>
+<HR WIDTH=90% ALIGN=center SIZE=2>
+
+<HR WIDTH=80% ALIGN=center SIZE=3>
+<HR WIDTH=90% ALIGN=center SIZE=2><P>
+<STRONG><U>Conclusion</U></STRONG>
+                                   
+<BLOCKQUOTE><FONT  COLOR=#000000><STRONG>Images:</STRONG> John Houseman from "Rollerball", Spinal Tap: "Gimme Some Money"      <BR>
+<STRONG>Words:</STRONG> "Take your time, take a few days, but think about it - and understand it. Do understand it." <HR WIDTH=180 ALIGN=center SIZE=3>"You know what I need. Or maybe you don't. Do I have to come right flat out and tell you everything? Gimme some money, gimme some money..."   <HR WIDTH=180 ALIGN=center SIZE=3> Lester Thurow: "What's wrong with that? Think about it." </BLOCKQUOTE>        <BR>
+
+<STRONG><U>Closing Credits</U></STRONG>    
+
+ <BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Music:</STRONG> "You Know I'm not Crazy" by Boy George    </FONT></BLOCKQUOTE>
+
+<CENTER><H3>Concept &amp; Bricolage</H3>
+W. David Kubiak
+<H3>Narration</H3>
+Michael Moerman<BR>Kathy Arlyn Sokol
+<H3>Tech-Spirit Support</H3>
+
+Christopher Fryman
+<H3>Slime Mold Photography</H3>
+Dr. Takizo Yamada
+<H3>Ki &amp; Cover Graphics</H3>
+Bruce Battoe
+<H3>Special Thanks</H3>
+John Perry Barlow<BR>
+Carl Becker<BR>
+Joey Ito<BR>
+
+Harry Quini<BR>
+Howard Rheingold<BR>
+Emiko Sugita<BR>
+The Elmwood Illuminati<BR>
+The Kidd/Morimoto Conspiracy<P>
+<H3>Production</H3>
+Heaven on Earth Productions<BR>
+Kyoto Ecomedia Institute<P>
+ <BLOCKQUOTE><FONT  COLOR=#000000 SIZE=3><STRONG>Words:</STRONG> John Allen: "Because there are many forces that prefer to keep ignorance as a state of humanity."  </FONT></BLOCKQUOTE><BR>
+
+<HR WIDTH=180 ALIGN=center SIZE=2>
+<STRONG><U> The End (for now...) </U></STRONG>
+<BR><BR>
+</FONT>
+<A NAME="order"></A>
+<HR>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+<HR>
+<IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=400 HEIGHT=5><BR><BR>
+<STRONG><U>Order Information</U></STRONG><P>
+This production is a preliminary development outline intended to attract support to secure the rights for a full exploration of this subject. It obviously cannot be sold or rented in its current form, and is designed only for demonstration purposes. If you would like to help develop and propagate these ideas, please contact W. David Kubiak at wdkubiak(at)gmail.com.<BR>
+<BR><BR>
+<HR WIDTH=120 ALIGN=center SIZE=2>
+
+<A href="${BASE_URL}arcmain.html#kipapers"><STRONG><FONT  SIZE=3>Main Archive</FONT></STRONG></A>
+<HR WIDTH=120 ALIGN=center SIZE=2>
+<IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=400 HEIGHT=5>
+
+</CENTER>
+
+</td>
+</tr>
+</table><P></td>
+</tr>
+</table></div>
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default KipowerKipower1;

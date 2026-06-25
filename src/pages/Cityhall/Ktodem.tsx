@@ -1,0 +1,171 @@
+import { useEffect } from "react";
+
+const CityhallKtodem = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}bulls/alumibar.gif" WIDTH=360 HEIGHT=7 VSPACE=6><BR>
+<FONT  SIZE=+2 COLOR=#007339><STRONG><EM>Nancho Commentary</EM></STRONG><BR></FONT>
+<FONT  SIZE=4><STRONG><FONT  SIZE=3>Special </FONT>to K<FONT SIZE=-1>ANSAI </FONT>T<FONT SIZE=-1>IME </FONT>O<FONT SIZE=-1>UT</FONT></STRONG></FONT><BR>May, 1999<BR>
+<IMG SRC="${BASE_URL}bulls/alumibar.gif" WIDTH=360 HEIGHT=7>
+<BR><BR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3>
+<FONT  FACE=ARIAL COLOR=#4F4F4F><STRONG><U>COMMENTARY</U></STRONG></FONT>
+<H3>"JAPANESE DEMOCRACY: TAKE 2"</H3> 
+<H4>- A muddy grassroots riposte <BR>to recent sunny views from the ivory tower<P><FONT  SIZE=-1>by W. David Kubiak</FONT></H4>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
+</CENTER>
+<BLOCKQUOTE><BLOCKQUOTE><FONT  COLOR=#B00000><STRONG>Nancho Advisory</STRONG>: This piece was scribbled in rather overheated respnse to an earlier KTO "Japanese Democracy" article by local political pundit, Prof. Paul Scott. The good professor is usually quite astute in his analyses of pernicious political trends in these parts, but in this piece he totally lost it.   While essentially admitting the nation's central governance is dictated by the Iron Triangle of commercial Big Bodies, bureaucrats, and ruling party political hacks, he claimed that democracy is alive and well at the local level. However, instead of substantiating this breathtaking assertion, he haphazardly trashed some academic stereotypes; said that beneath the regimentation so depressingly evident in schools and work places, there are a few heartening if inaudible mutters of discontent; and cogently concluded that citizen alarm over their rapidly deteriorating environment means that local governance is not triangularly ruled but configured as a reassuringly "ovoid" sushi. The profound confusion of this rant deserved line by line deconstruction, but I tried to present another scenario altogether.</FONT><P>
+<HR WIDTH=85% ALIGN=center SIZE=2>
+<HR WIDTH=75% ALIGN=center SIZE=3>
+<HR WIDTH=85% ALIGN=center SIZE=2>
+
+
+
+<P>
+<H4><STRONG>THE VIEW FROM THE TRENCHES</STRONG> <BR>Over the last decade, I have consorted with over 30 Japanese citizen groups, mostly in the fields of human rights and the environment. Each has battled righteously for a worthy cause, each has posted a pathetic win-loss record, and each has taught me the same two lessons. First, in spite of Constitutionally guaranteed "sovereignty", citizens here have virtually no influence whatever on public decision-making, simply because they lack the basic democratic tools. Second, no matter what the group's focus - rainforest ruin, <EM>karoshi</EM> (death from overwork), nuclear power, agro-chemicals, <EM>buraku</EM> (indigenous outcaste) discrimination, architectural atrocities, toxic waste, golf/resort pollution, day laborer exploitation, ODA abuse, environmental hormones, you name it - in the deep background always lurked the same cast of mega-corporate villains who ultimately profited from these varied violations. By a slow accretion of formal, informal and financial powers, a few hundred Big Bodies or leviathan "legal persons" now outrank the collective authority of the land's hundred million natural persons in all decision-making centers.</H4> 
+<H4><STRONG>THE DEMOCRACY CHARADE</STRONG><BR>  Let us assume that there are certain fundamental prerequisites for any democratic society. Five generally accepted conditions for government by the people include: free access to information on issues, a means to openly debate them, public recourse to courts to resolve an issue if relevant laws exist, the ability to promptly create those laws if they don't, and local control and accountability of vital institutions like police, schools, tax offices, etc.<P>
+By these standards, I would like to rhetorically inquire where anyone currently sees the hope, let alone the reality of local democracy in Japan. Japan's Freedom of Information laws, in the few places they exist, still remain a joke, statutorily emasculated by administrative "discretion" and "privacy" restrictions. As for forums of public debate, 95% of media access is controlled by either the government or the Big 4 mega-media groups - Yomiuri, Asahi, Mainichi and Sankei/Fuji (who each owe over 87% of their revenue and thus continued existence to Dentsu and their corporate advertisers). This concentration of suborned media power is not peculiar to Japan, but in the West there is a vastly wider range of independent/alternative papers, periodicals and, equally importantly, a commotion of talky FM stations to air and debate unauthorized opinions.</H4>
+<H4>But even if the Japanese public did have all the information it needed on an issue and a forum to clarify its opinion, where are the means to enforce its will? Supposing there is applicable legislation (e.g., against pollution, discrimination, garish development, etc.) and citizens take their plea to the courts, the absence of a jury system ensures that justice is routinely delayed to the point of denial. Citizen class actions suits now typically take decades to settle, with the 33-year-old Minamata community poisoning suit being a poignant prime example. The defendants in such suits are customarily Big Bodies - huge corporations or government bureaucracies - with continually replenished and well paid legal departments, while the plaintiff/victims are generally mortal citizens who tend to age, grow poor and perish in the course of these august proceedings.</H4>
+<H4>But again even if Japanese courts were not in the justice detention business, what if no relevant laws exist? The sovereign citizens also lack basic initiative or referendum rights to propose, amend or abolish laws that affect their daily lives. All the recent brouhaha over referendum movements against dams, airports, dumps and incinerators tends to both dramatize and obscure this fundamental impotence. Prefectural/municipal leaders' consistent refusal to heed public demands for referenda illustrates their wholesale contempt for the powerless public, but even if these referenda were actually held, current Japanese law guarantees they would have no practical effect whatever.</H4>
+
+<H4><STRONG>THE LAW AS IT SHAKILY STANDS</STRONG><BR> Current national legislation provides that if 2% of registered voters petition their local government for a referendum on a specific issue, the mayor or governor must forward their request to the city/prefectural assembly for consideration. If the assembly votes against it, end of conversation. If the assembly approves, the referendum may be held, but the results have no binding legal force. The mayor/governor is simply required to <EM>soncho </EM>("pay serious attention to") the results and then do as he pleases. Not that it ever gets that far. Of the 16 referendum petitions filed directly by citizens over the last 3 years, every single one has been rejected by the assemblies in question.</H4>
+<H4>Defenders of the authoritarian status quo maintain that Japan is a "representative" democracy and thus does not require direct democratic mechanisms such as referenda which they characterize as <EM>shuguseiji </EM>(ignorant crowd politics or mob rule). Elected legislators or <EM>giin</EM>, they hold, are far better qualified to sculpt the social will into public law.</H4>
+<H4>The curious thing about Japanese legislators, however, is that they never legislate. To cite Kyoto as a typical example, not a single bill has been proposed by an assembly lawmaker here since 1957, and given this grim history a 1998 <EM>giin </EM>survey showed that only 40% knew they were allowed to propose laws, let alone supposed to. From top to bottom, Japan's legislation is formulated by unelected bureaucrats in consultation with the country's actual power holders, and these you may be sure do not include the people.<P>
+Because the people themselves are statutorily impotent, aspiring politicians must quickly align themselves with an actual power center if they are to survive and prosper. This has routinely meant a corporate/industrial affiliation and the wild proliferation of <EM>zokugiin</EM>, representatives who lobby for commercial interests at the expense of the people.</H4>
+<H4><STRONG>ONE FOR ALL & ALL ARE ONE</STRONG> <BR>  When not capering on corporate behalf, giin are unanimously subservient to the rule of their Parties. The extent of this subordination was stunningly revealed during this last election when a democratization group I work with was preparing a questionnaire on Kyoto candidates' attitudes toward referenda. We were roundly advised not to include specific questions asking whether a candidate would support a law permitting binding referenda if he or she was elected. Visits to official Party lounges in the City Hall and Prefectural Assembly Building yielded remarkably direct responses: "These are matters of Party policy, not personal discretion."  "There are no individual opinions in this room. We all agree or disagree as one on such matters." "Whatever a candidate may say before an election is subject to later review and reconsideration in light of Party strategy. Asking such questions is meaningless." We were also sternly warned that publishing the results of this survey during an election was a prosecutable offense in Japan as it might "unfairly affect voter opinion" about certain candidates "by revealing their personal opinions". (Flabbergasting but legally true, as is the 10-year-old legal ban on public candidate debates.)</H4>
+<H4>Add to this sorry list of lacks, totally centralized control of local schools, police departments and tax policy and you begin to appreciate local grassroots despair. Perhaps most discouraging is that no one has ever seen democracy in action here since MacArthur strangled it in the cradle in 1949. So-called schooling hasn't helped much either. The fundamental concepts or history of democracy are never even mentioned, let alone experienced in Japanese classrooms. The Ministry of Education defends this startling omission with a cynical tautology: "Well, Japan is a democratic country so to study democracy, we need only study Japan."</H4>
+<H4><STRONG>DARE TO BE NORMATIVE </STRONG><BR> The question is not whether Japan is "vertical-integrated", "horizontal-fragmented" or fits into any other tidy scholastic scenario, but whether commonly defined democratic rights exist here. If it is normative to believe that local communities are wiser stewards of their environment, children, and common future than are Big Bodies, so be it. Besides, the norm here is not any particular country's system but an indelible human ideal that has been dreamed and died for for over 2,000 years.</H4>
+<H4>As an American, I'd be the last to hold up the US government as a prescriptive model of working democracy. Its recent leaders, policies and regulatory bodies have been as starkly subordinate to Big Body sway as any in Japan. The only democracy worth the name surviving in the US (and perhaps all nations of the non-Swiss West) is at the local level, where citizens generally expect and experience a rather loud say in determining their public affairs. Those of us fortunate enough to have experienced that power can bear encouraging witness for those here struggling toward something entirely unexampled in their own political landscape. Like ancient visitors who regaled the natives with tales of unencountered wonders like violins, elephants and electricity, such gaijin can truthfully testify that strange as it sounds, such things as democratic rights really exist, actually work, and could revolutionize Japan virtually overnight.</H4>
+<H4><STRONG>THE WAR WITH BIG BODIES </STRONG><BR> This would not be altruistic goo-goo meddling either. Japan's domestic impotence in the face of bureau-corporate dominion not only threatens their own culture, young and environment, it allows their Big Bodies to ravage unfettered around the world. If you have ever watched or helped foreign groups painfully drag western corporations out of apartheid South Africa, shredded rainforests, or brutal dictators' beds, only to see Japanese clones instantly appropriate their premises, you know the frustration. The Great Game and Work is no longer defined by borders or nationalities, but by a worldwide competition between Big Bodies and human beings for evolutionary control. Even as an "alien", you can play that game here as well as most, and if you affectionately call either Japan or the planet home, you probably should....</H4><CENTER>- End -</CENTER>
+
+</BLOCKQUOTE></BLOCKQUOTE>
+
+
+
+
+</FONT>.<P>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+<H5>
+W. David Kubiak is author/editor of <A href="${BASE_URL}minshuka/nihonni/ad.html">Memes for a New Democracy</A> <BR>and a founder/director of both the <A href="${BASE_URL}issk/">International Society to Save Kyoto</A> <BR>and the <A HREF="http://web.kyoto-inet.or.jp/people/cityhall/kyoto/index.html">Kyoto Initiative & Referendum.Council</A></H5>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+</TD></TR>
+</TABLE>
+<P>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}bulls/alumibar.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}arcmain.html"><STRONG>Back to Main Archives</A></STRONG><BR>
+<IMG SRC="${BASE_URL}bulls/alumibar.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default CityhallKtodem;

@@ -1,0 +1,752 @@
+import { useEffect } from "react";
+
+const KipowerKisoma = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<div align="center">
+
+
+
+
+<TABLE BORDER=0 WIDTH=80%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+<div align="center"><table width="780" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td width="180" align="center"><TABLE BORDER=4 CELLPADDING=3  HSPACE=15 VSPACE=5>
+<CAPTION ALIGN=bottom>Ki Series Part II</CAPTION>
+<TR><TD><IMG SRC="${BASE_URL}graph/kijis.gif" WIDTH=80 HEIGHT=79 vspace="9" ALT="The Ki Character"></TD></TR>
+</TABLE></td><td width="600" align="center"><CENTER>
+<IMG SRC="${BASE_URL}bulls/redblk50.gif" WIDTH=380 HEIGHT=5>
+<H2><U>E PLURIBUS YAMATO</U><BR> The Culture of Corporate Being</H2>
+
+                                   
+                                  <FONT  SIZE="3"><EM>By W. David Kubiak</EM></FONT><br>
+								  <font size="2"><a href="http://www.kyotojournal.org/kjback/kjback05-8.html" target="_blank">Kyoto Journal #6, 1988</a></font><P>
+
+<IMG SRC="${BASE_URL}bulls/redblk50.gif" WIDTH=380 HEIGHT=5>
+
+</CENTER>
+</td></tr></table></div>
+<BR>
+   
+                                   
+            <BLOCKQUOTE><STRONG>If the co-operation of some thousands of millions of  
+            cells in our brain can produce our consciousness, a 
+            true singularity, the idea becomes vastly more 
+            plausible that the co-operation of humanity, or some
+            sections of it, may determine what Comte calls a
+            'Great Being'.</STRONG> 
+  
+                   <BLOCKQUOTE>J.B.S. Haldane, <U>Essay on Science & Ethics</U>, 1932</BLOCKQUOTE></BLOCKQUOTE><P>
+  
+     <STRONG>We live in the age of corporate organisms</STRONG>. Though no formal
+  announcements have been issued it's becoming harder to ignore
+  that they have wrested control of the earth from homo sapiens and
+  supplanted us as the planet's dominant species. It is they - the
+  multinationals, government bureaucracies, religious hierarchies,
+  military bodies, et al. - not individual humans, that generate
+  our era's character - its patterns of wealth & poverty, its
+  technological progress & ecological peril, its entertainment &
+  political agenda. They have, in short, taken over, and nowhere
+  more so than in Japan. <P>
+     Japan in fact owes her incredible power today not merely to
+  management, consensus or monoethnicity, but to her carefully bred
+  population of vast corporate bodies - the most aggressive,
+  efficient, and highly evolved the world has yet experienced. To
+  understand the magnitude of her accomplishment we must first
+  suspend considerable disbelief and try for a moment to take
+  social organisms seriously, not just as a metaphor but as an
+  actual new class of being. Japan quite apparently does, or at
+  least she has intuited their true nature more clearly than any
+  previous culture:<P>
+       <BLOCKQUOTE><STRONG>(1855) "The rulers feed the people and in return the people
+       have a great debt of gratitude toward them. Ruler and people
+       are one body ("Kunshin Ittai")...This is a characteristic of
+       our country alone - ruler and subjects form one body!"</STRONG>
+                       <BLOCKQUOTE> Yoshida Shoin, Edo Philosopher whose
+                        works deeply influenced the architects
+                        of the Meiji state.</BLOCKQUOTE></BLOCKQUOTE><P>
+  
+       <BLOCKQUOTE><STRONG>(1936) "In his everyday existence the average Japanese acts,
+       feels, thinks, decides, as if Japan would act through
+       him...He stands to his group in a relation in which we
+       imagine the life of a cell stands to the life of an
+       organism; or at the very least it approximates to that
+       relation in a degree observable in no other civilised 
+       nation." </STRONG>        <BLOCKQUOTE>Kurt Singer, Professor of Economics,
+                                     Tokyo University</BLOCKQUOTE></BLOCKQUOTE><P>
+  
+       <BLOCKQUOTE><STRONG>(1970) "The Japanese language has no term for the word    
+       leadership... Responsibility is diffused through the group
+       as a whole and the entire collectivity becomes one
+       functional body in which all individuals, including the
+       manager, are amalgamated into a single entity...The strength
+       of this structure lies in its ability to efficiently and
+       swiftly mobilize the collective power of its members. The
+       importance of its contribution to the process of Japanese
+       modernization is immeasurable."</STRONG>
+                         <BLOCKQUOTE>Dr. Chie Nakane, Professor of Sociology, 
+                                          Tokyo University </BLOCKQUOTE></BLOCKQUOTE>      <P>
+  
+     (For now let us confine our fieldwork to Japan's corporate
+  jungles and identify our emergent collective beings quite simply
+  as: "Any large, bureaucratically or hierachically organized
+  social body that persists in time, enjoys at least partial
+  autonomy and economically supports a large number of functionaries, if not all its membership" -  with
+  "large" meaning a number too numerous for mutual acquaintance
+  or direct, face-to-face interaction - arbitrarily, say, 500+.)<P>
+
+     Thanks to diverse terminology and social functions we think we
+  understand important differences between Mitsubishi & the central
+  government, or the Self Defense Forces & the Sokka Gakkai, or the
+  National Police Force & the major yakuza syndicates. But viewed
+  from a sufficient height and distance these vast corporate bodies
+  seem to embody far more similarities than differences. Moreover,
+  they appear to fulfill all the definitional requirements of true
+  complex "organisms".<P>
+
+     All of them, for example, share basic common organizational
+  processes, structures and energy needs; generate psychic
+  membranes that divide their membership from outsiders; take in
+  and process information and nourishment from the environment;
+  specialize, control and outlive their human/cellular
+  constituents; can reproduce, spawning subsidiary bodies; and are
+  primarily concerned with their own survival and growth. In a very
+  real sense they represent a distinct, highly evolved life form,
+  in fact a species if you go by Webster: "Species -  a category of
+  biological classification comprising related organisms or
+  populations...having common attributes, a common name and
+  potentially capable of interbreeding." 
+</TABLE>
+<TABLE BORDER=0 WIDTH=80%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+
+
+     The common attributes abound and history's menagerie of
+  corporate hybrids - commercial religions, ecclesiastical
+  governments, academic businesses, governmental trading bodies,
+  etc. - prove that the monsters are mutually fertile. All that is
+  wanting then is a "common name", something like "dog" that
+  transcends the apparent discrepencies between chihuahuas,
+  bulldogs and great danes to indicate that we are in fact dealing
+  with a single bundle of creation. This is a serious lack for
+  without a clear category for their common existence it is
+  difficult to think of, speak of or visualize them. Present
+  candidate terms are rather clumsy or obscure - megasome,
+  corpocyte, kyoseitai [short for Jp: kyodo seimeitai -
+  "cooperative life body"]. For now we shall limp along with
+  traditional organismic vocabulary (while praying for some gifted
+  reader to invent or offer the fit and final Word).<P>
+
+<HR WIDTH=80% ALIGN=center SIZE=3><P>
+
+     Japan was hardly the first to recognize organismic realities.
+  The biological metaphorics for integrated collective bodies are
+  ancient on both sides of the planet. Politics and medicine were
+  sister disciplines in pre-Han China and the rulers' husbandry of
+  the societal organism was dictated by the same common sense that
+  informed the disciplines of human health and healing. The Hindu
+  Brahmins of the period were also describing their community's
+  castes in terms of the limbs and organs of a physical body (and
+  predictably selecting themselves for the preeminent and
+  metabolically privileged role of the brain). And further to the
+  West, St. Paul was conjuring a new sacerdotal monad, the
+  "mystical body of Christ", that would soon incorporate all of
+  Europe.<P>
+            <BLOCKQUOTE><STRONG>'They [the emerging corporations] have all commodities
+            under their control and practice without concealment
+            all manner of trickery; they raise and lower prices as
+            they please and oppress and ruin all the small
+            tradesmen, as the pike devour the little fish of the
+            water just as though they were lord's over God's
+            creatures and free from all the laws of faith and
+            love.'</STRONG>
+                    <BLOCKQUOTE>Martin Luther, "On Trading and Usury", 1524</BLOCKQUOTE> </BLOCKQUOTE><P>
+  
+     Though Western biological similes were often no more than
+  heuristic conceits (Hobbes' <U>Leviathon</U>, Frank Norris' <U>Octopus</U>,
+  Franz Neumann's <U>Behemoth</U>, etc.) there was obvious foreboding of
+  the organic nature of societal life forms and their increasing
+  power over humans both inside and outside their membranes. It was
+  not until the turn of this century, however, that ethology,
+  biology and social psychology achieved enough sophistication to
+  pursue the analogy seriously. Between 1890 and the 1920's
+  organismic thinking picked up enormous momentum. Researchers in
+  France, Germany and England established the concept of insect
+  societies as "supraorganisms" and began to draw telling parallels
+  between hives, nests and termitaries and highly integrated human
+  organizations. Scores of studies were published on colonial
+  organisms, cooperative life forms and other collective biological
+  realities. The western classics on group consciousness also
+  appeared from this ferment. Schaeffle's <U>The Life & Limbs of the
+  Social Body</U>, Le Bon's <U>The Crowd,</U> and MacDougal's <U>The Group Mind</U>
+  all clearly demonstrated that something psychologically new and
+  evolutionarily significant emerged in human collectives,
+  something far greater than the sum of the parts. <P>
+  
+     At the end of the '20's, however, two obstacles - one
+  political, the other conceptual - arose to derail the entire
+  international inquiry. The political problem was fascism.
+  Organismic thinking seemed to play right into the bloody hands of
+  fascist ideologues. If indeed great social bodies were more
+  powerful than men - outproducing them, outliving them, and
+  supporting vast numbers of them - then they also were plausibly
+  more important. (As an Osaka executive who destroyed evidence and
+  himself to thwart an investigation of his firm wrote before
+  dying: "Please accept this humble offering. I am but one. The
+  <EM>kaisha </EM>[corporation] is many. My life is transient. The <EM>kaisha </EM>is
+  forever!")  <P>
+  
+     The social organism was thus an evolutionary advance upon
+  mankind much as the multicellular animal was an advance upon
+  protozoa. And as a "greater whole" its commonweal "naturally"
+  took precedence over its individual members'. From a corporatist
+  standpoint then, anyone threatening the unity, efficiency or
+  "health" of the collective body could and should be sacrificed
+  with the same insouciance with which we excise a cancer or a
+  gangrenous toe. Eliminating dissidents, in other words, was not a
+  question of morality but of rational social medicine. For Western
+  liberals who tacitly tolerated executions for treason and
+  desertion in their own societies this thinking (and the
+  organismic research that lent it credence) presented an ethically
+  thorny and unwanted problem, especially at a time when the Nazi
+  organism was threatening to engulf all of Europe.<P>
+
+     The conceptual problem was rather more straightforward: the
+  absence of an equivalent of protoplasm to explain what really
+  connects and integrates a social body's members. Language may
+  allow individuals to interact but many mutually hostile organisms
+  can arise in the same linguistic sea. What binds them internally?
+  Group consciousness is fine in theory but what does it really
+  consist of? If nothing can be physically pointed out or
+  quantified, organismic research is mere poetry, unscientific and
+  a waste of time.<P>
+
+
+
+     Neither of these difficulties phased the Japanese, however.
+  Fascism as they understood it was a dandy idea. Didn't it come
+  from the Roman fasces (a bundle of rods with a protruding
+  axe-head) that symbolized social unity (bundle) under state
+  authority (axe)?  Didn't it virtually deify a strong central
+  leader, extoll self-sacrifice and collective effort, and promote
+  belongingness with uniforms, symbols and ceremonies? What else
+  had Japan been working to realize since the Meiji Restoration?
+  Organismic theory of course abetted these efforts and would play
+  an important role in ultranationalist debates on the nature and
+  primacy of the <EM>kokutai </EM>[the mystical body of the Japanese state].<P>
+
+     As for the reality and substance of social bonds the Japanese
+  had the enormous advantage of the ki concept which we discussed
+  at length in the last issue ["<A href="${BASE_URL}kipower/kiarts.html">Ki and the Arts of Sex, Healing and
+  Corporate Body Building</A>", Kyoto Journal #5]. Translated (too)
+  simply, ki means psycho-biological vital force. Ki in the social
+  sphere was seen as the living force of attention or directed
+  consciousness, a force that carried energy from the perceiver to
+  the perceived and tied them together, much as energy exchange
+  bonds atoms and molecules. Social ki, while invisible, is as
+  palpable as the wind to many Japanese and they have scores of
+  expressions to describe its effects upon the minds & bodies of
+  those sending and receiving it. Ki or attention's patterned
+  circulation within a group bonds and integrates the members and
+  determines their collective "structure". The strength and
+  cohesion of any social body is therefore to be measured by how
+  much of the members' ki or attention is devoted solely to the
+  collective and its shared concerns. Attention to strictly
+  personal matters, outside interests, other groups, etc.
+  constitutes a weakening "leakage" of the collective's adhesive
+  energies and esprit de corps. Japanese corporate bodies therefore
+  employ dozens of tactics [company unions, company housing, group
+  vacations, company sports teams, company drinking groups,
+  cemetaries, etc.] to keep members' ki circulating totally within
+  its membranes:<P>
+  
+       <BLOCKQUOTE><STRONG>The <EM>kaisha </EM>[corporation] is the community to which one
+       belongs primarily, and which is all-important in one's life.
+       Thus in most cases the company provides the whole social
+       existence of a person, and has authority over all aspects of
+       his life...[Its] power and influence not only affect and
+       enter into the individual's actions, it alters even his
+       ideas and ways of thinking...Some perceive this as a
+       dangerous encroachment upon their dignity as
+       individuals; others, however, feel safer in total group
+       consciousness. There seems little doubt that in Japan the
+       latter group is in the majority.</STRONG></BLOCKQUOTE><P>
+  
+     Japan does thus seem to know what she's doing and the superior
+  strength and vitality of her organisms (& the peculiar
+  devotion of their members) may be looked at from the overlapping
+  perspectives of genetics, socialization & attention management.<P>
+
+                <CENTER><H3>Population Pruning & Right Wing Genes</H3></CENTER><P> 
+            
+                                
+  Like most other traits and preferences in a natural population
+  the taste for organizational life is randomly distributed. Some
+  people love hierarchical group existence - the uniforms &
+  rituals, the secure routines, the superior/inferior
+  relation-ships, the sense of merging oneself in a larger whole
+  and greater destiny. Others detest it, with the majority falling
+  along the normal distribution curve somewhere in between. 
+     Before the rise of vast socialist/communist bodies the
+  right/left political distinction originally reflected this
+  love/hate spectrum. In early Japan as elsewhere the primitive
+  leftists were fractious, independant types who abhored hierarchy,
+  establishments", authoritarianism and just wanted to be left
+  alone. The rightists were most often joiner types who flocked to
+  regimented security of the military, clergy and other
+  bureaucratic power centers. Since even in those days the big
+  bodies scoffed the lion's share of everything, they occasionally
+  rankled the "little people" to rebellion. But because the
+  anti-authoritarian lefties then as now took orders ungraciously,
+  organized poorly, and were usually decimated in these
+  confrontations, their gene pool slowly began to bleed away.    <P>
+
+     Japan's most ingenious contribution to corporate eugenics,
+  however, was devised during the Edo period. The samurai's
+  kirisute gomen [literally, "honorable permit to slash & trash"],
+  was an open-ended license to kill any commoner deemed "dangerous,
+  disrespectful or offensive" with the same impunity that a breeder
+  culls his flocks of undesired traits. This  terrifying and oft
+  exercised prerogative genetically pruned over 15 generations of
+  the population of its most assertive and egalitarian DNA. Since
+  artificial selection studies on plants and animals repeatedly
+  show that such procedures can create or destroy stable heritable
+  traits in as few as five generations, the contributions of
+  samurai cutlery to contemporary Japanese "groupiness" should not
+  be underestimated. <P>
+
+           <CENTER><H3>Anthroculture: Rearing Corporate-Friendly Humans</H3></CENTER><P>
+
+      From a social engineering point of view, whether or not you
+  have a genetically predisposed population, there are a variety of
+  proven methods to enhance a people's reliance on authoritarian
+  groups and curb their sense of or desire for personal autonomy.
+  Japanese culture presents a curiously comprehensive catalog of
+  such techniques.
+</TABLE>
+<TABLE BORDER=0 WIDTH=80%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+
+
+<STRONG>  The Primal Engulfment</STRONG>: Japanese maternal techniques to cultivate
+  an infant's inherent dependence into a lasting habit of mind have
+  been well documented in recent years. The long shared bed; the
+  preference for soothing, holding, and quieting "we-ness" (over
+  Western stimulating, conversational "you & I-ness"); the
+  reflexive indulgence of pre-schoolers' demands - the "candy black
+  teeth" syndrome; the incessant cries of abunai ["danger!"] that
+  greet the child's explorations of the outer world; the use of
+  lock-outs as punishment (as opposed to grounding or lock-ins in
+  the West) - all affect the child's ability and desire to stray
+  beyond his prescribed social perimeter. <P>
+  
+     The mother/child nexus thus becomes extremely powerful and
+  formative. Sociologists love to footnote this country's carefully
+  dried and preserved umbilicals as Japan's archetypical social
+  tethers. But we can also look at such infant socialization as
+  preparatory "engulfment" or training for incorporation. The term
+  <EM>marugakae </EM>["completely enveloped or surrounded"], for example,
+  refers equally to a baby held in one's arms and to a man at his
+  place of employment. Again Singer offers telling insight on the
+  "insider effect":<P>
+  
+       <BLOCKQUOTE><STRONG>For years the child is carried on the back of the mother, 
+       strapped or carried in a pouch-like fold of her padded 
+       overgarment, sharing in a half-drowsy state her warmth and 
+       her rhythm, robbed of free movement but feeling sheltered 
+       and close to the maternal body which to him means life, 
+       protection, company and goodness... To return to that 
+       semi-conscious state when one was carried to and fro by a 
+       power larger than oneself, appears to remain, even in adult 
+       life, the chief aim of internal discipline and external
+       accomodation.  </STRONG></BLOCKQUOTE>      <P>
+  
+     Most of the recent heavy breathing over Japan's educational
+  "product" has come from the world's managerial class. And if
+  schooling is defined as among fish - incessant attachment and
+  responsiveness to the heading of the group, managers have much to
+  hyperventilate about. Of the two competing drives we each harbor
+  - the drive to belong and the drive to become recognizably unique
+  - Japan's education educes and enhances only the first. The
+  Japanese student is trained to not even question authority let
+  alone challenge it. The only acceptable behavior is obedience -
+  total, enthusiastic and, if possibe, brilliant obedience. Enough
+  has been written on the uniforms, regulations, examination
+  system, peer and parental pressure, etc. that reinforce such
+  submission, but one further point bears mention. <P>
+
+     Students here are virtually never taught or required to speak
+  or write out their thoughts, whether concerning a problem, a
+  policy or a poem. Since independant expression is the primary way
+  we learn to discover and defend our own opinions, and
+  consequently our selves, most young Japanese can tell you "what
+  is thought" but have great difficulty expressing, or placing much
+  importance on, what they themselves think. This creates an
+  extreme permeability to prevailing authority which is probably
+  the true key to so-called consensual decision-making. In <U>Escape
+  from Freedom</U> Erich Fromm details the dynamic:<P>
+
+       <BLOCKQUOTE><STRONG>Recent research on suggestibility and hypnotic phenomena
+       have demonstrated how feelings and thoughts can be induced
+       from outside and yet be subjectively experienced as one's
+       own, and how one's own feelings and thoughts can be
+       repressed and thus cease to be part of one's self... The
+       same holds true of willing. One is struck by the extent to
+       which people are mistaken in their taking as 'their'
+       decision what in effect is submission to convention, duty or
+       simple pressure.</STRONG></BLOCKQUOTE><P>
+  
+     Japanese schooling is thoughtfully designed to enhance this
+  psychic porosity and thus prepare "open minds" for their future
+  groups' in-fluence. But over and above the present system's
+  specifics, we should consider its evolution and how it came to
+  serve corporate rather than individual ends.<P>
+                                
+     Historically a fully competent and creative craftsman,
+  musician, healer, etc. was referred to in Japanese as <EM>ichininmae</EM>
+  [literally, "one full helping of man"]. To become ichininmae in
+  preindustrial Japan was "to attain full adulthood; to become
+  independant, self-supporting - a 'man'." After traditional
+  education ended the master released his apprentice to the world
+  in the <EM>noren-wake</EM> ["dividing the shop curtain"] ceremony that
+  recognized the graduate as <EM>ichininmae</EM>, an independently viable
+  professional. The short term economic competition this created
+  for the master was more than offset by the pride in siring a new
+  talent upon the world. The individuated apprentice had often been
+  with the master since early childhood, and the master's pervasive
+  influence - his cultural transmission - informed the disciple's
+  skills, consciousness and the man he became as deeply as his
+  genetic inheritance. Apprentices were thus not only students and
+  helpmates but cultural heirs. And only by becoming <EM>ichininmae </EM>and
+  achieving creative maturity in their own right, could they
+  continue the evolution of their masters' "lineage".<P>
+
+      This pattern of education breathed enormous life into
+  creative, individualistic professions but it was deathly for
+  non-productive trades and the creation of corporate groups.
+  Dealers, politicians, gangsters, military types, etc. did not
+  have much cultural paternity to propagate in the first place and
+  the prospect of spawning a plague of their competitive "equals"
+  upon the land seemed profitless in the extreme. <P>
+
+     Cultural birth control therefore became a serious concern in
+  these circles. While accounts differ the wealthy Osaka wholesale
+  houses of early Meiji are often credited with the modern Japanese
+  solution: the perpetual <EM>hanninmae </EM>["half helping of man"].
+  <EM>Hanninmae </EM>were essentially stunted apprentices. They were trained
+  to serve useful functions but never permitted to individuate or
+  professionally mature, and thus were obliged to spend their whole
+  lives as dependent and subservient members of their widening
+  corporate group. Yakuza gangs and labor contractors also devised
+  a similar state of suspended social pubescence, the <EM>kobun </EM>["child
+  role" or henchman], a chronic subordinate to the oyabun or
+  a <EM>oyakata </EM>["parent role/person" or boss] who directed their work
+  and lives. Like Japanese women who generally have <EM>ko</EM>, the
+  ideogram for "child", appended to their names, the <EM>kobun </EM>and
+  <EM>hanninmae </EM>were just never meant to grow up. These devoted and
+  docile half-men are the cultural antecedents of the compliant
+  salarymen so much in demand this century. State education
+  eventually stepped in to produce them en masse and their
+  proliferation prepared the ground for the rise of the great
+  bodies we face today. 
+</TABLE>
+<TABLE BORDER=0 WIDTH=80%>
+<tr>
+<td>
+<img src="${BASE_URL}bulls/dot_clea.gif" hspace=15>
+</td>
+
+<td>
+
+  
+<CENTER><H3>The Bonsai Puberty</H3></CENTER><P>
+
+<STRONG> Education & Androgens</STRONG>: The shift from
+  education for individuation to mass corporate anthroculture not
+  only altered human's social roles, it also covertly affected
+  their psychosomatic being. A couple of biological parallels may
+  offer some evolutionary perspective on the process. When
+  multi-skilled and overworked solitary wasps began to dream of
+  specialized subordinate workers and queenly leisure, they
+  "learned" to stunt their first-born larva with special secretions
+  that repressed full sexual maturation and enslaved them to the
+  nest. As long as the mother superior lived, the workers'
+  potential autonomy and desire to found nests of their own
+  remained latent and all their energy was poured into the growing
+  collective enterprise.<P>
+
+     Humans likewise learned that sexually debilitating their
+  slaves and livestock could almost magically increase production
+  and managerial efficiency. Anyone who has ever caponized
+  roosters, for example, knows the fascinating progession of
+  personality and physical changes that accompany the transition
+  from natural bird to corporate broiler. A few days after the slow
+  dissolving female hormone is injected into the cockerel's neck, he
+  gradually stops crowing, then loses assertiveness, and demands
+  less and less private space. Next, sexual activity abates,
+  masculine characteristics (comb and wattles) recede, height and
+  weight increase, and finally the gonads begin to physically
+  deteriorate. <P>
+  
+     While caponization is solely intended to enhance agricultural
+  productivity, human castration was practised as a primitive form
+  of behavior modification. It was first employed in Asia in the
+  Chou period (circa 1000 B.C.) to "keep feudal society orderly".
+  The practice apparently offended early Chinese sensibilities and
+  they continued to experiment with more cerebral techniques. For
+  example:<P>
+
+       <BLOCKQUOTE><STRONG>Confucianism was first employed during the reign of the
+       first Han Emperor, with an eye to introducing etiquette into
+       the Imperial Court. Since the ministers and the generals of
+       the time were rough warriors of humble origin, their
+       behavior at court banquets was hardly appropriate.
+       Intoxicated, they would boast of their achievements,
+       quarrel, shout with drunken abandon, and end up slashing the
+       nearest pillar with their swords. These embarrassing scenes
+       caused the Emperor great annoyance.</STRONG></BLOCKQUOTE><P>
+  
+     Results of these experiments were mixed, and though castration
+  was out of the question for the warrior class, the Chinese later
+  returned to it with a vengeance to staff their great
+  bureaucracies, incorporating over 100,000 eunuchs by late Ming.
+  Japan's leading authority on the phenomenon, Prof. Taisuke
+  Mitamura of Kyoto University writes in his book <U>Chinese Eunuchs</U>:
+
+       <BLOCKQUOTE><STRONG>When examining their strange existence, they were found to
+       be generally neither masculine nor feminine, adult or
+       juvenile... Eunuchs were seldom cruel, and usually were
+       gentle and conciliatory. As a whole, the eunuchs tended to
+       be strongly united, helping each other and standing together
+       against the world. They showed both group consciousness as a
+       "race" and strong opposition to oppression by outsiders. But
+       this was effective only within their own limited environment
+       where they had the power of their master behind them as well
+       as their own tight bonds of fellowship. Outside the court,
+       the eunuchs were about as helpless as babies. </STRONG></BLOCKQUOTE> 
+  
+     The relevence of such descriptions to our modern corporate
+  culture was striking enough for Mitamura himself to warn in
+  closing: <P>
+  
+       <BLOCKQUOTE><STRONG>If it is true that eunuchs were the product of great power
+       structures, then it should be equally true that people
+       similar to eunuchs exist today, for such power structures
+       still exist. We are woven into large nets in one form or
+       another in all areas of society...and now constitute only
+       units in huge organizations... Stripped of our manhood (in
+       that we've become only part of a system)... we are fast
+       becoming eunuchs in a psychological sense.</STRONG></BLOCKQUOTE><P>
+       
+     From a corporate developer's point of view, however, this
+  attenuation of manhood is not an occupational hazard, its a
+  prerequisite to harmonious collective life. Masculinity in its
+  behavioral sense is only another word for male individuality -
+  the strength to conduct one's own appraisals of reality, to
+  differ if need be from prevailing custom, and to generally invent
+  one's own self. In this meaning then, masculine types adapt
+  poorly to the docility, obedience and self-effacing "team spirit"
+  large  organizations demand. <P>
+  
+     All manly individualism is founded on a frail substrate of
+  male hormones called androgens secreted by the testes and related
+  tissue. Their sudden increase in 12- and 13-year-old boys
+  produces puberty and the subsequent rebelliousness, strength and
+  sexual longing of adolescence. Androgens literally mean "manhood
+  producers", and without their activities not only are males
+  "neither masculine nor feminine, adult or juvenile", they are
+  infinitely easier to "unite" with "tight bonds". (When androgen
+  activity is low the male persona, like the phallus, becomes less
+  assertive and defined, ie., more com-pliant.) 
+
+     With androgens in corporate cultures then, less is more - more
+  group consciousness, more social cohesion, more "harmony". And in
+  fact male hormones are astonishingly simple to lessen. <P>
+
+     As feminists archly and accurately observe the evolutionary
+  baseline is female, and men are a fragile evolutionary
+  afterthought (eg., male nipples). Women are physically and
+  psychologicaly more resiliant, longer lived, and at the hormone
+  level too, the force is with them. Female hormones or estrogens
+  given to men can quickly overwhelm androgenic activity, and as
+  the caponization process shows, a little can go a long, long
+  way.   <P>
+
+     It is interesting to note here that certain edible plants also
+  produce estrogenic molecules in biologically significant amounts.
+  The strongest of these occurs in red clover and causes the
+  frequent outbreaks of spontaneous abortion reported among sheep
+  flocks in Australia. The second most powerful, however, an
+  isoflavanoid compound called daidzein, is produced and
+  concentrated in the common soybean. (In the West where few soy
+  foods are traditionally eaten, this is basically agricultural
+  arcana. When cattle-fattening estrogen injections were banned in
+  American, many farmers just increased their soy-based feeds with
+  negligable loss in production.) In Japan, however, soy products
+  are staple foods which the majority of the population enjoys
+  daily. While endocrinological studies on humans have yet to be
+  done, a steady diet of tofu, miso, natto, okara, shoyu, etc. may
+  not be the best regimen for leadership trainees or would-be
+  lotharios.<P>
+
+     Androgens are also suppressed and disabled by fear, anxiety,
+  exhaustion - in fact any prolonged intense stress. Stress
+  hormones are functionally estrogenic - a fact which explains its
+  effectiveness for building group spirit in military basic
+  training, grueling cult initiations, Japan's famous management
+  training ordeals, etc.)<P>
+
+     While concerned executives and military types have funded
+  considerable research into stress effects on their own sexual
+  performance and aggressiveness, virtually no work has been done
+  on behalf of children. The stress levels inflicted upon young
+  students here during the years of <EM>shiken jigoku</EM>, Japan's infamous
+  "examination hell", are among the highest in the world, and bear
+  down upon the boys at precisely the time they are trying to
+  negotiate puberty. Extrapolating from adult studies, stress
+  effects may in many cases be severe enough to miscarry that
+  fateful transition, and psychosomatically fixate the child in
+  very early adolescence. Indeed an increasing number of social
+  critics are beginning to describe many standard "<EM>salariman</EM>"
+  behaviors as maturational disorders - eg., their love of comics  
+  toy guns; their taste for sado-masochism (classicly a juvenile or 
+  pre-sensual form of sex); their poor adaption to fatherhood; etc.
+  (While it might seem strange that this is not a raging issue in
+  local PTA's it should be remembered that most of the castrations
+  in China were voluntary, performed on youngsters seeking high
+  bureaucratic office and overseen by the aspirants' loving
+  mothers.)<P>
+  
+     Though much research remains to be done, the overall
+  impression seems to be that psychosomatically vitiated members
+  make for (and require) the strongest corporate bodies, and vice
+  versa. A physiological perspective on social organisms and their
+  constituents may thus offer intriguing new insights into Japanese
+  society and its corporate superiority.<P>
+
+
+
+</td>
+</tr>
+</table><P></div>
+<CENTER><IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=400 HEIGHT=5><BR><BR>
+<A href="${BASE_URL}kipower/kiarts.html"><STRONG>Part I</STRONG></A>   |    <A href="${BASE_URL}kipower/mindbind.html"><STRONG>Part III</STRONG></A>   |    <A href="${BASE_URL}arcmain.html#kipapers"><STRONG>Main Archive</STRONG></A><BR><BR>
+<IMG SRC="${BASE_URL}jclu/images/jclulin.gif" WIDTH=400 HEIGHT=5></CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default KipowerKisoma;

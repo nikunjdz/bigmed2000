@@ -1,0 +1,302 @@
+import { useEffect } from "react";
+
+const AnthcultMyers = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<CENTER>
+<FONT  SIZE=2><EM>- The Annals of Anthroculture -<BR>The artful science of raising humans for terminal incorporation</EM></FONT><BR>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=450 HEIGHT=7 VSPACE=2>
+<H2> Environmental Hormones</H2>
+<H3><A NAME="toc">Nancho</A> Consults Dr. John "Pete" Myers<BR>Co-author of Our Stolen Future and Director of the W. Alton Jones Foundation</H3>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=450 HEIGHT=7 VSPACE=2></CENTER>
+<P>
+<BLOCKQUOTE><FONT  COLOR=#BF0000><STRONG>Nancho Advisory:</STRONG> 
+
+
+ </FONT></BLOCKQUOTE>
+<FONT  SIZE=4>
+<HR WIDTH=90% ALIGN=center SIZE=4><P>
+<H4><FONT  COLOR=#620000><STRONG>Nancho</STRONG>:
+
+This debate on hormone disrupters or environmental hormones, as the Japanese call them, is suddenly everywhere - on the talk shows, in the newspapers. What are environmental hormones and why should we be concerned about them?</H4> </FONT>
+
+<BLOCKQUOTE>Pete Myers:
+Well, I think it is appropriate that the concept should be everywhere because environmental hormones are everywhere. Let's begin with that. Environmental hormones or endocrine disrupters or hormone disrupters are compounds, many of which are synthetic, that interfere with the natural role of hormones in regulating the development of organisms as they grow from an embryo to adulthood. A developing human fetus, for example, is like a sponge for chemical signals telling him how to grow, what to become. Those signals come from its genes, and they come from his mother under normal circumstances. The embryo receives them and they help that embryo decide in a sense whether or not to become a male or a female. or figure out how many fingers to have, or how to wire its brain. These chemical signals naturally coming from the genes are absolutely crucial in determining the organization of that individual as he or she or it is growing to maturity. <P>
+
+Environmental hormones or endocrine disrupters - at least some of them - are compounds that humans have synthesized and we have relatively recently discovered interfere with that message system, that chemical messaging system, which is directing the development of life. It is kind of like if you driving in a car and you have a cell phone, I don't know if this metaphor will work in Japan, but if you have a cell phone and you don't know where to go and so you decide to call who ever it is whose house you are going to. You say tell me how to make it through the next intersection or how to reach your home. And so you are driving along and they say turn right and then they say turn left and keep on straight for four blocks, and all of a sudden there is a big burst of static just at a crucial moment as you are driving and so instead of turning right you turn left. That is the disruption of a signal that leads, in this case, to a car taking a wrong path. Fortunately that car can turn around and you can go back. <P>
+
+What happens when a chemical disrupter interferes with chemical messages that are naturally telling the fetus how to grow is they push the developing fetus off in the wrong direction and it can't go back. Development is not a process that you can reverse. These are permanent changes in development. What they do, what they have the potential of doing depending upon the nature of the chemical, the amount of the chemical, and the timing of its delivery is that if they can have an impact on intelligence and behavior, on reproductive capacity and on the ability to resist disease. In shorthand, they can make you sick, sterile and stupid. <P>
+
+They don't all do that and frankly the science on a lot of this is quite uncertain, but we have seen enough evidence from wildlife and from laboratory experiments with animals to know that they are very plausible end points. <P>
+
+That then takes me to the question of where is it appropriate in society to be doing these experiments. Here we are releasing chemicals into the environment - because they are getting into the environment and they are getting into mothers and they are being transferred to the fetus. We have had a number of papers here, and there are posters here, that document that. By default we are performing experiments in our developing kids. I don't think that that is an appropriate place to do it. I think it is much more appropriate for the people who are interested in using those compounds or in making money from those compounds to be performing exhaustive experiments, laboratory demonstrations of safety prior to releasing the compounds into the world. </BLOCKQUOTE>
+
+<FONT  COLOR=#620000>
+What is your involvement in this?</FONT>
+
+<BLOCKQUOTE>Myers:
+It's a long path. My background is as a research ecologist. I study the population biology of birds, that is what my Ph.D. is in, and in the early seventies I was studying in California at the University of California at Berkeley. And I had a colleague who was at UC Davis, and he had discovered that when small levels of DDE were injected into the eggs of gulls, it feminized the gulls that were exposed to that compound. The male embryos that were exposed in this experimental situation grew up partially feminized, partially deformed etc. This study had been done because it had been noted in the field, in the area around Los Angeles, particularly around the channel islands, that there were colonies of birds in which there were females pairing with females. So when they found female-female pairing, people were asking why is this happening. For a while they were thinking that it might be some natural evolutionary response to the shortage of males for whatever reason. It happened that that area was already known as being heavily contaminated by DDT because there was a big plant producing DDT in Los Angeles. Throughout the fifties and the sixties it was releasing DDT into Los Angeles, into the ocean near Los Angeles. That DDT concentrated in the food chains in these islands and the contamination led to large-scale declines in a number of bird species. So there were people studying this contamination. The person who noted this female-female pairing asked some questions, thinking well maybe it is related to this contamination. And so a neuro-pharmacologist from Davis stepped in and performed these very, very important experiments. And I saw that, because I knew the people doing the work. <P>
+
+I was fascinated, because it rang a whole bunch of bells for me, you know, what does this mean for people? What does this mean for other species who are exposed if this type of contamination can affect things that are as profound as the determination of whether an organism grows up to be a male or a female. That is pretty fundamental. I had spent a bit of time - this was in about 1975 - asking, "well, do we know enough at this moment to extrapolate from these data to people or to mammals?" And we didn't. <P>
+
+I didn't want to be a chemist at the time and I moved to another area of research. But that issue moved along a bit and it appeared to be resolved that contamination did have to do with the decrease in the numbers. The female-female pairing was a result of a decrease in the numbers of functional males. The number of functional males had been decreased by this feminization process in the population. <P>
+
+By the late eighties, I was studying bird migration and I was studying a species of bird that had decreased by ninety percent. It was a species that migrates from the high North American Arctic to Chile and Peru. I was working on them in Chile and Peru and tracking their migration pathways to the Arctic, wondering, or trying to figure out why this population decline had occurred. As I was there I came to learn that these birds concentrated at the mouths of river valleys in Peru that were heavily agriculturized. It was quite striking, because you would walk along the coast and you knew you were getting close to a river valley because you were overwhelmed by the smell of pesticides. You could smell it, it was that thick. <P>
+
+I began to think about the physiology of migration in birds. In essence, a bird puts on a lot of weight prior to migration and then it burns the fat during migration. That is how it energizes itself, it is the fuel it uses to fly. This particular species fly three or four days non-stop - seven thousand miles. And as it does that it reduces its weight by almost fifty percent by burning the fat. Well, these pesticides concentrate in the fat. OK, now the bird eats something that is contaminated with pesticide. They pick up the pesticides that have chemical characteristics such that they concentrate in the fat. And as they burn the fat during flight, the pesticide is liberated. Well, in a bird when you are decreasing body fat and you let these compounds loose in the blood, they concentrate in the brain, because the brain is the other big source of lipids, where the compounds concentrate. <P>
+
+So I began to ask, "well, to what degree might this disappearance be related to a decline in migratory competency? Are they just going off in the wrong direction, falling in the ocean?" I began to look at that. Again there was no research and there still isn't enough research to answer that question, but at that time I was giving lectures about this and I met a woman named Theo Colburn who came up to me after a lecture and said, "we have got to talk because you are talking about things I am very interested in." And that started a ten-year collaboration with Theo, who is the senior author in Our Stolen Future. <P>
+
+She was at the time looking at a variety of wildlife debilities in the Great Lakes region in the U.S. and realizing that they were falling outside the focal concern of the moment which was how contaminants cause cancer. These things were not suffering from cancer, they were suffering from developmental disabilities that have nothing to do with cancer. In essence, I started working with Theo. I created a job for her at the foundation that I direct She and I worked there for several years together and began to learn a lot about the science you are hearing about today.   </BLOCKQUOTE>  
+
+<H4><FONT  COLOR=#620000>
+Japan's incredibly intense interest in this can essentially be dated from the translation of your book <A HREF="http://www.amazon.com/exec/obidos/ASIN/0452274141/002-7792184-8613222">Our Stolen Future </A>which came on the Japanese shelves when, in August or September of 1997 ...</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+No, actually it hit Japanese shelves in December of '97. I came here to Kyoto a year ago for COP 3, and I had twenty advance copies of the book. I couldn't get anyone to take them. I had twenty advance copies of the Japanese edition, and I couldn't find anyone who wanted them, so I gave them to some people I knew, people from Friends of the Earth .....</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+But the book has spurred incredible interest in the Japanese public recently and this has ramified through the government till now you have this big conference here. Could you explain the central thesis of the book and what trouble you ran into after publishing it, how it was received?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+The basis of the book is evidence coming from wildlife and laboratory studies and isolated populations. It is well studied small populations of people who were exposed through industrial accidents or medical mistakes - the evidence coming from those three different sources tells us that certain types of chemical contaminants, endocrine disrupters, are capable of causing developmental disruptions in people that relate to disease resistance, intelligence and fertility and reproductive capacity. And the book reviews the well known science coming from those sources and then asks a series of questions. In essence, we say if this is true, then what pattern should we be looking for in people at large? And we raised a number of questions. We identify the relevant science and try to identify the uncertainties about what can be concluded from that kind of science about people in general and what can't, what research would be useful to help resolve the unknowns that we acknowledge remain.<P>
+
+The book has a section which in a sense says, "look, these risks are plausible and in some cases they are well demonstrated." Many people might wish to reduce the risks they themselves run personally. And so there is a section in the book about different steps that people can take to lower their exposures. There is also a section about recommendations that we make for additional research and appropriate governmental policies given what is known and what is not known at this time. That is the basic outline of the book. <P>
+
+The reaction in the U.S. was quite different from what it was here. We were hit by industry even before the book published. They got an advance copy of the book somehow. They had press releases out before the book came out. They engaged in a full scale disinformation campaign trying to undermine the thesis of the book and they were really effective.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+Industry being?</FONT></H4>
+
+
+<BLOCKQUOTE>Myers: Industry being representatives of the manufacturers of polyvinyl chloride, the trade associations such as the Chemical Manufacturers Association, the Vinyl Chloride Institute, the Chlorine Chemistry Council. Trade associations especially of those industries whose products include a number of things that have been clearly identified as endocrine disrupters. They looked at pieces from the book and they recognized that there are some fundamental aspects of the science about endocrine disruption that differ markedly from traditional toxicology and represent much larger threats to their way of doing business then anything they have encountered in the past. Those key differences have to do with the level of exposure, the nature of the impacts, and also the fact you can't predict low dose effects from high dose experiments. The whole regulatory structure in the U.S. is structured around simplifying laboratory experiments by using high doses on laboratory animals over a short period and assuming that that gives you a picture of what low dose effects will be. <P>
+
+What we know from the science - and you will hear Fred Vom Saal talk about it later today - is that there are certain types of effects that only appear at low doses. And this is a very complicated issue. It is a new part of toxicology and in fact it comes about because the science of endocrine disruption merges endocrinology and toxicology. It is one of these classic examples where something at the interstices of two disciplines hasn't been looked at. Endocrinologists by and large weren't interested in toxicology. Toxicologist didn't know much about endocrinology. It was only when you created an interface between those two fields that you began to ask some very sophisticated questions about the non-traditional impacts, the non-cancer endpoints, and non-cell death impacts of contaminants. Does that make sense?</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+So what was the final effect? The industry came out against you, they started circulating disinformation and discrediting you...</FONT></H4>
+  
+<BLOCKQUOTE>Myers:
+Yes, which has continued until today. As recently as a month ago, there was a major broadside against us in an article in Forbes magazine called 'Truth Imposters,' misrepresenting the book and misrepresenting the science of a number of people here.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+So what was the impact?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+Fortunately, well, the impact took place at two levels. The disinformation, which was done very, very intelligently I think, managed to squelch any broadscale public interest in the book. In particular there was an article in the New York Times that appeared in April of 1996, about a month after the book came out, that criticized some of the book's material on changes in sperm count. It was written in a way that ignored a lot of the science around the issue and focused on several skeptics who are purported to have data showing there is no sperm count decline. That article then discouraged mass media from carrying stories about the book, even though the sperm count issue was only a small part of what was in the book. Even though the New York Times coverage dramatically misrepresented what the real state of scientific understanding was, that in essence changed how the book itself was received. <P>
+
+On the other hand, the scientific community was really stimulated both by the book and by the increasing attention being paid to some of the issues, some of the science that we wrote about in the book. That has not stopped, that has increased. That if anything gives me some degree of optimism about what is going to happen as long as public moneys remain available for research on this issue, at least in the U.S. Just as in Japan, in the U.S. there has been a big expansion in the public moneys available for research on this issue, and at least in the U.S., I have some confidence about the way that that's being applied by the National Institute of Environmental Sciences - they are the research wing of the EPA - and by the academic labs that are receiving public money. I have less confidence in those places that are receiving moneys from industries to carry out the research. I think while there are certainly some good scientists who work for companies, the irrefutable picture overall is that, on average, research coming out of companies - out of scientific labs funded by companies that have vested interests in the findings - they tend to find results that minimize the health impacts of their products.  </BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+How do you understand the apparently enthusiastic response of the Japanese government to this field?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+I'm not sure, I look at it and marvel. I find it encouraging at one level. And I think it must ultimately rest in the interest in the Japanese people. I can't imagine that the Japanese government by itself would take an interest unless there was some sense there was real public interest in the issue. I monitor the Japanese press from the States, at least what is published in English magazines and newspapers. It is clear there is interest, dramatic interest, so I think the government is responding to that. So then the question really becomes, why is there such dramatic interest in the Japanese public? And you can tell me if this is right or wrong, but my sense is that there has been a cultural experience in this country of a number of cases, dramatic cases, that have involved widespread fetal deformities - well understood, undeniable things like the Minamata and Hiroshima cases where people saw their babies being deformed. And my sense has been that it is very deeply understood by a broad sweep of the Japanese public. So this issue fell upon that cultural context and made sense. <P>
+
+That is one thing. Secondly, there is undeniably contamination in Japan by endocrine disrupters. Some of the dioxin levels that are being measured here are very high. A part of this whole story is plastic, and the fact that we are discovering that certain types of plastics leach endocrine disrupters into the food. Well, I doubt whether there is a country in the world in which plastic plays a more ubiquitous role in the lifestyle than here. <P>
+
+You know, you raised some issues in your question yesterday about societal changes that are taking place (juvenalization, political apathy, sexual dysfunction) that are actually valid if you look at the behavioral research on people. The studies that were reported yesterday on kids growing up around Lake Aswego and the latest studies on animals - there are pieces within that science which are consistent with the caponization hypothesis which you put out there. All those factors contribute, I think, and my understanding is that there is ground level sensitivity in Japan to the fact that there have been some fairly big changes in how people relate to one another here. So I think that there are a number of factors like that that meant there was a pre-existing cultural receptivity for the message of our book and it basically lit the fire for which the fuel is already present.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+The Japanese industries are reacting fairly rapidly as you probably know. There are already piles of disinformation on the press tables here and
+you have encountered so much industry resistance. How much is this going to cost them? I mean, what kind of economic impact is cleaning up environmental disrupters going to have?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+I think It depends upon how you measure economic impact. In fact it can be a boon to the economy because people will buy the replacement products. I speak a lot to the public on these issues. I accept invitations from industries to address industry trade associations. My wife insists when I do that I wear a bulletproof vest except that she forgets that I am making jobs for all these people, for all the PR flacks and lawyers who are trying to defend the companies. A lot of people have gotten jobs attacking the book. So I accept speeches and I will never forget one speech that I gave to something called the Society for Plastics Engineers in Camden, New Jersey about two years ago, and it was a very confrontational interaction. I gave my usual set of comments and there were people seated in the audience to hit me with the usual questions that seem to follow me and my other co-authors around quite predictably. And after this interaction most people left but two men remained. They were quite large, and they started coming towards me, and this was Camden, New Jersey. I remembered Camden's probably most famous for being a good place to wind up in concrete in the river. So I was wondering if we were moving into a new phase of interaction but they came forward and said, "we really like what you are doing." It didn't instantly compute. I said, "excuse me, you what?" They said, "well, we like what you are doing. You are making certain plastic commodities unsellable in the market, and we got the replacements, and we are going to make a lot of money." <P>
+
+So I think there will be product lines that will be discontinued, but there will be other product lines that are started again with better information. A part of the problem is because no one was thinking of a toxicology model that combines endocrinology and toxicology, there is a whole series of questions that weren't answered, end points which weren't examined, which meant that people weren't designing products with the right designing criteria. And I am convinced that at least a part of the solution involves giving companies a better set of design criteria, saying we don't want endocrine disrupting compounds in products that we bring into our homes and expose our kids to. And if we are clear about that, and the science is adequate, those products can be designed and companies will continue to prosper by providing things for people that they want. So I think that the economic arguments against dealing with this in a forthright way are surmountable.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+Science can conceivably respond in terms of future products, but we are also talking about the retroactive effects and the clean-up, the potential class action suits, doesn't that pose a major threat to a lot of people ...</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+I don't know what the numbers are. It may. It very quickly moves outside of the realm of pure science and becomes an ethical issue. It becomes an issue as to what society is willing to impose on its citizens, particularly on the most vulnerable portions of that citizenry, particularly on children, and it becomes a question as to what we are willing to pay</BLOCKQUOTE> 
+
+<H4><FONT  COLOR=#620000>
+But industry is actively attending this conference, for example, and you saw their flyer out in the hall saying that styrene cups for cup noodles are no threat whatsoever.</FONT></H4>
+<BLOCKQUOTE>
+Myers:
+That is an interesting paper. I can't read Japanese but I understand that is being promoted first as contradicting Our Stolen Future, because they say Our Stolen Future called styrene estrogenic. Well, in fact we do not call it estrogenic. It is not estrogenic in so far as I know. It does have neuro-endocrine effects, however. Their study simply addresses that one suite of hormone end points, it addresses estrogen effects. It ignores completely the effects it does have. In fact, the reason why Our Stolen Future mentioned styrene was not because it had estrogen effects. It is a classic example of industry holding up the flag in one area when the truth lies over in another place, and using that flag to distract people from the truth.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+OK, one of the major audiences for the book has been the NGOs that have been working in environmental reclamation and protection What kind of information flow is there right now between the scientists and the NGOs? How do you see them maximizing the effects of your research?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+NGOs in a number of countries, a range of NGOs are absorbing information about this issue and instructing their memberships about this stuff so they can take steps as people to avoid risks, as well as organizing efforts to change public policy. Probably the most constructive efforts on changing public policy right now relate to transparency issues. I don't know how this plays in Japan, but in the U.S. there is a big push on to implement what are called right to know laws. In essence, to get back to plastics for a moment, you go to the supermarket and you have a choice of plastic containers to buy. You live in a microwave society so you are going to use these things to microwave your food in. But right now you go to the supermarket and you can't tell from the label whether the plastic used in this one or that one are safe to use in a microwave. Some probably are safe, some almost certainly are not. But you as a consumer don't know which ones are and which ones are not, and that is true not just for plastics used in microwaves but for a wide variety of consumer products. Like whether kids toys contain or don't contain plasticizers, of course they are a wide range of products. <P>
+
+We think that one of the most effective tools for creating an environment in which industry responds appropriately to these issues is ensuring there are product labels that allow people to choose, because mothers will choose things that will minimize the risk for their kids, period. Mothers will act in the face of uncertainty to minimize risk in general. That's an incredibly powerful tool sending economic signals to industry about what it is consumers want to have and the things they are buying. <P>
+
+In California there has been a ballot initiative called Proposition 65, which basically has developed these right-to-know laws in the context of cancer causing compounds. And there has been a huge effect in terms of shifting the design of products away from things that include materials that cause risks. That is true in California. There is an effort now being made to extend that nationally. It would also be quite an useful step here, particularly given the wide scale public interest in this issue.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+OK, but there is also a strong industry push in the other direction. For example, Monsanto has lobbied the government heavily to suppress any information about the use of their recombinant bovine growth hormone in dairy cattle.</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+I know that there is pressure in the opposite direction and that is one of the things that the NGO community is expecting to fight for all it is worth. In the U.S. quite recently, at least in these last couple of months, there has been a big battle waged on plasticizers in kids' toys and it reached a boiling point about a month ago when the ABC show 2020 had an expose on plasticizers used in kids toys and the role of government and particular companies in pushing European countries not to ban thallide, the plasticizer, in kids toys. As shooting for that show was coming to a close and ABC was attempting to interview the heads of Mattel and other toy manufacturers, manufacturer after manufacturer made public commitments to get thallides out of kids' toys, because they were concerned that the consumer response to their products would be devastating. So it can work and it works through a committed combination of public education and NGO organizing around issues like that. I don't know the NGO community here or how well they function in efforts like that. My understanding is that it is far less confrontational, far less effective...</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+Yeah, the groups are very vegetarian around here. But since such a large portion of this is information and enlightenment activity, the mass media's role would seem exceedingly important. What has been their track record so far in the States?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+It has been mixed. I mentioned the New York Times earlier and unfortunately the New York Times is the seal of approval for a lot of mass media. They follow the lead of New York Times. This coverage has been all over the map. There have been excellent stories in virtually every big paper including the New York Times. There have also been bad stories. I am encouraged given the fact the stories continue to come out, showing that the risks aren't going away, showing in fact that there is a consistent pattern, that we are discovering new risks. We are thinking about new systems, we are asking new questions, and the science that is coming out is even identifying places where this risk may not be as large as we had thought. For example, the conference discussion today of the role of excreted contraceptives in feminizing fish - this shows there are other things clearly involved in all this, but the picture that is emerging is that the risks are real. The science is growing and I think if I were in industry and I was looking at the range of laboratories that are working on this issue, I would be scared because they are each going to nail different parts of the problem.</BLOCKQUOTE>
+
+<FONT  COLOR=#620000>Personally when you look at the problem what gives you the greatest feeling of urgency? What would you like to see tackled hardest and quickest?
+
+<BLOCKQUOTE>Myers:
+The two things that give me the greatest sense of urgency - one has partly been mentioned here, one hasn't been... No, both have barely been touched on here, and they have to do with the effects on disease resistance and on intelligence and behavior. I think that based on the work by Tom that was presented yesterday and related things I think levels in the human population at large are high enough now to have contributed to an erosion of our ability to deal with complex problems just at a time when our societies need to be smart and sharp and on top of things as possible. </BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+You mean it is dumbing us down?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+Yeah. I think so. Now the science on that is uncertain, but as I look at what is out there, particularly as I look at Darvil's work, Jacobson's work, and you compare the levels at which they are seeing effects to average levels in the population, I think ...</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+Could you summarize it in a few words for people who cannot read the research?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+What some very excellent studies have found is that relatively low levels of PCB exposure experienced by the developing fetus, levels that are not that much higher than the average population exposures in the US, cause reductions in IQs, cause slower learning ability, as much as two-year retardation in reading ability at the age of eleven in the US. I also think that there are serious animal data suggesting attention deficit disorder is related to certain types of contaminations - clearly related to lead, probably related to PCBs. All those behavioral issues, they are a lot of the things that make me worry. I think the effects are probably real.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+And for young people, well, for anyone, but particularly for young people who are old enough to be aware of these things, could you summarize just how they might reduce their exposure or risk? Or is it too late?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+No, no. I think they need to think about their children. A girl who is ten or twelve needs to be thinking about her children right now and constructing a lifestyle that minimizes the risk for that as yet unconceived child.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+What are the features of that lifestyle?</FONT></H4>
+
+<BLOCKQUOTE>Myers:
+Eating low on the food chain, avoid animal fats - that is the principal source of dioxin in the diet. Dioxin and PCB - the principle source is animal fat. I would demand that my local water supplier test the water for endocrine disrupters and then I would find sources of water that didn't have them. I'd eat fruits and vegetables in season, because the ones that are out of season are being imported from areas where the standards of pesticide regulations by and large are going to be less stringent then they are here in Japan or in the United States. So there are a lot of dietary things that one can do to minimize one's risks and for the kids that are yet to be born. The thing about the PCB contamination study was that the relationship was between intelligence and lifetime consumption of fish, contaminated fish, prior to pregnancy. You can eat uncontaminated fish. Find out where your fish is from. Deep ocean fish is fine.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#620000>
+I guess because of your interest in migratory patterns, you have also taken quite an international interest in this problem. We noticed yesterday that most of the research shows American statistics or European statistics, and then everybody else is thrown into one big bag. What kind of impact do you see on the Third World, knowing their agricultural chemical policies?</FONT></H4>
+
+<BLOCKQUOTE>Myers
+The impact is enormous. There was an amazing study that was published last year that will stagger any mother or father looking at it. It was of kids living in Mexico in two adjacent areas, one that was more or less ranch land and one that was agricultural land. The kids on the agricultural land were living in the midst of very intensive spraying, and the researchers did a very simple test. They asked the kids at the age of four to draw people, "draw me a person." The kids living on the ranch land, who were ethnically the same as the ones living on the agricultural land and had more or less the same diet, those kids could draw stick figures just like any normal kid can. But the four-year-olds living in the agricultural fields you couldn't recognize what they were drawing at all. It was so evocative...<P><CENTER> - End -</CENTER>
+<P>
+<FONT  SIZE=-1 COLOR=#400000>Nancho Rep: W. David Kubiak</FONT></BLOCKQUOTE>
+<P>
+
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<CENTER>To Consult Him Thyself, Check into the<BR> <A HREF="http://www.wajones.org/wajones/" target="_blank">W. Alton Jones Foundation</A><P>
+or Better Yet, Read the Book:<BR>  <A HREF="http://www.amazon.com/exec/obidos/ASIN/0452274141/002-7792184-8613222" target="_blank"> Our Stolen Future</A></CENTER>
+
+
+
+
+</FONT><P>
+<HR WIDTH=100 ALIGN=center SIZE=3>
+<CENTER>
+<A href="${BASE_URL}arcmain.html#anthrocult">Back to<BR><STRONG>Anthroculture</STRONG></A></CENTER>
+<HR WIDTH=100 ALIGN=center SIZE=3>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AnthcultMyers;

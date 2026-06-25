@@ -1,0 +1,261 @@
+import { useEffect } from "react";
+
+const FdlapKashmirHapkash = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<BR><BR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3>
+<H3>"FROM CANTONMENTS TO CANTONS"<BR>- A Modest Proposal for Kashmir</H3> 
+<H4>Specially invited presentation at the Kashmir Panel of the <BR>UN Hague Appeal for Peace Conference, May 11. 1999<BR>
+by Kathy Arlyn Sokol
+</H4>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
+</CENTER>
+
+
+	<FONT  SIZE=4>
+<BLOCKQUOTE>
+I am always overwhelmed at international conferences like this by the awesome amount of effort, expense, paper and jet fuel these events consume. Our supporters, our hosts, our planet are all paying a great price to bring us together here and I truly believe that we should not be allowed to leave these events until we make some equivalent contribution on their behalf. I would like therefore like to at least suggest a few new areas that we might explore to find such a contribution.<P>
+
+For my part, I didn't come here to speak only for Kashmir, because I think quite similar problems afflict many peoples throughout Asia who are seeking fair democratic control of their social and natural environments. <P>
+
+I do intend to speak about Kashmir, however, first because it is the tragedy I know best. Second, because there are enough commonalities between Kashmiri suffering and impotence and that of other oppressed peoples to illustrate some important patterns and possible solutions. And finally because after visiting and studying the state, I've come to share one of Kashmir's most sacred beliefs - the conviction that their struggle will one day generate a great light that will illuminate the future of Asia. Whether that brilliance will be democratic or thermo-nuclear, however, is what we must help decide today. <P>
+
+My own experience and knowledge in this area are admittedly still quite shallow. I have visited Pakistan and India several times as a journalist, and just happened to be in Srinagar when one of the first big hartals or city-wide strikes was called in 1990. On the most recent trip last August, I took a film crew to Kashmir to document the voices of the independence movement. We spent 4 weeks talking to villagers, leaders, fighters and victims on both sides of the Line of Control. We were outsiders to be sure, but after a month confronting the ubiquity of Kashmiri suffering, courage and hope, we learned a surprising amount. I was particularly startled by three remarkable features of this conflict. <P>
+
+<UL>
+<LI>First, here was a religiously and ethnically diverse population actually striving to stay together rather than fractionate or melt into more ideologically uniform neighbors. 
+<LI>Next, there was the increasing talk among movement leaders of introducing the most radically democratic government model ever spoken of in Asia. 
+<LI>And finally there was the simple, breath-taking realization that the majority of Kashmiris still really do dream of independence.
+</UL>
+
+
+To document this last extraordinary fact, I would like to invite your attention to a <A href="${BASE_URL}fdlap/kashmir/outlook.html">heroic Kashmiri public opinion survey </A>conducted in 1995 by Delhi's Outlook magazine, which shows pretty clearly why such polls are generally banned all across the state. The Outlook poll was intelligently designed, extensively sampled, and demographically balanced. It was, in short, scientific. Therefore, if the voices of history, intuition and personal experience are not authoritative enough, we now also have science telling us that most Kashmiris still, still want to be free. 72.4% of them to be exact. After decades of systematic attack on independence advocates by both Indian and Pakistan sponsored forces and amid the densest occupation force in human history, this is a phenomenal response, truly phenomenal, and it must be the basic reference for all our deliberations here today.<P>
+
+Although it is true that we must know history to avoid repeating it, it is also true that everyone seated here in good faith already knows enough horrific history from this struggle. That's why we are here in the first place. And today rather than review that history or update it with news of fresh atrocities or recriminations, why don't we spend our few precious hours of convergence focusing on a way out. <P>
+
+If we are going to talk about history at all, let us concentrate on the patterns, and note that one of the greatest recurring problems Kashmir has faced is the ironic fragility of concentrated power. Once power coalesces in a single leader's hand, he becomes a visibly convenient target for bribes, threats or hubris. But even if he isn't broken in prison, shot or corrupted, he still gathers all public and media attention to his person and as we all have learned attention confers great power. <P>
+
+Where attention is withheld - as the world media has withheld attention to Kashmir these last 50 years, a great darkness falls and the local people have no power whatever - they can't be seen, they can't be heard. But even within the land something strangely similar can happen when all eyes are upon famous leaders. As everyone looks toward such leaders' grand gestures, the darkness continues to fall upon ordinary citizens, who still can't be seen or heard, who still play no role at all.<P>
+
+So we might say that two of our challenges here today are to finally attract the power of world attention to Kashmir's suffering and to also divert some of that power back into the hands of its people. For only when power is distributed far more equitably there will the Kashmiris' long struggle be finished and their dreams of democracy come true. And that is what this issue really comes down to - the basic justice of democratic rights, and why it is so fitting we are discussing it here in the Hague, the planet's greatest shrine to these values.<P>
+
+I like to think most of us sitting here truly do believe that democracy is our last best hope - not democracy as it is paraded in the million dollar corporate elections of the West or the forced choice charades in the East, but as it was originally conceived, as it is emotionally understood and, by the grace of history, as it actually exists, right now, next door in Switzerland. Radically decentralized people's power is a vindicated working fact in Switzerland, which after a century of direct democratic experience is clearly it a quantum leap ahead of any other so-called democratic society.<P>
+
+And that is why the new conversations I have heard in Kashmir about Switzerland are so hopeful and so revolutionary. This talk is not the tourist brochure froth about Kashmir as the Switzerland of Asia or the wistful envy of Swiss neutrality. This is serious talk about the open secret of Switzerland's continuing strength and sovereignty - its profoundly democratic political system. <P>
+
+I have distributed a <A href="${BASE_URL}fdlap/swissdd1.html">brief description of  the Swiss system</A>, but allow me to restate its high points. Power in Switzerland is distributed among 26 virtually autonomous cantons and more than 3000 semi-autonomous communes. Within these linguistically, religiously, and ethnically diverse communities, the citizens directly control their schools, police and natural environments. They also have a powerful voice at the national level. Any time 50,000 Swiss citizens - less than one percent of the population  - so desire, they can force a public vote on any law proposed, passed or amended by the federal government. With 100,000 signatures, they can submit new laws of their own or even Constitutional revisions to the nation for a popular vote. And the results of that vote are binding and final. There is no higher authority that can delay or abort the people's will. Swiss citizens are truly, actively sovereign. They actually can and do rule their communities, states and country.. <P>
+
+Since the days of the ancient Greeks, this is what democracy has always really meant - a system wherein the demos or people of an area directly held kratos or ruling power over their own lives. Although elitists and authoritarians used to deride this as a quixotic recipe for anarchy and mob rule - as indeed they did in Switzerland in the 1840s, it is now impossible to deny that direct democracy has not only "functioned" these last 150 years, it has performed quite brilliantly. It has both created one of the most stable and successful societies in modern history, and simultaneously maintained a rich internal diversity of languages, religions and cultures.<P>
+
+The implications of the Swiss model for Kashmir and indeed the entire sub-continent are profound and, I hope, obvious. For Kashmir in particular, the historical parallels are striking. Just consider this excerpt from the Encyclopedia Britannica.<P>
+
+<BLOCKQUOTE>"<EM>For centuries Swiss society peacefully accommodated three distinct ethnic communities... Externally, however, because of its central location in Europe and its command of mountain passes linking French and German lands with Italy to the south, Switzerland was coveted by surrounding powers. Swiss history is thus to a great extent the saga of local peoples trying to prevent foreign forces from taking control of their territory.</EM>"</BLOCKQUOTE>
+
+Now just replacing a few proper nouns, we get:
+
+<BLOCKQUOTE>" <EM>For centuries Kashmiri society peacefully accommodated three distinct ethnic communities... Externally, however, because of its central location in Asia and its command of mountain passes linking Pakistani and Chinese lands with India to the south, Kashmir was coveted by surrounding powers. Kashmiri history is thus to a great extent the saga of local peoples trying to prevent foreign forces from taking control of their territory.</EM>"</BLOCKQUOTE>            Rather precise coincidence, wouldn't you agree? 
+
+As we know, the local Swiss peoples did finally maintain control of their territory, and they succeeded not by force majeure but by promising each other an equal voice in the future and thus an equal stake in protecting it. This social contract bolstered Swiss resistance to domination - both foreign and domestic, and birthed some of the most stable egalitarian institutions in modern political history.<P>
+
+Besides a multi-cultural history and the clear and present danger of covetous neighbors, Kashmir shares other commonalities with Switzerland which also augur well for eventual democratization. Kashmiri literacy and educational levels, for example, are markedly higher than the early Swiss, and until the 1990s at least so was their per capita wealth. Add the integrative power of modern communications, transport and information technologies, and it is indeed much easier to imagine plebiscite rule succeeding in 21st century Kashmir than in 19th century Switzerland.<P>
+
+From a Kashmiri citizen's perspective, perhaps the greatest virtue of the Swiss system is stability. Since there is virtually no power at the top of the Swiss government hierarchy, bribing, intimidating or assassinating Swiss leaders is rather pointless. This reassuringly suggests that power could no longer be betrayed or hijacked in a fully democratic Kashmir either. <P>
+
+And is a fully democratic Kashmir so difficult to imagine? Can we not each envision a future where Kashmiri citizens actually do control the legal and social forces affecting their lives? Just imagine for once that before a major decision of state, the media was not swamped in speculation on what a president or general or chief minister might do next, but what the People might do, what the People might decide, what the People might ordain. <P>
+
+If Kashmiris were suddenly given the powers that Swiss citizens take for granted, not only would it swiftly resolve most of their local problems, it would rivet foreign attention - most particularly in India and Pakistan. <P>
+
+As shown in the reference notes I have handed out, there are now energetic young movements campaigning for radically direct democratic rights in both <A href="${BASE_URL}fdlap/imran.html">Pakistan</A> and <A href="${BASE_URL}fdlap/khosla.html">India</A>. Both contain intelligent, influential people and are growing rapidly. Both advocate inverting the power pyramid just as in Switzerland, and both are working with activist and minority groups nationwide to spread the gospel of direct democracy. In other words, networks are already forming throughout the sub-continent that could powerfully amplify the hopeful message of a cantonized Kashmir.<P>
+
+I am told the greatest fear of those opposing the freedom of Kashmir is that the hunger might spread, and as other states achieved autonomy, they would revert to jealous warring fiefs. Add a little well-precedented Great-Power meddling, they say, and you are simply asking for chaos. And admittedly, if each new autonomous state retained a conventional centralized power structure that might be a likely outcome. But unlike federalism, cantonization also disables internal hierarchies. Since decisions are made so close to the ground and all policies are subject to popular review, central authorities in such states have very little power at all. In this system, politicians and officials finally do become public servants - employed only to represent the people, not to rule them. Elected leaders thus have little if any discretion or authority to drag their people into war, debt or foreign entanglements.<P>
+
+I understand that all this talk of near perfect democracy may sound hopelessly idealistic to many of you, and I probably would think it pretty utopian myself if it were not for the great indisputable fact of Swiss history. Switzerland exists, and this is how 6 million Swiss citizens actually order their lives, conduct their affairs and protect their common future. It obviously can be achieved, because it has been achieved, and by ordinary people just like us. And it can therefore be replicated anywhere that people desire the freedom, peace and justice it offers. Supposing our 72.4% pro-independence Kashmiris are largely those kind of people, let us briefly consider how it might be introduced there.<P>
+
+All credible scenarios for Kashmiri self-determination I have seen propose a supervised multi-year cooling period before the plebiscite is ever held. They say this time is required to demilitarize the region, rebuild the economy, repatriate refugees and - as the more candid planners admit - to forge consensus among pro-plebiscite factions. This last task should be the easiest but it sometimes worries me most, because it involves a highly contentious transfer of power. Who would vie for ruling authority? Who would finally win it? How would they protect it? Why would they not just repeat the jealous authoritarian patterns of all that has gone before? Given Kashmir's stormy history these are legitimate concerns.<P>
+
+But couldn't this vicious cycle of competition and conflict be stopped once and for all if the cooling and rebuilding period was also accompanied by political decentralization? What if, as commandeered schools, lands, and police stations are returned to the people, they are put under direct community control? What if the aid contributed for reconstructing a region was allocated by the vote of the local people themselves? In other words, what if the Kashmiris started preparing for their Big Plebiscite with a lot of little plebiscites? Popular votes on immediate issues would teach the crafts of self-governance as they drained away treacherous concentrations of centralized power. I for one can easily imagine all this happening though it is difficult to predict what might happen next. Would this degree of fundamental autonomy be enough to quell separatist fervor? Would the reunification advocates in Jammu, the Vale and Ladakh prefer a Swiss-style cantonal federation to a parliamentary republic? Would the proven sanity of this approach inspire similar experiments in other states and ultimately lead to a Swiss-stable confederation of the sub-continent? <P>
+
+No one can really say, of course, but the options inherent in these questions provide a far more hopeful range of choices than the people in this region have ever faced before. <P>
+
+Neither I nor the Kashmiri independence leaders now looking to Switzerland pretend that it is a paradise. It is simply the most advanced embodiment of democracy that the planet has yet experienced. And 150 years of this history have given the Swiss a unique expertise in maintaining peace, prosperity, ethnic harmony and social justice.<P>
+
+You have doubtless heard discussions recently about the importance of sharing vital technologies between developed and struggling societies. Though the context is usually energy, manufacturing, or communications, there are also advanced technologies of governance, and I believe countries like Switzerland that have developed them the furthest should also be encouraged to share their know-how.<P>
+
+Therefore the one concrete contribution I would like to propose today is that we unanimously ask the Swiss people to share some of their egalitarian technology with Kashmir, and that we urge all parties there to at least study it - and seriously contemplate how it might affect their lives and communities. This extraordinarily simple act could change several important factors in the Kashmir equation: <P>
+
+<UL>
+<LI>First, it could focus local and global consciousness on a novel but proven model of egalitarian governance for the region and beyond. <P>
+<LI>Second, it could involve one of the world's most impeccably neutral nations as an advisor and fair broker to help transmute this contest over land into a debate on basic rights. <P>
+<LI>And finally it could transform the way Kashmiris themselves deal with this tragedy. Simply imagining what true democracy might feel like in practice spurs the mind to prepare the way for it. New concepts and intuitions can, after all, deeply change our thinking which in turn reshapes our behavior and finally social reality. And as we saw in the Philippines and Eastern Europe, and so recently again in East Timor, once triggered these changes can occur with astonishing speed.
+</UL>
+
+
+Outside observers often note that most struggle in Kashmir today is struggle against - against oppression, against brutality, against rivals and despair. These are ancient and powerful motives and can be marshaled to great military advantage, but they do not show us a way out. Until people have something to fight for as well as against, most of our talents and knowledge is totally wasted. Only a few among us can be great warriors. What are those with other abilities to do while violence dominates the stage?  If there was a plan, a vision, a hope we could believe in, many more of us could begin working toward its realization even before the dust settled. And the vision that we at this conference could help spread and substantiate is the Swiss-certified paradigm of popular sovereignty.<P>
+
+Neither India or Pakistan can afford the ruinous expense or peril of this conflict much longer. The question is therefore not whether Kashmir will be settled, but when and how. Let our answers be "Starting today!" and "by adopting plebiscite power to both decide and defend Kashmir's future course."<P>
+
+Watching the flow of history from feudal and authoritarian to elective liberal governance, we see unrelenting progress toward greater human liberty and dignity. By standing up for radical democracy here, we can help place Kashmir in the vanguard of that evolutionary tide and perhaps even accelerate its impact on the rest of the world.  <P>
+
+I know this is quite a lot to expect from a single appeal in a tiny section of a vast conference like this. But I personally do believe that Kashmir's new direct democracy champions are on the wisest path and thus deserve our whole-hearted support. More tactically, I also think that this appeal's novelty, poetic justice and stunning plausibility could invite quite surprising international attention, and surprising attention, we should remember, may confer surprising power.
+
+<P>
+
+Thank you very much for yours...</BLOCKQUOTE>
+<P><CENTER> - END -</CENTER>
+<BR><BR>
+<HR WIDTH=80% ALIGN=center SIZE=1>
+<HR WIDTH=90% ALIGN=center SIZE=2>
+<HR WIDTH=80% ALIGN=center SIZE=1>
+
+
+
+
+
+<FONT  COLOR=#004000><CENTER><H3>SAMPLE APPEAL/RESOLUTION</H3></CENTER>
+
+<BLOCKQUOTE>To explore new paradigms for resolving the ongoing crisis in Kashmir and widen the democratic options available to its people, this Special Session on Kashmir endorses the following three appeals:
+
+<OL>
+<LI>To the Swiss governmental, academic and NGO communities, for thoughtful study & teaching materials on the evolution and instruments of their democratic system;
+<LI>To the United Nations for translation and distribution of this material in Kashmiri and all official UN languages;
+<LI>To all parties involved in Kashmir, for sincere reflection upon this option and its implications for the region's future.
+</OL>
+</BLOCKQUOTE></FONT>
+
+
+
+
+
+
+
+
+</FONT>.<P>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+<BLOCKQUOTE><H4>
+Kathy Arlyn Sokol is a Japan-based American journalist who has taken a long-term interest in the Kashmir conflict. Together with <A href="${BASE_URL}fdlap/maxstahl.html">Max Stahl</A>, she recently filmed over 50 hours of interviews with grassroots leaders and independence advocates in both Pakistan- and Indian-held Kashmir.</H4></BLOCKQUOTE>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+
+<P>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}fdlap/fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+<FONT  SIZE=2><A HREF="mailto:fdlap@chollian.net"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
+<A href="${BASE_URL}fdlap/fdlorg.html#address">Our Address...</A></FONT>
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default FdlapKashmirHapkash;

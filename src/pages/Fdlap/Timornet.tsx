@@ -1,0 +1,403 @@
+import { useEffect } from "react";
+
+const FdlapTimornet = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Recommended Link &amp; Resources</EM></STRONG></FONT><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<BR><BR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3>
+<H2>"Electronic Resources on East Timor"</H2> 
+<H4>Courtesy  of the East Timor Action Network / United States</H4>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
+</CENTER>
+<TABLE>
+<TR><TD><IMG SRC="${BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+
+	<FONT  SIZE=4>
+
+The rapid growth of computer networking is a good match with the
+renewed activity, information-sharing and internationalism of the East
+Timor support movement.  There are a number of resources available
+over the Internet, and more are being added all the time.  Please let
+us know of any additions or corrections.<P>
+
+The first three lists (<FONT  COLOR=#0000DD>alerts, reg.easttimor, and Estafeta</FONT>) are
+maintained manually.  For access, contact John M. Miller
+(<A HREF="mailto:etan-outreach@igc.apc.org">etan-outreach@igc.apc.org</A>) or Charles Scheiner (<A HREF="mailto:etan-us@igc.apc.org">etan-us@igc.apc.org</A>).<P>
+ETAN/US also maintains a postal mailing list (for the newsletter and
+other mailings), a fax list for alerts, and a phone list.  Even if you
+only wish to receive electronic material, we would appreciate having
+your postal mailing address, phone and fax numbers.<P>
+
+-----------------------------------------------<P>
+<STRONG>Alert list</STRONG><P>
+
+East Timor Action Network/US has a electronic mailing list for action
+alerts.  These alerts deal with lobbying the US government, severe
+human rights violations and the like.  Items are sent as needed, and
+postings average 1 per month.<P>
+
+-----------------------------------------------<P>
+<STRONG>reg.easttimor / east-timor</STRONG><P>
+
+<FONT  COLOR=#0000DD>Reg.easttimor</FONT> is a conference (newsgroup) which originates from the
+Association for Progressive Communications (APC) member networks
+(PeaceNet, GreenNet, Pegasus, etc.).  <FONT  COLOR=#0000DD>Reg.easttimor</FONT> contains postings
+from a wide range of sources, including the National Council of
+Maubere Resistance (CNRM), ETAN/US, TAPOL, and support groups in
+Australia, Portugal, Japan, France, Canada, Sweden, England, Ireland,
+the Philippines, Indonesia New Zealand and elsewhere.  Reports and
+translations from wire services and the Indonesian, Portuguese,
+Australian, British, U.S. and Irish press also regularly appear
+there, as well as official documents and statements from the U.N.,
+national governments, and other sources.  Postings average 6-10 per
+day, although the frequency varies with the pace of East Timor-related
+events.  This conference is available by email with read/write access
+to any Internet address; write <A HREF="mailto:etan-outreach@igc.apc.org">etan-outreach@igc.apc.org</A> or
+<A HREF="mailto:etan-us@igc.apc.org">etan-us@igc.apc.org</A> if you are interested.<P>
+
+<FONT  COLOR=#0000DD>Reg.easttimor</FONT> has recently been converted to a majordomo server
+called <FONT  COLOR=#0000DD>east-timor@igc.apc.org</FONT>.  You still need to write to
+<A HREF="mailto:etan-outreach@igc.apc.org">etan-outreach@igc.apc.org</A> to be added to the list.<P>
+
+If you join PeaceNet or one of its sister networks you will have
+easier access to the conference, including past material.  For
+information about PeaceNet, a non-profit progressive networking
+service run by the Institute for Global Communications (IGC) in San
+Francisco, send a message to <A HREF="mailto:peacenet-info@igc.apc.org">peacenet-info@igc.apc.org</A>.<P>
+
+Weekly summaries of reg.et are on ETAN's gopher at:<BR>
+<BLOCKQUOTE><A href="${BASE_URL}fdlap/gopher:/gopher.igc.apc.org:70/11/peace/timor.gopher/summaries">gopher://gopher.igc.apc.org:70/11/peace/timor.gopher/summaries</A></BLOCKQUOTE>
+and on the web at: <BLOCKQUOTE><A HREF="http://shell.ihug.co.nz/~calliope/Nettalk.html">http://shell.ihug.co.nz/~calliope/Nettalk.html</A></BLOCKQUOTE>
+
+Virtually all <FONT  COLOR=#0000DD>reg.easttimor</FONT> items, slightly delayed, are
+readable at the University of Lisbon WWW site:
+<BLOCKQUOTE><A HREF="http://amadeus.inesc.pt:80/~jota/Timor/<">http://amadeus.inesc.pt:80/~jota/Timor/</A></BLOCKQUOTE>     
+
+A sortable index to <FONT  COLOR=#0000DD>reg.easttimor</FONT>, with links to the items, is at:<BR>
+<BLOCKQUOTE><A HREF="http://www.uc.pt/~timorndx">http://www.uc.pt/~timorndx</A></BLOCKQUOTE>
+
+Postings since September 1996 are readable at:<BR>
+<BLOCKQUOTE><A HREF="http://www.handrade.pt/timor/ml.htm">http://www.handrade.pt/timor/ml.htm</A><P></BLOCKQUOTE>
+
+An abridged, read-only version of <FONT  COLOR=#0000DD>Reg.easttimor</FONT>, with an average of
+two daily postings, is on APC as the conference <FONT  COLOR=#0000DD>tapol.etimor</FONT>.  This is
+also available as e-mail;  to receive it, send a note to <A HREF="mailto:maggie@web.net">maggie@web.net</A>.<P>
+
+-----------------------------------------------<P>
+<STRONG>Other Indonesia-related lists</STRONG>.<P>
+
+The APC also has conferences <FONT  COLOR=#0000DD>reg.indonesia</FONT> and <FONT  COLOR=#0000DD>reg.westpapua</FONT>. The
+latter is available by email; write <A HREF="mailto:cscheiner@igc.apc.org">cscheiner@igc.apc.org</A> to receive it.<P>
+
+A new list, <FONT  COLOR=#0000DD>indonesia-act</FONT>, is designed for action-oriented
+information on Indonesian democracy issues, and is primarily in
+English.  For information on this majordomo-served self-service list
+(which is an echo of the APC conference act.indonesia), send a
+message to <A HREF="mailto:majordomo@igc.apc.org">majordomo@igc.apc.org</A> with the body of the message
+containing:
+
+     <BLOCKQUOTE>info indonesia-act</BLOCKQUOTE>
+To subscribe to the list, write <A HREF="mailto:majordomo@igc.apc.org">majordomo@igc.apc.org</A> with the text:
+
+     <BLOCKQUOTE>subscribe indonesia-act</BLOCKQUOTE>
+
+in the contents of the message.<P>
+
+<FONT  COLOR=#0000DD>Reg.indonesia, tapol.etimor, reg.westpapua, and reg.easttimor</FONT> can each
+be queried by email for the index and past postings.  To get the
+conference index, send email to: <BR><A HREF="mailto:almanac@gn.apc.org">almanac@gn.apc.org</A> (with anything you
+like in the subject line) and a body like:
+
+     <BLOCKQUOTE>send <conf_name> index<BR>
+e.g.:<BR>
+     send tapol.etimor index<BR>
+     send reg.westpapua index</BLOCKQUOTE>
+
+These indexes -- which contain one line per posting with the topic
+title, data, and poster's name -- can be long; some of these
+conferences have over 500 items in them.<P>
+
+After receiving the index, you can retrieve a particular topic (or
+topics) with another message to <A HREF="mailto:almanac@gn.apc.org">almanac@gn.apc.org</A>
+with a body like:
+    <BLOCKQUOTE> send <conf_name> <topic_#><BR>
+e.g.:<BR>
+     send tapol.etimor 608<BR>
+     send reg.westpapua 3</BLOCKQUOTE>
+
+You can send more than one query per message, just put each one on a
+separate line.  The topics will come back by email, one email per
+query.  It will be broken into smallish chunks, mostly to accommodate
+people at the far ends of FIDO-style point software.<P>
+
+Topic numbers change every few days, so use the index soon after you
+get it, and don't refer to topics by number in any postings.<P>
+
+There is also a new, very active, newsgroup on Indonesia-related materials
+from the world press in both English and Bahasa Indonesia. It is an
+electronic version of the Kabar dari PIJAR Jaringan Informasi Reformasi
+newsletter. To subscribe, write to <A HREF="mailto:majordomo@igc.apc.org">majordomo@igc.apc.org</A> with:
+        <BLOCKQUOTE>subscribe kdp-net</BLOCKQUOTE>
+in the body of your message.  Writing to the same address with:
+        <BLOCKQUOTE>info kdp-net</BLOCKQUOTE>
+will get you more information about their service.<P>
+
+-----------------------------------------------<P>
+
+<STRONG>Estafeta</STRONG><P>
+
+ETAN/US prepares an electronic version of its newsletter, Estafeta,
+which averages eight printed pages.  Many prefer the paper
+version of the newsletter to e-mailed one.<P>
+-----------------------------------------------<P>
+<STRONG>Gopher</STRONG><P>
+
+ETAN maintains background information, including weekly summaries of
+<FONT  COLOR=#0000DD>reg.easttimor</FONT>, in the Institute for Global Communications Gopher.  To
+access the East Timor information go to IGC's public gopher.  Type
+'gopher gopher.igc.apc.org' and look under the "Peace, Human Rights
+and Social Justice." The URL for this gopher is:
+<BLOCKQUOTE><A href="${BASE_URL}fdlap/gopher:/gopher.igc.apc.org:70/11/peace/timor.gopher">gopher://gopher.igc.apc.org:70/11/peace/timor.gopher</A></BLOCKQUOTE>
+-----------------------------------------------<P>
+<STRONG>World-Wide Web</STRONG><P>
+
+East Timor information in English is on the World-Wide Web from the
+University of Lisbon at:
+<BLOCKQUOTE><A HREF="http://amadeus.inesc.pt/~jota/Timor/">http://amadeus.inesc.pt/~jota/Timor/</A></BLOCKQUOTE> 
+This includes background and current information, and links to many
+other systems including the IGC Gopher.<P>
+
+Other well-maintained East Timor pages include:<P>
+
+<UL>
+
+<LI><A HREF="http://www.indra.com/~piet/">http://www.indra.com/~piet/</A><P>             <CENTER>(ETAN's Colorado chapter)</CENTER><P>
+<LI><A HREF="http://www.scn.org/topics/activism/timor/">http://www.scn.org/topics/activism/timor/</A><P> <CENTER>(ETAN's Seattle chapter)</CENTER><P>
+
+<LI><A HREF="http://www.peg.apc.org/~etchrmel/">http://www.peg.apc.org/~etchrmel/</A><P>
+<CENTER>(ET Human Right Centre, Melbourne)</CENTER><P>
+<LI><A HREF="http://www.src.gla.ac.uk/src/clubs/east-timor/">http://www.src.gla.ac.uk/src/clubs/east-timor/</A>
+<P><CENTER>(Glasgow University East Timor and Indonesia Group, Scotland)</CENTER><P>
+<LI><A HREF="http://www.uc.pt/Timor/">http://www.uc.pt/Timor/</A><P>
+<LI><A HREF="http://shell.ihug.co.nz/~calliope/Nettalk.html">http://shell.ihug.co.nz/~calliope/Nettalk.html</A><P>
+<LI><A HREF="http://www.peg.apc.org/~adamt/et_index.htm">http://www.peg.apc.org/~adamt/et_index.htm</A><P>
+<LI><A HREF="http://www.handrade.pt/timor/">http://www.handrade.pt/timor/</A><P>
+<LI><A HREF="http://www.telematix.ie/easttimor/index.html">http://www.telematix.ie/easttimor/index.html</A><P>
+<LI><A HREF="http://cygnus.ci.uc.pt/~cdpm/index.htm">http://cygnus.ci.uc.pt/~cdpm/index.htm</A><P>
+<LI><A HREF="http://www.geocities.com/Tokyo/9273/">http://www.geocities.com/Tokyo/9273/</A><P>
+
+</UL>
+*********************************<P>
+<STRONG>Other Resources</STRONG><P>
+
+Some great posters about East Timor are at<P>
+<BLOCKQUOTE><A HREF="http://www.peg.apc.org/~saskia">http://www.peg.apc.org/~saskia</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3><BR>
+
+
+The transcript of a 12/96 public meeting on East Timor in NYC with
+Noam Chomsky, Constancio Pinto, Allan Nairn and others is at:
+<BLOCKQUOTE><A HREF="http://www.worldmedia.com/archive/talks/9512-timor-etan.html">http://www.worldmedia.com/archive/talks/9512-timor-etan.html</A></blockquote><br>
+Audio from a speech Chomsky gave at MIT in April 1995 is at:
+<BLOCKQUOTE><A HREF="http://www.worldmedia.com/archive/audio/9511timor.html">http://www.worldmedia.com/archive/audio/9511timor.html</A></BLOCKQUOTE><BR>
+
+<HR WIDTH=80% ALIGN=left SIZE=3>
+Reports from the Asia-Pacific Conference on East Timor in Malaysia<P>
+are at: 
+<BLOCKQUOTE><A HREF="http://www.gv.net.my/apcet/">http://www.gv.net.my/apcet/</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+A good "course" on East Timor with cultural and historical reference
+materials is at:<BLOCKQUOTE> <A HREF="http://www.uc.pt/Timor/TimorNet.html">http://www.uc.pt/Timor/TimorNet.html</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+The Canadian Forces College includes East Timor on:
+<BLOCKQUOTE><A HREF="http://www.cfcsc.dnd.ca/links/wars/timor.html">http://www.cfcsc.dnd.ca/links/wars/timor.html</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+Peace Action's site about the impending sale of US F-16 warplanes to
+Indonesia is at:
+<BLOCKQUOTE><A HREF="http://www.webcom.com/peaceact/f16.html">http://www.webcom.com/peaceact/f16.html</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+A record of all UN General Assembly votes on East Timor is at:
+<BLOCKQUOTE><A HREF="http://cygnus.ci.uc.pt/~cdpm/votac_e.htm">http://cygnus.ci.uc.pt/~cdpm/votac_e.htm</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+Amnesty International's Indonesia & East Timor material is available
+through:
+<BLOCKQUOTE><A HREF="http://www.amnesty.org/">http://www.amnesty.org/</A></BLOCKQUOTE><BR>
+     with background material on their 1994-5 campaign in:
+<BLOCKQUOTE><A href="${BASE_URL}fdlap/ftp:/ftp.io.org/pub/human-rights/Amnesty/indonesia/">ftp://ftp.io.org/pub/human-rights/Amnesty/indonesia/</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+Many reference human rights documents and links are at:
+<BLOCKQUOTE><A HREF="http://www.umn.edu/humanrts/">http://www.umn.edu/humanrts/</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+To hear some music about East Timor, try:
+<BLOCKQUOTE><A HREF="http://www.web.apc.org/~hands">http://www.web.apc.org/~hands</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+If you want to see what the Indonesia government has to say, try:
+     <BLOCKQUOTE><A HREF="http://www.prica.org/east_timor/">http://www.prica.org/east_timor/</A> (Embassy in Ottawa) or<BR>
+     <A HREF="http://www.dfa-deplu.go.id/">http://www.dfa-deplu.go.id/</A>      (Foreign Ministry in Jakarta)</blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+Some very informative web sites on West Papua are at:
+<BLOCKQUOTE><A HREF="http://www.cs.utexas.edu/users/cline/papua">http://www.cs.utexas.edu/users/cline/papua</A><BR>
+<A HREF="http://www.twics.com/~boyjah/westpapua/welcome.html">http://www.twics.com/~boyjah/westpapua/welcome.html</A><BR>
+<A HREF="http://www.moles.org/motherlode/freeport/freeport.html">http://www.moles.org/motherlode/freeport/freeport.html</A>
+</BLOCKQUOTE>
+
+*****************************************<P>
+<STRONG>Usenet</STRONG><P>
+
+The Usenet newsgroup <A href="${BASE_URL}fdlap/news:soc.culture.portuguese">soc.culture.portuguese</A> includes information on
+East Timor in both Portuguese and English. The <A href="${BASE_URL}fdlap/news:soc.culture.indonesia">soc.culture.indonesia</A>
+discussion of East Timor is mostly flaming debates, with little
+substantive English-language material not available elsewhere.
+<A href="${BASE_URL}fdlap/news:misc.activism.progressive">Misc.activism.progressive</A> and <A href="${BASE_URL}fdlap/news:soc.rights.human">soc.rights.human</A> also contain materials.<P>
+
+Several mailing lists, including <FONT  COLOR=#0000DD>SEASIA-L@MSU.EDU</FONT>
+(bit.listserv.seasia-l as a newsgroup) and <FONT  COLOR=#0000DD>INDONESIA-L</FONT> (a private list
+mediated by <A HREF="mailto:apakabar@clark.net">apakabar@clark.net</A>), also contain materials, but have
+little on East Timor in English that does not appear in <FONT  COLOR=#0000DD>reg.easttimor</FONT>.
+<FONT  COLOR=#0000DD>INDONESIA-L</FONT> does have a lot of material in Bahasa Indonesia.
+<FONT  COLOR=#0000DD>INDONESIA-L</FONT> is available on the Web at:
+<BLOCKQUOTE><A HREF="http://www.uni-stuttgart.de/indonesia/news/">http://www.uni-stuttgart.de/indonesia/news/</A></blockquote><br>
+
+There is a summary of <FONT  COLOR=#0000DD>INDONESIA-L</FONT> (it also includes some
+additional material taken directly from <FONT  COLOR=#0000DD>reg.easttimor</FONT>) at:
+<BLOCKQUOTE><A href="${BASE_URL}fdlap/gopher:/oasis.leidenuniv.nl/11/.kitlv/.daily-report">gopher://oasis.leidenuniv.nl/11/.kitlv/.daily-report</A></blockquote><br>
+<HR WIDTH=80% ALIGN=left SIZE=3>
+
+  <BR>This resource list was updated in April '97. For the latest version, send a blank email message to <A HREF="mailto:timor-info@igc.apc.org">timor-info@igc.apc.org</A>.<P>
+
+ETAN also has a (paper) information packet about East Timor and what
+you can do. If you would like a copy, send us your postal mailing
+address.<P>
+     <CENTER>East Timor Action Network / United States<BR>
+     P.O. Box 1182, White Plains, NY 10602 USA<BR>
+     Tel.(914)428-7299  fax:(914)428-7383<BR>
+     <A HREF="mailto:etan-us@igc.apc.org">email: etan-us@igc.apc.org</A></CENTER><BR>
+
+</FONT>.<P>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+
+</TD></TR>
+</TABLE>
+<P>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}fdlap/fdllinks.html"><STRONG>Back to Links Page</A></STRONG><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+<FONT  SIZE=2><A HREF="mailto:fdlap@chollian.dacom.co.kr"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
+<A href="${BASE_URL}fdlap/fdlorg.html#address">Our Address...</A></FONT>
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default FdlapTimornet;

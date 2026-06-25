@@ -1,0 +1,258 @@
+import { useEffect } from "react";
+
+const AdvisorsHazel = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H3><CENTER><EM>The Nancho Consultations</EM></H3>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom>Lady Hazel Henderson</CAPTION>
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 >  
+
+<IMG SRC="${BASE_URL}advisors/graphics/ladyhaze.gif" WIDTH=118 HEIGHT=150 HSPACE=15 VSPACE=15 BORDER=3  ALT="Lady Hazel"></TD></TR>
+</TABLE>
+<BR><BR>
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<H2><CENTER>Nancho consults Hazel Henderson</CENTER></H2>
+
+<H3><CENTER><SMALL>Author of <U>Creating
+     Alternative Futures</U>, <U>The Politics of the Solar Age</U>, <BR><U>Building a Win-Win World</U>,
+     and <U>Paradigms In Progress</U></SMALL><P>
+ON SURVIVING ECONOMICS <BR>AND OTHER MODERN FORMS OF BRAIN DAMAGE </CENTER></H3>
+
+<CENTER><img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+<HR>
+
+</TABLE>
+
+<HR>
+<BLOCKQUOTE><FONT  COLOR=#800000>NANCHO ADVISORY: Futurist, anti-economist and crusader for sanity, Hazel Henderson is one of the sexiest minds on the planet.
+     She is also a ferocious one-woman truth squad who has published her iconoclastic provocations in over 250
+     journals and 400 newspapers. (For more dazzling bio-data click <A href="${BASE_URL}advisors/biohh.html">HERE!</A>) Though now adequately exposed, Hazel remains a criminally under-exploited global resource, and is thus our hands-down selection as Treasury Secretary in the coming Nancho Regency. (She is one of the few who really understands that national treasure is not to be found in decimal places.)</FONT></BLOCKQUOTE>
+
+
+<!----******************************************MAIN TEXT******************************************-->
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+<FONT  SIZE=4>
+
+ <FONT COLOR="#800000"><H4><STRONG>Nancho</STRONG>:  Although you call yourself an independent futurist most of your work this last decade has been focused on economics, a profession with which you seem to have a very adversarial relationship. You've spoken of economists as establishment apologists and said that, "economics is just politics in disguise." Who are they apologizing for these days?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>: As I looked back on the history of economics for the past 300 years, I found that economics actually developed from the very beginning as an apology or rationalization for the existing social order. And, if you think of it, really that was what Adam Smith was doing back then. He looked at the world around him and saw this sort of web of small buyers and sellers and little enterprises; and, lo and behold, came up with this enormously brilliant rationalization about that kind of social terrain, and the idea that all these buyers and sellers meeting each other in the market place would add up to the best of all possible Social Goodness, simply by following their own self-interest. In a sense, in that early period where there were very few side effects visited on innocent bystanders to those transactions, and most of the actors in that early marketplace had equal power and equal information, using the market to allocate resources was a fairly sensible idea. The only problem is that 250 years later, it doesn't work that way because we have a very complex technology and power is very unequally distributed between the buyers and the sellers. And information too is very unequally distributed and so the invisible hand which we are told guides all of these transactions has become in a strange way what I call the "invisible foot." <P>
+
+So, in a sense, as I looked back at economic thought I found that this was always the case right up to the time of John Maynard Keynes when governments began to see this whole system winding down into some equilibrium state with entirely unacceptable levels of unemployment. And, of course, governments being perfectly pragmatic wanted to prime the pump and get things going again. And economic theory at that point told them that they must not intervene. So along came John Maynard Keynes and more or less rationalized what they wanted to do anyway. So that has always been the role of economics, and today it most clearly is - economists are generally hired by large companies or government bodies who want them to put the best face on whatever project they happen to be promoting at the time. And that's what a cost-benefit analysis is really. It's like a brief that a lawyer would prepare if he were paid to do so, to make some policy or proposal or whatever look like the best thing since sliced bread. <P>
+
+The whole problem with cost/benefit analysis is that it averages out the costs and benefits per capita so that it fuzzes up who are going to be the winners and who are going to be the losers. And that's the essence of politics.  And everywhere that economic theory has intruded into the political process and tried to misrepresent real value conflicts within a community as if they were mere technical questions of efficiency - all wrapped up and mystified in cost/benefit equations - very bad decisions get made and the conflict is concealed under the numbers. Then a little bit later it comes unstuck, or people try to reassert those values by laying down in front of the bulldozers and trying to stop these projects. So, in a sense, it's much better for us to conduct our public business in the mother tongue than have it mystified by this sort of pseudo-mathematics which leaves everybody disempowered. </BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>But if the majority of the profession is bought and payed for by these corporate entities, where does our countervailing force come from?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>:  I'm not trying to make it sound that all economists are intellectual mercenaries. It's much more complex than that. It has something to do with the sociology of knowledge and with what happens to young minds when they are inducted into a certain kind of educational style. When they come out of the other end of this process they have a certain style of thinking which I refer to as 'brain damage' - not endearing me at all to my economist friends. Of course, there are very good, honest economists who don't do this. I have found that all down through the history of economic thought there have been honest economists who began to explore this body of information and recoiled aghast, saying righteously, "Well, this is an intellectual scandal! This is not rigorous. This is a whole set of 'deductions' - a priori types of statements really - and the world doesn't conform to this kind of economistic model." And what I found is that every one of these economists who had honestly dished the dirt on this discipline throughout history had been summarily silenced in one way or another. They had not been given tenure, they had been run out of the club in one way or another and it still goes on today. You get critics from within the discipline like, for example, Kenneth Boulding who has always been critical of the entropic nature of modern production and the excessive exploitation rates and what he always calls "cowboy economics". So, Boulding was run out of the club with, "Oh, well, he really is a philosopher, not an economist." Or take John Kenneth Galbraith who was a very good critic of the current situation and wrote a lot of books about the ways in which the market didn't really work, about monopoly power, stuff like that. They designated Galbraith, "Oh, he's really a sociologist." So, there's this kind of game that goes on. Of course the only one they could never shut up was Karl Marx. He had a constituency.</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>In your career as a renegade economist you have been consulted by governments from America to Venezuela. If you were called to advise a shadow government here in Japan, how would you analyze our economy today?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>: Well, I'm not in any sense of the word an expert on the Japanese economy and the first thing that I would have to do is come here and study it for quite a while to understand how it really works. I mean, I read the popular economic press and draw my opinions from that, but I think in a sense the whole world economic game is changing so rapidly now that the Japanese economy is going to begin being caught up in these very rapid rates of change. It looks to me like they are already beginning to experience "sunset industries" as this global economy means that more and more production will move to countries that have cheaper labor forces to exploit and more raw materials. So, I think that the Japanese economy is going through this process of maturation, and probably going through it much more rapidly than, say, the maturation of the British economy which took almost two hundred years.  <P>
+
+You know, Britain is where the game began and where the last act is being played out now, you might say, as the British economy has ground to a bit of a halt. I think in the case of Japan, when I came here in l976, the thing that really worried me was the resource vulnerability of this small island. The Japanese economic miracle, in my view, is quite fragile because it is based on a very slender ecosystem. The Japanese culture developed over a very long period of time an understanding of how to live very carefully within this ecosystem. I mean, the rice culture, the small scale of companies here, the little retail shops, the small businesses - all very appropriate for this kind of society. But when you see now the enormous number of automobiles which,  when you consider the total area of paved road, is a very large number - more than we have comparatively in the United States. And I remember being told that by a Japanese economist way back in the 70s.<P>
+
+ And so I can see a lot of strain in the Japanese economy where western-style consumption isn't really healthy or possible: the houses just aren't big enough to load up with all of the appliances. So, this could be one of the reasons that they became so heavily export-led, and in a sense I don't fault the Japanese for the way they developed their economy. They were also under the constraint of the United States who told them, "Forget defense, we'll be your military umbrella."  So Japan went on to develop this brilliant export economy based on civilian goods and really beat the two superpowers cold. Now we have the Cold War ending and the clear winner of the Cold War was Japan. But now Japan is having to start with a totally new game. And I really think that the Japanese could stake out something very, very interesting with their new leadership role in the world, and I think they are just now beginning to toy with all the possibilities.</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>In terms of that new role, with all the political chaos at the national level, nobody quite sees where leadership is going to come from over the next few years. Would you care to give any suggestions in the meantime?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>: Well, I think that the crisis of leadership that is going on in Japan right now, with the ruling party sort of shredding before our eyes and all of these little mini-parties coming up and wondering if they can form a coalition is symptomatic of the globalization processes that are now occuring, processes which are rapidly dissolving the options of national governments. So, it isn't just the LDP who's having problems running the country. If you look at these globalization processes they are causing a loss of national sovereignty in every nation state. So, in that sense Japan is riding the same global roller-coaster that everyone else is.<P>
+
+Here again it points out a real problem with economic theory, because all of economic theory is based on the concept that you can manage a nation, a domestic economy, and you specifically can't do that now because of these enormous, global capital flows. You know, people estimate that there's about 500 billion dollars of hot money sloshing around this planet every 24 hours. With these electronic capital transfers we've set up a sort of global casino that runs night and day. And this is eroding all our traditional macro-economic management tools. I mean, how do you manage the money supply if you have this enormous flow going in and out every day. Nobody can isolate anymore what the domestic money supply is, so you can't do monetary policy.  All of economic theory is based upon the idea of trade flows and yet the trade flows are absolutely swamped by these financial flows. So, all of this bilateral bickering, say, between Japan and the United States about terms of trade and protectionism are red herring issues. They're not facing up to the completely new situation there is. <P>
+
+Or to give you another example of the obsolescence of economic theory based on these ideas of trade and "comparative advantage" and all this kind of thing: we have the anomalous situation today where almost any domestic policy that a country pursues can be considered protectionist. I mean, take the Europeans deciding they don't want American beef full of hormones. The Americans say, "Oh, that's terrible. It's protectionist."  But why shouldn't the Europeans have a set of rules based on their culture? Don't they have the right to say they just don't want drug-drenched food? Similarly with rice growing in Japan. I mean, the American rice farmers can cite all kinds of arguments that this is protectionist. So, if you are in a situation where almost anything autonomous that a country wants to do to protect its culture and to protect its ecosystem which has developed over the hundreds of years can be called "protectionist", then the whole idea of protectionism is blown out. And this is what is happening all across the board. <P>
+
+Or look at the fact that we are now in an information economy. The one thing that economic theory cannot grasp is that information is a very special kind of commodity. First of all, it's not scarce. And all of economics is based on scarcity. Here we have this totally new kind of commodity - if you give me information, you still have it and I have it, too. So it's replicative and it's abundant. And we haven't even begun to work out our policies around this new kind of abundance. That's how far behind this style of trying to manage countries is. So, I intend to observe this society very closely because I think that they are in an absolute key position now to create a new game in the world.</BLOCKQUOTE> 
+
+<FONT COLOR="#800000"><H4>You have said that you foresaw a 60 percent chance of a financial collapse in the near or midterm future. Not only that, but that you thought it might be a good thing.</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>:  What I was really pointing to is that we have a situation in the world now that money and information are precisely equivalent and you have a situation where most of the countries in the world don't actually know the difference between money and wealth. You have this global financial funny-money game, this round-the-clock casino I spoke of, which is trading nothing more than blips of information on thousands of trading screens. And there is an enormous epistemological error in thinking that blips on computer trading screens are valuable, that they are some kind of real commodity. I mean, you have bankers wiring a bunch of these blips, say 10,000 of these blips or l0 million of those blips, from Chase Manhattan in New York to a Hong Kong bank overnight for a few hours to take advantage of a quarter of a point interest rate spread. And when the blips come back the next morning these bankers actually think they have created X amount more wealth. Which you see is totally absurd.<P>
+
+So, we are in a very interesting situation now where the real wealth of nations is, of course, their eco-system resources and their citizens and the educational level of their citizens. So you have this whole problem where the world is being run on this strange sort of virtual economy, you might say, which is a total fiction and it's a very painful fiction in as much as it's believed in and it causes a lot of pain in third world countries. For most of the people in the world, a collapse of that counterfeit symbol system would be a benediction. All it would mean is that bulldozers would stop tearing up rainforests and habitat and we could get on with the business of reconstructing a money system which is honest. There is nothing wrong with money. I have no problem with money. It was a brilliant invention. But we have to understand what money is and what it's not.<P>
+
+So, in a sense, what I'm advocating is just based on the insight that anybody who has a personal computer and a network of friends can make a market. That's all that Chicago hogbelly traders do. They put up a window on their screen and they say, "Ok, we're making a market." And anyone who makes a market has a money machine. So, what third world countries can do now, and what I advocate they do, is instead of petitioning to be allowed into the rich man's banking club of the northern hemisphere - the IMF and the World Bank and all the rest of it - they can create their own game. And all they need to do is create computer trading networks that work south/south, between these countries. Computers now can keep very complicated audit trails of barter agreements and you can do three, four, five, six-way barter of commodities. And that's the real stuff! And if you have the computer just spitting out the bills of lading and keeping track of what everybody promised to buy and sell, that is a money system. There is no reason why tin is traded in London. It should be traded in Kuala Lumpur. It doesn't need to be traded in currency. It can be directly bartered with a dozen other commodities among the ASEAN nations. So, this is the kind of shift point we're at in terms of rethinking the ways that we can trade with each other.</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>Is that one of the central tenets of "Solar Politics"?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>;  Yes, it's very important. But the most central tenet of "Solar Politics" to me is the understanding that the sun powers this planet and that we have to use the sun's daily income, the photons that arrive every day. I mean, the only correctly sited nuclear power plant is that one up there - the sun, that is 93 million miles away and it's just perfect for everything that humans and all other creatures in this biosphere need. What we have to do is learn to cooperate with the sun and to appreciate the optimization of processing that nature has achieved in photosynthesis. We have so much to learn from nature about how to really make our societies work and how to produce things in an elegant way. <P>
+
+So, for me, the whole question is how to move beyond this era of fossil fuels where we've speeded up our production with this totally artificial industrial system. We mined out six million years worth of solar energy laid down in coal and oil, and we zipped through it in two hundred years. Now we're coming out the other end of that and we'll have to substitute some real good thinking for all this sort of meat-axe technology that was based on fossil fuels. So, that's what I mean by the "Solar Age."</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>You talk about biological models in a lot of your writing, you mention the growth and activity and decay of corporate bodies as though they were some sort of meta-organisms. Do you really subscribe to organismic or living system theories of social reality?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>:  I really think that it's a much safer set of analogies to use, to look at human societies as organisms. I mean, what we call an economy is actually the metabolism of a living organic reality, of a communal body. I don't like to get too reductionist about that and get so far away that I'm looking at human families as if they're a bunch of fruit flies. I mean, you can get an awful long way away and start losing empathy for the predicament of the human species. I've heard biologists who have this attitude and they say, "Well, the human species is just a typical species in a breeding storm and we all know what happens to species in breeding storms - you know, they become cannibalistic and violent and all the rest of it."  You can look at the predicament of the human species that way but I don't subscribe to that. I like to shift my perspective between that of rational observation and the existential reality that I am also a human creature. You have to be very careful because otherwise you get into a new round of Darwinian-type thinking and I don't think that's useful.</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>I was referring more to specific social organisms like Mitsubishi or General Motors.</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>:  Oh, yeah, I can be quite objective there. I don't have any great empathy for those kinds of organizations because basically there is a life cycle of those organisms. And they can extend that life cycle if they restructure themselves. We're seeing this now. The ones that have gotten too rigid and dinosaurian and who can't restructure themselves as the game evolves do go under. And that's fine because they simply release their capital and their human beings to reorganize themselves in some other way. I don't think that that's any great tragedy. You can't run around in the fall pasting the leaves back on the trees. You know that nature is building up and breaking down structure all the time. <P>
+
+So, what I'm advocating really is that more individual human beings should recontext themselves in this period of very rapid change and see what these global forces are that are now driving not only the restructuring and the mutual realignment of our societies, but also the restructuring of the companies and the labor unions and the churches and all of the organizations within those societies. Because if people can't get any sense of what these processes are that are driving the change in their own lives, they tend to feel victimized. And it doesn't help to feel victimized. People need to recognize that those kinds of changes are affecting people in every other country and it's a matter now of sharing this kind of knowledge - that the more individuals who have access to this kind of knowledge, the more they can dance around and redeploy themselves, and the more flexible people can become as individuals. But there is no way we can completely avoid pain in these restructurings that are going on. I wish there were, but there's not. All you can do is to help prepare people.</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>As to the fruit of these restructurings, you were an admirer and friend of the late E.J. Schumacher and given the Small is Beautiful thesis, what do you see as the ideal size or the maximum permissible size for organizations in the future?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>: Well, the size of organizations, there again, like everything else, there's probably not going to be one neat little formula because life is complex and multi-dimensional and one of the big errors of the industrial era was the massive conformity of scale. And the "grand scale" of that era was mostly based on cheap energy. You could have these enormous corporations producing cookies on one side of the continent and then shipping them in enormous trucks to the other side of the continent. You can afford that kind of entropic process if energy appears to be unrealistically cheap. So as the fossil fuels and the non-renewable resources get scarcer and scarcer, it will automatically dictate smaller scale enterprises again. But I don't think there are going to be any rules of thumb. You will probably find that the scale of doing a certain kind of agriculture or manufacturing will be dictated by too many factors to make easy generalizations about now. But I think that on the whole appropriate scale will be much more dictated by ecosystems, and such things as watersheds and bioregions and the like.<P>
+
+But in a sense I can see a world trading system which can still work in spite of the fact that we'll probably have smaller scale enterprises within separate regions. I don't think we can go back to the radical sort of decentralized view that suggests that there won't be world trading. That is just very unrealistic, although a lot of the so-called deep ecologists feel that way. I don't think that that will happen at all because we're not going to put the genie back into the bottle. I think that what will happen is that world trade will move from hardware to software. In other words, we won't be shipping lots of stuff around because every country will have the formula for making the stuff they need, whether it's refrigerators, vehicles or whatever. And the real gifts that will be in world trade will be those unique gifts that cultures produce that they want to share. Most of them, I believe, will be software rather than hardware. I mean, you could build a perfectly good export economy on music, like the Austrians did in the 18th century. It will go much more in that direction. And that kind of a world trading system won't be competitive, because if it is built on the unique gifts of each country or population it will be tend to organize itself into niches. And in nature, niches are essentially cooperative.<P>
+
+Just to give you another example of what I'm thinking of,  I was in the Netherlands recently, talking with business and government people and asking, "Well, what is the sort of irreducible, unique cultural gift that provides an export, a reliable export for the Netherlands?" And they all said, "Dyking out the sea, of course. We've had 2000 years of experience in doing that."  They sell that technology, both the hardware and the software to Bangladesh, the city of New Orleans, and if we go on with the CO2 build-up they'll be selling it to all the cities along the coast of the United States.<P>
+
+So every country has something like that to offer the world. Or take my British friends. I always ask them what's the best export, the most successful export in Britain since World War II, and for my money it's eccentricity. I mean, that's a fabulous export because it doesn't involve any resources. And I mean, of course, the Beatles, punk fashion, things like that. And if the government had noticed that and helped a lot of those young people in that cultural expression they would have done a lot better than laying all that money on Mr. DeLorean to do his silly automobile. </BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>You've also been quite critical of the GNP as a very primitive and mischievous indicator of wealth or commonwealth. What kinds of things should we supplant it with?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>: Well, as I like to say, judging a society by its GNP is like trying to fly a Boeing 747 with nothing on the instrument panel except an oil pressure gauge. I'd like to see a few other gauges on that panel so that we'd have a better idea of what kind of quality of life we were achieving. And all of the statistics are on hand and readily available. You can go to the World Health Organization for the health statistics - life expectancy and the live births per thousands. Another would obviously be access to clean air and access to clean water, where the toxic dumps are and whether they're leaching into the water table. All of that information is collected by the United Nations Environment Program and all the domestic environmental ministries that there are. <P>
+
+You would want to look at political participation and you would probably go to such people as Amnesty International and other kinds of agencies that look at democratic participation, at voting records and comparative electoral participation. You would want to look at the gap between the rich and the poor in terms of the nominal income. Per capita income, of course, is a very useful statistic even though it's fairly weak as a real indicator of the quality of life. But just as important as looking at per capita income is asking what's the spread between the rich and the poor. If that gets too wide you have a very serious problem on your hands. You begin to get crime and all kinds of social breakdown and you're also in line to have a rather serious breakdown in your economic system. <P>
+
+One of the real indicators of coming crashes, market crashes, is when the gap between the rich and the poor gets too wide. Because what happens is you're blocking the production-to- consumption channel. If the people who need to consume don't have purchasing power and it's all impounded at the upper end of the income scale where too many people are investing too much and it's all overhanging the stock market and driving up stock prices, you're going to have a crash. That's actually what happened in l929. And that was one of the real indicators that I was looking at when I was predicting there was going to be a big market break in l987. The gap between the rich and the poor had gotten too wide. So, that's another important one. <P>
+
+Anyway, I could go on all across the spectrum but you get the idea. We wouldn't need so many economists, of course, in this kind of world but there are plenty of&thorn;good statisticians and social scientists and anthropologists and all kinds of multi-disciplinary people out there already collecting the necessary information. The important thing is that we need to train mass media to use it. And right now, you know, the kind of statistics that you hear on the 7 o'clock news - that the GNP went up or that interest rates dropped half a point. This is information useful only to global currency arbitragers and speculators. This is not interesting to people looking at the quality of life or the progress of their country toward its goals. <P>
+
+So what we need to do is move that information for currency speculators to business shows. And the 7 o'clock news ought to give us these other indicators. And it can never be all put together in one indicator. That puts all the apples and oranges together. We have to train the media to take ten minutes to say, "Okay, this is how we're doing on this front and this is how we're doing over there." Because that's the way you get the multi-dimensionality and it becomes real to people and you can start doing politics around it.</BLOCKQUOTE>
+
+<FONT COLOR="#800000"><H4>As a futurist, would you care to venture a prophecy of the millennium that you would like to help fulfill?</H4></FONT>
+
+<BLOCKQUOTE><STRONG>Henderson</STRONG>: Well, I do think that the new era is going to be the era of mutually assured development. We've done the mutually assured destruction bit and it didn't work too well for anybody. We now have an era of global interdependence and the only way you can create a game for an interdependent planet is to make it a win-win game. At every level you are beginning to see cooperative systems being put together to run this planet. I mean, what is happening now is that nature is teaching us all very directly and the lesson is cooperation. There's no other way for us to get out of the messes we have gotten ourselves into. And what I take some hope from is the fact that we are beginning to deal with the feedback from nature. I mean, think of the Treaty of Montreal, we notice a hole in the ozone layer and within a matter of a few years... For international bodies that was record time to come up with a treaty. Okay, it was not enough and everyone is going back and it's got to be tighter. But at least we're beginning to recognize the urgency.<P>
+
+Also I think we need to look at these global cooperative arrangements in a very different light than, say, the old ideas of a world government. That just would not work. You cannot do this thing from the top down. The Soviets have proved that to us all. We don't have enough information and there wouldn't be enough feedback to do it from the top down. But look at the way we are building from the grassroots up and what I see are these global functions are coming together one by one. 
+<P>I like to use some very simple examples of the things that we are doing right like the postal system, the global postal system. You put a  letter in the mail anywhere in the world and you have a reasonable hope that it's going to get there. And that system is run out of a little brownstone house in Switzerland. It's not oppressing anybody. Or look at the global airline system - very complex, high-tech - an incredible miracle of coordination. I mean, all the air traffic controllers are trained the same way and your tickets are all on the same kind of a form, the schedules all mesh so that you can get where you want to go. And that system is not oppressing anybody. And you can look at world weather forecasting and there's dozens and dozens of these global functions that we're building along different dimensions that we need. 
+
+<P>So, I think that if we can build from that kind of model and we can build from the global networks of professionals in all kinds of different disciplines, using the UN system when we can, we can build a world order which is not going to be a top down world order. But it's going to be one that is flexible and sort of "trickle up" in terms of it being an expression of what's really needed on the ground rather than it coming out of the heads of a lot of bureaucrats who can't possibly have enough information.  So, I feel quite hopeful if I look at what's happening in the world that way. 
+
+<P>And, of course, the kind of expressive actions that people are taking now, where we are seeing a global polity arising for the first time. We're getting planetary citizens popping up all over the place, whether they're doing live aid concerts or rock stars going into the rain forests. For the first time, with the help of media and artists and musicians, we are putting together this kind of global public opinion which I think is the way we have to go. </BLOCKQUOTE>
+
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+<FONT  SIZE=2><STRONG>&gt;!&lt;  END OF FIRST CONSULTATION &gt;!&lt;</STRONG><BR>
+- <EM>Nancho Rep: W. David Kubiak </EM>-</FONT>
+<HR WIDTH=250 ALIGN=center SIZE=2><P>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HER THYSELF, <BR>CHECK OUT HER LATEST BOOKS:<BR> <A HREF="http://www.readersndex.com/imprint/000001n/00002o1/author.html"  target="_blank">"Paradigms In Progress"</A><BR>
+<A HREF="http://www.readersndex.com/imprint/000001n/00002o1/0000000/title.html"   target="_blank">"Building a Win-Win World"</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsHazel;

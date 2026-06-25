@@ -1,0 +1,490 @@
+import { useEffect } from "react";
+
+const Bigmed2000Bigread2 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=400 HEIGHT=6 VSPACE=6><BR>
+<FONT  SIZE=4><B>BIG BODY BOOK WORK <BR><FONT  SIZE=3>Page II</FONT><BR>- Learning to Diagnose Corporate <BR>Maladies in Your Body Politic</B></FONT>
+<BR><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=400 HEIGHT=6 VSPACE=7></CENTER>
+
+<A NAME="air"></A>
+<BLOCKQUOTE><H4> <U>BIG BODY PATHOLOGIES</U> <BR>
+- Diverse Symptoms of Our Common Plague</H4>
+<UL>
+<STRONG><U><FONT  SIZE=2>SHORT INTRODUCTION</FONT></U></STRONG>
+
+<LI><A href="${BASE_URL}bigbody/apforum1.html"><STRONG><FONT  SIZE=2>T<FONT SIZE=-1>HE BIG BODY PROBLEM</FONT></FONT></STRONG></A><BR><BR>
+
+<STRONG><U><FONT  SIZE=2>INTRODUCTORY TEXTS</FONT></U></STRONG><BR>
+
+<FONT  SIZE=2><STRONG>ANALYTIC</STRONG></FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#corprule">W<FONT SIZE=-1>HEN CORPORATIONS RULE THE WORLD</A> <BR>- by David C. Korten</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#manic">O<FONT SIZE=-1>NE WORLD, READY OR NOT: THE MANIC LOGIC <BR>OF GLOBAL CAPITALISM</A> - by William Greider</FONT>
+
+
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#publicp">E<FONT SIZE=-1>CONOMICS AND THE PUBLIC PURPOSE</A> - by John Kenneth Galbraith</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#aginfreet">T<FONT SIZE=-1>HE CASE AGAINST FREE TRADE : GATT, NAFTA AND <BR>THE GLOBALIZATION OF CORPORATE
+POWER</A> - by Ralph Nader (Editor)</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#complex">T<FONT SIZE=-1>HE BIGNESS COMPLEX</A> - by W. Adams</FONT><BR>
+<BR>
+<FONT  SIZE=2><STRONG>INVESTIGATIVE/ACTIVIST</STRONG></FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#planet">T</FONT><FONT SIZE=-1>HE CORPORATE PLANET <BR>
+- ECOLOGY AND POLITICS <BR> IN THE AGE OF GLOBALIZATION</A> - by Joshua Karliner</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#predator">C<FONT SIZE=-1>ORPORATE PREDATORS : THE HUNT FOR MEGA-PROFITS <BR>AND THE ATTACK ON DEMOCRACY</A> - by Mokhiber &amp; Weissman</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#gspin">G<FONT SIZE=-1>LOBAL SPIN : THE CORPORATE ASSAULT <BR>ON ENVIRONMENTALISM</A> - by Sharon Beder</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#greenwash">E<FONT SIZE=-1>ARTH FOR SALE - RECLAIMING ECOLOGY <BR>N THE AGE OF CORPORATE GREENWASH</A> - by Brian Tokar</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#censor99">C<FONT SIZE=-1>ENSORED 1999 : THE YEAR'S TOP 25 CENSORED STORIES</A> - by Peter Phillips (Editor)</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#censor20">20 Y<FONT SIZE=-1>EARS OF CENSORED NEWS</A> - by Carl Jensen</FONT><BR><BR>
+
+<FONT  SIZE=2><STRONG>POPULIST/SATIRIC</STRONG></FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#mama">C<FONT SIZE=-1>ORPORATIONS ARE GONNA GET YOUR MAMA: 
+GLOBALIZATION <BR>AND THE DOWNSIZING OF THE AMERICAN DREAM</A> - by Kevin Danaher (Editor)</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#downsize">D<FONT SIZE=-1>OWNSIZE THIS!</A> - by Michael Moore</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread1.html#yellow">T<FONT SIZE=-1>HERE'S NOTHING IN THE MIDDLE OF THE ROAD BUT <BR>YELLOW STRIPES AND DEAD ARMADILLOS</A> - by Jim Hightower 
+
+</UL>
+
+<H4><U>BIG BODY PHYSIOLOGY </U><BR>- Techniques  &amp; Trials of Terminal Incorporation</H4>  
+
+<UL>
+<STRONG><FONT  SIZE=2><U>SHORT INTRODUCTIONS</U></FONT></STRONG><BR>
+<LI><A href="${BASE_URL}kipower/kisoma.html">T<FONT SIZE=-1>HE CULTURE OF CORPORATE BEINGS</FONT></A>
+<LI><A href="${BASE_URL}kipower/mindbind.html">T<FONT SIZE=-1>HE JAPANESE ART OF MIND-BINDING</FONT></A>
+<LI><A href="${BASE_URL}bigbody/lusions1.html">L<FONT SIZE=-1>USIONS</FONT></A><BR><BR>
+<STRONG><FONT  SIZE=2>PRINCIPLES &amp; EXAMPLES</FONT></STRONG><BR>
+<LI><A HREF="#lsystems">L<FONT SIZE=-1>IVING SYSTEMS</A> -  by James Grier Miller </FONT>
+<LI><A HREF="#crowd">T<FONT SIZE=-1>HE CROWD</A> - by Gustave Le Bon</FONT>
+<LI><A HREF="#groupmind">T<FONT SIZE=-1>HE GROUP MIND</A> - by William McDougall</FONT>
+<LI><A HREF="#japan">J<FONT SIZE=-1>APANESE SOCIETY</A> - by Chie Nakane</FONT>
+<LI><A HREF="#beelife">L<FONT SIZE=-1>IFE OF THE BEE</A> - by Maurice Maeterlink</FONT>
+<LI><A HREF="#industrial">T<FONT SIZE=-1>HE NEW INDUSTRIAL STATE</A> - by J.K. Galbraith</FONT>
+<LI><A HREF="#escape">E<FONT SIZE=-1>SCAPE FROM FREEDOM</A> - by Erich Fromm</FONT>
+<LI><A HREF="#obey">O<FONT SIZE=-1>BEDIENCE TO AUTHORITY</A> - by Stanley Milgram</FONT>
+<LI><A HREF="#kampf">M<FONT SIZE=-1>EIN KAMPF</A> - by Adolf Hitler</FONT>
+<BR><BR>
+<STRONG><FONT  SIZE=2>INDUSTRIAL ANTHROCULTURE <BR>- Science &amp; Symptoms of Lowering Testosterone</foNT></STRONG><BR>
+<LI><A href="${BASE_URL}cityhall/rectmeme.html">H<FONT SIZE=-1>ISTORY IN YOUR PANTS</FONT></A> - Brief intro to Japan's experience
+<LI>"<A href="${BASE_URL}anthcult/castreg.html">C<FONT SIZE=-1>ASTRATION: THE MAJOR GOAL OF JAPANESE EDUCATION</FONT></A>" By Masao Miyamoto M.D. (Oxford/Cambridge Speech)
+<LI>"<A href="${BASE_URL}anthcult/castrhiv.html">C<FONT SIZE=-1>ASTRATION", THE HIV SCANDAL AND THE JAPANESE BUREAUCRACY</FONT></A>" By Masao Miyamoto M.D. (MIT Speech)
+
+<LI><A HREF="#castrate">
+A<FONT SIZE=-1> BRIEF HISTORY OF CASTRATION</A> -              by Victor T. Cheney</FONT><BR>
+<LI><A HREF="#castrate">C<FONT SIZE=-1>HINESE EUNUCHS</FONT></A>                  -  by Taisuke Mitamura </FONT><BR>
+<LI><A HREF="#fearstress">T<FONT SIZE=-1>HE PSYCHOLOGY OF FEAR AND STRESS</A>  -  by Jeffrey Alan Gray </FONT><BR>
+<LI><A HREF="#farm"> B<FONT SIZE=-1>EHAVIOURAL PROBLEMS OF FARM ANIMALS</A> -   by M. Kiley-Worthington </FONT><BR> 
+<LI><A HREF="#organman">T<FONT SIZE=-1>HE ORGANIZATION MAN</A>     - by William Hollingsworth Whyte</FONT><BR>
+<LI><A HREF="#eunuch">T<FONT SIZE=-1>HE CORPORATE EUNUCH</A> - by O. William. Battalia </FONT><BR>
+<LI><A HREF="#femimale">T<FONT SIZE=-1>HE FEMINIZED MALE: CLASSROOMS, WHITE COLLARS, <BR>AND THE DECLINE OF  MANLINESS</A> - by Patricia Cayo Sexton</FONT><BR>
+<LI><A HREF="#crisis">T<FONT SIZE=-1>HE MALE IN CRISIS</A>         -  by Karl Bednarik</FONT>
+</UL>
+</FONT>
+
+<H4><U>BEYOND BIG BODIES</U><BR> - New Paradigms &amp; Sources of  Courage</H4>
+<UL>
+<LI><A HREF="#humanscale">H<FONT SIZE=-1>UMAN SCALE</A> - by Kirkpatrick Sale</FONT>
+<LI><A HREF="#postcorp">T<FONT SIZE=-1>HE POST-CORPORATE WORLD : <BR>LIFE AFTER CAPITALISM</A> - by David Korten</FONT>
+<LI><A HREF="#reclaiming">G<FONT SIZE=-1>LOBALIZING CIVIL SOCIETY : RECLAIMING OUR RIGHT TO POWER</A> - by David Korten</FONT>
+<LI><A HREF="#turnlocal">T</FONT><FONT SIZE=-1>HE CASE AGAINST THE GLOBAL ECONOMY ,<BR>
+AND FOR A TURN TOWARD THE LOCAL</A> by Mander &amp; Goldsmith (Editors)</FONT>
+<LI><A HREF="#phenomenon">T<FONT SIZE=-1>HE PHENOMENON OF MAN</A> - by Pierre Teilhard de Chardin</FONT>
+<LI><A HREF="#power10">P<FONT SIZE=-1>OWERS OF TEN</A> - by Philip &amp; Phylis Morrison</FONT>
+<LI><A HREF="#earthdream">T<FONT SIZE=-1>HE DREAM OF THE EARTH</A> - by Thomas Berry</FONT>
+<LI><A HREF="#dragon">T<FONT SIZE=-1>HE UNIVERSE IS A GREEN DRAGON : <BR>A COSMIC CREATION STORY</A> - by Brian Swimme</FONT>
+
+</UL>
+
+</BLOCKQUOTE>
+<CENTER><IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=90% HEIGHT=5></CENTER>
+
+
+<H3>Big Body Physiology</H3>
+<FONT  SIZE=3><STRONG>GENERAL PRINCIPLES <BR>- Complementary Perspectives on Big Body Culture</STRONG></FONT><BR>
+<A NAME="lsystems"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0870813633/qid=927852684/sr=1-2/002-4005996-2313860" target="_blank">L<FONT SIZE=-1>IVING SYSTEMS</FONT></A></B> by James Grier Miller  </LI>
+<BLOCKQUOTE>
+<P><B>Book Description</B><BR>
+
+
+This encyclopedic volume presents and analyzes many diverse facts about cells,
+organs, organisms, groups, organizations, societies, and supranational
+systems, but it integrates all this knowledge into a single conceptual
+system. The book is a presentation of the state of current knowledge in
+all of the sciences relevant to these seven levels of living systems. It
+also provides a theoretical integration and a methodological approach to
+quantitative basic research, and how applied research and development can
+arise from this. The set of concepts presented by the author is powerful
+and draws attention to all facets of a given problem in a social system.</P>
+
+<P> <B>Nancho Comment<BR>
+</B>
+A pioneering effort to show the commonalities of all living systems, and to develop a typology of their common functions and physiologies. Dr. Miller presided over a fractious team of 100 researchers in seven different fields, many of whom never got the hang of his interdisciplinary vision and stuck rather stubbornly to their narrow classical paradigms and perspectives. (Socilogists didn't know much about biology and thus were loathe to admit its relevence for understanding phenomena in their field. Ditto for biologists and psychology, physicians and political economy. ) The flow, therefore, is choppy and unpersuasive, and only unified by Miller's heroic post-project efforts to bind these belligerantly diverse fields together with a common new (and pretty clunky) vocabulary. This is the direction of the future, however, and this book deserves considerable veneration for starting the ball rolling.
+
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0525206582/qid%3D933910583/002-5834934-0091239" target="_blank"><STRONG>
+S<FONT SIZE=-1>OCIAL GROUPS OF MONKEYS, APES, AND MEN</FONT></STRONG></A> by 
+M.R.A. Chance and Clifford Jolly and <BR>
+
+
+<A HREF="http://www.amazon.com/exec/obidos/ASIN/0471015733/qid%3D933909828/002-5834934-0091239" target="_blank"><STRONG>
+S<FONT SIZE=-1>OCIAL STRUCTURE OF ATTENTION</FONT></STRONG></A> by M.R.A. Chance and R. Larsen
+
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+Incredible! Chance and Jolly (great pair up or what?), two of the most respected voices in modern anthropology write THE BREAKTHROUGH WORK on attention and its dominant role in creating, maintaining and overthrowing social structures, and instead of receiving a Nobel Prize their blessed book is ridiculed, attacked and remaindered. Think about it. More than any other single factor, our attention determines the content of our consciousness from moment to moment, and thus determines our experience, our memories, and finally our lives. Attention creatively nourishes the beings and tasks that receive it. Its channeling and command is the secret of all entertainment, leadership and organizational management. It is what advertisers spend billions of dollars each year to buy from publications, broadcast outlets and Internet sites. In short, it is humanity's most important social and existential resource and yet who in the world is studying it? Where it goes and how it is controlled should be a central issue in psychology, sociology and political science, yet when is the last time you saw a documentary, book or even article on it? Strange, no? Because there appears to be a widespread hunger for that kind of knowledge. The Celestine Prophecy proved that, if nothing else. But try to launch that discussion in academia today like Chance and Jolly did, and you risk professional destruction. Anyway, find and read their books or as a poor substitute read my riff on the phenomenon in the <A href="${BASE_URL}arcmain.html#kipapers">Ki Papers</A>. To aid thy search, here are all the details I have at hand:
+
+ <U>The Social Structure of Attention</U>, Chance M.R.A and Larsen. R  (eds) (1976) John Wiley and Sons Ltd and
+<U>Social Groups of Monkeys Apes and Men</U>, Chance, M.R.A. and Jolly, C. (1970) London: Cape and
+     Dutton 1970 ISBN 22461870-9     N.Y (USA) and Cirenchester (UK). End of rant. Good luck.</BLOCKQUOTE>
+
+<A NAME="escape"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0805031499/qid=933688361/sr=1-2/002-5834934-0091239" target="_blank"><STRONG>
+E<FONT SIZE=-1>SCAPE FROM FREEDOM</FONT></STRONG></A> by Erich H. Fromm
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>Still THE BOOK on the authoritarian personality - that steady dangerous percentage among us driven by fear and weakness to sacifice their lives (and many others') to hierarchical power. Gratefully subordinate and reflexively obedient, this is the population that corporate  education covets, trains and screens for. Clearly explains the mindset of the teeming "functionaries" in all the commercial/military/ecclesiastic Big Bodies of the world. Also works as a text for fundamentalism of any flavor. See Milgram's work on <A NAME="#obey">Obedience</A> for the anaesthetic consequences of this conditioning.</BLOCKQUOTE>
+<A NAME="groupmind"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0405051484/qid=927667789/sr=1-17/002-4005996-2313860" target="_blank"><STRONG>T<FONT SIZE=-1>HE GROUP MIND</STRONG></FONT></A>
+                    by William McDougall
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>First great English language inquiry into our collective instincts and how quickly cultural conditioning can replace individual thought as the primary engine of behavior. Pretty racist in the old British style but still basically relevant and seminal.</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="crowd"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0877971684/ref=sim_books/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE CROWD : A STUDY OF THE POPULAR MIND</STRONG></FONT></A>
+                    by Gustave Le Bon
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>Fundamental insights into group psychology and our psychic susceptibility to collectivized exploitation. Greatly useful for corporate being breeders and those who would escape them.</BLOCKQUOTE>
+<A NAME="kampf"></A><LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0945001193/o/qid=933689062/sr=2-2/002-5834934-0091239" target="_blank"><STRONG>M<FONT SIZE=-1>EIN KAMPF</STRONG></FONT></A> by Adolf Hitler
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>Classic insights on breaking down individuals for corporate enslavement by one of the great Big Body-builders of all time.</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="japan"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0520021541/qid=933689285/sr=1-16/002-5834934-0091239" target="_blank"><STRONG>J<FONT SIZE=-1>APANESE SOCIETY</STRONG></FONT></A> by Chie Nakane
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>After 20 years, still the most intelligent book on Japanese social dynamics and the reasons why Japanese Big Bodies are still the most integrated, evolved, and scariest on the planet. Almost a workbook on how to build a thriving Big Body farm of your own.</BLOCKQUOTE>
+<A NAME="beelife"></A>
+<LI><A HREF="http://eldred.ne.mediaone.net/mm/b.html" target="_blank"><STRONG>L<FONT SIZE=-1>IFE OF THE BEE</STRONG></FONT></A>  by Maurice Maeterlink
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>This 1901 classic features great poetry and insight into the great sensual/existential sacrifices social beings will make for the security of terminal incorporation. Long out of print but now available free online. God bless the Book Project.</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="obey"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/006131983X/qid=933908687/sr=1-2/002-5834934-0091239" target="_blank"><STRONG>
+O<FONT SIZE=-1>BEDIENCE TO AUTHORITY</FONT></STRONG></A>  (Original) and <BR><A HREF="http://www.amazon.com/exec/obidos/ASIN/0060129387/qid=933985874/sr=1-3/002-5834934-0091239" target="_blank"><STRONG>
+O<FONT SIZE=-1>BEDIENCE TO AUTHORITY : AN EXPERIMENTAL VIEW</FONT></STRONG></A> <BR>(Updated) 
+by Stanley Milgram
+                    <P>
+
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+Finally some psychology relevent to our planetary plight. Milgram's extraordinary and often replicated studies show that we as a species seem to be divided into relatively equal thirds with regard to empathy/obedience - 1/3 who will refuse to inflict pain on others despite official pressure to do so, 1/3 who will object/question/protest but ultimately obey if an "authority" insists, and 1/3 who will obey almost any "authority" reflexively and execute orders to harm others quite indifferently (including a few percent who really get into it).  So, people, this is "us" and our raw material for building a brave new world. Big Body builders thus have a decided advantage - a vast readymade population of obedient candidates to choose from - easily incorporated "members" who will cheerfully pillage, impoverish, or pollute "other" peoples on command of authoritative corporate leaders.<P>
+ Our challenge as empathic "refuseniks" within a democratic society is the batlle for the hearts and minds of the conscientious but weak middle third. If we can strengthen their resolve (unbreak their balls, as it were), we have a clear majority that can legitimately command authority and thus legally/ethically/psychologically control the other morally anaesthetized third. Read the reader comments below, study the book, and meditate on what you can do to help. The Great Work begins here.<P>
+<STRONG>Reader Responses</STRONG><BR>
+                    "<STRONG>An intense, haunting, and enlightening illumination</STRONG>. 
+                    Stanley Milgram's experiments in human response to authority in the 1970's offer as
+                    much insight today as when they were originally conducted. The experiments are best
+                    known as a series of tests performed through Yale University, where a subject was told
+                    to administer an increasingly high level of electrical shock to a victim attempting to learn
+                    a series of word relationships. The frightening results showed the majority of subjects,
+                    at the bequest of the authority involved, applied maximum voltage despite the begging
+                    and pleading of the victim to stop the test (the victim being an actor pretending to be
+                    shocked)...
+                    We still have a lot to learn from the evidence gathered by Milgram. His book presents
+                    scientific and psychological studies in lay terms that are accessible to anyone."  -- Los Angeles, California<P>
+
+
+                    "<STRONG>This is a book that could save the World</STRONG>. 
+                    This book presents a mind-blowing revelation on every page, and yet you will recognize
+                    everything in it from your everyday life. That is what makes it so chilling. Milgram
+                    demonstrates in definitive experiments how typical people recruited from off the street
+                    can, using no more than a veneer of authority, easily be persuaded to commit torture
+                    and even murder on innocent victims. The book thereby essentially explains the
+                    psychological mechanics of the Nazi and other concentration camps, the Death Squads
+                    in El Salvador and across the World, and the many other forms of atrocity that have
+                    become so characteristic of the 20th Century, this "Century of barbed wire and
+                    watchtowers". Ever wonder how you can find air force pilots willing to drop the bombs
+                    to start a nuclear holocaust? Answer: It's the easiest thing in the World! A certain
+                    percentage of the population will have the proper psychological profile, and you just
+                    select them. If psychologists and social scientists really wanted to know what are the
+                    ruling principles of civilization and what are the sources of so many of its ills, they'd be
+                    running experiments like Milgram's year-round in labs across the planet. Instead, very
+                    little work of this kind has since been done. Why? Because it's considered "ethically
+                    questionable"! In a classic case of "kill the messenger", the very man who shows us
+                    concretely how torture has been so thoroughly integrated into the political structure and
+                    who exposes the blatant hypocracy of our rulers, is accused of abusing his subjects and
+                    of betraying their trust! In the back of the book Milgram, by the way, faces all ethical
+                    objections head-on and refutes them all convincingly. Buy this book if you want to find
+                    out what is "really going on", but you may be upset by what you find." -- East Bay, California</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+
+<FONT  SIZE=3><STRONG>CORPORATE ANTHROCULTURE <BR>
+- Breeding Docile Men for Acquiescent Incorporation</STRONG></FONT>
+
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+If I were paranoid - not that I AM of course, but IF I were, the fact that 90% of the most important books on Big Body building are out of print would be a cause of enormous alarm. But the work has been done, is still "out there" somewhere, and with a little help from you - either monetary or manual - could/should at least be summarized on the Net. Anyway, here are leads</BLOCKQUOTE>
+
+<A NAME="castrate"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/1877858765/qid=933940284/sr=1-6/002-5834934-0091239" target="_blank">
+<STRONG>A<FONT SIZE=-1> BRIEF HISTORY OF CASTRATION</FONT></STRONG></A>
+                    by Victor T. Cheney<P>
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>Fine companion volume to 
+<A HREF="http://www.amazon.com/exec/obidos/ASIN/0804806535/qid%3D934036768/002-5834934-0091239" target="_blank">
+Chinese Eunuchs</A>
+                    by Taisuke Mitamura which reminds us that castration was not practiced on men to limit fertility but as a behavioral modification to ensure unquestioning obedience. Testosterone was the problem and ambitious mothers would often hold their boys down while the authority-offending glands were excised. The results proved ideal for Big Body building and the Chinese finally made it a mandatory prerequisite for all bureaucratic employment. We are more evolved today of course, or at least more technically advanced. Today corporate types can keep the meat, because the Big T can now be held in check by fat, fear, stress and environmental hormones.</BLOCKQUOTE>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<A NAME="organman"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0671212354/qid=934036533/sr=1-31/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE ORGANIZATION MAN</FONT></STRONG></A>
+                    by William Hollingsworth Whyte
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+The wise and learned classic that looked up Big Body skirts and scared the Sixties silly. The corporate bookshelves still bristle with counter-texts entitled "Beyond the O.M."/"After the O.M."/Goodby to the O.M." assuring you those bad, ball-busted days are all over and now we're all macho, rough tough, individualistic "team players" up here in the corporate hive. Who you gonna trust?</BLOCKQUOTE>
+
+<A NAME="fearstress"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0070242267/qid=933943592/sr=1-26/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE PSYCHOLOGY OF FEAR AND STRESS</FONT> </STRONG></A>
+                    by Jeffrey Alan Gray <P>
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+Pretty dry and technical academic research, but it dramatically illustrates the direct correlation between fear/stress and impotence, timidity and "team spirit"</BLOCKQUOTE>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<A NAME="eunuch"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0690218443/qid=933943970/sr=1-5/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE CORPORATE EUNUCH</FONT></STRONG></A> by O. William. Battalia <P>
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+Ball-busting pressures on middle management</BLOCKQUOTE>
+<A NAME="farm"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0853621632/qid%3D933996798/002-5834934-0091239" target="_blank">
+B<FONT SIZE=-1>EHAVIOURAL PROBLEMS OF FARM ANIMALS</FONT> </A>
+                    by M. Kiley-Worthington
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+Fascinating sections on obesity-related impotence, stress retardation of psychosomatic development, and "psychological castration" caused by low social status. How are things around your water cooler?</BLOCKQUOTE>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<A NAME="femimale"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0394708733/qid=933939701/sr=1-2/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE FEMINIZED MALE: CLASSROOMS, WHITE COLLARS, <BR>AND THE DECLINE OF  MANLINESS</FONT></STRONG></A> by Patricia Cayo Sexton
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>Dr. Sexton traces the fecklessness of the corporate crowd right back to their long years of unnatural imprisonment in chairs, at desks, under tube lights, deadlines and authoritarian oversight. Is that any way to raise a healthy animal, let alone an entire male? Her male reviewers (all veterans of that 16-year docile squat and a wee bit touchy) yipped at her viciously.  Feminists were irked that she focused (sympathetically) on boys and ignored her in turn. A pox on both their houses. It's a good and important book. Exhume it.
+</BLOCKQUOTE>
+<A NAME="crisis"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0313227136/qid=933939886/sr=1-3/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE MALE IN CRISIS</STRONG></A>
+                    by Karl Bednarik</FONT>
+<BLOCKQUOTE><STRONG>Book Description</STRONG><BR> 
+                    "Karl Bednarik states that the majority of men suffer from central disturbance in their
+                    masculine life in modern industrial society. He shows that prevailing conditions are
+                    introducing radical changes in masculine behavior and that the emasculation of
+                    contemporary man is due to the increasing overorganization of modern society." </BLOCKQUOTE>
+</UL>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<CENTER><IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=90% HEIGHT=5></CENTER>
+
+<BLOCKQUOTE>
+<H3><U>BEYOND BIG BODIES</U><BR>- New Paradigms &amp; Sources of Courage</H3>
+<UL>
+
+
+
+<A NAME="humanscale"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0399506217/qid=925092998/sr=1-18/002-5311388-2059830 target=" _blank">H<FONT SIZE=-1>UMAN
+SCALE<BR>
+</FONT></A></B>by Kirkpatrick Sale </LI>
+<BLOCKQUOTE><STRONG>Nancho Advisory:</STRONG><BR> 
+                    Since the Small/Beautiful/Sensual  societies we create in the post-corporate world should directly reflect the democratic will of each of our families, communities and bioregions, there is little point in pushing one-size-fits-all paradigms. You don't need a doctor to tell you how to enjoy your health after the plague is past. As long as we keep the "pathological scale" problem in mind and simply refuse existence to vast hierarchic entities, a diversity of congenial new cultures is thinkable, desirable, probably inevitable. But we have learned a lot about ourselves as a species in the last few thousand years, and that history must be consulted when building our brave new worlds. Kirkpatrick Sale offers an invaluable review of that history in "Human Scale" and clearly outlines what has worked and what hasn't since the days of ancient Greece. His primary conclusion is predictable - Big Sucks (in every bloody sense), but the historical insights he offers into our unsung successes both amaze and encourage. Read this book! You will feel a lot better about both the past and the future.
+</BLOCKQUOTE>
+
+<A NAME="phenomenon"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/006090495X/qid=925088908/sr=1-1/002-5311388-2059830" target="_blank">T<FONT SIZE=-1>HE
+PHENOMENON OF MAN<BR>
+</FONT></A>by Pierre Teilhard de Chardin </LI>
+<BLOCKQUOTE>
+<P> <B>Nancho Comment<BR>
+</B>
+Jesuit paleontologist Teilhard de Chardin will eventually be known as the most brilliant prophet of the 20th century and this is his most important work. Written with great learning, grace and profound conviction, <U>The Phenomenon of Man</U> traces the great evolutionary work from the first stirrings of life through our species glorious/pathetic history and onward to quantum consumation in a "Spirit of the Earth." He calls this planetic  convergance the "Noosphere," an all-encompassing  psychic singularity that enhaloes the biosphere and offers each of us a transcendent foundation for individual liberation and becoming. In 1947 Chardin watched the laying of the first Atlantic telecommunications cable and virtually predicted the arising of not only the Internet but also the entire complexifying global neural matrix that would ultimately allow the planet to think its first collective thought. More marvelous still, this is laid out as a self-fulfilling prophecy that we can realistically accomplish in our own lifetimes. The next great stride in evolution is not to be awaited, but accomplished now with science, love and haste. To start generating that spirit now, see the <A href="${BASE_URL}earthour/earthour.html">Earth Hour</A>.
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="powers10"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0716760088/qid=927423948/sr=1-2/002-7792184-8613222" target="_blank">P<FONT SIZE=-1>OWERS
+OF TEN<BR>
+</FONT></A></B>by Philip &amp; Phylis Morrison </LI>
+<BLOCKQUOTE>
+
+
+
+<P><B>Reviews </B><BR>
+</P>
+
+
+<P>&quot;Back in 1968, designers Charles and Ray Eames made a 10-minute
+documentary film, titled Powers of Ten, showing what the universe looks
+like at different scales. Philip and Phylis Morrison were scientific advisors
+on the movie and their book translates the film onto paper.</P>
+
+<P> &quot;Starting with a view of a billion light-years, the book (like
+the film) moves inward, with each page being at one-tenth the scale of
+the previous one. In 25 steps, you're looking at a picnic by the shores
+of Lake Michigan, then plunging into a human hand, down through the cells
+inside it, the DNA inside the cells, the atoms inside the DNA, and the
+subatomic particles inside the atom. By the time you've gone a total of
+40 steps, you're in a world of quantum uncertainty.&quot; --Mary Ellen
+Curtin </P>
+
+<P><B>Reader Comments<BR>
+</B>&quot;This book
+must be in every home, every school and every college. It is enough to
+read this one book to have faith and admiration for science at the same
+time developing a deep respect for the Power behind the universe which
+most of us call God... One of the first ten books
+which will still be remembered at the 'end' of the twenty-first century
+as the legacy of the twentieth.&quot; - Palo Alto, CA</P>
+
+<P> Brilliant! &quot;This is not only a beautiful book to look at, it is
+an intellectual treasure, sharing some of science's most profound discoveries
+with the reader. I can't reccomend this book enough. It turns the world
+into a dream.&quot; - Auckland, New Zealand</P>
+
+<P> <B>Nancho Comment<BR>
+</B>Despite a rather distracting narration, the short movie this book describes is one of the most profoundly moving film works ever made. If you can somehow stretch your mind to encompass the literally awesome reality this film/book describes you will never feel the same about life again. From the cosmic or even galactic scale each of our lives is but a microscopic micro-second of energetic jitter, yet viewed from the perspective of our quantum or even atomic constituents, each of us is also an impossibly vast and stately universe of time and space. By ripsawing our minds between these two contradictary and equally true realities, the film exposes us to the singular magic of our green Middle Kingdom and the profound power our consciousness should wield in this realm. Although this is all just "simple" science that everybody "knows", when you try to actually/vividly envision it,  the entire world begins to glow. Use it as a meditation if you ever lose heart in some Big Body battle. The power that it confers is positively invincible.
+
+
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="earthdream"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0871566222/qid=927424469/sr=1-1/002-7792184-8613222" target="_blank"><STRONG>T<FONT SIZE=-1>HE DREAM OF THE EARTH</FONT></STRONG></A><BR>                    by Thomas Berry 
+<BLOCKQUOTE>
+
+<STRONG>Reviews </STRONG><BR>" This volume quite possibly is one of the ten most important books of the twentieth century." - Dr. Donald B. Conroy, President, North American Conference on Religion and Ecology<P>
+
+<B>Synopsis<BR>
+</B>The Dream of the Earth is a balanced, deeply felt declaration of planetary
+independence from the sociological, psychological and intellectual &quot;conditioning&quot;
+that threatens the death of nature. It shows readers how to move their
+traumatized planet toward health, and to avoid a catastrophic future.</A></LI>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="dragon"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0939680149/ref=sim_books/002-7792184-8613222" target="_blank"><STRONG>T<FONT SIZE=-1>HE UNIVERSE IS A GREEN DRAGON : A COSMIC CREATION STORY</FONT></STRONG></A><BR>                    by Brian Swimme <P>                             
+
+<BLOCKQUOTE>
+<STRONG>Reader Comments</STRONG>
+<BR>" An invaluable teaching resource. There is probably no better way to introduce the non-scientist to the philosophical implications of the emerging 'quantum' worldview. As a mathematical cosmologist, Brian understands the details behind the amazing revelations of the 'new physics' and with unique talent weaves a wonderful tale of the complementary meaning we must see in these details. I have used this book as a primary text in courses I have taught in science and society and years later had students recall with great fondness the sense of awe, spirit and personal vision it awakened in them. This is not another work of the nice but limited science-and -religion-are-the-same school, but a truly deep and accessable presentation of the new scientific worldview that combines technical understanding with spiritual meaning. A true gem that educates and inspires hope!" - Collingwood, Canada<P>
+
+&quot;Awe-inspiring
+explanation of life, meaning, and existence. As a supplement to the thoughts
+of Lonergan, Ursula Franklin, Thomas Aquinas, and Plato, this book serves
+to put into poetic terms the dance of physics, biology, cognitive thought,
+creation, evolution, spirituality, psychology, love, life, death, meaning,and essentially everything else this universe holds. It was interesting
+to see this work done in the matter of the dialogues - it worked for the
+Greeks for teaching difficult topics. The book holds much more meaning
+if you have already studied concepts of life, such as those expressed by
+Lonergan. The reader is really forced to think in a completely different
+manner in order to understand Swimme's thoughts. You look at everything
+differently after reading this; you gain a new love of life and in the
+process become more human. I would whole-heartedly recommend this book
+to anyone with an interest in life and existence, no matter what your background
+knowledge is. Best thing out there!&quot; - Vancouver, Canada</A></LI></BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+</UL>
+<CENTER><IMG SRC="${BASE_URL}graph/jclulin.gif" WIDTH=90% HEIGHT=5></CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2000Bigread2;

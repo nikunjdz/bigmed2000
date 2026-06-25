@@ -1,0 +1,313 @@
+import { useEffect } from "react";
+
+const Page1stlightCoven1 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<center><h3><em><strong>kyoto coven works</strong></em></h3>
+<h2><em>trans-genre jams <br>with the hidden virtuosos of asia</em></h2>
+
+<p>
+
+<img src="${BASE_URL}1stlight/graphics/plasma.gif" width="300" height="6"></p><p>
+</p><h2>COVEN I <br>- Tsuyu Typhoon -</h2>
+<img src="${BASE_URL}bulls/plasma.gif" width="300" height="6">
+<hr align="center" size="3" width="60%">
+<a href="#songs">Songs </a>| <a href="#covens">Covens </a>| <a href="#bios">Crew</a>
+<hr align="center" size="3" width="60%"><p>
+
+</p><h3>Aeons and chakras below,<br>
+before composers, formulas and music as product,<br>
+there was an artesian music of numinous encounter<br>
+- challenging - collusive - carnal -<br>
+the erogenous hymns arising when adepts of the muse<br>
+first harken, tangle and engage one another...</h3>
+
+
+<img src="${BASE_URL}bulls/plasma.gif" width="300" height="6"></center><p>
+</p><center><h2>Conspirators</h2>
+<strong>Christian Braun</strong>  -  Didgeridoo (Narrative)<br>
+<strong>Ishida Junji</strong>  -  Violin (Bluegrass)<br>
+<strong>Morishima Yo</strong>  -  Percussion (Modern Stage)<br>
+<strong>Gary Tegler</strong>  -  Tenor Sax (Latin)<br>
+<strong>Yamada Haruzo</strong>  -  Bass/Calimba (Blues)<br><p>
+</p><hr align="center" size="3" width="60%"></center><p></p><p>
+
+
+
+</p><center><dt>*Tsuyu ("plum rains") </dt><dd>Nihon's lingering June/July monsoon -  a season of fertility, heat and drama in the skies.</dd></center><br>
+
+<center><img src="${BASE_URL}bulls/plasma.gif" width="500" height="8"></center><p>
+
+</p><center><h3><a name="songs">Songs</a></h3></center>
+<img src="${BASE_URL}1stlight/graphics/toriicvr.jpg" align="left" hspace="60"><p>
+
+<font size="+1">
+</font></p><ul>
+<font size="+1"><li>Encounter in Summertime
+</li><li>Daring Fourplay
+</li><li>South Chakra Song
+</li><li>Mandeltrance
+</li><li>Second Thoughts Serenade
+</li><li>Mama Can't Mind
+</li><li>Java Knees Skittle
+</li><li>Kama Sutralight
+</li><li>David Rockefeller Vexes the Queen
+</li><li>Pleasing Her
+</li><li>Muse Tantra
+</li><li>Afterglow: Cicada Sunset
+</li><li><a href="http://udaipurshaktiworks.com/content/view/25/48/"><strong>SOUND SAMPLES HERE!</strong></a>
+</li></font></ul>
+<font size="+1"></font>
+
+<br>
+<br><br><center><img src="${BASE_URL}bulls/plasma.gif" width="500" height="8"></center>
+
+
+
+
+
+<blockquote><font size="+1"><strong>Perhaps it was so always and everywhere,</strong>
+but in modern Asia and corporate Nihon in pathetic particular, aside
+from 4 or 5 stars, the most phenomenally artesian musicians reliably
+starve, quit or clench the margins of a day job. Happily, rapture being
+what it is, few ever quit totally, though the corporate media continue
+to obscure them and abort countless terra-erotic opportunities for new
+growth and creation.</font><p></p><p>
+
+<font size="+1"><a name="covens">The Kyoto Coven Works </a>conspires to
+revive the practice of music as shamanic moment, taking heart and
+direction from two antique open secrets: One, like the Tao, the Muse
+lurks everywhere - playful, fertile and promiscuously democratic (never
+know whose loins She'll be warming up in next); and two, Her ardor is
+contagious.</font></p><p></p><p>
+
+<font size="+1">Adepts who share little else in common, but fervently
+embody Her esprit can swiftly converge, confuse and inexplicably ignite
+incredibly sensuous melodies. Coven work strives to occasion such
+trysts and share the epiphanies.</font></p></blockquote><p>
+
+</p><h3><font size="+1">Coven format is ritual simple.</font></h3><p>
+</p><ul>
+<font size="+1"><li>1) Sequester a few virtuoso artists who don't normally play together,<br>
+   who don't normally even play the same music,<br>
+      hell, who just don't play normally period<br>
+         in a lush sanctuary for a weekend;<br>
+<br>
+</li><li>2) Record all that transpires - from first half tuned greetings <br>
+   to the intimate concert they give at twilight of the closing day.<br>
+<br>
+</li><li>3) Winnow out the moments of densest grace and release to<br>
+   the world as proof, prayer and aphrodisiac antidote to MTV. <br>
+<br>
+</li><li>4) Split the take with the shift, and go out stalking incarnations again.<br>
+</li></font></ul><font size="+1"><br>
+
+</font><hr align="center" size="3" width="60%"><p>
+
+</p><center><h3>
+<font size="+1">Enrich the atmosphere. Support us and/or kindle Covens of your own .<br>
+ As observed, bemusing avatars are everywhere.<br>
+ And God knows, She's always available..</font></h3></center>
+
+<font size="+1"><br></font><center><font size="+1"><img src="${BASE_URL}bulls/plasma.gif" width="500" height="8"></font></center>
+
+<font size="+1"><br><br></font><center><h2><font size="+1"><strong>Coven I : Contributers</strong></font></h2>
+
+<font size="+1">Mantic Microphonics  -  <strong>Goto Akihiko</strong><br>
+Editorial Inspirations  -  <strong>Christopher Fryman, Kash Sokol</strong><br>
+In-Your-Face Photography	  -  <strong>Chris Langridge</strong><br>
+Inebriant Artwork - <strong>Aix &amp; Aya Battoe</strong><br>
+Concept &amp; Bricolage  -  <strong>W. David Kubiak</strong></font><p></p><p>
+
+</p><center><font size="+1"><img src="${BASE_URL}bulls/plasma.gif" width="300" height="6"></font></center><font size="+1"><br><br>
+
+</font><h2><font size="+1"><a name="bios">COVEN I </a>: MEMBER BIOS</font></h2><font size="+1"><br>
+
+<p align="center"></p><table valign="middle" border="4" cellpadding="5" cellspacing="5" width="15%"><tbody><tr><td valign="left"><img src="${BASE_URL}1stlight/graphics/chris3.jpg"></td>
+</tr></tbody></table></font><p></p>
+
+<font size="+1"><strong>CHRISTIAN BRAUN</strong>   <br>Born: 1969, Cologne;  Awakenings: '87/bass, '89/didgeridoo; <br>Passions: trance, meditation, healing music; Day job: Craft trading, DJ work.<br>
+<strong>coven quote</strong><br> India's "Namaste" greeting means "I recognize the Spirit within you." <br>Though most of us hadn't even met before, once we got started,<br> it was just like that - one long, jumpin' "Namaste"...</font><p></p><p></p><p><font size="+1"><br>
+
+<!--*****************************************-->
+
+<p align="center"></p><table valign="middle" border="4" cellpadding="5" cellspacing="5" width="15%"><tbody><tr><td valign="left"><img src="${BASE_URL}1stlight/graphics/goto.jpg"></td>
+</tr></tbody></table></font></p>
+
+<font size="+1"><strong>GOTO AKIHIKO</strong>   <br>Born: 1959, Wakayama;  Passions: jazz vocals/piano, acoustic recording,<br>inventing exquisite microphones; Day job: Matsushita systems engineer.<br>
+<strong>coven quote</strong><br> It just felt so Kyoto-esque. OK, the instruments were all Western, <br>but the spirit pouring out of that chaos showed what Kyoto music could and should be...</font><p></p><p></p><p><font size="+1"><br>
+
+<!--*****************************************-->
+
+<p align="center"></p><table valign="middle" border="4" cellpadding="5" cellspacing="5" width="15%"><tbody><tr><td valign="left"><img src="${BASE_URL}1stlight/graphics/junji.jpg"></td>
+</tr></tbody></table></font></p>
+
+<font size="+1"><strong>ISHIDA JUNJI</strong>  <br> Born: 1950, Kyoto;  Awakenings: '57/classic violin; '67/banjo; <br>Passions: bluegrass, classic/tribal Asian traditions; Day job: Runs graphic design/prepress office.<br>
+<strong>coven quote</strong><br> It was unforgettable, and the place deserves a lot of the credit <br>- the cicadas, birds, the wind in the bamboo - like the mountain itself was sitting in to play.</font><p></p><p></p><p><font size="+1"><br>
+
+<!--*****************************************-->
+
+<p align="center"></p><table valign="middle" border="4" cellpadding="5" cellspacing="5" width="15%"><tbody><tr><td valign="left"><img src="${BASE_URL}1stlight/graphics/yo.jpg"></td></tr></tbody></table></font></p>
+
+<font size="+1"><strong>MORISHIMA YO</strong>  <br> Born: 1965, Matsuyama;  Awakenings: '68/piano, '75/guitar, '83/ drums; <br>Passions: R&amp;B, rock, funk; Day job: club sound engineer, dance/stage backup.<br>
+<strong>coven quote</strong><br>I walked into this gig cold and they only had one old Japanese drum and a kitchen pot.<br> They said just play whatever you feel like so I stayed. So glad I did. </font><p></p><p></p><p><font size="+1"><br>
+
+<!--*****************************************-->
+
+<p align="center"></p><table valign="middle" border="4" cellpadding="5" cellspacing="5" width="15%"><tbody><tr><td valign="left"><img src="${BASE_URL}1stlight/graphics/gary.jpg"></td>
+</tr></tbody></table></font></p>
+
+<font size="+1"><strong>GARY TEGLER</strong>  <br> Born: 1952, Philadelphia;  Awakening: '80/saxaphone; <br>Passions: Latin, straight-ahead jazz; Day job: free-lance journalist &amp; narrator.<br>
+<strong>coven quote</strong><br>In 15 years of playing, I don't think I ever enjoyed a gig as much as this one.  <br>PS: the cicada chorus will be performing nationwide this summer. Don't miss it...</font><p></p><p></p><p><font size="+1"><br>
+
+<!--*****************************************-->
+
+<p align="center"></p><table valign="middle" border="4" cellpadding="5" cellspacing="5" width="15%"><tbody><tr><td valign="left"><img src="${BASE_URL}1stlight/graphics/haruzo.jpg"></td>
+</tr></tbody></table></font></p>
+
+<font size="+1"><strong>YAMADA HARUZO</strong><br>  Born: 1955, Kyoto;  Awakenings: '69/bass, '92/calimba; <br>Passions: blues, traditional/modern African rhythms; Day job: several local bands/session work.<br>
+<strong>coven quote</strong><br>So little was decided beforehand, it was amazing anything happened at all. <br>But then the music started to come and it was just fascinating...</font><p></p><p><font size="+1"><br></font>
+
+<br><br>
+</p><center><img src="${BASE_URL}bulls/plasma.gif" width="300" height="6"></center><br><br>
+
+<img src="${BASE_URL}1stlight/graphics/cd1.jpg" align="left" border="2" hspace="52">
+<img src="${BASE_URL}1stlight/graphics/tape1.jpg" align="right" border="2" hspace="80"> 
+
+<br><br><a href="http://udaipurshaktiworks.com/content/view/25/48/"><strong>SOUND SAMPLES HERE!</strong></a></p></center>
+
+<br><br>
+<hr align="center" size="4" width="80%">
+
+
+
+<h2>Kyoto Coven Works	</h2>
+<p>
+</p><h3><b>Ancestor/inspiration of Udaipur Shakti Works</b><br>
+
+<b>Current Address: c/o Udaipur Shakti Works <br>1 Sajjangarh Rd, Udaipur, Rajasthan, India 313001</b><br>
+
+</h3><h3>Contact: w. david kubiak<br>
+
+wdk ( at ) udaipurshaktiworks.com</h3><br><br>
+
+<hr align="center" size="4" width="80%"><br>
+
+<div align="center"><!-- Table Tag --><table border="2">
+<tbody><tr>
+
+<td><!-- Link Tag --><a href="${BASE_URL}1stlight/samples.html"><!-- Graphic Tag --><img src="${BASE_URL}1stlight/graphics/1stsampl.gif" border="0" width="100" height="50"></a></td></tr>
+<tr>
+<td><!-- Link Tag --><a href="${BASE_URL}1stlight/konomi.html"><!-- Graphic Tag --><img src="${BASE_URL}1stlight/graphics/1ststyle.gif" border="0" width="100" height="50"></a></td>
+
+</tr>
+
+</tbody></table></div><br>
+
+
+</center>
+<address>
+<a href="mailto:wdkubiak@gmail.com"> E-Mail Us...</a>
+</address>
+<div style="border: 0px solid rgb(255, 0, 0) ! important; margin: 0pt ! important; padding: 0pt ! important; background: transparent none repeat scroll center center ! important; overflow: visible ! important; float: none ! important; -moz-background-clip: -moz-initial ! important; -moz-background-origin: -moz-initial ! important; -moz-background-inline-policy: -moz-initial ! important; width: auto ! important; height: auto ! important; display: block ! important; position: static ! important; text-indent: 0px ! important; z-index: auto ! important; max-width: none ! important; min-width: 0pt ! important; max-height: none ! important; min-height: 0pt ! important; left: auto ! important; top: auto ! important; bottom: auto ! important; right: auto ! important; line-height: 16px ! important; white-space: nowrap ! important;" class="linkscent-iconblock"></div><iframe src="javascript: void(0);" class="clueframe" style="border: 0px solid rgb(255, 0, 0) ! important; margin: 0pt ! important; padding: 0pt ! important; background: transparent none repeat scroll center center ! important; overflow: visible ! important; float: none ! important; -moz-background-clip: -moz-initial ! important; -moz-background-origin: -moz-initial ! important; -moz-background-inline-policy: -moz-initial ! important; width: 400px; height: 200px; display: none; position: fixed; text-indent: 0px ! important; z-index: 2147483637 ! important; max-width: none ! important; min-width: 0pt ! important; max-height: none ! important; min-height: 0pt ! important; left: -2000px; top: -2000px; bottom: auto ! important; right: auto ! important; line-height: 16px ! important; white-space: nowrap ! important;" name="ClueFrame" id="ClueFrame" scrolling="no" frameborder="0"></iframe>`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Page1stlightCoven1;

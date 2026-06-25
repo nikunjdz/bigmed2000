@@ -1,0 +1,801 @@
+import { useEffect } from "react";
+
+const Bigmed2000Bigread1 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=400 HEIGHT=6 VSPACE=6><BR>
+<FONT  SIZE=4><B>BIG BODY BOOK WORK<BR>- Learning to Diagnose Corporate <BR>Maladies in Your Body Politic</B></FONT>
+<BR><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=400 HEIGHT=6 VSPACE=7></CENTER>
+
+<BLOCKQUOTE><BLOCKQUOTE><STRONG><FONT  COLOR=#800000>Nancho Advisory: This list is hardly exhaustive, but it does hint at the breadth of the Big Body offensive and how boxed in humanity has become. Although few writers here yet discern the organic/evolutionary dimensions of the Big picture, they are all furiously contributing invaluable recon for our immune actions to come. The upper index links to brief descriptions of most books, which link in turn to Amazon.com. if you're intrigued. You will doubtless note (hopefully with slight suspicion) that many of the most important works remain curiously "out of print." We are now (here!) soliciting aid - manual or monetary - to get at least some of this work up on the Net in the course of this year. In the meantime, the short blurbs/comments below offer a general idea of what's afoot in the land. Please recommend enlightening additions to: </FONT><A HREF="mailto:bigkarma@nancho.net">bigkarma@nancho.net</A></STRONG><P>
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=90% HEIGHT=6 VSPACE=7></CENTER>
+</BLOCKQUOTE></BLOCKQUOTE>
+
+<A NAME="air"></A>
+<BLOCKQUOTE><H4> <U>BIG BODY PATHOLOGIES</U> <BR>
+- Diverse Symptoms of Our Common Plague</H4>
+
+<UL>
+<STRONG><U><FONT  SIZE=2>SHORT INTRODUCTION</FONT></U></STRONG>
+
+<LI><A href="${BASE_URL}bigbody/apforum1.html"><STRONG><FONT  SIZE=2>T<FONT SIZE=-1>HE BIG BODY PROBLEM</FONT></FONT></STRONG></A><BR><BR>
+
+<STRONG><U><FONT  SIZE=2>INTRODUCTORY TEXTS</FONT></U></STRONG><BR>
+
+<FONT  SIZE=2><STRONG>ANALYTIC</STRONG></FONT>
+<LI><A HREF="#corprule">W<FONT SIZE=-1>HEN CORPORATIONS RULE THE WORLD</A> <BR>- by David C. Korten</FONT>
+<LI><A HREF="#manic">O<FONT SIZE=-1>NE WORLD, READY OR NOT: THE MANIC LOGIC <BR>OF GLOBAL CAPITALISM</A> - by William Greider</FONT>
+
+
+<LI><A HREF="#publicp">E<FONT SIZE=-1>CONOMICS AND THE PUBLIC PURPOSE</A> - by John Kenneth Galbraith</FONT>
+<LI><A HREF="#aginfreet">T<FONT SIZE=-1>HE CASE AGAINST FREE TRADE : GATT, NAFTA AND <BR>THE GLOBALIZATION OF CORPORATE
+POWER</A> - by Ralph Nader (Editor)</FONT>
+<LI><A HREF="#complex">T<FONT SIZE=-1>HE BIGNESS COMPLEX</A> - by W. Adams</FONT><BR>
+<BR>
+<FONT  SIZE=2><STRONG>INVESTIGATIVE/ACTIVIST</STRONG></FONT><BR>
+<LI><A HREF="#planet">T</FONT><FONT SIZE=-1>HE CORPORATE PLANET <BR>
+- ECOLOGY AND POLITICS <BR> IN THE AGE OF GLOBALIZATION</A> - by Joshua Karliner</FONT>
+<LI><A HREF="#predator">C<FONT SIZE=-1>ORPORATE PREDATORS : THE HUNT FOR MEGA-PROFITS <BR>AND THE ATTACK ON DEMOCRACY</A> - by Mokhiber &amp; Weissman</FONT>
+<LI><A HREF="#gspin">G<FONT SIZE=-1>LOBAL SPIN : THE CORPORATE ASSAULT <BR>ON ENVIRONMENTALISM</A> - by Sharon Beder</FONT>
+<LI><A HREF="#greenwash">E<FONT SIZE=-1>ARTH FOR SALE - RECLAIMING ECOLOGY <BR>N THE AGE OF CORPORATE GREENWASH</A> - by Brian Tokar</FONT>
+<LI><A HREF="#censor99">C<FONT SIZE=-1>ENSORED 1999 : THE YEAR'S TOP 25 CENSORED STORIES</A> - by Peter Phillips (Editor)</FONT>
+<LI><A HREF="#censor20">20 Y<FONT SIZE=-1>EARS OF CENSORED NEWS</A> - by Carl Jensen</FONT><BR><BR>
+
+<FONT  SIZE=2><STRONG>POPULIST/SATIRIC</STRONG></FONT><BR>
+<LI><A HREF="#mama">C<FONT SIZE=-1>ORPORATIONS ARE GONNA GET YOUR MAMA: 
+GLOBALIZATION <BR>AND THE DOWNSIZING OF THE AMERICAN DREAM</A> - by Kevin Danaher (Editor)</FONT>
+<LI><A HREF="#downsize">D<FONT SIZE=-1>OWNSIZE THIS!</A> - by Michael Moore</FONT>
+<LI><A HREF="#yellow">T<FONT SIZE=-1>HERE'S NOTHING IN THE MIDDLE OF THE ROAD BUT <BR>YELLOW STRIPES AND DEAD ARMADILLOS</A> - by Jim Hightower 
+
+</UL><P>
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=80% HEIGHT=4></CENTER>
+<H4><U>BIG BODY PHYSIOLOGY </U><BR>- Techniques  &amp; Trials of Terminal Incorporation</H4>  
+
+<UL>
+<STRONG><FONT  SIZE=2><U>SHORT INTRODUCTIONS</U></FONT></STRONG><BR>
+<LI><A href="${BASE_URL}kipower/kisoma.html">T<FONT SIZE=-1>HE CULTURE OF CORPORATE BEINGS</FONT></A>
+<LI><A href="${BASE_URL}kipower/mindbind.html">T<FONT SIZE=-1>HE JAPANESE ART OF MIND-BINDING</FONT></A>
+<LI><A href="${BASE_URL}bigbody/lusions1.html">L<FONT SIZE=-1>USIONS</FONT></A><BR><BR>
+<STRONG><FONT  SIZE=2>PRINCIPLES &amp; EXAMPLES</FONT></STRONG><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html##lsystems">L<FONT SIZE=-1>IVING SYSTEMS</A> -  by James Grier Miller </FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#crowd">T<FONT SIZE=-1>HE CROWD</A> - by Gustave Le Bon</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#groupmind">T<FONT SIZE=-1>HE GROUP MIND</A> - by William McDougall</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#japan">J<FONT SIZE=-1>APANESE SOCIETY</A> - by Chie Nakane</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#beelife">L<FONT SIZE=-1>IFE OF THE BEE</A> - by Maurice Maeterlink</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#industrial">T<FONT SIZE=-1>HE NEW INDUSTRIAL STATE</A> - by J.K. Galbraith</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#escape">E<FONT SIZE=-1>SCAPE FROM FREEDOM</A> - by Erich Fromm</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#obey">O<FONT SIZE=-1>BEDIENCE TO AUTHORITY</A> - by Stanley Milgram</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#kampf">M<FONT SIZE=-1>EIN KAMPF</A> - by Adolf Hitler</FONT>
+<BR><BR>
+<A NAME="anthcult"></A>
+<STRONG><FONT  SIZE=2>INDUSTRIAL ANTHROCULTURE <BR>- Science &amp; Symptoms of Lowering Testosterone</foNT></STRONG><BR>
+<LI><A href="${BASE_URL}cityhall/rectmeme.html">H<FONT SIZE=-1>ISTORY IN YOUR PANTS</FONT></A> - Brief intro to Japan's experience
+<LI>"<A href="${BASE_URL}anthcult/castreg.html">C<FONT SIZE=-1>ASTRATION: THE MAJOR GOAL OF JAPANESE EDUCATION</FONT></A>" By Masao Miyamoto M.D. (Oxford/Cambridge Speech)
+<LI>"<A href="${BASE_URL}anthcult/castrhiv.html">C<FONT SIZE=-1>ASTRATION", THE HIV SCANDAL AND THE JAPANESE BUREAUCRACY</FONT></A>" By Masao Miyamoto M.D. (MIT Speech)
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#castrate">
+A<FONT SIZE=-1> BRIEF HISTORY OF CASTRATION</A> -              by Victor T. Cheney</FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#castrate">C<FONT SIZE=-1>HINESE EUNUCHS</FONT></A>                  -  by Taisuke Mitamura </FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#fearstress">T<FONT SIZE=-1>HE PSYCHOLOGY OF FEAR AND STRESS</A>  -  by Jeffrey Alan Gray </FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#farm"> B<FONT SIZE=-1>EHAVIOURAL PROBLEMS OF FARM ANIMALS</A> -   by M. Kiley-Worthington </FONT><BR> 
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#organman">T<FONT SIZE=-1>HE ORGANIZATION MAN</A>     - by William Hollingsworth Whyte</FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#eunuch">T<FONT SIZE=-1>HE CORPORATE EUNUCH</A> - by O. William. Battalia </FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#femimale">T<FONT SIZE=-1>HE FEMINIZED MALE: CLASSROOMS, WHITE COLLARS, <BR>AND THE DECLINE OF  MANLINESS</A> - by Patricia Cayo Sexton</FONT><BR>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#crisis">T<FONT SIZE=-1>HE MALE IN CRISIS</A>         -  by Karl Bednarik</FONT>
+</UL>
+</FONT>
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=80% HEIGHT=4></CENTER>
+<H4><U>BEYOND BIG BODIES</U><BR>
+- New Paradigms &amp; Sources of  Perspective (i.e., Courage)</H4>
+<UL>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#humanscale">H<FONT SIZE=-1>UMAN SCALE</A> - by Kirkpatrick Sale</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#postcorp">T<FONT SIZE=-1>HE POST-CORPORATE WORLD : <BR>LIFE AFTER CAPITALISM</A> - by David Korten</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#reclaiming">G<FONT SIZE=-1>LOBALIZING CIVIL SOCIETY : RECLAIMING OUR RIGHT TO POWER</A> - by David Korten</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#turnlocal">T</FONT><FONT SIZE=-1>HE CASE AGAINST THE GLOBAL ECONOMY ,<BR>
+AND FOR A TURN TOWARD THE LOCAL</A> by Mander &amp; Goldsmith (Editors)</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#phenomenon">T<FONT SIZE=-1>HE PHENOMENON OF MAN</A> - by Pierre Teilhard de Chardin</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#power10">P<FONT SIZE=-1>OWERS OF TEN</A> - by Philip &amp; Phylis Morrison</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#earthdream">T<FONT SIZE=-1>HE DREAM OF THE EARTH</A> - by Thomas Berry</FONT>
+<LI><A href="${BASE_URL}bigmed2000/bigread2.html#dragon">T<FONT SIZE=-1>HE UNIVERSE IS A GREEN DRAGON : <BR>A COSMIC CREATION STORY</A> - by Brian Swimme</FONT>
+
+</UL></BLOCKQUOTE>
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2000/graph/jclulin.gif" WIDTH=90% HEIGHT=6></CENTER>
+
+<UL>
+<A NAME="manic"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0684835541/qid=925089104/sr=1-3/002-5311388-2059830" target="_blank">O<FONT SIZE=-1>NE
+WORLD, READY OR NOT: THE MANIC LOGIC OF GLOBAL CAPITALISM<BR>
+</FONT></A></B>by William Greider<BR>
+</LI>
+
+<BLOCKQUOTE>
+<P>Informed by an abiding suspicion as to the ability of free markets to
+match supply and demand with any consistency, the author first focuses
+on mutinationals, essentially stateless enterprises that, he warns, are
+gaining awesome economic power without thoughtful, let alone effectual,
+oversight. The author next casts a cold eye on institutional investors
+whose collective trading judgments have on occasion brought the GlobalVillage's largest companies to book and frequently left sovereign governments
+something less than masters of their own financial houses.</P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="corprule"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/1887208011/n/qid=925089215/sr=2-1/002-5311388-2059830" target="_blank">W<FONT SIZE=-1>HEN
+CORPORATIONS RULE THE WORLD<BR>
+</FONT></A></B>by David C. Korten<BR>
+</LI>
+
+<BLOCKQUOTE>
+<STRONG>Review</STRONG>
+<BR>&quot;Beginning in the 1960s, social, economic, and political observers
+have expressed concern over the role of multinational corporations. As
+the global economy has evolved, it is the transnational corporation that
+provokes apprehension. In The New Realities (1989), Peter Drucker issued
+the early warning that the advent of the transnational company heralded
+a structural change in the world economy. Now Korten sounds loud the alarm.
+He blames the corporate quest for short-term financial gain for creating
+a 'market tyranny that is extending its reach across the planet like a
+cancer, colonizing ever more of the planet's living spaces, destroying
+livelihoods, displacing people, rendering democratic institutions impotent,
+and feeding on life.' The solution, he argues, is to 're-create societies
+that nurture cultural and biological diversity [and get] corporations out
+of politics...' Korten's critique and his solutions are bold and unequivocal.&quot;
+- David Rouse t&copy; 1995<P>
+This is a 'must-read' book - a searing indictment of an unjust international
+economic order, not by a wild-eyed idealistic left-winger, but by a sober
+scion of the establishment with impeccable credentials. It left me devastated
+but also very hopeful. Something can be done to create a more just economic
+order. - Archbishop Desmond M. Tutu</P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="complex"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0394547217/qid=925091711/sr=1-1/002-5311388-2059830" target="_blank">T<FONT SIZE=-1>HE
+BIGNESS COMPLEX</FONT></A></B> <BR>
+by W. Adams (Out of print, but can/should be found)<BR>
+</LI>
+
+<BLOCKQUOTE>
+<P><B>Reader Comment<BR>
+</B>Analysis based on facts that are difficult to dispute This was an excellent
+and thought provoking book. They challenge the assumption that big is better
+by showing fact after fact after fact that proves otherwise. The best part
+of the book is that, unlike most management, business, and economic texts,
+it isn't just theoretical philosophizing with no basis in reality. Every
+chapter is laden with dozens of references to real world events and published
+facts. If only the Bigness apologists had so much evidence it would be
+easier to take them seriously.... Chicago, Illinois </P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="postcorp"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/1576750515/ref=sim_cart_end_5/002-7792184-8613222" target="_blank">T<FONT SIZE=-1>HE
+POST-CORPORATE WORLD : LIFE AFTER CAPITALISM<BR>
+</FONT></A></B>by David C. Korten </LI>
+
+<BLOCKQUOTE>
+<B>Reviews<BR>
+</B>&quot;In his bestselling 1995 call to arms, <U>When Corporations Rule
+the World</U>, David C. Korten first attempted to raise public consciousness
+about the potentially disastrous consequences of economic globalization
+and the expansion of corporate power. Now, in his provocative new work,
+The Post-Corporate World: Life After Capitalism, he goes further by defining
+these dual ills as a collective cancer that will ultimately destroy the
+larger society upon which they actually depend for survival.</P>
+
+<P> &quot;Containment of this cancer, Korten suggests, is a wholly inadequate
+remedy. Rather, a &quot;curative regime&quot;--consisting of measures aimed
+at &quot;virtually eliminating the institution of the limited liability
+for-profit public corporation as we know it&quot;--is necessary to save
+us from an otherwise inevitable fate. The book opens with Korten's downbeat
+view of capitalism infecting &quot;democracy, markets and life itself.&quot;
+Its following three sections are much more optimistic, however, as he focuses
+on ways both individuals and the community can reorganize their institutional
+and policy choices to &quot;eliminate the economic pathology that plagues
+us and create truly democratic, market-based, life-centered societies.&quot;
+Only by intentionally building this radical new post-corporate world, he
+boldly proposes, will a sustainable community be created that truly meets
+our future needs.&quot; --Howard Rothman </P>
+
+<P>&quot;In the '80s, capitalism defeated communism. Now it has defeated
+democracy, we are informed by Korten (When Corporations Rule the World,
+1995). Capitalism is inimical to life, he declares, and he thinks, naturally
+enough, that life is better. The author, a former Harvard Business School
+teacher, depicts the doleful condition on our sad little planet. He objects
+to the wayward thinking of proponents of what he calls a \`\`dead universe''
+governed by inhumanly impersonal corporations. Midas was wrong. Life and
+money do not mix. Humanity, as a functioning organism, can make a better
+choice. It can reject the power of international business, bent on amassing
+hegemony and cash at any cost. Corporations, to put it baldly, are soul
+destroying and inherently evil. They are merging and metastasizing worldwide.
+The unfortunate current primacy of cash returns to shareholders bodes ill.
+Corporations destroy natural assets and human institutions and exploit
+workersthis is the authors angry preachment.... Reject NAFTA, the WTO,
+and the IMF as ultimately destructive forces. Corporations should not,
+as is presently the case, be accorded the status of personhood or be recipients
+of governmental largess.&quot; -- &copy;1999, Kirkus Associates. </P>
+
+<P><B>Book Description <BR>
+</B>In this book, David Korten makes a compelling and well-documented case
+that capitalism's claims to being the engine of wealth creation, the champion
+of democracy, and the embodiment of the market economy are unfounded. Among
+Korten's conclusions: Capitalism is a pathology that afflicts democracies
+and market economies in the absence of vigilant public oversight. The consolidation
+of economic power under a handful of global mega-corporations is a victory
+for central planning - not the market economy. The alternative to the new
+global capitalism is a planetary system of democratically governed market
+economies that honor basic market principles of the sort actually advocated
+by Adam Smith.</P>
+
+<P> <B>Reader Comment<BR>
+</B>&quot;Korten's hope is that biology's recent findings about healthy
+ecosystems might clarify our visions of a healthy economy and its present
+corporate &quot;disease.&quot; How else to describe a predatory pseudo-lifeform
+which starves natural innovation and resistance (as by monopolizing markets
+and buying politicians), extracts life materials from its host (such as
+clean water, expertise, and time) for strictly monetary ends, while externalizing
+its wastes and costs (the &quot;downsized,&quot; the permanent underclass,
+dead land, pollution) to the public?</P>
+
+<P> &quot;Korten fills out the book with stories of people who are trying
+to promote &quot;life values&quot; in the economy, and suggestions for
+more coherent and coordinated personal action. He traces the history of
+&quot;corporate rights&quot; in America and the legal fiction that corporations
+are &quot;persons&quot; under the law; and he illustrates a few images
+of how a post-corporate market economy might work...&quot; - New York,
+NY</P>
+</BLOCKQUOTE>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="reclaiming"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/1888363592/ref=sim_books/002-5311388-2059830" target="_blank">G<FONT SIZE=-1>LOBALIZING
+CIVIL SOCIETY : RECLAIMING OUR RIGHT TO POWER<BR>
+</FONT></A></B>(Open Media Pamphlet Series, 4) by David C. Korten</LI>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<A NAME="planet"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0871564343/ref=sim_books/002-5311388-2059830" target="_blank"><FONT SIZE=+1>T</FONT><FONT SIZE=-1>HE
+CORPORATE PLANET <BR>
+- ECOLOGY AND POLITICS IN THE AGE OF GLOBALIZATION <BR>
+</FONT></A></B>by Joshua Karliner </LI>
+
+<BLOCKQUOTE>
+<P><B>Blurb/Reviews<BR>
+</B>&quot;The corporation, by its nature, is as blind as it is powerful.
+Spiritually blind, morally blind. As a collective entity, it is worse than
+any of the individuals who make it up. The intensity and importance of
+The Corporate Planet comes from the passion and the skill with which it
+opens us to a vision of how dangerous to the future of our globe is global
+capitalism itself.&quot; - Norman Mailer</P>
+
+<P> &quot;From the Fortune 500's hijacking of governmental conferences
+to Mitsubishi's destruction of Southeast Asia's once pristine rain forests,
+The Corporate Planet is a devastating critique of the corporate pillage
+of the earth.&quot; - John Cavanagh, Director, Institute for Policy Studies<BR>
+</P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="turnlocal"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0871568659/qid=925093260/sr=1-1/002-5311388-2059830" target="_blank"><B><FONT SIZE=+1>T</FONT><FONT SIZE=-1>HE
+CASE AGAINST THE GLOBAL ECONOMY ,<BR>
+AND FOR A TURN TOWARD THE LOCAL</FONT></B> <BR>
+</A>by Jerry Mander &amp; Edward Goldsmith (Editors)<BR>
+</LI>
+
+<BLOCKQUOTE>
+<P><B>Synopsis<BR>
+</B>The 43 essays in this collection comprise a point-by-point analysis
+of globalization and its consequences. Among the highlights: William Greider
+examines how General Electric works to shape (with the goal of controlling)
+the political arena; Ralph Nader and Lori Wallach attack NAFTA and GATT
+for undermining the sovereign authority of democratic governments; and
+Wendell Berry looks at the concerted efforts of big business to destroy
+local, particularly rural, communities in order to plunder the environment
+without opposition. Several authors, including Satish Kumar, Jeanette Armstrong,
+and Kirkpatrick Sale, outline alternatives to the global economy based
+on &quot;bioregional&quot; principles of local self-sufficiency. </P>
+
+<P><B>Book Description <BR>
+</B>A great political debate is emerging over the many unexpected and profound
+consequences of the rush toward the global economy and its effects on jobs,
+human rights, cultural diversity, democracy, and the natural world. The
+world's political and corporate leaders are restructuring the planet's
+economic and political arrangements in ways that directly affect humans
+and the environment more than anything since the Industrial Revolution.
+New, giant globalizing institutions such as the World Trade Organization,
+GATT, and the World Bank, created with scant public debate or scrutiny,
+have moved real power away from citizen democracies and nation states to
+global corporate bureaucracies, with grave results. </P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="aginfreet"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/1556431694/ref=sim_books/002-5311388-2059830" target="_blank"><STRONG>T<FONT SIZE=-1>HE
+CASE AGAINST FREE TRADE : GATT, NAFTA AND THE GLOBALIZATION OF CORPORATE
+POWER</STRONG><BR>
+</FONT></A></B>(An Earth Island Press Book) by Ralph Nader (Editor), <BR>
+William Greider, Margaret Atwood, David Philips, Pat Choate<BR>
+</LI><P>
+<BLOCKQUOTE><STRONG>Nancho Comment</STRONG><BR>
+New dimensions in the corporately discouraging word. If further ignored, this tightly researched multi-voiced cry of alarm lays the groundwork for the biggest, saddest "I told you so!" of the millennium. Don't let it happen... And while you thinking what the hell to do about it, you might start dunning Sri Ralph and Mark Green at <A HREF="mailto:EI@Essential.ORG">Essential.Org</A> to either get the following two classics back into print pronto or at least upload them onto the Net. The books are 
+
+<A HREF="http://www.amazon.com/exec/obidos/ASIN/0670242179/qid=933939172/sr=1-33/002-5834934-0091239" target="_blank"><STRONG>Corporate Power in America</STRONG></A> by Mark Green and Ralph Nader and <A HREF="http://www.amazon.com/exec/obidos/ASIN/0829804390/qid=933939102/sr=1-3/002-5834934-0091239" target="_blank">
+<STRONG>The Big Business Reader : On Corporate America</STRONG></A> by Mark Green (Editor). They are truly potent references for the coming Great Work and should be made accessible to our immune forces Now!
+</BLOCKQUOTE>
+
+
+
+
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0679720340/o/qid=933941023/sr=2-1/002-5834934-0091239" target="_blank">
+<STRONG>Manufacturing Consent : The Political Economy <BR>of the Mass Media</STRONG></A>
+                    by Edward S. Herman and Noam Chomsky
+<BLOCKQUOTE>
+<STRONG>Nancho Comment</STRONG><BR>
+How can anyone thank the world enough for Noam Chomsky? His decades of passionate research and relentless itinerant advocacy have awakened hundreds of thousands of us to Big Body assaults upon  our consciousness, democratic sovereignty, and Third World brethren.
+While <U>Manufacturing Consent</U> is a radically important work, it is only a small element in the revolutionary <A HREF="http://www.amazon.com/exec/obidos/generic-quicksearch-query/002-5834934-0091239" target="_blank">
+<STRONG>Chomsky Opus</STRONG></A>. Stand on his shoulders and view the world again. It will never look the same.<P>
+
+<STRONG>Reviews</STRONG><BR>
+                    "An absolutely brilliant analysis of the ways in which individuals and organizations of the
+                    media are influenced to shape the social agendas of knowledge and, therefore, belief.
+                    Contrary to the popular conception of members of the press as hard-bitten realists
+                    doggedly pursuing unpopular truths, Herman and Chomsky prove conclusively that the
+                    free-market economics model of media leads inevitably to normative and narrow
+                    reporting. Whether or not you've seen the eye-opening movie, buy this book, and you
+                    will be a far more knowledgeable person and much less prone to having your beliefs
+                    manipulated as easily as the press. " -- Amazon.com<P>
+
+  
+                    "[A] compelling indictment of the news media's role in covering up errors and
+                    deceptions in American foreign policy of the past quarter century."--Walter LaFeber,
+                    The New York Times Book Review <P>
+
+
+                    <STRONG>Reader Comment</STRONG><BR> 
+                "Should Be Standard Educational Text <BR>
+                    This magnificently researched academic study by Herman and Chomsky is a milestone
+                    and should be studied by the editorial staff of every newspaper in the western
+                    "democracies." It's a challenging read, given our collective assumptions about other
+                    people and other cultures and the "role" of the United States in world affairs. And it's
+                    especially tough to digest in the face of the media's ongoing campaign to propagate
+                    those very assumptions, false though they may be, to their audiences. Manufacturing
+                    Consent is well worth the time and energy." -- Raleigh, North Carolina</BLOCKQUOTE><P>
+
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/1888363479/qid=933941658/sr=1-1/002-5834934-0091239" target="_blank">
+<STRONG>C<FONT SIZE=-1>ORPORATE MEDIA AND THE THREAT TO DEMOCRACY</STRONG></A><BR> (Open Media
+                    Pamphlet Series) 
+                    by Robert W. McChesney</FONT><P>
+<BLOCKQUOTE><STRONG>Review </STRONG><BR>
+                     
+                    "If we believe that an informed populace is an integral part of a successfully active
+                    democracy, writes Robert W. McChesney, then the commercial basis of U.S. media, in
+                    which a substantial number of media outlets are owned by a handful of corporations, is
+                    definite cause for concern. When corporations control the flow of information, he
+                    suggests, they will inevitably do so in a way that promotes their own interests over
+                    those of the citizenry. From an analysis of the corporate influence over the 1934
+                    Communications Act to a discussion of how media convergence might kill off hope of
+                    the Internet bringing about a revolution, he debunks the myth of an objective, liberal
+                    media and emphasizes the belief that issues of media ownership should be treated as
+                    matters of public policy rather than strictly business." -- Amazon.com</BLOCKQUOTE>
+
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0807061557/qid=933941983/sr=1-3/002-5834934-0091239" target="_blank">
+<STRONG>T<FONT SIZE=-1>HE MEDIA MONOPOLY</STRONG></A>
+                    by Ben Bagdikian</FONT>
+
+<STRONG>Synopsis </STRONG><BR>
+
+
+                    When the first edition of The Media Monopoly was published in 1983, critics called
+                    Ben Bagdikian's warnings about the chilling effects of corporate ownership and mass
+                    advertising on the nation's news "alarmist." Since then, the number of corporations
+                    controlling most of America's daily newspapers, magazines, radio, television, books,
+                    and movies has dropped from fifty to ten. This new edition explores the political
+                    implications of this stunning shift, the impact of the Internet and other new media, and
+                    the effects of corporate media control on the news and entertainment that Americans
+                    see and hear. "An eye-opening attack on the growing concentration of major
+                    media."Clarence Page, Chicago Tribune<P>
+
+                   <STRONG>More Press Reviews</STRONG><BR> 
+                    "Media scholars and critics will welcome this revision of an insightful and provocative
+                    examination of increasing concentration in U.S. mass media and the effects of mass
+                    advertising, not only on media content, but also on the functioning of American
+                    democracy. Teachers of media and society will want to consider this as required
+                    reading, if they have not already done so." -- Journalism Quarterly<P>
+
+                    "A groundbreaking work that charts a historical shift in the orientation of the majority of
+                    America's communications media--further away from the needs of the individual and
+                    closer to those of big business." -- Christian Science Monitor <P>
+
+ 
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="mama"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/1567511120/ref=sim_books/002-5311388-2059830" target="_blank"><STRONG>C<FONT SIZE=-1>ORPORATIONS
+ARE GONNA GET YOUR MAMA: <BR>
+GLOBALIZATION AND THE DOWNSIZING OF THE AMERICAN DREAM</STRONG></FONT> <BR>
+</A>by Kevin Danaher (Editor)<BR>
+</LI>
+
+<BLOCKQUOTE>
+<P><B>Synopsis<BR>
+</B>While Hollywood has replaced politics with silly diversions about alien
+invasions, many Americans face a tangible fear: the seemingly inexorable
+grip of corporate power over their lives. Wages have been dropping for
+twenty years. Income inequality that grew under Reagan and Bush has accelerated
+under Clinton. More and more people face an uncertain future as the &quot;land
+of opportunity&quot; becomes a cynical and empty phrase for millions of
+Americans. This hard-hitting anthology offers an incisive overview of how
+corporations, long plunderers of the Third World, are unleashing &quot;market
+forces&quot; like a pack of rabid dogs attacking the American way of life.</P>
+</BLOCKQUOTE>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="downsize"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0060977337/qid=927479048/sr=1-1/002-4005996-2313860" target="_blank"><STRONG>D<FONT SIZE=-1>OWNSIZE </FONT>T<FONT SIZE=-1>HIS</FONT>!</STRONG><BR>
+</FONT></A></B>by Michael Moore<BR>
+</LI>
+<BLOCKQUOTE>
+<P><B>Synposis<BR>
+</B>
+A scathing
+rebuttal to the &quot;Newtification&quot; of America, and hilarious proof
+of why Michael Moore is the unofficial champion of the largest political
+force in the nation--the 60 percent of voters who elect not to vote -- <U>Downsize
+This!</U> gets under the skin of the corporations, politicians, and media moralists
+who have made life miserable for millions of Americans. <P>
+<P><B>Review<BR>
+</B>From  If you
+don't know Michael Moore, you should. The creator of Roger and Me and TV
+Nation has built his career on giving the raspberry to corporate fat cats,
+and this book will add to his considerable reputation. He tackles everyone
+here--Democrats, Republicans, Germany, General Motors--and wrestles them
+to the ground. About the only one who doesn't get thoroughly dissed is
+O. J., whom Moore claims is far too rich to bother killing anyone. Among
+the book's stellar moments: the introduction of his &quot;big welfare mamas&quot;
+--that is, &quot;tax-cheating, job-exporting, environment-destroying corporations
+that are already posting record profits&quot; ; his letters to Norway and
+the Netherlands asking for foreign aid for America's poor; and his poignant
+support of those countless billions of abandoned sperm, mindlessly disposed
+of in a convenient Kleenex. Moore's wit is as dry as a martini and as outrageous
+as, well . . . a hugely profitable company laying off thousands of workers.
+This is a book that makes you think as hard as you laugh. 
+<BR>Ilene Cooper, American Library Association, 
+Copyright&copy; 1996, 
+</LI>
+</BLOCKQUOTE>
+
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="yellow"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0060929499/ref=sim_books/002-4005996-2313860" target="_blank">
+<STRONG>T<FONT SIZE=-1>HERE'S NOTHING IN THE MIDDLE OF THE ROAD BUT YELLOW STRIPES AND DEAD ARMADILLOS</STRONG></FONT>
+<BR>
+</A></B>by Jim Hightower 
+
+<P>
+
+<BLOCKQUOTE><STRONG>Synopsis</STRONG><BR> 
+A radio commentator and former Texas
+commissioner of agriculture offers his no-holds-barred, populist views
+on American politics and culture, showing how the government, the media,
+and large corporations have foreclosed on the American dream...
+Hightower is mad
+as hell and he's not going to take it anymore! He's also funny as hell,
+and in this book he focuses his sharp Texas wit, populist passion, and
+native smarts on America's political, economic, scientific, and media establishments.
+In <U>There's Nothing in the Middle of the Road But Yellow Stripes and Dead
+Armadillos</U>, Hightower shows not only what's wrong, but also how to fix
+it, offering specific solutions and calling for a new political movement
+of working families and the poor to &quot;take America back from the bankers
+and bosses, the big shots and bastards.&quot; <P>
+
+<STRONG>Blurbs</STRONG><BR>
+&quot;If you don't read another book about what's wrong
+with this country for the rest of your life, read this one. I think it's
+the best and most important book about out public life I've read in years.&quot;
+--<A href="${BASE_URL}bigmed2000/gospels/ivinstax.html">Molly Ivins</A>, author of Molly Ivins Can't Say That, Can She? &quot;
+<P>
+When
+do we get to vote for Jim Hightower for president? Will somebody please
+tell me? When do we get to vote for Jim Hightower for president?.&quot;
+--Michael Moore, author of                <A HREF="#downsize">Downsize This!</A>
+<P>
+&quot;Listen to Jim Hightower.
+His is a two-fisted, rambunctious voice unafraid to speak truth to power,
+eloquently and clearly...He's one of the best.&quot; --Studs Terkel <P>
+
+<STRONG>Reader Response</STRONG><BR> Read about the
+unbridled power of big corporations. He has great examples that make you
+think about the power of corporations in America and the world. Does it
+really make any sense that the DOW goes up, after big corporations lay
+people off? If it does, then what does the DOW represent? Read about his
+suggestion for the Doug Jones Average which would really indicate how life
+is working for the average person. Nothing about the corporate world will
+seem benign after you finish this book. -- palo alto, california </P></BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="industrial"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/999152133X/qid=925092673/sr=1-67/002-5311388-2059830" target="_blank"><STRONG>T<FONT SIZE=-1>HE
+NEW INDUSTRIAL STATE</STRONG><BR>
+</FONT></A></B>by John Kenneth Galbraith (Out of print, but around...)</LI>
+
+<P> </P>
+
+<BLOCKQUOTE>
+<P><B>Nancho Comment<BR>
+</B>Can't believe this is of all books is out of print! It's one of the
+greatest books ever written on the rise of Corporate Power and and the
+gangrenous death of Classical Economics' Invisible Hand. Although Galbraith
+unfortunately knows no biology, he describes the gross physiology of Big
+Bodies with great analytical clarity and explains why their pullulating
+fraternity (aka The Planning System) both dominates social reality and
+is beyond current human control. Read in tandem with any work on slime
+mold physiology (e.g., <A href="${BASE_URL}bigmed2000/bigbody/lusions1.html">Lusions</A>), you
+can begin to understand what we are up against and yet see a tantalizing
+bio-allegorical light at the end of the long corporate night.</P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="publicp"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/0451622766/qid=925092070/sr=1-6/002-5311388-2059830" target="_blank"><B>E<FONT SIZE=-1>CONOMICS
+AND THE PUBLIC PURPOSE</FONT></B> <BR>
+</A>John Kenneth Galbraith</LI>
+
+<P> </P>
+
+<BLOCKQUOTE>
+<P><B>Nancho Comment<BR>
+</B>This polished indictment of corporate crime, pathology and malfeasance
+was supposed to be the capstone of Galbraith's definitive trilogy on Corporate
+Culture and the Collapse of Classical/Neo-classical Economics. After the
+The Affluent Society, which diagnosed our fatal susceptibility to material
+addictions, and The New Industrial State, which dissected the awesome invisible
+power of the Pushers, Economics and the Public Purpose was to have offered
+the Cure. The first two-thirds of the book is an insightful treasure, documenting
+the great corporate bodies' baleful effects on families, women, sports,
+arts, media, human rights, you name it. Unfortunately, Dr. G flinched in
+the finale and could not bring himself to pronounce the only reasonable
+course of treatment: Eradicate the Bastards. When I asked him why (after
+the book itself had died a quick grisly death from its cowardly conclusion),
+he got extremely upset and bellowed, &quot;I have NEVER been a hopeless
+romantic!&quot; But you still can be! Find a copy, read the first 212 pages,
+and draw your own romantic conclusions...</P>
+</BLOCKQUOTE>
+
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="predator"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/1567511589/qid=927412106/sr=1-1/002-7792184-8613222" target="_blank"><STRONG>C<FONT SIZE=-1>ORPORATE
+PREDATORS : THE HUNT FOR MEGA-PROFITS AND THE ATTACK ON DEMOCRACY</STRONG><BR>
+</FONT></A>by Russell Mokhiber, Robert Weissman, Ralph Nader (Introduction)
+</LI>
+
+<BLOCKQUOTE>
+<P><B>Reader Comment<BR>
+</B>A counter attack against the un-emotional, profit driven pseudo-science
+that staunch capitalists spout as if pure Capitalism and the so-called
+&quot;free market&quot; were the only option this world has... Some level
+of emotion is needed to help the people of the world achieve some level
+of economic and social equality. The rapidly growing gap between rich and
+poor is an obvious result of the type of socialism for the wealthy and
+capitalism for the poor that exists in this country, and this book does
+a good job of exemplifying the extreme consequences of this situation.
+Besides, Capitalism is just a eco-philosophical theory espoused as science.
+- San Diiego, California</P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="gspin"></A>
+<LI><A HREF="http://www.amazon.com/exec/obidos/ASIN/1890132128/ref=sim_books/002-5311388-2059830" target="_blank"><B><STRONG>G<FONT SIZE=-1>LOBAL
+SPIN : THE CORPORATE ASSAULT ON ENVIRONMENTALISM</FONT></STRONG></B> <BR>
+</A>by Sharon Beder<BR>
+</LI>
+
+<BLOCKQUOTE>
+<P><B>Synopsis<BR>
+</B>Global Spin reveals the sophisticated techniques being used around
+the world by powerful conservative forces to try to change the way the
+public and politicians think about the environment. Large corporations
+are using their influence to reshape public opinion, to weaken gains made
+by environmentalists, and to turn politicians against increased environmental
+regulation. Global Spin shows how, in a relentless assault on democracy
+and its institutions, the massive, covert power of large corporations has
+enabled corporate agendas to dominate the international debate about the
+state of the environment and the most effective means of solving environmental
+problems. </P>
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="greenwash"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0896085570/ref=sim_books/002-5311388-2059830" target="_blank"><STRONG>E<FONT SIZE=-1>ARTH
+FOR SALE - RECLAIMING ECOLOGY IN THE AGE OF CORPORATE GREENWASH</STRONG><BR>
+</FONT></A></B>by Brian Tokar</LI>
+
+<P> </P>
+
+
+<A NAME="size"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/0804708347/qid=925093576/sr=1-1/002-5311388-2059830 target=" _blank"><STRONG>S<FONT SIZE=-1>IZE
+&amp; DEMOCRACY</STRONG><BR>
+</FONT></A></B>by Robert A. Dahl &amp; Edward R. Tufte</LI>
+<BLOCKQUOTE><P> <B>Nancho Comment<BR>
+</B>
+Meticulously analyzes the historic tradeoffs between state size, autonomy and peoples' power. Can be read as a powerful brief for decentralized rule, direct democracy and non-hierarchic administrative networks, i.e., the Swiss paradigm.
+</BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+<A NAME="censor99"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/1888363797/ref=sim_books/002-7792184-8613222" target="_blank"><STRONG>C<FONT SIZE=-1>ENSORED
+1999 : THE NEWS THAT DIDN'T MAKE <BR>
+THE NEWS, THE YEAR'S TOP 25 CENSORED STORIES</STRONG><BR>
+</FONT></A></B> by Peter Phillips (Editor), Gary Webb (Introduction), Tom
+Tomorrow (Illustrator) </LI>
+
+<BLOCKQUOTE>
+<STRONG>Nancho Comment</STRONG><BR>As you belatedly read through these greatly mysterious media non-events, count how many have Big Body causes, connections, collusion - either up front or deep backstage. When we stop being surprised, we may have learned something.
+
+<P><B>Review<BR>
+</B>&quot;While members of the press and punditry were crawling all over
+each other to talk about Bill Clinton's sex life throughout 1998, other
+things were happening that you may not have heard about. Like the American
+government's repeated noncompliance with the UN's comprehensive test ban
+treaty on nuclear weapons. Or Nigerian soldiers being helicoptered to a
+Chevron facility by the company, shooting at a group of student demonstrators
+there, and killing two of them. Or that recently declassified documents
+suggest that--despite what we were told in the '50s--the fluoride in our
+water might not be so safe after all. Catch up on these and other stories
+the mainstream media never quite got around to reporting. Censored 1999
+also has updates on coverage of the top underreported stories of 1998,
+a guide to online news resources, and several cartoons by Tom Tomorrow
+skewering the established media perspective.&quot; -- Ron Hogan</P>
+
+<P> <B>Book Description</B> <BR>
+Compiled by the Project Censored staff under the directorship of Peter
+Phillips, with over 150 student researchers, faculty, media scholars, and
+critics, Censored 1999 stands in stark contrast to the news reported by
+the major networks or the daily newspapers. This year's collection features:
+Luke Hiken with the National Lawyers Guild on the First Amendment and pirate
+radio stations in the U.S.; Steve Wilson and Jane Akre on Fox News and
+the controversial Bovine Growth Hormone (BGH) story ; &quot;Censored Dja
+Vu&quot; -- Censored stories from previous years that have since received
+mainstream coverage; and &quot;Junk Food News&quot; -- The most over-covered,
+least newsworthy stories that dominated the media at the expense of real
+news. Also included are the &quot;Censored Resource Guide,&quot; &quot;Censored
+Guide to On-line Resources,&quot; and &quot;Alternative Writer's Market.&quot;
+</P>
+</BLOCKQUOTE> 
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+<A NAME="censor20"></A>
+<LI><B><A HREF="http://www.amazon.com/exec/obidos/ASIN/1888363525/ref=sim_books/002-7792184-8613222" target="_blank"><STRONG>20
+Y<FONT SIZE=-1>EARS OF CENSORED NEWS</STRONG></FONT><BR>
+</A></B> by Carl Jensen, Tom Tomorrow (Illustrator) </LI>
+
+<BLOCKQUOTE>
+<P><B>Synopsis<BR>
+</B>All the news that didn't make the news--from two decades of bird-dogging
+the media! Here are over 200 of the most censored and vital news stories
+that were largely neglected by the mass media when they were timely, and
+what has happened to them since. Jensen not only reports on the issues
+behind the news stories, but he follows the stories behind the stories,
+analyzing the ways in which corporate capitalism, &quot;herd mentality&quot;,
+and laziness combine to influence and direct levels of media involvement.
+</P>
+
+<P>Based on the work of Project Censored, the nation's longest running
+media research project, 20 Years of Censored News reveals, year by year,
+the news stories neglected by the mass media when they were timely and
+lets us know what has happened to them since. From 1976 to 1995, the book
+provides an overview of the most censored news stories and issues of the
+past two decades. Of the 200 stories presented, less than 25 percent ever
+received the attention they deserve in the press. A disturbing report card
+of the media's long-term performance, one which the media did not pass,
+20 Years of Censored News is a fierce indictment of the national news media's
+failure to keep the public informed.</P>
+
+<P> <B>Reader Comment<BR>
+</B>&quot;This is a scholarly, thoughtful dissertation encompassing not
+only issues of monopolization of the American press by huge multinational
+corporations, but many other issues ignored by mainstream media: environmentalism,
+nuclear power, government surveillance and other infringements on the civil
+rights of the world's citizens. This book is an essential collection of
+modern history so carefully hidden from the vast majority of Americans.&quot;
+- Portland, Maine</P></BLOCKQUOTE>
+<CENTER>  <H5> - <A HREF="#air">Upward</A> -</H5></CENTER>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2000Bigread1;

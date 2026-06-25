@@ -1,0 +1,1060 @@
+import { useEffect } from "react";
+
+const FdlapMaxstahl = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<BR><BR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3>
+<STRONG><FONT  COLOR=#AE0057 SIZE=+2>20 YEARS OF TERROR</STRONG></FONT><BR><STRONG>-- INDONESIA IN TIMOR --</STRONG>
+<H4>An Angry Education With Max Stahl</H4>
+<H5>Interviewed by W. David Kubiak<BR>Japan Civil Liberties Union, Kyoto</H5>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
+</CENTER>
+<TABLE>
+<TR><TD><IMG SRC="${BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+
+<BLOCKQUOTE>You do not interview Max Stahl about East Timor, you ignite him. And then back off, praying your microphone does not melt away in the incandescent spew of history, infamy and grieving rage that follows. Despite decades of Indonesian genocide against the Timorese people, it was Stahl's irrefutable footage of the 1991 massacre of peaceful demonstrators at the Santa Cruz cemetary that finally thrust the "Timor problem" into Western public consciousness.<P>
+Together with the marchers, throughout their prayers and final terrified slaughter, he never stopped filming or demanding, "Why?" Even now, looking back, he seems far less amazed at his own miraculous survival and escape than at the international cynicism that allows this carnage to continue uncontested. Not that Stahl is new to bloodshed -- thoughout his 12-year career he has focused his lenses on common people's resistence to violent, organised oppressiion, and his hard-hitting films on atrocities, heroism and desperate hope in Salvador and Lebanon have given the word "troubleshoooting" a whole new definition.<P>
+But more than outrage or courage, it is Stahl's enduring effert "to halt this hellishness" that sets him apart from other journalistic film-makers. Unlike most of his "OK, we did Bosnia, now on to Rwanda" fellows, he continues to speak. write and agitate for international action on this ongoing tragedy. And as Stahl speaks his eyes lose focus, looking through is audience at bloodcrimes past and still occurring that ravage a helpless island he's quite clearly learned to love.</BLOCKQUOTE>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: For readers who aren't so familiar with the political situation
+in East Timor, could you give us some background?</strong>
+
+<P>MS: Well, you need to go back to 1975 when East Timor was the most
+remote of the Portuguese colonies. Portugal was the last of the
+European colonial powers to dismember its colonial base. It had a
+revolution itself in 1974 - the so-called "Carnation Revolution," I
+think it was called - which was the removal by a number of left-wing
+officers of the old dictator who was the last of a line of
+conservative dictators in Portugal. At that time, here in this part
+of the world, Indonesia had an aggressive anti-communist government.
+This was a broad headline title for a military government that had a
+lot of connections historically with the Japanese Imperial Army
+which set up the military structures inside Indonesia which
+overthrew colonialism later. And this particular regime in Indonesia
+had murdered between a half a million and a million people in taking
+power in 1965, 1966 from other elements within the broad alliance
+that overthrew the Dutch earlier, after the war. <P>
+
+From 1965, 1966, the situation in Indonesia was one of instability
+and violence. During the early 1970s and the late '60s they took
+over West Papua - which they now call Irian Jaya. And with the
+cooperation of the U.N. they denied the people there their right to
+independence which they had been promised by the Dutch. The
+Indonesians conducted a fraudulent consultation with village heads
+and others in that place, and thereafter a long and bloody war
+against the guerilla independence movement inside West Papua - a war
+which continues to this day. <P>
+
+In 1975 - ten years after the '65, '66 carnage - the specter of East
+Timor gaining its independence appeared very suddenly because of the
+radical change in Portugal and the fact that Portuguese no longer
+wanted to have anything to do with the colonies. This specter was
+also mixed up, unfortunately for the Timorese, with the American
+defeat in Vietnam in 1974, '75. In that period, various domino
+theories were popular with Mr. Kissinger and others who represented
+the need by the Americans and other major powers to stop communism
+at all costs. This meant that they were very happy to embrace Mr.
+Suharto and his regime. Suharto was the general in charge of the
+movement that set in train the orgy of killing in '65, '66 out of
+which he hiMSelf emerged the president. When Indonesia saw that East
+Timor was going to be independent, there was a strong movement
+inside the military there who wanted to take over East Timor in
+pretty much the same way they had taken over West Papua and made it
+part of the Indonesian Empire, an empire which they had inherited
+earlier from the Dutch, of many different peoples and many different
+languages. <P>
+
+The East Timorese, who were very politically immature at that time,
+had very little time to organize themselves, and very little time to
+debate what they were going to do or how they were going to do it,
+before various maneuvers that we now know were inspired to quite a
+large extent by Indonesian intelligence, provoked a civil war in
+East Timor in 1975. The Portuguese were in no condition to impose
+any order. They had no will to do so. There was a new government
+every few months in Portugal. The Portuguese were tired of any kind
+of colonial involvement and they withdrew. This war lasted a very
+short time, about three weeks. The Fretilin movement, which was the
+more left wing of the two movements involved in that brief war, was
+overwhelmingly the more popular of the two. It had won some local
+elections that were held early that year with about 60% of the vote
+on its own and other smaller parties had received the rest of the
+vote. The larger part of which went to the other independence-minded
+party, the conservative one which was provoked into this conflict. <P>
+
+The Indonesians, however, continued to attempt to portray East Timor
+as a country in chaos, out of control, where killing was happening,
+where communists were about to seize power by force. This was their
+attempt to gain the support of America in particular, and also the
+Australians and others. This was an entirely false picture and it's
+well documented at this point. There were a number of international
+people there, observers including the Australian Consul and visitors
+from various different countries who testified to the fact that
+Fretilin in the first place was a coalition of forces. There were
+some Marxists, very few, who'd come from Portugal, students and so
+forth. There were others who were quite conservative and there were
+a lot in between. And the main base of it was a peasant movement of
+villagers who had hopes of the basic needs and requirements of
+peasants want including literacy, land reform and so forth, but of a
+very modest kind. The Fretilin movement also sought the
+international legitimacy through democratic means. They had been
+forced into this brief conflict, because it was in fact the other
+side who launched the coup and imprisoned all the leaders of the 
+the larger party. They then defeated this group quite quickly and
+then asked for the Portuguese and the U.N. and others to come back
+to supervise elections. However, the Portuguese confusion and lack
+of will meant that they didn't do it. And to their eternal shame,
+countries like Australia - which to be fair were also in trouble at
+that time with internal problems - and the United States and other
+regional powers also failed to answer the call to come and observe
+and help to organize elections so that the transfer of power could
+be peaceful and the independence of the new country could be
+peaceful. <P>
+
+After a number of months and the murder of five journalists and
+other people who were attempting to cover the situation there, the
+story became more and more clear to the Fretilin people - Indonesia
+was sending in special forces in the guise of being Timorese to
+attack various border, border posts, to create the illusion of a war
+that wasn't there. The journalists were murdered when they were
+filming just such an attack. When these attacks failed because of
+the considerable success of the Fretilin in organizing the place and
+defending the borders, the Indonesians launched an all-out,
+full-scale invasion. They did this just after Fretilin finally
+declared independence because they could not get the U.N. or anybody
+else to come and supervise elections before doing so. The visit by
+President Ford and Henry Kissinger to Jakarta confirmed to Mr.
+Suharto that he would be allowed to get away with this. We know this
+not only because the visit happened to be the very day before the
+invasion was launched, but also because the CIA station chief at
+that time has since come public and said so. The official American
+position was that this was a Portuguese colony that should go
+through the process of the United Nations which dictates that such
+colonies have the right to self-determination before choosing
+independence or association with any other country. This is very
+clearly written into international law. And when the Indonesians
+invaded, the Security Council and General Assembly of the United
+Nations voted overwhelmingly to demand the withdrawal of Indonesian
+troops, to demand all the very same things that they demanded in
+Kuwait some years later. However, there were no enforcement
+measures. And the Americans, as their representative Mr. Moynihan
+later said, made it clear that although they had voted for the legal
+procedures, they had every intention of denying them to the
+Timorese. Mr. Moynihan said publicly some time later that he had
+instructions to insure that whatever the U.N. did would be
+ineffectual and he said he had been very successful in doing just
+that. The British, the French and the Japanese who supported the
+Indonesians from the beginning also helped the Indonesians to
+confuse, delay and deny the U.N. procedures for East Timorese
+self-determination. <P>
+
+The invasion of East Timor was extremely bloody. It began with
+paratroopers and naval bombardment. And it was followed up by a
+campaign of naked terror. People of all sorts and all ages were
+lined up and shot, they were burned alive in their houses, they were
+driven up to the mountains and bombed and starved. The shock to the
+people of East Timor, who had never experienced anything like this
+in their history and had never had anything similar to it under the
+Portuguese colonialism, is to this day so profound and so traumatic
+that there is nobody in East Timor who has not got a close relative
+or friend who has not suffered in this way or been killed. There are
+few people who have not suffered the loss on many close relatives,
+and nearly all of the stories are blood-curdling, horrible stories. <P>
+
+This invasion was supposed to take a matter of days and weeks. The
+Indonesians thought that this was a small place with a small army
+that would quickly give in - much like Goa did for the Indians, for
+example, and other Portuguese colonies. However, they totally
+underestimated the Timorese. The Timorese had shown in these earlier
+elections that the proportion of Timorese who wanted to join
+Indonesia were less than 5% of the population or thereabouts - a
+very, very small proportion. The others who might have been open to
+the idea were very quickly persuaded against by the brutality of the
+Indonesian invasion. Almost half the entire population fled the
+cities and went to the mountains. More than 300,000 people lived for
+three or four years under the protection or behind the lines of the
+Timorese army. The war didn't take a matter of days or weeks, it
+went on from the late part of '75 until '79 as a war of positions,
+as an open, full-scale war. And indeed the Timorese who were using
+old Portuguese weapons and captured weapons, and had no access to
+any form of outside support, fought with extraordinary determination
+and tenacity. They fought so successfully that it wasn't until the
+United States itself, and Britain to a lesser extant, delivered a
+new generation of weapons, in and around about 1978, that's to say
+more than two years after the invasion, that the guerilla positions
+in the mountains began to be overrun. And it was in 1979, three
+years later that this horribly bloody war came to a climax. The
+guerillas' lines collapsed under aerial bombardment, particularly of
+the American OV-10 Broncos, the British Hawk jets - that have
+recently been sold again to the Indonesians - and American Skyhawks
+and various other modern weaponry that was, according to the
+American Constitution and specific senatorial resolutions, not
+supposed to be used against East Timor. Nonetheless, it was and so
+was the ammunition and so forth to make it possible. And the vast
+areas in the mountains that had been farmed by these large numbers
+of civilians were overrun. Thousands and thousands of people were
+massacred. Others were interned into artificial villages where they
+were not allowed to leave more than a very small distance around the
+village. Famine followed, and tens of thousands of people died from
+the combination of sickness and famine. The Church at that time
+estimated that in the first four or five years of this war around
+200,000 died. That's just a little less than a third of the entire
+Timorese population before the invasion. <P>
+
+After that period the Timorese people began to reorganize. The
+resistance leadership that survived out of the original committee,
+the central committee of the Fretilin party organization. There were
+just at that time, I believe, three left out of about thirty-eight,
+still alive or not captured. Most of them were dead. The most famous
+one of those was Xanana Gusmau. He was quite junior before, but he
+emerged as the man who was to unite not only the remnants of the
+Fretilin organization, but also the other independence-minded
+movements inside Timor. The other principal conservative party was
+the party called the UDT Party that had also wanted independence,
+but whose leaders - not all of them, but many of them - had signed,
+forcibly signed a declaration demanding Indonesian help when they
+had lost the war. These people, now in exile and some inside,
+started to discuss and unite with the resistance. And the new
+resistance became a broad-based national resistance, even more than
+the one before it. It included at this point all the main parties,
+even including the party leaders who had actually wanted Indonesian
+integration in the first place. There were of course others who
+sided with Indonesia from these parties, but it was extraordinary to
+see how many of the leaders and important people inside these
+parties, who had very little to gain from going against Indonesia at
+that late stage, did so. The resistance movement during the eighties
+started a war of guerilla tactics, which means a long war. And it
+started to build a political consciousness and a political base
+based upon Timorese unity and very basic values such as the demand
+for some modicum of justice and dignity in the face of these
+atrocities. And they did this all in the face of the very same
+Indonesian soldiers and officers who had committed the atrocities,
+who were still in East Timor and running the place. These army types
+had turned East Timor into a kind of private business enterprise
+where they had appropriated most of the resources and acted without
+any kind of control, outside of Indonesian laws, let alone any other
+laws. These people appropriated all the coffee lands or took large
+percentages from anybody who controlled them. They appropriated any
+kind of business. They quite simply stole buffaloes and the
+peasants' other animals in large quantities. They demanded all sorts
+of payments and percentages even from their own soldiers operating
+in that place. <P>
+
+And this level of general corruption created a demoralization even
+amongst their own people, including amongst the Indonesian soldiers
+who'd suffered huge losses and had been told before they arrived in
+East Timor that they were going to squash a small communist
+movement, and found themselves instead doing something quite
+different. And many of them reacted to that, sometimes by certain
+rebellions within the Indonesian forces, sometimes by simply helping
+the guerillas themselves. And to this day, the guerillas continue in
+East Timor. They continue to fight a low level war. And more
+particularly they continue to campaign and  organize a population
+who desperately need some hope and some focus for their terrible
+grievances and for the awful loss which they have sustained human,
+on a human level. <P>
+
+There is a kind of desolation amongst many Timorese who are
+traditionally animist people - that is to say, they invest a
+spiritual meaning in their land, in their ancestors continuing
+involvement in their lives. And their very large conversion these
+days to Catholicism - they were 30% Catholic in 1975, they are now
+more than 90% Catholic according to official figures - has been as a
+result of the Catholic Church standing by them under the onslaught
+of Indonesia. And a result of the support of the Timorese Portuguese
+trained clergy who have understood that their culture, their
+identity, their dignity above all, is an essential and fundamental
+element of their lives. <P>
+
+The Indonesians, on the other hand, have attempted to buy the people
+by building roads and public buildings, which in turn have brought
+in Indonesians from other parts of the archipelago who now run
+almost everything that is valuable or matters in East Timor. So
+there is a certain comparison there with Tibet, for example. The
+Timorese are not now being slaughtered in the same numbers that they
+were on a day to day basis, because the control of the Indonesians
+is almost total. The guerillas exist, but they work in very small
+spaces, and their focus is mainly political, political in the sense
+that they seek to give some hope, some focus. And they seek to
+continue to feed and shape the people's need to resist and need to
+remember, above all. And this is because the military equation is
+hopelessly unbalanced. There are today approximately six or eight
+hundred guerillas with only four or five hundred weapons, so there's
+always a lot of work for other guerrillas. These weapons are nearly
+all of them captured or bought or in some way acquired from
+Indonesian military people themselves because they are quite corrupt
+and, as I said, there are also some who actually sympathize with the
+guerrillas.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: What took you to Dili just prior to the massacre?</strong>
+
+<P>MS: Basically the business of making movies is very arbitrary one,
+because you have to raise money. Raising money means understanding
+the international fashions in the information and documentary
+business, especially the news business. In 1991 there was the Kuwait
+incident, the invasion of Kuwait by Iraq and the response by the
+American-led alliance that set up the idea of the New World Order.
+That's to say, a world order based upon respect for law and respect
+for certain basic rights for nations and peoples. This was the cause
+which they went to war about, officially. Well, East Timor matches
+Kuwait legally in almost every respect. The people of East Timor
+have suffered much greater repression, far greater death, far
+greater abuse even than anything that was perpetrated by the Iraqis
+in Kuwait. The only difference that I can see is that in the case of
+Kuwait for political and of course economic reasons it suited the
+United States and its allies to defend the Kuwaitis, whereas in the
+case of East Timor, for the same political and economic reasons, it
+suited them to help the Indonesians who have behaved in East Timor
+in a way that can only be compared with the most horrible abuses of
+the twentieth century. The proportionate number of dead in East
+Timor by most estimates including statistical analysis of the
+population would suggest that more people died in East Timor
+proportionately than in the rule of Pol Pot in Cambodia, and that
+the number of dead can only be compared with some of the events of
+the Stalinist period in Russia and such nightmares as exist in
+Rwanda or Burundi today.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: So what brought you there at that time?</strong>
+
+<P>MS: Sorry, I didn't answer your question. The Kuwaiti issue gave me
+the opportunity to ask the question, "Was this international world
+order, in fact what it purported to be?" Because I was interested in
+East Timor personally. I grew up in Latin America partly, and I was
+interested in the idea of a country that was a Latin country so far
+away from others. And I was interested in resistance. I had made a
+number of films about resistance groups before in Central America
+and the Middle East and so forth. I thought maybe I could do one
+there although, I appreciated it would be difficult. And it hadn't
+been done before. Nobody had filmed the resistance. Nobody had
+filmed inside East Timor really since the invasion. And this
+opportunity, as I said, the fashion of that time, the headline of
+that time made it possible to say to the television companies, "here
+is a subject which isn't just a small country," because they
+wouldn't spend the money on that. But "here is a country that gives
+you an insight onto a big story about rich countries which is the
+people who dominate the world media." And therefore it was possible
+at that time in 1991, suddenly, to do a film about East Timor and
+get it financed and shown on the international networks and that's
+what brought me to East Timor.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: And it was just coincidental that you happened to be there when
+the massacre came down?</strong><P>
+
+<P>MS: I wouldn't say coincidental. We filmed initially in September of
+that year. I filmed with a group from a British television company,
+Yorkshire Television, whom I had sort of gone together with. They
+had a project and I had a project, and we went together and joined
+together on it. At the end of September they had finished their
+allocated time, and I said to them I didn't think we had the film
+that I wanted. It didn't tell the story I wanted to tell. It didn't,
+above all, show the story I wanted to show. It was a lot interviews,
+some very strong, but nothing very happening. The people had not
+really come through in my opinion. So I said that I would stay until
+the visit of the Portuguese delegation. <P>
+
+The Portuguese were invited by the United Nations - through a long
+process of negotiations Indonesia agreed to invite them under the
+auspices of the U.N. to visit East Timor. Indonesia hoped to show
+that the situation in East Timor was now peaceful, that they had
+developed the country, that the people wanted to be Indonesian. The
+Portuguese M.P.s, many of them would have been quite happy if that
+was in fact the case. They didn't have any special ambitions to get
+involved in this as far as they were concerned "ancient" story, but
+they did feel an obligation and there were many Timorese who were
+telling them that this was not the case. Telling them that, in fact,
+the Timorese were very unhappy under Indonesia, they had suffered
+appallingly and they did not accept that any form of
+self-determination had taken place in East Timor. And they demanded
+the right from the U.N. to exercise their self-determination. So the
+visit by the Portuguese delegation was part of a process of trying
+to resolve this outstanding legal issue. <P>
+
+And it seemed to me that this visit was a very interesting
+opportunity to make a film because it was a challenge to both sides.
+A challenge to the Indonesians to show that things were just fine,
+and a challenge to the Timorese to show what really was going on.
+And so it proved. The film I made there was really a film about that
+challenge, that particular drama. And the massacre that took place
+on the 12th of November was the culmination of exactly that
+confrontation. It had been going on for months, and students and the
+young people and the clandestine front and the resistance and so
+forth had been dodging the Indonesians and painting flags in hiding,
+sewing them in different homes and mountain retreats, and burying
+them. Many Timorese had been in hiding for weeks because they were
+just ordinary students and school children, because they were being
+pursued by the Indonesian police and arrested and beaten up. Some of
+them were sleeping rough, some of them were sleeping in the cemetery
+itself, some of them were sleeping in different villages and towns. <P>
+
+And the whole notion was that when the delegation would come these
+people would then come out and demonstrate, despite the threats that
+the Indonesians had made to kill anybody who spoke to the
+Portuguese, or for example, to deny anybody who attempted to protest
+in any way any form of rights. Depending on who they were - if they
+were teachers, they might get sacked, if they were government people
+they would get sacked, if they were others they might get killed. A
+whole variety of threats were being made all over the country. And
+these people were still determined to protest and to meet the
+Portuguese in spite of them. <P>
+
+Now the Portuguese cried off, basically. I don't really know why. I
+think they were afraid. That seems to be the best explanation I've
+had so far from them. They realized this was not a straightforward
+matter. This was not going to be a cakewalk. The Indonesians, on
+their side, realized they had not succeeded in paralyzing the
+Timorese people into silence. And they suddenly engineered a change
+in the conditions of the invitation. They said, "You can come but
+you can't come with this, this or this journalist." Well, this, this
+and this journalist happened to be the very journalists that the
+Portuguese had invited to go with them, because they had experience
+and knowledge about the situation, and they were going to explain to
+some of the MPs who didn't know what had happened and what was going
+on. And there was a particular journalist by the name of George
+Olive, an Australian, who was refused. And this became the excuse,
+the occasion - it was nothing else - for the Portuguese to say,
+"Well, in that case, we're not coming." <P>
+
+Now, this was a horrible shock to the Timorese who for upwards oftwo years had been risking their lives to prepare for this visit. I
+was with them at the time, and they couldn't believe it. And of
+course, all these people who were spread around the country were
+exposed. Indonesian intelligence and secret police were chasing them
+day to day. Every day that went by, a few more were caught, a few
+more were found or being traced and beaten up, tortured and so
+forth. So they decided that they had to do something with this. The
+leadership of the resistance decided that they couldn't simply
+disperse. Apart from anything else, I don't think that the young
+people, the students, would have dispersed. They probably would have
+done something undisciplined. I don't know what. And that day on the
+12th, there was a visit by the special raporteur on torture from the
+U.N. His name was Kooijmans, he's now the Dutch Foreign Minister.
+And so they chose that day. It also happened to coincide with the
+two-week anniversary of the murder of one of the students by
+Indonesian secret policemen, something they'd done by storming a
+church and then shooting a student who was taking refuge there along
+with others. This is a tradition in Timor that two weeks later you
+commemorate such a person. <P>
+
+So these two things came together and they decided they would
+organize a procession to the cemetery, prayers over the body of the
+student and a procession to the hotel where U.N. special raporteur
+was staying. And this was to be accompanied by flags and banners,
+nationalist flags and banners. When the mass was held that morning
+in the church, the mass was for this student who'd been killed. It
+took place very early in the morning, about six in the morning, and
+I knew about it. I'd been told about it by various people, and I
+therefore attended it and I filmed it. And from there they pulled
+banners from underneath their shirts and their trousers and things
+they'd been hiding all this time and paraded down the main street
+with them. And of course the Indonesian attitude was one of absolute
+disbelief. I filmed their faces. They had been chasing these things
+for months and there they were being waved on the main street. And
+there were thousands of people - I don't know how many, but maybe
+three thousand or something. All of them knew that every
+demonstration (and there had only been a few that had been held by
+the resistance), every peaceful demonstration - there had never been
+one that had not been peaceful on the part of the demonstrators, as
+far as I know - had been attacked by the Indonesians. Usually the
+people who participated had afterwards been persecuted, arrested,
+tortured, imprisoned and so forth. Nonetheless there were thousands
+of people who turned up that day. And they walked down the street
+and there were women, there were children, there were older people,
+but in the main they were young, mainly of student age or a bit
+older. And they paraded down past the Palace, past all the dozens
+and dozens of police stations and security buildings and army people
+and so forth who really didn't know quite what to do. 
+<P>
+The reaction of a small group of these military people, was to
+attempt to wade into the crowd with fixed bayonets and take a
+national flag from a girl who was carrying it. They stabbed a number
+of demonstrators in doing so and knocked the girl to the ground.
+They did not succeed in getting the flag because other students took
+it on. But it did end up in a very brief confrontation - and the
+only confrontation between the demonstrators and the security
+police. Because it's traditional in Timor for people to carry field
+knives. These are things you use in agriculture, but there were
+clearly a few students who had them. I didn't see any of them, but
+it would be surprising if there weren't in Timor. And one of these
+soldiers, a major, who walked in and first of all stabbed people and
+knocked this woman to the ground, apparently with his fist, elicited
+a reaction from one of the demonstrators who turned around and
+stabbed the major. And the demonstration continued. <P>
+
+The leaders of the demonstration managed to contain that incident,
+and contain the general fear and enthusiasm of the people with
+constant calls to be disciplined, and to walk and not to run. And
+there was no need to do anything else, because everybody had quite
+enough apprehension. And when they got to the cemetery, they stopped
+outside and began to gather. When the rest of the procession had
+arrived, they moved into the cemetery and I moved in with them and
+started to film them as they began to pray in a procession moving
+towards where the grave was. And at that point, outside the cemetery
+Indonesian soldiers arrived in two separate areas, from two separate
+directions, lined up, raised their rifles and fired into the crowd,
+very much like an execution squad, at about ten meters range. They
+fired thousands of rounds of bullets. I couldn't tell you how many,
+but the first burst alone I would guess was the entire 30 round clip
+of each soldier who fired, and probably several clips. It lasted -
+it's very hard to say, but a long, long time. It sounded a lot
+longer than it probably was, but I would guess it was at least
+thirty seconds or a minute. Many others have said it was two minutes
+or three minutes. But that's a hell of lot of bullets that can go in
+that kind of time in an automatic rifle. After that, they stopped
+firing and started chasing those who were running away down the
+streets, shooting them very much like a duck hunt. And they
+attempted to encircle the cemetery which is surrounded by a large
+wall and where a lot of demonstrators had fled to protect themselves
+from the bullets. And other protesters and mourners of course were
+already there. The army attempted to surround the cemetery to arrest
+everybody in it. And I was inside it, taking cover from the bullets
+myself between the gravestones and filming the desperate people
+running to escape the bullets. Because of the very systematic way
+the Indonesian soldiers continued their operation, because it was
+plainly an operation that had been planned, I had quite a lot of
+time. They had clearly been ordered to surround the entire cemetery.
+They did it in a very systematic. They waited until the entire wall
+was surrounded by soldiers before allowing any of their men to move
+in from the outside step by step to arrest the people inside it. And
+those who tried to come in, for example, to get me were ordered back
+by their officers who clearly had orders to ensure that everybody
+was surrounded before they moved in. <P>
+
+When they finally did get to me, I had already realized that it was
+going to be difficult to save the video tape that I had, so I had
+concluded that the only thing to do was to bury it. And there was a
+grave next to me, a new one, so I buried it in the grave. And I
+changed the cassette and continued filming a couple of times before
+they arrested me. And they arrested me and they initially tried to
+take my camera, but I was very, very angry at that time with what I
+saw, and for some reason the group who were trying to arrest me were
+very shocked by that and they didn't take my camera. They just held
+me there. And I was able to watch what took place - they gathered
+the Timorese, stripped them, very much like I had seen done in the
+worst time in Salvador. They tied their thumbs. They beat them with
+rifle butts and batons. Those who were wounded and looked at the
+soldiers were beaten and those moved their eyes up from the ground
+were beaten. And after a while officers came in, examined the
+proceedings and walked out again, apparently satisfied. And then I
+was taken myself to be interrogated in the police headquarters where
+I saw 12 or 15 truckloads or so of arrested people being brought in
+in this way, tied with their thumbs and being beaten. People who
+were so terrified that they could hardly move or hardly breathe in
+most cases. <P>
+
+After a day or so of interrogation, I was released and I met a few
+others who had been released. These were people who had no "record"
+as the Indonesians would term it, in other words, who had never
+demonstrated before or they had no record of them demonstrating. And
+they had been tortured, some of them. They had been forced to walk
+over thorns and beaten and beaten and knifed as they did so. I saw
+the marks on one person, and he described how others had been killed
+in this process in the police headquarters.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: Why didn't they kill you?</strong>
+
+<P>MS: Well, I think you need to understand the situation, the
+mentality. I was a foreigner, obviously, and they didn't really know
+what to do. They'd never come across the situation in the middle of
+a massacre that there was a foreigner there, filming. They were
+clearly confused by it. At the time when I was in the cemetery, when
+one man did in fact raise his rifle to shoot me, he was distracted
+by a shot that went off in another direction and put off by his
+officer next to him because at that point they had trapped people
+and the orders were to arrest them, interrogate them, not to shoot
+them. It's partly a matter of chance. There were two Americans, two
+American journalists who were there, who attempted to intervene
+before the shooting started, not imagining they were going to shoot
+in this deliberate way. And they were very nearly killed. One was
+beaten very severely and thrown into a ditch. That was a lady called
+Amy Goodman was thrown into the ditch and her friend, Allen Nam
+tried to protect her and had his skull fractured. They were not
+killed, but apparently they very easily could have been. There was a
+man who was quite happy to do it, but another one who stopped it.
+But a lot of these things are a matter of chance. <P>
+
+As I say, there is a great contradiction for the Indonesians. On the
+one hand, Westerners are the source of money. They are tourists.
+They are supposed to be welcomed. It's a peaceful country and a
+paradise for tourists and so forth in the official PR. On the other
+hand, they understand that Westerners are not good PR when they are
+mixed up in something like that. And they are not quite sure what to
+do about it. Whether to do what they did in 1975 and shoot them in
+cold blood. Or not to do so and to attempt to explain away the
+situation. It's a very difficult contradiction for them.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: The cemetery massacre was fairly well reported in the
+international press but there was a shadowy event after that that
+you have been working to expose...</strong>
+
+<P>MS: Yes, I had another opportunity to cooperate with another group
+of film-makers in 1993. My work in this particular project was
+specifically focused on the situation and the people in Indonesia
+and East Timor. And that was really the part of the film that I
+spent my efforts on and my time on. There were two things I was
+interested in doing. First of all, in 1992, the leader, Shanana
+Husmau, who was responsible for reshaping the resistance, broadening
+it, and who had inspired enormous admiration and support across a
+very wide spectrum in East Timor, was captured. And the Indonesians
+claimed, especially after they captured his immediate successor very
+shortly afterwards, that they had now broken the resistance. That
+there was now no resistance, that the guerrillas were miniscule in
+number, irrelevent and finished. And the clandestine front
+similarly. I wanted to find out if that was true. <P>
+
+Secondly, I had information that the massacre that took place in the
+cemetery, the shooting, was just the beginning of the killing. I had
+information that there were a large number of people unaccounted for
+- people I had understood were alive after the shooting, and who had
+been killed or who had disappeared. And I wanted to investigate
+that. Clearly these are very difficult things to do. East Timor is
+totally controlled. There are vast numbers of security people,
+informers, police, soldiers and so forth. And I would estimate that
+one out of every fifteen people in East Timor is working for the
+security services in one form or another. And of course, I, as the
+person who filmed the massacre and caused them considerable
+embarrassment, was not welcome in East Timor or in Indonesia at all,
+I had been led to understand. <P>
+
+Nonetheless, I was able with the cooperation of other people to
+return there and discovered a story which initially I found hard to
+believe, but as my investigations continued, there seemed to be no
+serious doubt about. After the shooting, according to the testimony
+of several people I spoke to, including some that I actually filmed
+and was able to confirm what they said, the Indonesians advanced.
+They ordered the people outside in the street to stand up, those
+that were not wounded, and then stabbed those who did. Several
+people who were wounded in this way whom I spoke to and filmed -
+some of whom I had already filmed before and was able to compare the
+information they gave with the situation, the timing and so forth
+and it was clearly true. <P>
+
+After that these people who were still alive were put on trucks and
+those who were dead were put on trucks and taken mainly to the
+military hospital. In the military hospital, they were separated.
+Some were sent to a part of the hospital where it seems they were
+treated, although some apparently were killed with injections.
+Another large number were dumped on the ground, intended to be taken
+to the morgue. Many of these people were not dead. Some of them
+stood up, or tried to stand up to show that they weren't, and were
+run down by the trucks. Some stood up as they were asked to as they
+got off the trucks and were stabbed and thrown on the ground. Others
+were dragged into the morgue and in the morgue many of them were
+still alive, severely wounded but still alive. There is a horrible
+story of one particular witness who amazingly survived this. He was
+outside the cemetery, he was not wounded. When he heard them
+ordering people to stand up, he noticed that those who did were
+being stabbed. And he didn't stand up. When they got to him, they
+suspected he wasn't dead, and beat him so severely that they cracked
+his skull. And head was left in such a mess, blood all over the
+place, that they thought he was dead. In fact, he was knocked out.
+He came to on the truck. He was asked to stand up as he got off the
+truck. Again he didn't, again he noticed that they stabbed people.
+He was not one of those run over, fortunately. He was dragged into
+the morgue where he observed the people leaving. And when they did,
+he described what he saw. And that included my friend the New
+Zealander, Kamal, who was killed in the killing and was there. And
+piles of bodies. He described it like a "ton of sand." These bodies
+were, many of them, not dead. He stood up when the soldiers had
+left, and the living were screaming for water and for help. He had
+no water. There was blood everywhere, but no water. And he prayed
+with them briefly. The soldiers came back and he pretended to be
+dead again and he observed that one of them had a very large rock.
+He kicked somebody and if that person moved, he threw the rock on
+their head and crushed it. If that wasn't good enough, he threw it
+again. And his colleage, another soldier, had a large tube, like a
+large bottle, of pills. He gave those people that he found alive a
+handful of these pills, five or six or whatever. <P>
+
+When they got close to the man I talked to, he stood up all of a
+sudden, shocking these people because they were not expecting it.
+And he said, "excuse me, sir, but before you throw this stone at me,
+I'd like to explain something to you, and it is that I was only in
+the demonstration because I was working for the military. I was a
+spy, sent there to see who was there and to report." Now the
+soldiers knew that many such spies existed. Indeed, some of the
+small incidents that have been alleged since were clearly provoked
+by these people. So they believed him, partly, or they didn't know
+for sure. And in their typical sort of messy way, one of them told
+him to lie down and gave him some of these pills. When he took the
+pills, he had a strong burning sensation in his chest. And as he
+went out to see the military policemen they told him to, he vomited
+up the pills, because he suspected they were poison. <P>
+
+And sure enough, a witness who was working at that time in the
+military, in the laboratory in the hospital whom I also spoke to,
+had saved some of these pills. And he had been asked to give them to
+the wounded people, and he had observed other people giving them,
+particularly the Indonesian military administrative staff and one or
+two Timorese who were forced to do it. And doing so within the
+presence of doctors of that hospital. These pills have a very
+unpleasant smell, and when people took them, the way he described
+their symptoms, they started to breathe very heavily and gasp, and
+after a while they would lose consciousness and apparently die. I
+had these pills analyzed in London, and they were a pure form of
+formaldehyde - a very powerful disinfenctant used for fumigating and
+killing insects and bacteria in hospitals. It has absolutely no
+possible beneficial medical use as an internal drug, taken in this
+way. Least of all, a handful, amounting to three or four grams of
+this material, which to quote a doctor who works at Amnesty would
+have "a dramatically poisonous effect taken internally." Whether
+these people died from this poison, or whether they died from the
+combination of neglect and their wounds and the shock is not
+possible to say at this time. What is clear is that the symptoms
+that were described both by the guy who was forced to take two and
+by the guy who observed them are precisely those the doctor would
+predict. They include internal bleeding. They include dizziness -
+people were said to sit down straight away. They include coma, that
+is to say, losing consciousness through the internal form of cardiac
+reaction. They include this heavy breathing which apparently would
+be a response to the extreme acidity of the blood that would follow.
+And they finally include the possibility of death through a form of
+heart attack, depending on the dose and the people concerned.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: Well, how many died in the actual massacre in the cemetary and
+how many afterwards?</strong>
+
+<P>MS: It's very hard to say how many died in the second thing. I think
+by analyzing the figures, it would be unlikely that a credible
+accurate estimate could be given. It's certainly clear that if you
+think of the morgue, and it was quite a large room -  five meters by
+four meters, I think - and if you imagine that this man couldn't
+walk without walking on bodies and these bodies were piled high, you
+can estimate yorself the number of people who must have been in that
+morgue at the time. It's a large number. It's very hard to say
+exactly, but I think it would probably be about a hundred or
+thereabouts, naybe more. Following the massacre, the Timorese did
+two surveys of their countrymen. And they came up with three and
+half thousand different accounts of people who said that so and so
+is dead or wounded or arrested or whatever. A particular human
+rights group called "Peace is Possible" in Europe did an analysis, a
+very detailed analysis with the help of Portugeuse people and others
+of these figures. They come up with a list of 271 people confirmed
+to be dead - that's to say, people who had been seen dead at some
+point or another; a further 250 or so who had vanished, disappeared;
+and then there was six or seven hundred wounded and more arrested, I
+can't remember exactly. 
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: Have you been back since then? What is the feeling in the
+country? Is it totally demoralized?</strong> 
+
+<P>MS: No. I was back quite recently, at the end of '93, doing this
+investigation. The Indonesian military conducted an investigation
+after this massacre. This was a sham. It was conducted by military
+people and others. They took much of this evidence of this second
+killing in the hospital - I know this, some of the people I myself
+knew spoke to them and on video tape - they suppressed it all. The
+Indonesians instead arrested anybody that they thought could have
+had any part in the demonstration or the procession. Most of these
+people - they included workers in the Ministry of Economy, students
+and so forth - had absolutely no history or relationship with the
+military movements in East Timor. They had had merely wanted to
+avail themselves of the opportunity to dialogue with the Portuguese
+invited by the U.N. They were given long prison sentences - 16, 18
+years long. Others were threatened, many were tortured. There was an
+aggressive, nation-wide campaign to attempt to stamp out the
+resistance, that is to say, the political resistance principally.
+The result of this was that the Timorese went underground, to some
+extent. <P>
+
+The situation is that the people, many of them were arrested, some
+of the organizations, especially some of the more political and just
+student groups and so forth were very badly damaged by this
+repression. However, the resistance as such, far from disappearing,
+especially the military resistance increased. I myself met and
+interviewed recently the commander-in-chief - which is the first
+time that's been done - in the mountains. I met new guerrillas
+there. I met people who'd been in the demonstration who'd joined the
+geurrilla movement. I met many people who said the same thing:
+Things are very difficult. They are very afraid, but the
+determination amongst the people is greater than before, as you
+would expect. Those people who thought there was any prospect of
+negotiation and dialogue, of forming an accomodation with the
+Indonesians, have not been persuaded by the massacre of these people
+and the persecution of those people who tried peaceful dialogue.
+Instead, they have been persuaded of course that there is a
+possibility only through some other form of resistance. And short of
+total despair - and some give in to that, of course - the only form
+of resistance open to them therefore is military resistance and
+political resistance of a clandestine kind. And that is what today
+is being pushed forward. The geurrillas are now a slightly larger
+number than before. They are starting toward slightly more
+aggressive tactics, but their thoughts are very much focused on a
+long term struggle, and that includes of course, very importantly
+the political struggle and the continuation of the clandestine
+movements in East Timor.
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: You speak rather depressingly about international indifference
+to this entire situation. Japan is a very close neighber and trading
+partner of Indonesia. What role do they play in this drama?</strong>
+
+<P>MS: The Japanese originally supported Indonesia's invasion. From the
+very beginning, they were arguing and voting for Indonesia - I'm not
+certain whether they abstained or they voted for Indonesia in the
+first U.N. vote. Almost everybody in that vote recognized the
+obvious legal situation which was that the Indonesians committed a
+gross violation of the most basic international law by invading East
+Timor. The Japanese, however, sought from that early time onwards to
+minimize this, to support the Indonesians - with whom they of course
+have very close relations. It's the biggest ODA donor in the world
+to Indonesia and there are enormous Japanese investments,
+development projects and so forth in Indonesia. There is a
+historical relationship with the regime in Indonesia which goes back
+to the time of the second world war. There is a great interest in
+the Japanese business community to support their clients and friends
+who maintain quote-unquote "stability" in that area through
+repressive police and military and security means. For them to take
+the lid off that bottle is to promote "anarchy." And of course the
+Indonesians would tell them that - "if you start to release a little
+pressure here, or allow democracy in East Timor, my god, you'll have
+problems in West Papua/Irian Jaya where huge projects - wood
+projects and various metals and mining projects and so forth are at
+stake." In northern Sumatra too, there is the case of Acche a
+country kept against its will inside the Indonesian regime in the
+region - it was originally a federation - where now they have found
+gas and oil and so forth. There are huge interests among the big
+economies - Japan, the United States, Britain and others, but
+especially Japan - to keep the lid on Indonesia and to do so with
+the existing regime with whom they are totally connected. These
+people are very corrupt. They take huge bribes and in return, they
+guarantee quote-unquote "security" or "stability" for the business
+enterprises. Now against this, a small number of people representing
+about one percent of the population of Indonesia as a whole or less
+are not a very strong argument. And the human rights issues, however
+embarrassing they might be, are not very persuasive. And even those
+countries that make a bigger commitment officially to human rights,
+including of course the U.S. itself and those regimes who claim to
+have this interest, when it comes to the nitty-gritty there is an
+awkward decision to make. And the decision does not usually favor
+human rights, because they find a way to explain it away. They
+suggest that really it is the best interest of East Timor that is
+being served, that actually this is only a minority of disgruntled
+individuals. In so doing they contradict their own statements that
+there has been no plebiscite, no consultation, none that the U.N.
+has ever recognized. And those "consultations" that the Indonesians
+claim are so grossly distorted that not even their closest
+international friends would dare out of embarrassment to refer to as
+a consultation of the people. <P>
+
+But the obvious questions are always dodged, because it really isn't
+a question of law, it's not really a question of human rights, it's
+certainly not a question of democracy. It is a question of money,
+unfortunately, and there is the key issue. Is it going to be in the
+interests of the Japanese, as it finally became in the interests of
+the white South Africans, to change horses. Unfortunately, one can't
+suggest that this seems to be the case. Take the case of Australia,
+which has one of the most despicable records regarding Timor. They
+were once a close ally and friend of the Timorese who had greatly
+helped Australia during the war by resisting the Japanese build up
+for an invasion of Australia in that area, at huge cost to the
+Timorese. Nonetheless, Australia betrayed the Timorese completely.
+They even prevented medical aid from being sent from Australia by
+Australian sympathizers by arresting them on the high seas. They cut
+them off completely in the interests of craven capitulation to the
+not very well disguised threats of the Indonesian regime. Threats
+which have recently been mounted again against the Philippine
+government which has had the temerity to allow private citizens to
+discuss the question of East Timor and invite foreigners and others
+to talk about the problem there. This was too much for the
+Indonesian regime and it meted out all sorts of threats and the
+result has been that the president there, Mr. Ramos, has suggested
+that in the Philippines the right of free speech is restricted to
+Philippine citizens. That of course doesn't include any East
+Timorese visitors. 
+
+<P><strong><FONT SIZE=-1>WDK</FONT>: But as you cover these conflicts around the world, do you see
+any common elements? Number one, you have to have a certain group of
+people willing to commit these brutalities in a cold-blooded fashion
+and most countries seem to able to churn out that minority in
+sufficient numbers. But as you look at all these hot spots around
+the world, the ones you've covered, the ones you've studied, what
+common elements do you see and what indication does that give you
+for possible antidotes?</strong>
+
+<P>MS: Well, I think there are some obvious common points. I, for
+example, was very struck by the way in which I could often tell at a
+hundred meters range what they call a "bufo" in East Timor, a spy,
+an informer, because he looked exactly like the same character in El
+Salvador. He would characteristically hang out with a prostitute. I
+had a couple of them living just a few meters away from where I was
+staying for a while in a hotel. I could see who they were and I even
+went up and filmed them just to embarrass them. And the situation
+culturally, if you like, is recognizable that certain sorts of
+people such as the governer and other officials there right now are
+from the sort of petty criminal class and are suddenly elevated to a
+status of prestige and public responsibility. That has obvious
+effects on that society. Honest and simple people can't make an
+honest and simple living. Everything is decayed, it's corroded to
+the very basis of society. And to get out of that situation requires
+tremendous moral courage. It requires a lot of time and it is like a
+bog. As you get into it, it gets deeper and deeper. Lebanon was the
+same. It was not a problem really of politics by the time I was in
+Lebanon and filming there, it was more a question of crime. And the
+whole society had been turned inside out. If you were a criminal,
+then you could make money in that situation. If you were dealing in
+drugs you could do very well. If, on the other hand, you wanted to
+be a sort of fairly straightforward businessman, it was hopeless. So
+the whole situation is turned upside down and this is fairly common
+in such a situation. <P>
+
+And one answer certainly is for foreign groups, solidarity groups
+and others to insist, consistently, on certain minimum standards of
+human behavior. Tests for these standards are constantly going to be
+failed by such communities. No matter how much they might pretend
+that there is peace and development and god knows what else, I
+guarantee you that they will fail these tests because of the people
+that are running the place, and the internal lies, the hypocrisy,
+the oppresion will come out if people follow it. That's one little
+thing. It's a question of education. <P>
+
+And these days communication is a powerful weapon, too, because such
+things are kind of clear if you show them in films and you show them
+on the TV, and talk about them and so forth. Other people kind of
+recognize them. They may not understand the full details, but they
+get the message. And that causes embarrassment for people like the
+Indonesian business community who want to be part of the world and
+make money and have tourists and say "this is a paradise!" There is
+now a business interest in certain minimal standards of decency if
+only in PR areas. So that is one consistent, very unrewarding mode
+of struggle, for long, long term struggle to continue to remind
+people and continue to irritate those people who want these things
+to be buried. <P>
+
+On the other areas, of course, there are more direct forms of action
+in the form of economic action and international law and so forth.
+But I think there you are talking about a really big subject and...
+I don't know, there was some hope, I suppose, a couple of years ago
+in the minds of some. But those of us who've been in the Soviet
+Union and elsewhere since are perhaps not too optimistic of an
+instant result in that area.</H4>
+
+                  
+ 
+<HR WIDTH=300 ALIGN=left SIZE=2>
+<H4>
+Originally published in Kyoto Journal #28.</H4>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+</TD></TR>
+</TABLE>
+<P>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}fdlap/fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+<FONT  SIZE=2><A HREF="mailto:fdlap@chollian.dacom.co.kr"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
+<A href="${BASE_URL}fdlap/fdlorg.html#address">Our Address...</A></FONT>
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default FdlapMaxstahl;

@@ -1,0 +1,379 @@
+import { useEffect } from "react";
+
+const DemoruleIndex = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+
+<a href="${BASE_URL}demorule/index.html"><img src="${BASE_URL}graph/BMREVDEM.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Democracy Index"></a>
+
+<br>
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
+<STRONG> <FONT  SIZE=4 COLOR=#000055>THIS AIN'T A DEMOCRACY,<br>
+IT'S AN EMERGENCY!
+<hr width="260" size="2">
+<em>BIG MED Rx FOR DIRECTPRESENTATIVE DEMOCRACY</em>
+
+</STRONG><br>
+
+
+
+
+<IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
+
+<table width="520" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td>
+	<hr width="320" size="3">
+<div align="center">	<strong>"<em>The U.S. Constitution may not be perfect, <br>
+but it�s a lot better than what we�ve got now.</em>"</strong></div><hr width="320" size="3"><p>
+
+When a corporate coup occurs and We the People lose control of our government, two things have to happen at once. We must abruptly belittle corporations' power and radically enlarge our own. This section introduces the most promising means to the latter end. Most of the following ideas have not only been time-tested in such "radical" societies as Switzerland, Denmark or suburban Philadelphia, they all have active local movements pushing them forward today. If you are constitutionally more comfortable rebuilding sovereign power from the ground up (rather than yanking the usurping bastards on top down), choose a tool and lend a hand.
+
+
+
+	<p>
+		<hr align="left" width="260" size="3">
+		<a href="#nation"><strong>Tools for Real National Democracy</strong></a><br>
+	<a href="#swiss"><strong>The Secret Swiss Proving Ground</strong></a><br>
+	<a href="#local"><strong>Tools for Reinventing Local Democracy</strong></a><br>
+	
+	<a href="#economic"><strong>Tools for True Workplace Democracy</strong></a><br>
+	&nbsp;&nbsp;&nbsp;<a href="#kellman">Reclaiming Human Rights in the Workplace</a><br>
+	
+	&nbsp;&nbsp;&nbsp;<a href="#shann">Reclaiming the Workplace Itself</a><br>
+	
+	<a href="#linx"><strong>Resource Links to the Future</strong></a>
+		<hr align="left" width="260" size="3">
+	<br>
+<hr width="500" size="3">
+	<hr width="450" size="2">
+	<hr width="500" size="3"><br>
+	<br>  <a name="nation"></a>
+	<strong>RETURNING GOVERNMENT TO THE PEOPLE</strong><br>(excerpted from the <a href="http://ni4d.org/" target="_blank">Democracy Foundation</a> web site.)<br><br>
+   	<hr align="left" width="260" size="3">
+ <strong>
+Reasserting  First Principles,<br>
+Reviving Sovereign Power:<br>
+The National Initiative For Democracy 
+</strong>
+   	<hr align="left" width="260" size="3"><p>
+
+
+The <a href="http://ni4d.org/" target="_blank">National Initiative For Democracy</a> is a proposed amendment to the US Constitution and an accompanying federal statute, which will bring the People into government as lawmakers at the national level and in every state and local government jurisdiction in the United States. Beginning in 2002, the People will have an opportunity to enact this Initiative in a national election conducted by the nonprofit corporation, <a href="http://p2dd.org/" target="_blank">Philadelphia II</a>. 
+<p>
+Under the National Initiative, the People's lawmaking power will parallel, not replace, the powers of our elected legislators. There will be two sources of law: the People and their elected representatives. 
+<p>
+<strong>The National Initiative includes: </strong>
+<ul>
+<li><strong>The Democracy Amendment</strong> to the US Constitution, which asserts the People's sovereign authority and legislative power to create and alter governments, constitutions and laws, independent of existing governments. 
+
+<li><strong>The Democracy Act</strong>, which establishes legislative procedures by which the People can enact laws using ballot initiatives, and creates the Electoral Trust, an independent government agency to administer those procedures on behalf of the People. (It also explicitly bars any non-human "persons" -- i.e., PACs or corporate bodies -- from participating in this process in ANY way.)
+</ul>
+The National Initiative has been developed and refined over the past decade by former Senator Mike Gravel (D. Alaska, 1969 - 1981) and his colleagues. The Democracy Foundation and Philadelphia II, two nonprofit corporations led by Senator Gravel, are now working to bring about the enactment of the National Initiative. <p>
+
+In 2002, The Democracy Foundation will launch a public information campaign to educate people about democracy and their sovereign legislative authority derived from First Principles. Philadelphia II will then conduct a nationwide election for the enactment of the National Initiative. <p>
+
+<strong>EXPLANATORY LINKS</strong><p>
+<ul>
+<li><a href="http://p2dd.org/nationalinitiative/rationale.htm" target="_blank"><strong>Rationale</strong></a>: Why we need the National Initiative For Democracy. 
+
+<li><a href="http://p2dd.org/nationalinitiative/firstprinciples.htm" target="_blank"><strong>First Principles</strong></a>: The philosophical foundation of the National Initiative. 
+
+<li><a href="http://p2dd.org/nationalinitiative/partnership.htm" target="_blank"><strong>Partnership In Democracy</strong></a>: How the People's Legislature corrects the flaws of representative democracy. 
+
+<li><a href="http://p2dd.org/nationalinitiative/nationalinitiative.htm" target="_blank"><strong>The National Initiative For Democracy</strong></a>: Additional information. 
+
+<li><a href="http://p2dd.org/nationalinitiative/amendment.htm" target="_blank"><strong>The Democracy Amendment</strong></a>: Text of the proposed Constitutional amendment. 
+	
+<li><a href="http://p2dd.org/nationalinitiative/act.htm" target="_blank"><strong>The Democracy Act</strong></a>: Federal statute establishing the People's Legislature. 
+	
+<li><a href="http://p2dd.org/nationalinitiative/constitutionality.htm" target="_blank"><strong>Constitutionality</strong></a>: The legal foundation of the National Initiative. 
+
+<li><a href="http://p2dd.org/nationalinitiative/actionplan.htm" target="_blank"><strong>Action Plan</strong></a>: Election &amp; educational program for the National Initiative. 
+<p>
+
+<li><STRONG><a href="${BASE_URL}demorule/gravel1.html">War &amp; Peace and the Democracy Amendment</a></STRONG> by
+Senator Mike Gravel
+</ul>
+
+<br>
+<hr width="500" size="3">
+	<hr width="450" size="2">
+	<hr width="500" size="3"><br>
+	<a name="swiss"></a>
+	<hr align="left" width="210" size="3">
+ <strong>
+Resicovering Switzerland: <br>
+
+The Strongest, Safest, Most <br>
+
+Radical Democracy on Earth<br>
+</strong>
+   	<hr align="left" width="210" size="3"><p>
+		<BLOCKQUOTE><STRONG><FONT  SIZE=+1>D<FONT SIZE=-1>IRECTPRESENTATIVE </FONT>D<FONT SIZE=-1>EMOCRACY</FONT></FONT> - Swiss-tested for over a century, now ready for international release.</BLOCKQUOTE>
+	No one bothers to assassinate Swiss politicians, they simply don't have any power. Switzerland has been running her revolutionary little experiment in Direct Democracy since 1860, and has arguably crafted  the most secure, prosperous, and eco-friendly society on the planet. Let us meditate on her lore..
+	<ul>
+	<li> <a href="${BASE_URL}demorule/fossedal.html"><strong>Direct Democracy in Switzerland</strong></a> by Gregory Fossedal<br><br>
+	<li> <a href="${BASE_URL}demorule/beedham.html"><strong>Full Democracy</strong></a> Definitive Direct Dem advocacy from Brian Beedham<br><br>
+
+
+            <li><A HREF="http://www.npsnet.com/cdd/econom-1.htm" target="_blank"><STRONG>Realizing Full Democracy</STRONG></A> -- More great Beedham <BR> "<EM>Democracy in the 20th century has been a half-finished  <BR>thing.
+     In the 21st, it can grow to its full height.</EM>"<BR><br>
+
+            <li><A HREF="http://democracy.mkolar.org/" target="_blank"><STRONG>DD<FONT SIZE=-1>EMOCRACY </FONT>M<FONT SIZE=-1>EETINGPLACE</FONT></STRONG></A> -- Links to Direct Dem movements in many countries and coverage of new international developments.<BR><br>
+
+            <li><A HREF="http://www.ping.be/jvwit/directdemocracynow.html" target="_blank"><STRONG>Direct Democracy Now!</STRONG></A> -- 
+Another good personal page of arguments for Direct Democratic reform
+(also see fine Stephen Jay Gould page on re-empowering the essential decency of <A HREF="http://www.ping.be/jvwit/Gouldhumannature.html" target="_blank">Human Nature</A><BR><br>
+
+
+
+            <li><A HREF="http://www.vote.org/index.htm" target="_blank"><STRONG>VOTE.ORG: Government by the People</STRONG></A> -- A new web/tech-assisted paradigm for Democratic Renewal<BR><br>
+
+            <li><A HREF="http://www.homeusers.prestel.co.uk/rodmell/index.htm" target="_blank"><STRONG>"Let the People Decide.............."</STRONG></A> --
+Well argued Direct Democracy campaign for the UK<BR><br>
+
+
+        <li><A HREF="http://www.earthcharter.org/resources/essays/peoplefirst/index.htm" target="_blank"><STRONG>Earth Charter: Democracy for Sustainability</STRONG></A> -- Powerful Earth Charter Amendment draft showing why Direct Democracy is vital to just and sustainable 3rd World development.
+ </ul><P>
+	
+	</ul>
+	
+	<hr width="500" size="3">
+	<hr width="450" size="2">
+	<hr width="500" size="3">
+   <p>
+  <a name="local">
+   	<hr align="left" width="240" size="3">
+   <strong>
+
+Reimagining Local Communities,<br>
+
+&nbsp;&nbsp;Reinventing Consensual Rule:<br>
+
+Center for Consensual Democracy
+</strong></strong>
+   	<hr align="left" width="240" size="3">
+Consensual Democracy is a proven way to revive, renew and sustain your local community � a grassroots                                   approach that empowers local citizens to build their own virtual government and the communities they truly desire. 
+ Consensual Dem is a practical approach with a 50-year track record that mobilizes the shared visions, values and goals of the immediate community. All a town needs to get started is a group of thirty people willing to dream and work together...
+
+
+
+<ul>
+<li> <a href="http://consensualdemocracy.org/" target="_blank"><strong>Center for Consensual Democracy</strong></a> -- The Mother Lode
+<li> <a href="http://consensualdemocracy.org/recreating_democracy.htm" target="_blank"><strong>Recreating Democracy</a></strong> <font color="#800040">by  Wells &amp;  Lemmel</font> -- The Good Book
+<li> <strong><a href="http://consensualdemocracy.org/feature_article.htm" target="_blank">Tools for Building Community</a></strong> -- A Report on the State of the Art
+<li> <strong>Consensual Communities in Maine</strong>
+<ul>
+<li> <strong><a href="http://consensualdemocracy.org/limestone_me.htm" target="_blank">Limestone, Maine</a></strong>
+<li> <strong><a href="http://consensualdemocracy.org/waterville_midmaine.htm" target="_blank">Waterville/Mid-Maine Region</a></strong>
+<li> <strong><a href="http://consensualdemocracy.org/aroostook_county.htm">Aroostook County, Maine</a></strong> 
+<li> <strong><a href="http://consensualdemocracy.org/micmac.htm" target="_blank">Aroostook Band of Mi�Gmaq/Micmac</a></strong>
+</ul>
+</ul>
+
+
+<br>
+<hr width="500" size="3">
+	<hr width="450" size="2">
+	<hr width="500" size="3"><br>
+
+
+
+
+  <a name="economic">
+
+<a name="kellman"></a>
+   	<hr align="left" width="310" size="3">
+   <strong>
+
+Reclaiming Human Rights in the Workplace,<br>
+Renouncing Servitude to Corporate Rule:<br>
+Peter Kellman's liberating New Labor Law
+</strong>
+   	<hr align="left" width="310" size="3">
+
+Not only do corporations illicitly claim the Constitional rights of human persons, they aggressively refuse those same rights to their own employees. Today US workers enjoy about the same freedoms in their workplace as indentured serfs  in a fascist land. Peter Kellman and the Labor Party have a rather more American idea. They demand a law that would finally eliminate slavery in all its forms. In effect, their law would restore three vital freedoms, presented below in abbreviated form:<p>
+
+<strong>FREEDOM OF SPEECH <br>
+
+Up to now, courts have privileged employer property rights over the workers' free speech rights.   If workers are to enjoy effective freedom of speech and expression, this must change in at least three ways:</strong> 
+<OL>    
+<li>  <strong>Workers must enjoy freedom of speech on as well as off the employer's property�</strong> When an employer has the power to effectively determine who will -- and who will not -- speak to "its" workers, the employer is acting as a master and it is putting the workers in the position of dependent slaves. 
+<li>  <strong>Workers must be free from employer as well as government censorship except where job performance is at stake�</strong>   When an employer censors a worker's speech for reasons unrelated to job performance, it is acting as a master and putting the worker in the position of a slave.
+<li>  <strong>The people -- including workers -- must be free to express themselves by withholding patronage and requesting others to withhold patronage�</strong>   When workers are prohibited from effectively communicating truthful information about employers, then they are treated more like slaves than like citizens.
+</ol>
+<strong>FREEDOM OF ASSOCIATION <br>
+
+  Under the NLRA, the government decides what groups of workers may assemble together for collective action and bargaining.   If workers are to enjoy effective freedom of association, this must change in at least two ways:</strong>     
+<ol>
+<li>    <strong>Any size group of workers can form an association, including a union, and present and resolve grievances and make agreements with the employer�</strong>   When an individual worker is forced to face the collective power of a corporate employer without the support of his or her union, she is placed in the position of a helpless slave dealing with a powerful master. 
+<li>  <strong>Workers, not the government or the employer, must determine the scope of their own associations for purposes of collective action and bargaining�</strong>   When workers cannot determine who they will associate with for mutual aid and protection, they are denied a basic right of citizenship.
+</ol>
+<strong>FREEDOM OF LABOR <br>
+
+Under current law, the workers' freedom of labor is subordinated to employer property rights.   For workers to enjoy effective freedom of labor, this must change in at least four ways:</strong>
+<ol>
+<li>   <strong>The right to strike must include the right not to lose one's job permanently to a strikebreaker...</strong>   When an employer has the power to punish workers for exercising their fundamental rights, the employer is acting as a master and the employee is a slave whose rights mean nothing.
+<li>  <strong>The freedom of labor must include the right to refuse to contribute personal labor to enterprises that assist unfair employers by, for example, supplying them with parts, distributing their products, or financing their operations�.</strong>   When a "neutral" employer can compel a worker to contribute his or her personal labor to assist another employer in violating the human rights of its employees, the employer is placed in the position of a master and the worker in that of a slave with no control over his or her personal labor.
+<li>  <strong>The freedom of labor must include the right to bargain with and to strike and boycott against the company that actually controls terms and conditions of employment�</strong>    When employers can use corporate formalities to render workers' rights meaningless, the employer is acting like a master and the employee is reduced to slavery.   
+<li>  <strong>The freedom of labor must include the right to withhold personal labor in solidarity with workers in other countries�.</strong> When corporations are permitted to organize multinationally, while workers are limited to local protests because of artificial corporate boundaries, then corporations become arrogant masters while workers are reduced to dependent slavery.   
+</ol>
+
+
+
+<ul>
+<li><strong><a href="${BASE_URL}demorule/nulablaw.html">Toward a New Labor Law</a></strong> -- The Fiery Full Monty
+
+</ul>
+<hr size="3">
+<a name="shann"></a>
+   	<hr align="left" width="330" size="3">
+   <strong>
+
+Reclaiming the Workplace itself,<br>
+Transferring Ownership to Stakeholders:<br>
+Turnbull's Ownership-Transfer-Corporation
+</strong>
+   	<hr align="left" width="330" size="3">
+	<p>
+	Visionary author of  <a href="http://cog.kent.edu/lib/TurnbullBook/TurnbullBook.htm" target="_blank">Democratising The
+Wealth of Nations</a>, Shann Turnbull has pioneered a practical, painless, even profitable way to transfer ownership of all our modern corporations into employee and stakeholder hands. His 20-year plan is the ultimate prescription for a truly prosperous and  democratic society, and deserves immediate debate in every forum in the land.<p>
+	<ul>
+<li><strong><a href="${BASE_URL}demorule/shann1.html">Building a Sustainable, Fulfilling Stakeholder Democracy</a></strong> --  Overview
+<li><strong><a href="${BASE_URL}demorule/shannotc.html">Humanising Corporations to Enrich Citizens &amp; Democracy</a></strong> -- How to Create an Ownership-Transfer-Corporation
+</ul>
+	<hr width="500" size="3">
+	<hr width="450" size="2">
+	<hr width="500" size="3"><p>
+	  <a name="linx">
+
+
+   	<hr align="left" width="290" size="3">
+   <strong>
+
+Resources for a Countercoup Revolution,<br>
+Links for Rebuilding a Convivial World
+</strong>
+   	<hr align="left" width="290" size="3"><p>
+<ul>
+<li><strong><a href="http://democracyinnovations.org" target="_blank">Innovations in Democracy</a></strong> -- "Toward wiser democracies that work for all" A truly inspiring compilation of all the best ideas around...
+
+<li><strong><a href="http://www.chaordic.org/" target="_blank">The Chaordic Alliance</a></strong> -- Founded by Visa co-founder Dee Hock, who combined elements of uncontrolled creative chaos and orderly common purposes and principles to help communities and organizations self-organize. Among their projects is an ambitious worldwide network to help a new civilization self-organize, called <a href="http://www.chaordic.org/commons.html" target="_blank">Terra Civitas</a>.
+</ul>
+--------------------------------------------------------------------------------
+
+</td>
+</tr>
+</table>
+<hr size="3">
+<br>
+<hr width="300" size="3">
+<font size="-1">Have more seminal suggestions? <br>
+Email them to us at: <a href="mailto:bigmed@nancho.net">bigmed@nancho.net</a></font>
+<hr width="300" size="3">
+<br><div align="center"><a href="${BASE_URL}newchau/" target="_top"><img src="${BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<font size="-1">The Way  Home</font></a></div><p>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default DemoruleIndex;

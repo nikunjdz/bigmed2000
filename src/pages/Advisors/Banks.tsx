@@ -1,0 +1,406 @@
+import { useEffect } from "react";
+
+const AdvisorsBanks = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Dennis Banks </CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<IMG SRC="${BASE_URL}advisors/graphics/banks.jpg" WIDTH=124 HEIGHT=150  HSPACE=15 VSPACE=15 BORDER=3  ALT="Sri Dennis"><BR></TD></TR>
+</TABLE>
+<BR><BR>
+
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+<BLOCKQUOTE><STRONG><FONT  COLOR=#800000> Native American leader, teacher, lecturer, activist and author, Dennis Banks is an Anishinabe
+born on Leech Lake Indian Reservation in northern Minnesota. In 1968 he co-founded the
+American Indian Movement (AIM), and establishing it to protect the traditional ways of Indian
+people and to engage in legal cases protecting treaty rights of Natives such as hunting and
+fishing, trapping, wild riceing. 
+<P>
+AIM also spearheaded the move on Pine Ridge Indian Reservation in South Dakota in 1973 to oust
+corruption and the U.S. appointed chairman. These activities led to the occupation of Wounded
+Knee and a siege of 71 days which received national attention. Banks was the principal negotiator
+and leader of the Wounded Knee forces. For more info on his extraordinary career, see his <A HREF="http://member.aol.com/nowacumig/biograph.html" target="_blank"> Web Biography</A>.</FONT></BLOCKQUOTE>
+
+
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+
+<CENTER><img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+
+<P>
+<FONT  COLOR=#400000><STRONG>Nancho</STRONG> : Let's start off with a brief history of AIM and its major activities?</FONT><P>
+
+<BLOCKQUOTE><STRONG>Dennis Banks</STRONG>: Well, AIM began in 1968 - July 28th, 1968 - in
+Minneapolis. Our first priority in organizing was to halt the
+police brutality in Minneapolis, and also to develop plans for
+housing for Indian people who were coming off the reservations
+as, as well as developing employment programs for those who were
+in transit between the reservations and the city - also permanent
+employment opportunities. Those were some of the main items on
+our agenda as we began the American Indian Movement in 1968.<P>
+Almost immediately we began - I'd say within the first few weeks
+of our birth - we, we included the, two attorneys who began
+examining our, our legal rights on reservations with regards to
+various treaties - treaty rights to hunting, treaty rights to
+fishing, treaty rights to trapping, and even harvesting wild rice
+in Minnesota. These rights were guaranteed by at least four
+different and separate treaties that the Chippewas signed with
+the United States Government. And then from there we included
+treaty rights as our main objective within the American Indian.
+So we organized in Minneapolis and then expanded to St. Paul and
+then to Cleveland and to Chicago and Milwaukee and then westward
+to Colorada, to Denver, San Francisco, we opened up a small
+chapter in Los Angeles, then in the Northwest in Seattle and
+Olympia, Tacoma. So we expanded very fast in the early part of
+1968, '69 and '70 in treaty rights. And then the land rights -
+rights that we had on land, of course that went to grazing,
+timber, water rights, other rights that were affected and
+included in the treaties now were coming into play with our legal
+people in the movement. And we just began to bring case after
+case. <P>Then in 1972 we - the American Indian Movement - joined
+in with eight other national organizations and created a caravan
+of Indians going across this country, going across America and
+called it a "Trail of Broken Treaties". <P>That of course ended
+with the takeover of the BIA [U.S. Government's Bureau of Indian
+Affairs] because the Department of Interior had ordered all of
+the other federal agencies not deal with us, not to help us, not
+to assist us, not to even meet with us. And so because of that
+the occupation of the BIA building took place. And then in 1973 we again found ourselves being confronted on the Pine Ridge
+Reservation at Wounded Knee. And it ended up with the siege at Wounded Knee where for 71 days we were surrounded by federal
+marshals and FBI agents and goons of Dick Wilson [BIA
+Commissioner]. And for 71 days we felt a lot of freedom there.<P>
+After the occupation ended at Wounded Knee, the American Indian
+Movement formed the International Indian Treaty Council. This
+first gathering brought together representatives from 97
+different tribes. And we met at Standing Rock reservation in
+South Dakota and applied shortly thereafter for what is called
+"non-governmental organizational status" with the United Nations.
+And the purpose, the primary purpose for the new organization, of
+which AIM is the parent to, was to develop forums at the national
+and international level, and to address some of the major
+concerns in South, Central and North America with Indian tribes.
+This so far has worked for us. We have been able to use the
+United Nations status that we have now, which is NGO status, and
+visit other NGO groups in South America and Central America, and
+use that status with the U.N. to talk to other heads of states in
+other countries.</BLOCKQUOTE><P>
+
+
+<FONT  COLOR=#400000> In your relationships with the government you've used
+physical confrontation, political organizing, spiritual
+ceremonials and now literature. What do you see as really
+effective paths for joint action in the future?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>DB</STRONG>: Well, I think that as I get older certainly diplomacy is
+always the best way to try to bring about results and bring about
+understandings between two people or two organizations or two
+nations or two opposing forces. And I would I would recommend
+that way. But I think that when, when policies are very
+restrictive and will not allow even negotiations to take place,
+then I think the option must be with those advocates for social
+change.  But I would use the, I'd use the, the
+community in terms of what they want and what their demands are
+in pushing for change. <P>
+
+Now a good case of that is in Oglala right
+now - Oglala, South Dakota - where our water is being
+contaminated by uranium mill tailings almost 70 miles away. Mill
+tailings at Edgemont, South Dakota, are seeping into what is
+called the Oglala aquifer and the aquifer brings the water right
+to our wells. And it's all contaminated and we can't even drink
+the water. So we - and I say "we" because I live there - and we
+demanded that the mill tailings, you know, be removed, be stored
+or that the company was responsible for the wild dumping of these
+mill tailings be held responsible to come and clean, that they be
+ordered to clean up this environmental hazard that they left
+there. Because in Oglala we are having the highest incidence of
+birth defects in the nation. Our, our community is like a 1,800
+people and birth defects are...almost every child born there has
+some kind of birth defect. 
+
+<P>It's a terrible shame so I think the
+community deserves the right to use any option to bring about
+justice. And when we see all our children being born this way
+because of uranium mill tailings 70 miles away and no one is
+being held responsible for it - well, those are actual crimes
+against humanity. Somebody has to be held responsible for it. And
+when no one is, then I think the community or a group of people
+have a right to redress themselves anyway that they can.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> In these activities you've formed a common bond and some
+solidarity with tribes up and down the length of North and South
+America. Is there some reaching out to indigenous peoples in
+other parts of the world that are facing similar...</FONT><P>
+
+<BLOCKQUOTE><STRONG>DB</STRONG>: Oh, yes. We've, we've made coalitions right now with people,
+aborigines in Australia and New Zealand. We've, we've made
+contacts with the Shingo tribes down in Brazil, Raoni's people.
+We've made friends and coalitions with Laplanders up in Norway.
+And there, there's a terrible consequence as a result of the
+Chernobyl accident up there. It is tragic what's going on up
+there. All the caribou are dead, contaminated, nothing's growing
+anymore, distortions in nature are happening up there, funny
+looking trees - it's really...it's bad. And this, and this...the
+evidence is only two, two years old now. It's coming up in
+mutations of life, in distortions of life and just terrible
+consequences as a result of, of the nuclear accident up there.<P>
+   But we've made coalitions, friends, I mean, with the Esquimo's
+of course. We're there with them. This is one of the greatest coalitions
+that we're putting together. And in the next few weeks we'll be
+talking with the Ainu in northern Japan. And I think 
+what we're going to be coming to - it'll end up like a tribunal,
+a worldwide tribunal, that the aborigines, that the original
+people of each earth's area - like the American Indians in North
+America, South America, Central America, the native peoples in
+Japan, tribal people in Asia are still  in a sense, they are
+still environmentalists. And I think that our beliefs, at least
+the beliefs that I have in the Earth are still being followed.<P>
+And I think we have some answers to some of the major questions
+that are being posed regarding nuclear development. We of course
+have already taken the position that nuclear development 
+cannot be controlled, that the uranium can never be controlled.
+There's always radioactivity and there's always the major chance
+that a nuclear facility will explode - not explode in terms of
+nuclear explosion, but explode from other malfunctions of the
+facility itself and cause great damage to this
+Earth. 
+
+<P>I believe and I would predict that the next and probably
+the deadliest accident of all will happen here in Japan. I
+believe that because of - first of all I've been here for, three
+separate times and I know that there's a lot of earthquakes
+happening here. And of all places to have nuclear facilities it's most insane
+near an earthquake zone - and Japan is a zone where earthquakes
+happen all the time. So I would predict
+that the world's worst nuclear accident will happen here in
+Japan. And the people that will suffer from it will be not only
+Japanese. If you follow the winds, if you follow the currents
+of the sea, it'll affect people in Washington state, Oregon,
+California, United States, Alaska. It'll affect people in Russia,
+in Korea, Manchuria and everything that's in that area. The
+currents will take the contamination to the fishes, to the
+whales, to the salmon, to the tuna - it'll be major. 
+I mean, you don't have to be a Jeanne Dixon to predict that. You
+can just see it coming. 
+
+<P>So I think that the people
+that we've been talking to, if people, if governments would
+listen to us, I think we could find, find a solution to nuclear
+development and that, of course, is we're going to have ease out
+of it. And I don't mean ease out of it like a "20-year ease out
+phase", I mean easing out of it like tomorrow morning or
+yesterday morning or last night. 
+
+<P>Food, every bit of food right
+now that we eat has somehow been touched with radioactivity. I'm
+an alcohol and drug counseler, and all my life - well, I've used
+alcohol during my early years, but for the last 19 years I've been living a life of sobriety, telling
+people not to drink beer - and now  I find in some areas
+of this country that beer is safer than water. And to me that's,
+that's a very ironic statement for me to make - when beer is
+safer than water.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> This tribunal that you're trying to set up, how far along is
+it and how will it use the media?</FONT><P>
+
+<BLOCKQUOTE><STRONG>DB</STRONG>: We did some initial planning in the United States before we
+came out, just pre-pre-planning,  kicking the
+idea around. And then Vernon Belcord went to Australia and
+visited the aborigines down there and also in New Zealand, came
+back with a favorable response to the idea. Floyd Westerman was
+in Central America, South America rather. He was in Brazil and
+Chile, came back and said that the people down there would send
+delegations to a tribunal We've talked to people in
+the Laplanders in Norway and they definitely want to come and
+make a presentation over there. I've seen some slides of some
+animals up there, of caribou that've been born and it's ugly. 
+
+<P>But
+I think that the idea would result in three things. One of them
+would be we'd ask the United Nations to create an environmental
+security commission. Not, we realize that the United Nations
+actions are non-binding on the member states. We know that.  
+ But I think it would develop an international forum 
+for three things to happen. <P>
+   One would be to develop an international code on, on use of
+and protection of water - which would mean surface water,
+subsurface water, fresh water, salt water and any ocean, lake,
+river, stream, and the rain. If we set standards on the use and
+protection of water then no nuclear facility would be able to use
+water the way they use it now. And I have seen how they are using
+water. I have not been inside of a nuclear facility, but
+I've been at them and I've seen the cooling system and how it
+works. The water is no good once it goes into the facility. It's
+not good for anything. It's just dead, radioactive, a very deadly
+element.<P>
+Another would be the establishment of a commission
+for the use of and protection of the Earth's soil. This of
+course is protection for the soils that grow our food.<P>
+   The third one would be for the establishment of a commission
+for the use and protection of the air.<P>
+   So those three commissions established underneath an
+environmental security commission I think could set the stage to
+develop real strict, rigid, enforcable standards for the air, for
+the water, for the soil. And we'd have to take those ideas to
+every village in this world, in every country  and
+ask people to demand  that each government
+enact those kinds of safeguards  for the
+environment. Then nothing could get by and nuclear facilities
+would of course also have to shut down. <P>The nuclear development
+forces in the world use the term "low level waste". And there's
+another phrase that is used and that's "acceptable levels of..."
+To me there's no acceptable level of radioactivity that is safe.
+ There's no such thing as "low level" radioactive
+waste. It'll kill. Any level of radioactivity will eventually
+cause cancer.  It's becoming a very unsafe world and
+that's what scares me. It doesn't scare me for me because in 40
+years or 50 years I'll be gone. But it scares me to think that we
+are leaving our children a future that is going
+to be filled with death and disaster.</BLOCKQUOTE><P>
+
+</BLOCKQUOTE><P>
+</STRONG>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, VISIT BANKS CENTRAL:<BR> <A HREF="http://member.aol.com/nowacumig/main.html"" >GREETINGS FROM DENNIS BANKS</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai </H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsBanks;

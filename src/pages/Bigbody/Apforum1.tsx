@@ -1,0 +1,244 @@
+import { useEffect } from "react";
+
+const BigbodyApforum1 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `<BLOCKQUOTE>Paper delivered at the 3rd biennial <I>Asia/Pacific Environmental NGO Forum</I>, <BR>
+September 14, 1994, Kyoto, Japan </BLOCKQUOTE><P>
+<HR WIDTH=400 ALIGN=center SIZE=4>
+<CENTER> <FONT  SIZE=+1><B><I>Abstract</I></B></FONT>
+<HR WIDTH=400 ALIGN=center SIZE=4>
+<H2>THE BIG BODY PROBLEM</H2> <P>
+
+<H3>- Toward an Immune Approach to Grassroots Activism <P>
+
+[       A Living Systems Perspective on       ]<BR>
+[ Corporate Organisms and Eco-pathology ]</H3>
+by W. David Kubiak
+</CENTER><P>
+<HR WIDTH=400 ALIGN=center SIZE=4><BR>
+<CENTER><FONT  SIZE=+1><BLOCKQUOTE><I> <STRONG>Let us lift our vision high enough to dominate the problem.</STRONG><BR>
+ Does not  the only way out of our dead-end lie in introducing boldly <BR>
+into our intellectual framework yet another category to serve for the <BR>
+"super individual" - collective realities that are not reducible to their <BR>
+component elements yet are in their own way just as objective?</I><BR><BR><STRONG>Teilhard de Chardin</STRONG> </BLOCKQUOTE><P>
+ <P>
+
+<BLOCKQUOTE><I> If the cooperation of some thousands of millions of cells in our brain <BR>
+can produce consciousness, a true singularity, the idea becomes <BR>
+vastly more plausible that the cooperation of humanity, or some segments of it, <BR>
+may determine what Comte calls a "Great Being."  </I><BR><BR> <STRONG>J.B.S. Haldane</STRONG> </BLOCKQUOTE></CENTER><P>
+
+<BLOCKQUOTE>
+Many speakers and committees at recent international conferences on the environment (the South Pacific Forum, the Rio Earth Summit, the Global Forum on Survival, the South Commission, etc.) have expressed increasing concern over the role of multinational/transnational corporations in causing or exacerbating a majority of the regional/global ecological crises we face today. Guilty or not, these great bodies' collective economic might, governmental influence, media power and aggressive commitment to unlimited consumption, growth and "development" guarantee that vast highly integrated social organisms will continue to play leading roles in the planetary drama. <P>
+
+In the field of living systems, too, modern "corporate organisms" are now recognized as an emerging new life form or genus of being, as well as common vectors in the spread of disorders ranging from deforestation, hazardous waste dumping, species extinction and unsustainable resource extraction to political corruption, cultural homogenization and ODA abuse.  <P>
+
+Despite their ubiquitous impact on society and the environment, vast corporate bodies remain oddly indistinct and ill-conceived in public consciousness. Although specific organizations may momentarily attract intense notice and study (the Exxon Valdez incident, Union Carbide in Bhopal, Chisso in Minamata, etc.), few academics or activists yet pay sustained, coherent attention to these evolving collectivities as  a potent, growing and increasingly dominant class of living systems.  <P>
+
+This paper will examine the corporation-as-superorganism hypothesis and what it may mean for: <P>
+
+<UL>
+<LI>     a) new diagnoses of current ecological/bioregional pathologies<BR>
+        (with particular reference to mega-corporate influence); <P>
+<LI>     b) possible therapies - innovative "holistic" strategies/tactics<BR>
+        to promote cooperation and synergy among the world's great<BR>
+        diversity of environmental and social justice groups; <P>
+<LI>     c) a general, meta-medical "germ theory" of eco-pathology, suggesting in turn<BR>
+        a corollary heuristic model for planetary "immune" reaction.<P>
+</UL>
+
+***********************<P><BR>
+<CENTER>
+<HR WIDTH=400 ALIGN=center SIZE=4>
+<FONT  SIZE=+1><B><I>The Paper as Presented</I></B></FONT>
+<HR WIDTH=400 ALIGN=center SIZE=4>
+<H2>THE BIG BODY PROBLEM</H2><P>
+
+<H3> - Toward an Immune Approach to Grassroots Activism</H3>
+<P>
+
+[       A Living Systems Perspective on       ]<BR>
+[ Corporate Organisms and Eco-pathology ]</H3></CENTER> <P>
+<FONT  SIZE=4>
+<HR WIDTH=400 ALIGN=center SIZE=4><P>
+ After nearly ten years of attending, assisting and even organizing NGO meetings on the environment, I am beginning to get very, very frightened - frightened by our impotence, frightened by the incessant bad news, by the lack of correlation between public consciousness and political effect, and finally frightened by our lack of appropriate anger and urgency at these meetings. Given that most of us try to live lives that reflect the values we preach - sustainability, frugality, mindful living, etc. - we have to accomplish a hell of a lot at one of these get-togethers to justify all the time, energy and resources that are consumed to ship and sustain us here. Networking is just not enough. We have to start to generate new tactics, new strategies, new ideas. The old ones just aren't working. I would like to contribute to that effort with a new bio-social perspective on our situation that suggests some important new areas for NGO action and collaboration. <P>
+
+In brief self-introduction - to tell you where I'm coming from, as Americans like to say - for the last 6 years I have worked with a grassroots networking/media office in Kyoto that organizes and abets various events to introduce computer networking and other alternative media skills to local activists. Over the years we have conspired with more than thirty different NGOs and citizen groups, trying to make their campaigns and tactics more effective. As such we have no central issue ourselves except citizen empowerment. And as such our early meetings with NGOs were totally chaotic. Some gatherings would attract representatives from twenty different groups - environmental groups concerned with nuclear power, pesticides, toxic waste, the destruction of Kyoto, etc.; and human rights groups concerned with South Africa, East Timor, Burma, the local Korean community, etc., etc. - with every group using a different vocabulary and referring to a different history; and every group demanding equal time to explain why their cause was more critically important than all others.  <P>
+
+It was hell - until we asked them to focus on what they all had in common. And this always generated a quick, almost magical consensus on two vital points. First, they all lacked effective democratic tools. As many of you perhaps know, Japan has crafted a unique authoritarian democracy here - one well engineered to keep power out of citizens' hands. Activists and NGOs here have little access to vital information - Freedom of Information laws here are either uselessly weak or non-existent. Activists lack effective access to media to stir public concern and debate. They lack legal recourse - even when appropriate laws exist, the absence of a jury system guarantees that court cases, like the 30-year Minamata poisoning suit, typically drag on for decades. And when appropriate laws do not exist, it is almost impossible to create them - Japanese legislators, virtually without exception, do not even try to legislate. 95% of the bills submitted in the legislatures across Japan are generated by the ruling bureaucracy. And citizens lack the most basic rights of initiative and referendum to create their own. And to add insult to injury, Japanese activists are broke - since Japanese tax law makes it almost impossible to create non-profit, tax-free NGOs that would encourage philanthropic support from the general public.<P>
+
+So the rigged system was the NGOs' first area of common ground. The second was that however different their main issues were, when they probed one layer deeper, they all found themselves facing the same handful of huge corporations. For example, when we sat together with NGOs concerned with Japanese ODA abuse and corruption in South East Asia; or with groups working to protect Thai mangrove swamps or Malaysian rainforests; or groups protesting trade with Burma or the then still apartheid South Africa; or groups trying to stop strip mining in Irian Jaya or deforestation in Siberia or the high-rise destruction of Kyoto - all, without exception, knew and loathed the name of Marubeni, the vast Japanese trading body that played a villainous starring role in all these diverse dramas. Mitsubishi, Sumitomo and Mitsui keiretsu companies usually filled in the rest of the cast in these tragedies, and the activists all morosely agreed, "the corporations are eating us alive." <P>
+
+Since the fight to gain or regain democratic rights here is a battle that must be waged locally by the Japanese, I want to focus today on the activists' second area of consensus - the generally malignant influence of vast social organisms - since it suggests a new kind of germ theory and a promising way to radically enhance NGO strength, efficiency and win/loss records in almost any country.  <P>
+
+But first we have to learn to think a little bit medicinally. And even the quickest glance through medical literature reveals one surprising and little mentioned fact: there really is no such thing as 'disease'. That is, there is no one such 'thing'. Dis-ease, it turns out, is just heavy duty un-ease in the psychosomatic system. It's our one-size- fits-all semantic label for a living system under attack from almost any quarter. Regarding our own personal ecologies, we are constantly, if unconsciously, watchful for intruders stirring up trouble in our cellular populations. Whether they be 2-angstrom viruses or 2 inch liver flukes, sub-atomic gamma rays or 4-meter tapeworms we rightly holler, "Disease!"  <P>
+
+Webster's dictionary lays it out pretty clearly. A disease is merely: <P>
+<BLOCKQUOTE>1) <I>trouble [obsolete]; </I>2)<I> a: an impairment of the normal state <BR>
+of  the living body that affects the performance of the vital functions; <BR>
+ b: a particular instance or kind of such impairment</I>.  </BLOCKQUOTE><P>
+Let us seriously entertain for a moment the Gaia Hypothesis - that the Earth is itself a singular living system, and further suppose that things like acid rain, ozone depletion, increasing radiation, rising temperatures, toxic wastes, dying rain forests, vanishing species, etc. represent "an impairment of the normal state of her body and vital functions". (Or, less theoretically, just suppose that they are affecting and impairing the vital functions of the human species in a very systematic, detrimental way.) With this in mind we may be again justified in hollering, "Disease!" and prompted to start thinking about our modern problems in a rather "clinical" way.  <P>
+
+Traditional medical approaches usually begin with diagnostics or etiology, the identification or study of a disease's origin. Certain pop critics of social or Gaian malaise, for example, like to glibly (and deceptively) trace all such pathologies to the existence and activities of Homo Sapiens. "We" are the problem, the cause, the enemy, they say. It is man's inhumanity to man, man's inherent greed, man's unnatural assaults upon Nature that threaten the future of our species and the biosphere. This bootless reasoning at once both blames the victim (or one of them) and effectively blocks further action or understanding, as few would care to prescribe our therapeutic self-eradication. <P>
+
+A more fruitful line of reasoning opens up, however, with the advent of living systems theory. Living systems thinking conceives of unique levels of life - the cell, the individual organism, the large corporate body, the nation-state, the global geo-political system - that exist simultaneously and interdependently. Each level of organization both comprises a system of the smaller units and qualitatively transcends it. As, for example, a human or any complex animal consists of and totally depends upon its internal cellular population, but is obviously much more than their mere sum.  <P>
+
+Likewise, a vast collective body - like Mitsubishi, the Catholic Church, the Pentagon, etc. - while obviously consisting of humans, presents us with a unique, powerful and meta-biological new kind of being. A living being which can feed, digest, fatten, excrete, grow to monstrous size and cause terrible dis-ease in the biosphere. <P>
+
+I know that modern germ theory has conditioned most of us to think of pathogens or disease agents as very tiny things - viruses, bacteria, spirochetes, "germs", etc. But the stress and damage pathogens can cause to living bodies bear no relation to their size. And, as with our 4-meter tapeworms, the disease organism may in some respects actually be larger than the victim. Much larger, in fact, if you will admit that the Church's murder of millions during her Inquisitions or the Nazi Party's Holocaust were serious impairments of their victims' normal states and vital functions. Similarly, many modern assaults on the planet's ecology may be seen as issuing not simply from the acts of evil individuals, but rather from the malignant growth, agendas and activities of our great corporate bodies.  <P>
+
+A qualification here: Although mega-corporate bodies are in general quite similar as a species, there are of course many sub-species - bureaucracies, armies, churches, even some NGOs. While governmental, military and religious bodies arguably still pose the most dire threat to human life and liberty, we are here to talk about the  environment. And it is the huge commercial bodies - the conglomerates, multinationals, keiretsu, etc. - that seem to be the most aggressive, evolved, and ecologically deadly today, and it is these I would like to focus your thoughts upon this afternoon. <P>
+
+They are admittedly painful to think about. Judged in traditional terms, our struggle against them as NGO environmentalists is a losing, hopeless cause. The corporations are just too damn big, powerful and influential - too rich and too well lawyered for us to rationally believe we can ever really slow them down, let alone stop them. Many of us seem to realize this and have resigned ourselves to symbolic protests, diehard resistance and holding actions because, well, because we cannot just standby and do nothing! And that brings me to a second intriguing mystery - why can't we? What is the real evolutionary utility of all of our masochistic activist idealism? Why can't we just stand by, do nothing and try to enjoy ourselves. Plenty of otherwise decent people seem to find it easy enough to do. Why can some people whistle merrily over disastrous front page news on their way to the sports, comics and stock pages, while others are inexplicably touched and wounded by these stories? <P>
+
+One explanation of this puzzle is offered by the so-called Gaian immune theory. This theory holds that there is an "immunogentry" - a certain minor, but relatively constant, percentage of human beings who are born, or become, unaccountably sensitive to pain unrelated to their immediate surroundings. For these people, distant environmental or human tragedies provokes resonant suffering or "referred pain" in the heart, and a vague but incessant desire to "do something!" This compassionate urge is the first seed of activism and a sure sign that you too are in some fateful (and occasionally fatal) way involved in the planet's immune system.  <P>
+
+These/we hapless souls seem somehow "chosen" to act as the lymphocytes or white blood cells of the Gaian body politic. And like our biological brethren, we activists spend a lot of life being drawn to trouble spots, identifying/engaging/possibly attacking the "enemy," and then, if we survive, returning to instruct the youth and next round of resistance regarding the invader: What kind of a creature is it? What are its weapons and strengths? And, perhaps most importantly, what are its weak points and exploitable vulnerabilities? <P>
+
+If the returning veterans' reconnaissance is wise or at least accurate, the next generation has a fighting chance to subdue the new foe. But if their analysis is fucked, our new recruits march off to certain defeat and futility. Which is right about where we are now - fucked, in the old meaning of the word: dominated, conquered, supine.  <P>
+
+The alternative reconnaissance I offer you today - that vast corporate bodies are the primary sources of our planetary suffering - is, I believe, both evident and quite unacceptable. Since these same bodies now control virtually all the world's media, schools, economies and political systems, it is a tough message to sell.  <P>
+
+But if we can show the world that corporate bodies "live" then we have an entirely new way to approach them - a way with much better odds - since livings systems, particularly primitive living systems, can be made to shrink as well as grow, can be divided into much smaller entities, or can simply become paralyzed and wither away.  <P>
+
+And, believe me, corporate bodies are primitive. Despite their extraordinary technical sophistication, they are very basic entities indeed. They have no sensual apparatus or appetites, no aesthetic interests, no compassionate, spiritual or philosophical concerns. In other words, they have no basis for culture - which is one big reason why Asia, the Pacific and the rest of the world for that matter is awash in modern corporate products from Japan, but not in modern Japanese music, art, literature, cinema or philosophy.  <P>
+
+Many Japanese themselves have noted that as the country became more corporate - as corporate bodies came to dominate politics, education and the media here - she also became much less creative, healthy and livable. In Kyoto alone, each year witnesses the destruction of over 2 thousand traditional homes and gardens - all to make way for more high rises, chain stores, parking lots and other corporate-friendly facilities. Unchecked, the same corporate invasion will destroy every traditional city in Asia. And not just cities - corporate influence already threatens every traditional community, every traditional family and every traditional basis for culture, pride and identity. <P>
+
+Vast corporate organisms are also constitutionally anti-democratic, thus inherently destructive to civil society. They condition their members for obedient subservience, not citizenship, and gradually alienate them from family, community and the natural surround. They are of course "productive" - but their truly creative energies mainly focus on technologies to expand and concentrate their own power - computers, global communication and transport systems, high rise architecture, industrial agro-tech, nuclear reactors and weaponry.  <P>
+
+Their spectrum of consciousness is totally determined by the drive for growth and survival - with growth being defined in the most simple-minded quantitative terms. As they spread across new lands, their only real concern is, "What's here to eat? - either in terms of metabolite protein (fuels, lumber or minerals) or in terms of the monetary sugar content of the local population. In bio-social physiology, money is the corporate body's glucose or blood sugar. And this caustic carbohydrate is the social organism's primary energy source, structural adhesive, and weapon.  <P>
+
+Like Coca Cola, money in corporate concentrations is a sweet and corrosive biological solvent. It literally dissolves eco-systems. Poured into the seas, it devastates fisheries. Poured into forests, it denudes the land and exterminates their inhabitants. Poured into the land, it leaches away resources and toxifies agriculture. And poured into traditional societies, it bleaches consciousness and denatures their cultures.   <P>
+
+As a sobering aside at this point, may I ask you all to meditate for a moment upon the imminent and unstoppable birth of the World Trade Organization - the new GATT high tribunal that will have the power to dilute or delete any of our hard won social and environmental legislation that its corporate constituency doesn't like - that is, any local law or regulation that it thinks will hinder so-called free trade or in any way restrict international mega-corporation's free access to our natural resources, our labor pools or our children's minds. Even five years ago when GATT was much weaker, US congressmen tried to enforce a legal ban the import of Mexican tuna caught with dolphin killing nets. Mexico appealed to GATT which ruled in its favor and had the power to make it stick. When German legislators tried to pass a bill banning lumber imports from endangered rain forest reserves, GATT issued a warning to the German government and the law was aborted. If the vastly better funded and organized activists of the West could not protect their own backyards from the relatively frail pre-Uruguay GATT, how can Asian/Pacific NGOs hope to defend their societies from the far mightier corporate force of the World Trade Organization? <P>
+
+So what must we do to prevail against them? Successful immune systems like successful eco-systems are diverse - with a wide variety of cells and tactics at their disposal. And we too should use every means we can think of to expose the nature of corporate life and malignancy to mothers, youth and the still unincorporated. We must shut off their source of young bodies. We need to awaken the dormant sentience and sensuality of those still trapped within. And we must shrink them slowly and steadily to a size that can resonate and respond to human and environmental needs. And for that we will need inspired new music, literature, movies, children's books and even perhaps computer games. And to back up the show business, we will need proof of their dangers and disease. And for that we simply need to collect and collate what we already know about the thousands of social and environmental disasters they have perpetrated upon us for the last 50 years.  <P>
+
+Whether or not you yet agree with the preceding medical analogies,  I hope you might at least admit that putting together an organized data bank on corporate crimes and misbehavior would create an important resource for us all. But strangely nobody is doing it. <P>
+
+Although certain corporate bodies briefly attract intense notice  (as in the Exxon Valdez oil spill, the Union Carbide and Chisso mass poisonings, etc.), few activists anywhere pay any attention to these evolving collectivities as a central and systemic source of our grief. Among the more than two thousand computer conferences now running internationally on EcoNet/PeaceNet not one discusses transnationals, multinationals, or even corporate power as its major subject of interest.  <P>
+
+What are we to make of the pitiful scarcity of interest in tracking these bodies, in systematically cataloging or correlating their sins and casualties?  In the media, why is vitually no one passionately debating their ubiquitous corrosive influence on our schools, environment or public life? For scientists, scholars and politicians dependent upon establishment money and support, this willful disregard of the dominant entities of our era is pathetic but understandable. But from the NGO and activist community this voluntary blindness is totally mystifying. If knowledge is indeed power, this ongoing ignorance renders all of us chronically impotent as a political, social or evolutionary force.  <P>
+
+So in closing I would urge, urgently urge, that we as activists awaken to this new reality and begin to give it the attention it deserves. We have to start to build data banks, share information, think like immune cells and study a little biology. But most of all, we have to understand and spread this message: <P>
+
+<BLOCKQUOTE><I>	"Big Bodies live! They are a primitive new species toxic to<BR>
+	 our world, our children and our most precious values. They<BR>
+	are competing against us for the future. And at the moment,<BR>
+	there is absolutely no doubt whatever that they are winning." </I></BLOCKQUOTE><P>
+
+When this message begins to get through, and activists everywhere start to realize that we are all confronting different symptoms of the same corporate epidemic, we may finally begin to see results commensurate with our many years of dedicated effort. May the force be with us... </FONT><P>
+</BLOCKQUOTE>
+<CENTER><H3>-  END  -</H3></CENTER> <P>
+<HR WIDTH=70% ALIGN=center SIZE=4>
+
+<CENTER>
+If you know or are someone with knowledge or concern about these issues, please contact: <BR><BR>
+
+<A HREF="mailto:bigkarma@nancho.net">bigkarma@@nancho.net</A>
+<BR><HR WIDTH=70% ALIGN=center SIZE=4><BR>
+<A href="${BASE_URL}arcmain.html#bbpathology"><STRONG>Back to Main Archive</STRONG></A></CENTER><BR>
+<HR WIDTH=70% ALIGN=center SIZE=4>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default BigbodyApforum1;

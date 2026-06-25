@@ -1,0 +1,652 @@
+import { useEffect } from "react";
+
+const AdvisorsFritjof = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Fritjof Capra</CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<IMG SRC="${BASE_URL}advisors/graphics/fritjof.jpg" WIDTH=109 HEIGHT=150  HSPACE=15 VSPACE=15 BORDER=3  ALT="Sri Fritjof"><BR><BR></TD></TR>
+</TABLE>
+<BR><BR>
+
+
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+
+<CENTER><img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+
+<P>
+<STRONG>
+<FONT  COLOR=#400000><STRONG>Nancho</STRONG>: You are perhaps still best known for bringing world attention to the confluence of quantum physics and Eastern mysticism  with your book, The Tao
+of Physics. Would you give us an overview of its insights?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>: The world view which was changed by the discoveries of
+modern physics had been based on Newton's mechanical model of the
+universe. The model constituted the solid framework of classical
+physics for almost three centuries. It was a most formidable
+foundation supporting all of science and providing a firm basis
+for natural philosophy. In the Newtonian universe, all physical
+phenomena took place on a stage of three-dimensional space, space
+of classical Euclidean geometry. It was absolute space, always at
+rest and unchangeable. All changes in the physical world were
+described in terms of a separate dimension , called time, which
+again was absolute, having no connection with the material world
+and flowing from the past through the present to the future.<P>
+At the beginning of this century stands the extraordinary
+intellectual feat of one man: Albert Einstein, the father of
+modern physics. In two articles, both published in l905, Einstein
+initiated two revolutionary trends of thought. One was his
+special theory of relativity, the other was a new way of looking
+at electronmagnetic radiation which was to become characteristic
+of quantum theory; the theory of atomic phenomena.<P>
+His framework, known as the special theory of relativity,
+unified and completed the structure of classical physics, while
+at the same time it involved drastic changes in the traditional
+concepts of space and time and undermined one of the foundations
+of the Newtonian world view. <P>
+Quantum theory has revealed a basic oneness of the universe.
+It shows that we cannot decompose the world into independently
+existing smallest units. As we penetrate into matter, nature does
+not show us any isolated "basic building blocks", but rather
+appears as a complicated web of relations between the various
+parts of the whole.<P>
+The high energy scattering experiments of the past decades
+have shown us the dynamic and ever-changing nature of the
+particle world in the most striking way. Matter has appeared in
+these experiments as completely mutuable. All particles can be
+transmuted into other particles, they can be created from energy
+and can vanish into energy. In this world, classical concepts
+like "elementary particle," "material substance" or "isolated
+object" have lost their meaning. The whole universe appears as a
+dynamic web of inseparable energy patterns.<P>
+Our language and thought patterns have evolved in this
+three-dimensional world and therefore we find it extremely
+difficult to deal with the four-dimensional reality of relative
+physics. 	Eastern philosophy, however, has always maintained that
+space and time are constructs of the mind. The Eastern mystics
+treated them like all other intellectual concepts; as relative
+and illusory. Being able to go beyond the ordinary state through
+meditation they have realized that the conventional notions of
+space and time are not the ultimate truth.<P>
+Eastern mystics, too, tell us that all things and events we
+perceive are creations of the mind, arising from a particular
+state of consciousness and dissolving again if this state is
+transcended. Mystics seem to be able to experience a higher
+dimensional reality directly and concretely. In the state of deep
+meditation, they can transcend the three-dimensional world of
+everyday life, and experience a totally different reality where
+all opposites are unified into an organic whole. The unity and
+interrelation of all things and events, a conception which is not
+only the very essence of the basic elements of the Eastern world
+view, is also one of the basic elements of the world view
+emerging from modern physics. It becomes apparent at the atomic
+level and manifests itself more and more as one penetrates deeper
+into matter, down into the realm of subatomic particles.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  You are recognized today as the primary spokesman for "New
+Paradigm" thinking. Could you briefly describe the new paradigm 
+and what it implies for our collective future?</FONT>  <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  The 'new paradigm' has to be understood from a western
+perspective. The word 'new' refers to a change of thinking vis a
+vis the old thinking that emerged in the l7th century. So, what
+we now call the "old paradigm" is a world view and a value system
+that dominated the European and American intellectual tradition
+from the l7th century into the 20th century and is still dominant
+today. This however is relevant to the entire world because
+western science and technology which incorporate this old
+paradigm have been adopted around the world, especially in Japan,
+but in other countries around the world, too. And so this change
+in paradigms is relevant to the entire world.<P>
+Briefly to characterize the old paradigm, you could say it
+is a mechanistic world view: seeing the world as a machine;
+separating mind and body; treating the human body as a machine as
+western medicine does; furthermore, it includes the belief in
+life being a continuous struggle, a competitive struggle for
+existence - the belief in unlimited progress through material
+growth, through economic and technological growth; finally, the
+belief that the feminine and the female is always subsumed under
+the male or should be, that a society where women are dominated
+by men and where all feminine qualities are valued less than
+masculine qualities is one that somehow is natural. <P>
+In contrast to this old world view and value system, the
+"new paradigm" can be described as being holistic which means it
+sees the world as an integrated whole, not as an assemblage of
+separate parts. It can also be described as being ecological in
+the sense of an awareness of the fundamental interdependence and
+interconnectedness of all phenomena; an awareness that all of us
+as individuals and as societies are imbedded in nature, are
+imbedded in cyclical processes. And this new way of thinking and
+these new values,  I would
+describe as a shift from domination to partnership -
+domination of people, ethnic groups, nations, and domination of
+nature by humans - a shift from that obsession with domination to
+partnership among people, among nations and between humans and
+nature. 
+
+<P> Another aspect of new paradigm thinking would be global
+awareness. An awareness that the world as a whole is
+fundamentally  interconnected in terms of the natural
+environment, but also in terms of human society, in terms of the
+world economy, the world communication systems and so on. So, we
+need global cooperation to solve our problems. And in fact, our
+problems, our major problems today are global problems.<P>
+Now, I have presented this shift from one kind of thinking
+and values to another in a sort of abstract way as an
+intellectual shift which may be exciting to a lot of people, but
+you might ask,  if you're not interested in that why
+bother and there now I want to link it with the problems of
+today. <P>And this actually has been my starting point in this work:
+to realize that the major problems of our time are all
+interconnected and interdependent. Problems like the threat of
+nuclear war, the devastation of the natural environment with its
+many consequences whether we talk about the extinction of species
+in the rain forest or the depletion of the ozone layer or the
+greenhouse warming. All of these aspects can not be understood in
+an isolated way or whether we talk about the persistence of
+hunger and poverty around the world - all of these problems are
+interlinked and we need this new way of thinking to be understood
+and solved. This is why the shift to an ecological vision, to an
+ecological paradigm is so important for all of us.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  Do you see this shift as being something that is
+evolutionarily inevitable or something that we really have to
+strive at accomplishing?</FONT>  <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  I think that the shift is inevitable and we can see that
+it is happening. But it may not happen fast enough to solve our
+problems. For the first time in the history of humanity we are
+now faced with extinction and if we don't work very and if we
+don't bring all our passion to this work it may be too late. It's
+a very serious problem. <P>
+Paradigm shifts are not something that
+are beginning now. There have been several in the past - not too
+many but maybe five or six or seven in the past in human history.
+And sometimes they took a few hundred years and sometimes they
+took a few decades. And we could say if the situation were not so
+critical just wait and see what happens. But we cannot afford
+this luxury because the situation is critical. <P>
+
+The extinction of
+species is proceeding at the pace of one a day and the rain
+forest is being cut down at the pace of the size of a football
+field every second. And in one year the rain forest lost is a
+tremendous area of biological potential. And the ozone depletion
+is continuing and the global warming is continuing and we don't
+even know the consequences of these very severe global problems.
+It may already be too late. So, all we can do is work in a very
+focused and hard way to solve these problems and to shift to the
+new view.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> What do you consider to be a realistic time frame for this to
+occur?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  I think it will have to occur over the next decade. If it
+does not occur by around the turn of the millennium it will be too late.
+And this is not my personal view, but this is the view I have
+gathered as a sort of consensus from various people who really
+study these problems.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  Offering truthful information and consciousness raising are
+considered powerful ways of bringing about social change. But
+despite increased awareness, the problems, too, seem to be
+increasing. So, it would appear that informing the public is an
+insufficient means to raise consciousness. Are theories and
+understanding really able to stop the momentum of destruction and
+if informing is not enough, what is?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  No, I agree. First of all I agree that the problems have
+increased and this is because when a certain type of activity has
+been set in motion, has been going on for a long time, the
+problem will continue to get worse even if you change your views
+and your values and partly your activities. It will take a long
+time and the problems will get worse for several more years
+before the situation will hopefully turn around. I also agree 
+that education and thinking are not enough. We have to move to
+action.</BLOCKQUOTE><P>
+<FONT  COLOR=#400000>  In addition to action it seems we are in need of some sort
+of spiritual awakening to accompany this transition into the new
+age; to set in motion the new paradigm. You say that the magical
+era of the '60s had the most dramatic impact in forming your world
+view. Will the '60s people or at least their values rise again?</FONT>  <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  Well, I think they are. These values have never
+disappeared. They have been eclispsed temporarily with a rather
+surprising rise of materialism over the past five or ten years.
+The whole "yuppie" phenomenon was that kind of materialism. And I
+think this has now peaked and is on its decline and with the
+dramatic rise of environmental awareness over the last few years,
+I think the values of the '60s generation will come into the
+foreground much stronger. But also with a big difference because
+in the 60s, we had not really worked out an alternative vision. 
+
+We
+were critical of society and we sort of embodied our process and
+embodied the values in our lifestyles. But the lifestyles were
+very largely utopian lifestyles and now we can be much more
+realistic because we have decades of experience, both practical
+and theoretical, and so we can really turn this vision into a
+practical reality now.<P>
+Basically, looking back at the '60s I would say that two or
+three kinds of framework have been developed during the last few
+decades for expressing the alternative vision; frameworks that
+were not available in the '60s. One is the feminist framework.<P>
+Feminist awareness did exist in the '60s but there was no real
+framework of a really comprehensive feminist critique and
+alternatives. And the other one is the ecological framework.
+Again, there was already an environmental movement beginning in 
+the '60s but ecological awareness has really been grounded during
+the whole decade of the '70s. The two also have merged to some
+degree and we in America now often speak about eco-feminism as
+the combined awareness of the ecological vision and the feminist
+vision. And the third one I would say is global awareness, which
+is younger and did not exist very much in the '70s but developed
+throughout the '80s. <P>
+Another big difference to the '60s is that we now have
+political manifestations of realizing this vision and applying
+the values of the '60s and '70s to the politics of the '80s and '90s.
+That's the "Green Movement". The Green Movement began around l980
+and has spread around the world. So, we now not only have the
+theoretical framework but we also have political structures which
+allow us to carry out these actions.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  What do you consider to be the most important ways  to break down the barriers between people?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  I want to emphasize that spiritual awareness is at the
+very center of the new paradigm. And the way I see it is that
+deep ecological awareness, in its deepest essence, is spiritual
+because the very essence of spiritual experience is the
+experience of being connected to the cosmos as a whole and so
+this sense of connectedness, this sense of embeddedness which is
+also the very essence of ecological awareness constitutes the
+spiritual grounding of the new paradigm.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  As you have observed many elements of the new paradigm seem
+to correspond to ancient eastern values and the best of man's
+earlier traditions. Why didn't these values have staying power
+the first time around? What's going on? How are we moving in our
+evolutionary direction - backwards?</FONT><P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  No, I think that evolution, human evolution, human
+cultural evolution is not a linear process. It's a process that
+goes in cycles and there are many historians who have studied
+those cycles - Arnold Toynbee, for instance, is one of them or
+Patiram Saroken is another one, Spengler is another one, Hegel,
+of course in philosophy - there are many people who have studied
+this and who agree that cultural evolution occurs in these
+cycles. <P>It's sort of like the swing of a pendulum, it goes back
+and forth. And now we have gone too far in one direction. I think
+what we now call the old paradigm was very necessary in the l7th
+century: the achievements of Descartes and Newton were very
+necessary and were as revolutionary in their time as 
+ecological thinking is today. They, too, were fighting an
+establishment that was holding on to outdated views. In those
+days it was the church and the outdated views were the views of
+Aristotle and scholasticism and so on. And so, these values tend
+to fluctuate and to shift. You cannot speak of a linear
+evolution.<P>
+But I also want to add that these considerations are very
+difficult and subtle questions that are not easy to answer. How
+does humanity evolve? Why are certain values in the background at
+certain times and in the foreground at others?  Why are they in
+the background in certain cultures and in the foreground in
+others?   Those are not easy questions to answer.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  But basically aren't you hoping to move toward the kinds of
+philosphies that have been preponderant in the East for centuries?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra:</STRONG>  Yes, absolutely. That's how I started my work. In "The
+Tao of Physics" I connected contemporary physics and Taoism,
+Buddhism and Hinduism, to show the concepts of the new paradigm
+in physics are in remarkable agreement with the basic concepts of
+these ancient, spiritual traditions.
+
+<P> More generally, you could
+say they are in agreement with the perennial philosophy that
+existed around the world in various cultures. When I wrote "The
+Tao of Physics" I did not understand the background, the context
+of this agreement, I understand it now much better. And the
+context as I have indicated before that the new world view that
+is now emerging from science and is promoted in society by
+various grassroots movements is a fundamentally ecological world
+view. And that is also true of the world view of the perennial
+philosophy.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  A lot of these philosophies were richly represented in
+pre-industrial Japan. What role do you see for modern, industrial technologically developed Japan in this transformation?</FONT><P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  I see a key role for Japan because the more holistic,
+ecological traditions were not just presented in pre-industrial
+Japan but are still existent in Japan to some degree, to a
+stronger degree than they are in the West. I would say in
+America, the equivalent or similar traditions would be the Native
+American traditions - the traditions of American Indians. But
+they are much more cut off from the mainstream and are also much
+weaker today unfortunately. And so, it is more difficult for
+Americans to gain access to their own native traditions,
+indigenous traditions than it is for Japanese. 
+<P>
+On the other hand,
+Japan is one of the most powerful nations in the world -
+economically, certainly  - and therefore
+has a tremendous responsibility because by applying western
+science and technology, old paradigm science and old paradigm
+technology, Japan, like other countries around the world
+contributes to the global problems in a very strong way. And at
+the same time, Japan has the power to change its ways and has
+shown that dramatic changes can occur in Japan within a
+relatively short time. For instance, the fight against pollution
+in Japan has been very striking and exemplary. So, I think there
+is a great potential in this country. So, I see quite a unique
+role.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  You've also been a proponent of living systems theory,
+especially the global systems theory now commonly known as Gaia.
+How does the Gaia concept help to promote new paradigm thinking?</FONT>  <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>: First of all there are two aspects. There is a scientific
+aspect to it and then there is a broader, emotional and spiritual
+aspect. The scientific aspect is a theory, a hypothesis that says
+we can understand the planet as a whole only if we can understand
+it as a living system. <P>So, this entire planet is a living system,
+a living organism, if you want to put it in a more popular way
+but that's not exactly correct because there is a difference
+between an organism and other kinds of living systems. It's more
+like a eco-system, a planetary living eco-system. And so, you can
+show this scientifically. To understand the various processes,
+planetary  global processes, you need this kind of approach.<P>
+Then from a broader point of view, I think there's a very
+strong emotional charge implied by the term Gaia and I think this
+was consciously chosen by James Lovelock to associate the planet
+with the ancient Greek earth goddess and therefore to give this
+hypothesis a spiritual dimension. The reverence for nature that
+is characteristic of traditional cultures, of tribal, indigenous
+cultures needs to be extended to the entire planet and I think
+this will give us a very powerful motivation to all of us around
+the world to help save the planet and maintain its beauty.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> In your book, "Uncommon Wisdom", you describe your meetings with some of the greatest
+minds in a multitude of disciplines. How have you been able to
+synthesize all of those different views into a single holistic way of
+thinking and acting and doing?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  Well, this has been a long process and in the book I also
+describe this process - I describe the difficulties, the
+challenges, the work over many years that it took me to
+synthesize their views and I have the kind of mind that is
+interested in doing just that - synthesizing views, making
+connections between various ideas and various traditions and I
+have worked on this now for over fifteen years. It's a very long
+concentrated work that is continuing. I am fortunate to
+continue to be able to meet very outstanding people and to be
+able to again synthesize their views. But I want to emphasize also to the readers of my book, "Uncommon Wisdom" that most of
+the work that I do is, you know, hard work at home. I don't
+always sit around in beautiful restaurants with interesting
+people and have exciting conversations. I'm  fortunate to do this
+some of the time but the overwhelming part of my time is spent in
+hard work at home.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  Using Gregory Bateson's terminology you wrote about the
+pattern that connects. Have you found that pattern amongst all these various people?</FONT><P>
+
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  Yes, absolutely. That really is my work to show
+connecting patterns and to show the communality of the views and
+values they present. 
+ Now, of course, I expect you to ask, what is this
+pattern and I would say it is the ecological vision of the world
+and you can summarize it by saying that as far as...maybe I
+should interrupt myself here and say what I mean by a paradigm.
+We have been talking about a paradigm and a change of paradigm
+and I use it in a similar way to using world view but it's more
+than a world view. It's a world view, a value system and also a
+set of practices. So, it's a constellation of perceptions,
+concepts, values and practices. 
+<P>
+As far as the concepts are
+concerned and the perceptions are concerned I would say the
+ecological vision of the world is really what it's all about -- to
+see the world as an interconnected and interdependent whole; to
+see ourselves embedded in the cyclical processes in nature and
+all that that it implies. 
+<P>
+As far as values are concerned again, as I
+said before it is a shift
+from domination to partnership in all these various areas. 
+
+<P>And as
+far as action or practice is concerned I would say that the key
+goal that we have is to build a sustainable future and that is an
+extremely important concept -- the concept of sustainablity. It
+has been defined by Lester Brown, the founder of the World Watch
+Institute. He defined a sustainable society as a society that
+satisfies its needs without diminishing the prospects of future
+generations. And this is what we need. 
+
+<P>Our society, our business
+world, our economy, our politics and our various other social
+institutions are driven by the concept of efficiency. Efficiency
+is to maximize production with a minimal imput of time, of labor
+and of money.  And in this we have been very successful. But this
+is precisely what is destroying the world - our success in being
+efficient in that sense. So, we need to shift from efficiency to
+sustainabilty.<P>
+And when it comes to sustainabilty we have to ask when we
+use energy, for instance, not just how much energy we use but
+where does it come from and what does it destroy or not destroy
+in its production? Does it come from a renewable or non-renewable
+source? When we produce other things, furniture, we ask where
+does the wood come from and does it destroy part of an ecosystem
+or doesn't it destroy? So, in all these questions we have to look
+into the future and say what does this mean for future
+generations? If we go on with a certain project for generations -
+where will we end up? Is the environment in which we are working
+sustainable or is it not sustainable? So, I think sustainability
+is a key concept and again, I come back to this again and again,
+I would add global to it. So, global sustainability is something
+we have to aim for.<P>
+It is fairly easy, especially for a country like Japan, to
+create a sustainable Japan at the expense of the oceans and the
+forests around the world and other peoples. Of course, in the
+long run it will destroy Japan also. But for the next two decades
+Japan or the United States could create a sustainable society at the expense of
+others.  And this is what these superpowers
+are doing and so we have to change from national sustainability
+to global sustainability. So, I would say that global
+sustainability would be the key as far as practice and action is
+concerned.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> Can global sustainability be achieved without a sense of 
+global empathy?</FONT> <P>
+
+<BLOCKQUOTE><STRONG>Capra:</STRONG>  No. That is very important. And I think we have sort of
+gone around the whole area and all of these aspects that we
+touched on in this conversation are of equal importance. You
+cannot have sustainability without ecological awareness. You
+cannot have that ultimately without a spiritual grounding which
+has empathy as its emotional component. In Buddhism, it is called
+compassion. That is the emotional, the empathical component of
+ecological awareness. So, all of these various aspects imply one
+another and are interdependent.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  Do you think that having had a child changed your perception
+of the urgent need for this transformation?</FONT><P>
+<BLOCKQUOTE><STRONG>Capra</STRONG>:  Yes, it has. I wouldn't say it has changed the
+perception. I had this perception already before but it has
+changed my engagement and my emotional involvement. And also it
+has changed my style of presentation because I often say in my
+lectures now that when I talk about sustainability that what
+we're trying to do is to build a world for our children and their
+children. Or when I talk about the critical nature of the
+problems I often say that I would like my daughter to be able to
+breathe when she is twenty. And that really captures the crucial
+urgency of the problems of today. So, having a child has changed
+my engagement very much.<P>
+At the same time, of course, this is a paradox, because
+having a child I have less time to do this work. I want to do it
+more and I have less time because I want to spend time with my
+daughter and my family. But it certainly has influenced my
+motivation and the emotional charge that I bring to my work.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> You often have asked yourself in your writing, how is it
+possible to transcend thinking without losing your commitment to
+science. Have you arrived at an answer that is satisfactory for
+your life work?</FONT>  <P>
+<BLOCKQUOTE><STRONG>
+Capra</STRONG>:  Yes, I have been able over the last 20 years to function
+in modes of consciousness that transcend, clearly transcend
+thinking.  I wouldn't say that I have gone
+very far in this direction but certainly I am able to function in
+modes that do not involve analytical reasoning. I always go back
+to analytical reasoning and so I can shift back and forth between
+these states of consciousnes. And when I speak or write or when I
+do my work of public education, I very much do it with the mind
+of a scientist. But I also do it as I just said with an emotional
+charge and with more than just the rational mind.<P><CENTER>- End - </CENTER></FONT><P><FONT  SIZE=-1>Nancho Rep: Kathy Arlyn Sokol</FONT></BLOCKQUOTE>
+
+</STRONG>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A> | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, VISIT:<BR> <A HREF="http://www.trufax.org/guidebook/capra.html" > FRITJOF COPRA</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsFritjof;

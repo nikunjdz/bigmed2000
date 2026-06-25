@@ -1,0 +1,483 @@
+import { useEffect } from "react";
+
+const BigdnaCccchapt = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+
+<a href="${BASE_URL}demorule/index.html"><img src="${BASE_URL}graph/BMSPLICE.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Big Gene Splicing Index"></a>
+
+<br>
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
+<STRONG> <FONT  SIZE=4 COLOR=#000055><em>BIG BODY GENE THERAPIES</em> <br>
+<hr width="260" size="2">
+DEVELOPING CORPORATE CONSCIENCE</STRONG></STRONG><br>
+<font size="3">by Robert C. Hinkley</font><br>
+
+
+<IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
+
+<table width="600" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td>
+
+
+
+
+In most countries corporations have become entitled to the rights and
+privileges of citizenship enjoyed by individuals. However, because the laws
+under which corporations are created can be interpreted to require them to
+be dedicated to the pursuit of profits, most corporate managers find the
+duties and obligations of citizenship to be irrelevant to or incompatible
+with the daily operations of their businesses.
+<p>
+Corporations are man-made. They exist because laws have been enacted that
+provide for their creation and give them a licence to operate. When these
+laws were enacted, no conscious decision was made to create organisations
+that would have none of the obligations of citizenship. At that time, most
+corpora�tions were relatively small and their impact on society was
+insignificant. It was not as important that they be socially responsible.
+Today, the situation is much different. Corporations are now our most
+powerful citizens. However, being dedicated to their own self-interest,
+many are not very good citizens at all.
+<p>
+It does not bode well for a society when its most powerful citizens have
+little concern for the public interest (Saul 1995). Corporations were
+invented to serve mankind, not so mankind could serve them. This chapter
+explains why existing law makes it nearly impossible for corporations to be
+good citizens. In addition, it shows how this situation can be remedied,
+proposing a Code for Corporate Citizenship that will require corporations
+to start meeting the obligations of citizenship as well as enjoying its
+benefits. Although the chapter limits its discussion to corporations, its
+analysis could be applied just as well to the other business organisations
+created by law, such as partnerships, limited liability companies and
+business trusts.
+<p>
+BUSINESSES ARE DIFFERENT
+<p>
+Corporations differ dramatically from individuals. Individuals living in a
+community generally accept responsibility for their conduct and behave
+civilly. This involves more than just obeying the law. It involves
+contribution, coopera�tion and most of all sacrifice -- behaving in a
+manner that reflects conscience and self-regulatory acts and traits of
+character that no law can enforce (National Conference on Civic Renewal
+1998). In the words of Thomas Jefferson:
+<p>
+<blockquote>Man was destined for society. His morality, therefore, was to be formed in
+this object. He was endowed with a sense of right and wrong, merely
+relative to this ... The moral sense, or conscience, is as much a part of
+man as his leg or arm. It is given to all human beings in a stronger or
+weaker degree ... It may be strengthened by exercise (Saul 1992: 10).</blockquote>
+<p>
+Corporations, on the other hand, are not endowed with moral standards, a
+sense of right and wrong or a conscience. They are legal fictions that have
+no physical presence or inherent human characteristics. The principal
+distinctions between human beings and corporations has been described by
+Jerry Mander in The Case Against the Global Economy:
+<p>
+Though corporations enjoy many 'human' rights, they are not required to
+abide by human responsibilities ... Lacking the sort of physical, organic
+reality that characterizes human beings, this entity, this concept, this
+collection of paperwork called a corporation is not capable of feelings
+such as shame or remorse. Instead corporations behave according to their
+own unique system of standards, rules, forms and objectives ...
+<p>
+The most basic rule of corporate behavior is that it must show a profit
+over time ... Corporations do not have feelings or morals. All their acts
+are in service to profit ... All other considerations are secondary,
+including the welfare of the community, the happi�ness of workers, the
+health of the planet, and even the general prosperity ... So human beings
+within the corporate structure are prevented from acting on their personal
+morals and feelings ...
+<p>
+In such a structure, human morality is anomalous. Because of this double
+standard -- one for real human beings and another for fictitious persons
+called corporations -- we sometimes see bizarre behavior from executives
+who presumably know what is right, yet behave in a contrary fashion ...
+(Mander and Goldsmith 1996: 136).
+<p>
+THE CORPORATE SYSTEM
+<p>
+The distinctions identified by Jerry Mander have a source. It is the
+corporate law, the law that establishes rules for the structure and
+operation of corpora�tions. This law provides that directors, the people
+with ultimate management responsibility in corporations, have a fiduciary
+duty to use their best efforts to make money for their stockholders. The
+corporate law places no restrictions on directors in satisfying this duty
+and failure to satisfy it can result in them being personally liable to
+their stockholders.
+<p>
+The corporate law also recognises that directors usually are not involved
+in the daily operation of the business. The responsibility for day-to-day
+business management is delegated to executive officers appointed by and
+responsible to the board of directors. In addition, the corporate law
+provides a means by which executive officers can further delegate authority
+to subordinates who carry out most of the corporation's business
+operations.
+<p>
+In brief, stockholders invest in corporations in order to make money. The
+law imposes on directors a legal duty to use their best judgment to see
+that this goal is achieved. Everyone else in the corporation works to
+assist the directors in satisfying the duty to stockholders. As a result of
+this structure, the objective of stockholders -- making money -- becomes
+the duty of directors which, in turn, becomes the marching orders for the
+corporation's officers, managers and other employees.
+<p>
+This objective is enforced both by incentive compensation schemes and the
+threat of termination. It becomes amplified farther down in the hierarchy.
+Most of the day-to-day decisions are made by people who have little
+incentive to promote corporate citizenship or social responsibility (which
+in some measure requires corporate sacrifice) unless such promotion also
+can be shown to improve profitability. The hierarchical structure also
+results in an inability to assign individual responsibility for bad
+behaviour, increasing the likelihood that decisions will be made that
+pursue profits at the expense of social responsibility.
+<p>
+This is the corporate system today. It is a system that is dedicated to
+self-interest and devoid of disinterest. Nothing in the system encourages
+(let alone requires) corporations to be socially responsible or to
+contribute, cooperate or sacrifice for the benefit of the community or the
+common good (i.e. be a good citizen). Indeed, nothing in the system makes
+any provision for the public interest. Is it any wonder that corporations
+tend not to be exemplary citizens?
+<p>
+This is not to say that there are not corporations that sometimes behave in
+a manner that makes them appear to be good citizens. For example, many
+businesses engage in good works designed to improve their public relations.
+However, good marketing should not be confused with good citizenship, and a
+company's citizenship should not be dependent upon the size of its
+marketing budget.
+<p>
+There are also a limited number of corporations that have directors and
+officers who manage their companies to be good corporate citizens as well
+as make money. However, even this is not an example of corporate
+citizenship. It does not originate with the corporation. Rather, it occurs
+as the result of strong individuals overriding the dictates of the system,
+and it tends to last only as long as the individual(s) responsible.
+Individual citizenship is no substitute for corporate citizenship in a
+world of takeovers, mergers, downsising, reengineering and fast moving
+corporate executives.
+<p>
+BUSINESS REGULATION
+<p>
+The duty of directors to make money is the primary driver of all corporate
+action. To the extent there is any restraint on this force, it comes in the
+form of business regulation. However, government regulation of business
+presents corporate managers with a basic conflict of interest, how to
+comply with the regulation (which can increase their costs) while at the
+same time remaining primarily responsive to their duty to make money (which
+is generally thought to require reduced costs). The duty to make money
+usually takes precedence because it applies directly to directors who sit
+at the top of the corporate hierarchy. As a consequence, corporate managers
+generally resolve this conflict by continually trying to find ways to
+reduce the cost of regulatory compliance.
+<p>
+There are a number of ways in which this can be achieved, most of which
+weaken overall citizenship in society rather than strengthening it. For
+example, some managers take a minimalist approach to regulatory compliance,
+conduct�ing their company's operations in a way that meets the law's
+requirements and no more. Others interpret the law as making permissible
+everything that it does not literally proscribe. These examples of legal
+hairsplitting often violate the spirit of the regulation if not its letter.
+Corporate managers have also learned that they can reduce the cost of legal
+compliance by lobbying in our state and national capitals. Private industry
+has become the world's most powerful special interest group, spending
+hundreds of millions of dollars each year in order to convert elected
+officials and civil servants to their private interests. In addition to the
+foregoing, corporations engage in jurisdiction shopping, playing
+governments off against each other in order to obtain the best deal for
+themselves.
+<p>
+Legal hairsplitting, the exercise of political power through extensive
+lobbying and jurisdiction shopping are three of the most common ways that
+corporations avoid and overcome government regulation. Each sets a
+powerfully bad example for the rest of society. In addition, there is a
+treadmill effect. Corporate attempts to circumvent government regulation
+result in new laws being proposed to plug the holes being utilised. This
+results in more lobbying, more laws and, ultimately, more holes (Howard
+1994).
+<p>
+The overall ineffectiveness of government business regulation is quite
+clear, but nothing is done to address the cause of it. Most government
+regulation of business fails to create corporate citizenship or social
+responsibility because it does not recognise that corporations are not
+self-regulated by moral standards, a sense of right and wrong or human
+consciences. Such regulation often attempts to achieve its goals by
+threatening organisations that are legal fictions and are as incapable of
+being threatened as they are of being remorseful or shamed.
+<p>
+W. Edwards Deming, the management wizard who brought quality to Japanese
+industry after World War Two and for whom the most valued prize in Japanese
+manufacturing (the Deming Prize) is named, was fond of saying that 94% of
+all business problems are systems problems and only 6% are people problems.
+In other words, it is unlikely that business performance will be improved
+by encouraging, exhorting or threatening the people that work in business.
+This is because the lack of performance is usually not the people's fault.
+It is the fault of the system in which the people are participating. On its
+own, the existing method of regulation will never create corporate
+citizenship because it does nothing to change the corporate system that is
+dedicated to self-interest.
+<p>
+CHANGING THE SYSTEM
+<p>
+In his management best seller The Fifth Discipline: The Art & Practice of
+The Learning Organization, Peter Senge of The Sloan Graduate School of
+Business at The Massachusetts Institute of Technology says that the best
+way to change a system is to make the change at the point of highest
+leverage. This means that any change should be made at the point where the
+maximum results can be attained relative to the amount of the change being
+caused to the system. By making relatively small change in the right place
+in the system, the greatest personnel commitment to change and the greatest
+improvement in performance can be achieved (Senge 1990).
+<p>
+The duty of directors to make money drives all corporate action. This makes
+it the point of highest leverage. Corporations will take on the obligations
+of citizenship only when the duty to make money becomes balanced by
+something that simulates the human conscience. The word 'simulates' is used
+here because a legal fiction cannot actually have a conscience. However, by
+balancing the duty of directors to make money with obligations to the
+public interest, it is possible to alter corporate behaviour to the point
+where it will appear that corporations are, in some measure, guided by a
+conscience.
+<p>
+Following the advice of Professor Senge, this simulated conscience should
+be implanted in a manner that causes the least change to the way
+corporations currently conduct business. In other words, such conscience
+should temper the drive of corporations to achieve profits -- not destroy
+it.
+<p>
+A CODE FOR CORPORATE CITIZENSHIP
+<p>
+The following suggests six basic obligations of citizenship that should be
+part of the simulated corporate conscience. These obligations, which I have
+characterised as A Code for Corporate Citizenship(CCC), would be added to
+that portion of the corporate law dealing with the duty of directors. The
+CCC would amend the corporate law by simply adding the following 46 words
+to the existing duty of directors to make money:
+<p>
+<blockquote><strong>"but not at the expense of
+the environment, human rights, public safety, the communities in which
+the corporation operates, or the dignity of its employees. In meeting this duty, the corporation's directors
+shall foster respect for the spirit of the law as well as its letter."</strong></blockquote>
+
+
+<p>
+The CCC would thus set boundaries on the pursuit of profits with regard to:
+(i) the environment, (ii) human rights, (iii) public safety, (iv)
+relationship to the community, (v) labour relations and (vi) respect for
+the law. The proposed boundaries are designed to make it clear to directors
+that there are limits on their duty to make money and that they have
+obligations to the public interest that are just as important as their
+obligations to their investors. This is not unreasonable. Corporations owe
+their existence as much to the public (which passed the law under which
+they are formed) as they do to their stockholders.
+<p>
+For purposes of examining how the CCC would be implemented, it is useful to
+look at how 'but not at the expense of the environment' will affect
+business under the corporate system. When corporations were first
+conceived, no-one stopped to consider the effect they would have on the
+environment. Today, pollution and destruction of the environment are
+probably the greatest problems mankind faces and most of these problems are
+created by corporations. If the king who granted the charter for the first
+corporation could have seen the damage that subsequent corporations would
+do to the planet, it is probably safe to assume that he would have included
+a 'but not at the expense of the environment' clause in that charter.
+Today, we stand in a similar position to that king.
+<p>
+Adding the words 'but not at the expense of the environment' will change
+the corporate system's respect for the environment in a way that will build
+true corporate citizenship. First of all, placing responsibility for not
+damaging the environment with directors will require them to give the
+environment equal weight with financial returns in their deliberations.
+Making money will have to be accomplished in a manner that is pollution
+free.
+<p>
+Secondly, this responsibility should filter through the management
+hierarchy in the same manner as the duty to seek profits has in the past.
+Operating managers will quickly come to recognise that, when they make
+presentations to their boards of directors, protecting the environment will
+be as important as making money. Just as credit is accorded managers who
+make money for their corporations, blame can be expected to be assessed to
+those whose actions damage the environment. It will not be long before the
+goal of eliminating pollution will become second nature to everyone in the
+corporate system.
+<p>
+Imposing similar boundaries concerning human rights, the public safety,
+community and employee relations and respect for the law will make it clear
+to corporate managers that their companies have obligations in these areas
+that are just as important as their obligations to investors. Such
+boundaries should foster improved corporate citizenship and social
+responsibility in the same manner as 'but not at the expense of the
+environment' will with respect to the environment.
+<p>
+CONCLUSION
+<p>
+The lack of citizenship that is currently exhibited by most corporations is
+easily explained. It is built into a legal system that says the sole duty
+of corporate directors is to make money for investors.
+<p>
+Corporations owe their existence to the laws under which they are created.
+These laws are man-made. They were enacted so that corporations could serve
+mankind, not so mankind could serve corporations. Making money, being a
+good citizen and being socially responsible are not mutually exclusive for
+individuals, nor should they be for corporations.
+<p>
+Buckminster Fuller believed that mankind would be called upon to take its
+'final exams' sometime near the change of the millennium. By this he meant
+that soon the human race would have to make a choice between continuing on
+its present path -- where progress is achieved in the form of fallout from
+greed -- or evolving to the point where progress is planned in advance and
+avoids the damage to our civilisation that has accompanied it to date
+(pollution, child labor, community unrest, etc.). Fuller characterised
+this evolutionary step as going from doing the right things for the wrong
+reason to doing the right things for the right reasons. Most importantly,
+he believed that this change could occur only by individual human beings
+taking responsibility for their futures and the future of their planet
+(Fuller 1992).
+<p>
+The key to creating corporate citizenship and social responsibility is to
+amend the laws that create corporations in a manner that changes the
+corporate system. The best place to make such a change is at the point of
+highest lever�age. Archimedes said, 'Give me a lever long enough ... and
+single-handed I can move the world'. Changing the corporate law to put
+boundaries on the unqualified pursuit of self-interest represents such a
+lever. It is the responsibility of each of us to create that lever.
+Adopting the CCC is an example of how this can be done.
+<p>
+<hr align="left" width="80" size="3">
+References
+<hr align="left" width="80" size="3"><p>
+Fuller R.B (1992) Cosmography: A Posthumous Scenario for the Future of
+Humanity, New York: Macmillan.
+<p>
+Howard P.K (1994) The Death of Common Sense: How Law is Suffocating
+America, New York: Warner Books.
+<p>
+Mander J & Goldsmith E (1996) The Case Against the Global Economy, San
+Francisco: Sierra Club Books.
+<p>
+National Commission on Civic Renewal (1998) Final Report of the National
+Conference on Civic Renewal: A Nation of Spectators -- How Civic
+Disengage�ment Weakens America and What We Can Do About It, College Park,
+Maryland.
+<p>
+Saul J.R (1992) Voltaire's Bastards: The Dictatorship of Reason in the
+West, New York: The Free Press.
+<p>
+Saul J.R (1995) The Unconscious Civilization, Toronto: House of Anansi
+Press.
+<p>
+Senge P (1990) The Fifth Discipline: The Art and Practice of the Learning
+Organization, New York: Doubleday.
+
+</td>
+</tr>
+</table>
+<br>
+<hr width="300" size="3">
+<font size="-1">Email the author: <a href="mailto:rchinkley@media2.hypernet.com">rchinkley@media2.hypernet.com</a></font>
+<hr width="300" size="3">
+<br><div align="center"><a href="${BASE_URL}newchau/" target="_top"><img src="${BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<font size="-1">The Way  Home</font></a></div><p>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default BigdnaCccchapt;

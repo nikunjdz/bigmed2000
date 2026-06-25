@@ -1,0 +1,309 @@
+import { useEffect } from "react";
+
+const AdvisorsNadera = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Ralph Nader</CAPTION>
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 >  
+
+<IMG SRC="${BASE_URL}advisors/graphics/rnaders.jpg" WIDTH=118 HEIGHT=150 HSPACE=15 VSPACE=15 BORDER=3  ALT="Sri Ralph"></TD></TR>
+</TABLE>
+<BR><BR>
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<CENTER><FONT  SIZE=4><STRONG><A NAME="toc">RALPH NADER</A></STRONG></FONT> <BR>discusses<BR>
+<BR>           
+<A HREF="#start">His Early Years</A>
+<BR>                                
+<A HREF="#coup">The Corporate Coup d'Etat in America</A>
+<BR>                            
+<A HREF="#president">His Green Campaign for President</A>
+<BR>
+<A HREF="#biglie">The Big Lie of Governmental Poverty</A><BR>
+<A HREF="#media">Feckless Mass Media</A><BR>
+
+<A href="${BASE_URL}advisors/naderb.html#mncs">Multinationals as the Primary Plague</A><BR>
+<A href="${BASE_URL}advisors/naderb.html#corporatesex">Corporate Organisms & Emasculation</A><BR>
+<A href="${BASE_URL}advisors/naderb.html#timeframe">Prospects for the Future</A><BR>
+<P>
+
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+
+
+<!----*******************************************LINKD****************************---->
+
+<HR>
+
+
+<FONT  SIZE=+1>
+<!----******************************************MAIN TEXT******************************************-->
+<BR>
+
+<FONT  COLOR=#400000>Nancho: Before we start on the Revolution, may we look backward for a moment? Over the last three decades you've spawned literally hundreds of organizations involved in public interest research and activism. You're considered the godfather of the American consumer movement, a premier anti-GATT crusader and in the '96 election you were the presidential candidate for the Green Parties of America. Truly hyperactive activism. What brought you to this world, this life?</FONT>
+
+<BLOCKQUOTE><STRONG>Ralph Nader:</STRONG> <A NAME="start">Well, when I was at law school</A> I got interested in automobile design and the role of the law. And wrote a book a few years later called, "Unsafe at any Speed" which arose out of a third-year paper I did at the law school. And in the process of my inquiry I was brought to the attention of General Motors who hired private detectives to tail me to get some dirt on me because they knew I was pushing for federal regulation of the auto industry and they were caught trailing me to the US Senate Office Building by the police, the Capitol police which led to a highly visible congregational hearing in the US Senate and gave the propulsion for the motor vehicle and highway safety laws of l966 signed by Lyndon Johnson.<P>
+
+And when I saw that develop, a lot of other issues came to the forefront and we started working on them. And since I wasn't particularly interested in being a "Lone Ranger", I started bringing in largely young people out of law school or graduate school or undergraduates into teams of students who investigated different government agencies and different corporations like the US Department of Agriculture, DuPont, General Motors, Savannah River polluters, Food and Drug Administration, so on. And these led to books coming out in the late '60s and the designation of these students as "Nader's Raiders," which was given by a Washington Post reporter. <P>
+
+Then it became clear that there needed to be more specialized citizen's groups so we started starting them in Washington: subject-matter-oriented largely; some institutional orientation like Congress Watch but a lot of them were like the Pension Rights Center, the Center for Auto Safety, based on subject matter. Then we thought it would be good to organize students on campuses through referendum-based checkoffs on tuition bills - a few dollars per student per year, going into non-profit public interest research groups run by students, elected by their fellow students. And there are about 22 of those in 22 states now.<P>
+
+ So part of it is going after a variety of injustices, challenging the convergence of big business and big government against the public's interests, and part of it is just institution building as part of strengthening the fiber of democracy.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> So, if those are the major cases these must be salad days for you because it doesn't seem like there's any shortage of injustices or convergence in the system. What is your current focus of interest right now within that spectrum?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Well, one is to keep starting more institutions because the corporations are developing stronger capabilities to stifle general interest issues of the people. Health, for example, health insurance coverage; issues dealing with occupational toxics; weak labor laws; the corporate subsidies we call corporate welfare. <P>
+
+<A NAME="coup">There's been</A> a virtual corporate coup d'etat in the last 15, 16 years which represents itself with a variety of concentric concentrations of power. One is increasing corporate control of the government and using it against the people or draining government resources with bailouts and giveaways and subsidies and inflated government contracts. Another is the concentration in the media and the homogenization of the mass media and its focus on entertainment, advertising, violence, sex, addiction at the expense of serious communication. <P>
+
+And then there is the question of the trade union movement essentially, I mean, it's down to 10 percent unionized workers in the private sector. And they've incrementally weakened the labor-organizing laws tremendously. Some by statutes, some by just by their control over the NLRB (National Labor Relations Board, some by their leverage, by being able to export jobs over incipient organizing efforts by workers here. <P>
+
+And there's the corporatization of the universities: increasingly defining university research and priorities through joint ventures, consulting arrangements. Then there's the increasing nullification of the voter's vote by extraordinary diversity of campaign finance methods: soft money, independent expenditures, direct PAC funds. PACs have gone from 419 in 1974 to 6500 now. Most of them are business PACs. Seventy percent of the money in federal campaigns is business money. <P>
+
+And on top of all this is the international autocratic systems of governance like NAFTA and GATT which further sidestep or undermine our country's courts, democratic procedures, openness, etc., and subjugate health, safety, workplace, environment and other issues to the supremacy of commercial international trade. Again this is another very fundamental coup d'etat that was foisted on the Congress - after a rather ferocious battle, I might add, because of a citizen trade coalition of trade unions, environment and consumer groups. But foisted on the public under the guise of free trade when it's basically very corporate managed trade under the corporation's governance. I mean, the corporation's government now is the World Trade Organization.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> So, as that supersedes the rights of individual states and their domestic situations the corporate doom grows closer. But you sketched this all out in your Big Business Reader in 1980 and your earlier books. And now there are finally other books coming up about this, but the balance of power is still so unbelievably unequal at this point in time, where's the light at the end of this tunnel?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Well, the key is to fight on all the fronts. So, you fight for the media by trying to expand the use of the Internet, by using your alternative press, by trying to get a reporter here or a reporter there to do the right thing, feeding material to the news magazines and trying to push more public demand for cable channels dealing with civic activity, so on. And then for campaign finance we're pushing for public financing of public campaigns through well-promoted voluntary check-offs on l040 Tax Returns of up to l00 dollars per person if they so wish to give. 
+<P>
+And then there's a drive to provide third party challenges to the two major parties: the Green Party, the Labor Party are going to start fielding candidates just to get to the level of breaking the Democrats' margin of victory against the Republicans. That's the first stage, to be able to effect that.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> T<A NAME="president">o segue into your presidential bid</A> then, what were the essential elements of the Green Party platform and what was the significance of your participation?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Well, it was a pretty fundamental platform. It's a very pro-democracy platform with all the usual reforms: public financing; stronger labor laws; stronger consumer protection; techniques to facilitate banding together by workers consumers; direct democracy; initiative/referendum recall; very strong emphasis on sustainable economies and all the environmental priorities. And increasingly, you know, the Green Party is the largest party in the world - the Green Parties. If you just add them all up. I mean, there are no international parties anymore, it's just the Green Party, it is the only international party. So, they begin to have more of a global strategy in their platform.
+</BLOCKQUOTE>
+<FONT  COLOR=#400000> And, looking back across the campaign...</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> The key thing in politics is that a lot of unconventional people think very conventionally about politics. So, when you say, "look, this is not a campaign to win. It's a campaign to build." "Build what?" Well, we want to try to get Green Parties on ballots at the state level in more and more states. And make a number of Democrats lose to possibly worse people, Republicans." That's the only lesson they're ever going to learn. If they're ever going to learn a lesson it's that they're going to lose. And they're going to lose by people who don't care that a 'Tweedle Dee' democrat is defeated by a 'Tweedle Dum' republican. And if they don't change, they begin shrinking.<P>
+
+ I mean, building a third party in America is relatively simple if people just believe in it, just believe in it and give time. If you had a million people in the country give a couple hundred hours a year to building a Green Party, it would be a big ticket. The two parties don't have any grassroots activities. It's a huge vacuum. They're fossil parties debating each other over 30-second television ads, raising a lot of money and forgetting about the grassroots. Because nobody else is working the grassroots so they can become hallow parties hurling 30-second ads against each other. That's a great opportunity for any kind of grassroots organization.<P>
+
+ And the Christian Coalition has proved it. I mean, they're pretty much of a shell themselves. They say they have l.3 million members but if you send a postcard in to the Christian Coalition, you are considered a member. So, but they have seized the vacuum of the Republican Party at the community level and they're moving in in all these areas. I mean, with relatively modest effort. So, they have shown on the right what can be done on the progressive side.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> Yeah, that's the related question. Why have the progressives been unable to excite the kind of response from the average working American that the rightists have been able, you know, to work up over the last few years? The Buchanan thing...in some ways, he was actually paralleling a few of your points, in terms of the globalization of the economy...</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Yeah, and that's what is going to further destabilize the two-party system. The Buchanan types dealing with global corporations are going to split in the year 2000 if they're not treated right. Buchanan has said that. He almost split in '96. So, there are different realignments that are possible. But the answer to your question is that the Christian Coalition is a belief movement. The Left for all you can say about it is a thought movement. And thought movements don't have much chance against belief movements unless they're grounded in the experience and urgency of the people who are being mobilized, like if there is massive unemployment. And that requires a broader vision and the Left has been ideologically vacuous for several decades now largely out of the success of the New Deal, the post-New Deal. They didn't have to bring themselves up to date. And they were very vulnerable to red-baiting in the 50s and 60s and even right up until l990. That was a factor in their inhibition in trying to think through what the last couple decades require in terms of political and economic mobilization. 
+<P>
+The other thing is that the Right Wing seized the social issues which divided blue-collar workers and the blue-collar shift is what basically won for Nixon and Reagan. Just shift 10 percent of the vote and you've got landslides. And once the Left lost the allegiance of the blue collar voter, they were gone. They were history and that's what they've got to get back. The blue-collar voter now is defined basically as lower-middle income, lower-middle class income and not just defined as factory workers.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> OK, you talk about shifts of l0 percent, but you had 50 percent sit out the entire election. So, if you were to redesign the electoral process and the political landscape to recapture the imagination and participation of that other 50 percent, what would you put forward...</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Well, first of all you discuss people's perceived grievances and then you would discuss trends that are going to make things even worse in the future like the globalization issue and the exported jobs and the 4 billion worker/labor pool and the separation of multinationals from any allegiance to community or to their country of origin other than to control it GATT-style. <P>
+
+See all this requires...I mean, the politics of reform are a cottage industry and the seduction of deploying political activity on television is a major Achilles Heel of the Progressive Movement. They would be better off just quitting television cold turkey. See, what I believe is that if political movements said, "No television, it's going to be face-to-face, it's going to be rallies, it's going to be a little group here, a little group there, epicenter here, epicenter there linked," and if they basically said, "we're not going to raise much money," but if they play the game of the oligarchic political consultants, they're going to lose all the time. First, they can't match it in money. Second, they can't match it in sophistry.</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>
+Nancho: But you're also saying that the Internet is a potential outlet.</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Yeah, the Internet is just a cheap communication system. I mean, postage is high now, even non-profit postage is high. The conventional ways of communicating are expensive, even door-to-door is expensive. You've got to pay the canvasers. But there's the Internet, and it's growing. It's clearly three times more useful than it was in '92, probably in the year 2000 it will be three times more with more people accessible to it. That's just a communication system. A mobilization system through the Internet is still very incipient. We've tried to use it, for example, for privatization of government information policy and we've mobilized people, tremendous, relatively speaking, response by people who then flood their members of Congress with protests and so on. Whenever we can show that their accessed information is going to be restricted or is going to be costly. But I haven't seen Internet used to mobilize a national march. I mean, it hasn't been disproven that it can be used that way, but...</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> I thought the Republicans used it pretty well in '94...</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> The Internet? Yeah, as a communication system. But that's not mobilization. That's just a first step. Let me give you an example. What if two million people in the United States said they're going to spend 50 hours in the next year in rallies, mass rallies? It would change the whole political climate in the country. I mean, you get fifty people together and you get a crowd in America. I mean, Rob tries to get people to picket and demonstrate and it's a success if you can get forty people, right? What if you had 300,000 people in New York protesting something well-organized? And you had it again in Chicago and you had it again in Los Angeles? Also the poor haven't been heard from in America. <P>
+
+There's a whole assumption of the plutocracy that this two-class society, the rich and everyone else, is just going to continue. And you have the contented classes, upper 15 percent who vote a much more higher percentage than the lower economic citizenry. That it's just going to continue. Maybe you have an occasional riot in Cleveland or LA or whatever, but that can be contained, basically viewed as a mass street crime. But I think they're making a big mistake. The poor have not been heard from yet and when they are, it may well shake the society to its foundations.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> But are they going to respond to a thought movement? Is there enough of this information out 
+there at a level they can grasp to understand this analysis...?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> They already understand it. It just hasn't connected yet, to one another. You ask anybody in the lower half of the economic ladder: "things are getting worse, right?" "Yeah." "Place is crumbling, right?" "Yeah." Everything is decaying around them. The infrastructure as they call it, the public works. "What's your prospects for the future?" Well, they don't think their kids are going to make as much money as they did and their kids agree with them. Then, well, there's the fact these global corporations don't know how to give meaning to noblesse oblige. In the old days, you had Kodak in Rochester (N.Y.) and you know had various companies that had an allegiance to the community. They weren't angels but they were there. And there's no one there any more. There's no corporations "there" anymore. And then they see the social nut ripping apart. And then they see their access to justice being closed off, legal services about to zeroed out. And they see their ability to voice their complaints being answered by, "Press one, press two, press three, press four" voice mail. And then they see the streets populated largely by pimps and drug dealers standing in front of check-cashing shops. You know, the tenements are crumbling, the kids are being poisoned by lead-based paint, the schools are increasingly places of mayhem, and Medicaid and their clinics are often horrors of neglect and incompetence. So, it's all there like dry timber just lacking in organization.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> But what is going to make them respond to a "green" sort of image rather than a Buchanan style rightist agenda?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Oh, because these take precedence in their lives. I mean, there're bread and butter issues taking precedence. I mean, Buchanan's corporate analysis, yeah, that's still a bread and butter. But if you're taking the other social issues, the only reason they have currency is that they're the only thing around; that the real bread and butter class issues have not been defined and agitated for but the other social issues have, by the churches and the various movements on each one of those.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#400000> Nancho: That's what makes a more broad-based media assault necesaary...I mean, obviously the poor are not on Internet and they won't be for quite awhile. Yet these messages have to get out there to address them They may know all the symptoms but to make them believe that this cure that you're offering has any relationship to their life or has any real viability given what they see around them. I mean, there are a lot of burned out activists in Japan who have really good hearts, who put in their hours, who put in their dime, and they just don't see any cost-benefit analysis between the tactics and strategies they're given and what they have been able to accomplish over the last l0 - 20 years.</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Well, if you look at the struggles in the last two hundred years, it's a struggle between private economic power and public power. And what's happened is that the government has been discredited by a massive propaganda blitz refined by Reagan. And so where are people going to turn to if the private government of corporations fails them in a variety of ways? OK, where are they going to turn to if government is discredited? So, there's a big vacuum there and that's what is going to have to be dealt with. The resurrection of the community known as self-government: local, state, national...</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> Okay, that's what I really  need you to hit hard since we want this piece to go out to young Japanese. You put a lot of emphasis on the importance of direct democracy in all levels of amelioration. So, could you define it for an entry level audience - there isn't even a word for initiative in Japanese, it doesn't exist. We invented one a few years ago but it still is obcure.... So, can you define direct democracy and how you see it changing things?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Well, it's defined as people voting in their own laws or repealing laws by direct ballot or by recalling elected representatives before the next election.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> OK, that's certainly basic enough, and what's the track record of this thing in the United States?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Not bad given that it's subject to the same swarm of campaign money by tobacco and developers and others. It's not bad. One would have thought that it would be worse. And it's going to be a main mechanism dealing with health insurance coverage and reform. There is already a mounting effort this month in California that failed in the first round. Outspent 4 to 1, they got 40 percent of the vote on a patient protection act. So, it's building. <P>
+
+<A NAME="biglie">The big area</A> where people have been misled is that we're out of money, society is out of money. To show you the effect of successful propaganda. Massive capital pools drowning the stock market, booming it to record height, massive capital corporate profit records, unheard of, way beyond predictions of 10 years ago. Massive executive compensation at the top and they've persuaded the public that there's not enough money for schools, for drinking water systems, for mass transit systems, for public works, for clinics...you name it. and that just shows you the vacuum of the Left that they have not challenged that. <P>
+
+If you look at the Federal budget, for example, 400 billion dollars of it can be redirected to public investment and a whole variety of other needs. For example, we have to transform our whole energy technology and we have to transform our petrochemical technology and we have to transform a lot of technology. It's just omnicidal. And the only reason we're getting away with it is that the rest of the world doesn't use the same per capita consumption of these energy and fossil fuels and all the rest that we do. <P>
+
+So, if we do it incrementally by reallocating 400 billion dollars worth of budgets from military defense, corporate welfare and other boondoggles, we would create rather sizeable employment pools, good jobs as well as begin making our economy more efficient and much more responsive to the needs of the people. But they've got people convinced we're broke. <P>
+
+I mean, it's just unbelievable. People are more convinced now we're broke than they were in the Depression when there were bankruptcies, corporate profits were at an all time low and the stock market had collapsed. I mean, you want to talk about successful propaganda, that's it. That's like convincing people they live in a field of famine with the Garden of Eden all around us.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> So, you're certainly speaking out. <A NAME="media">Why isn't this message</A> being pumped? I mean, why doesn't it fly?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> It's not being pumped out. You can't get this message out on the evening news because it doesn't reduce itself to a sound bite which is now 5 and a half to 6 seconds. If you get on. Even if you get on the topic, you get reduced to 5 to 6 seconds and it's shrinking. A sound bite will be down to a bark pretty soon which is less than a second and a half where you're just allowed to say yes or no.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> Okay, the newspapers?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Now, the newspapers...we have a culture of journalism that doesn't entertain new proposals, they entertain pundit predictions about elections, about sports, about things like that. But they don't entertain new proposals. If you read The New York Times for the last 10 years there are probably three articles on a new proposal. Now, we're nothing if we're not full of new proposals. We can't get any attention to it. <P>
+
+Even when we get them adopted like one of the proposals is to develop a facility to invite people to join full-time financial/consumer associations, utility rate payers groups - banks, insurance companies, etc. By putting this in the bank statement or the insurance bill or in the utility bill. Now this is happening in Illinois. It's worked spectacularly in Illinois, at least from a monetary point of view. There are 200,000 members in a rate payers group which started out with an insert ??? in an electric/telephone/gas company that was declared unconstitutional by a bizarre decision by Supreme Court in l986 but now this insert is in state government mailings. And they've not only challenged and developed community intelligence and telecommunications, gas pipe line, and electric and nuclear policy. But they've saved 4 billion dollars since '83 including a 1.3 billion dollar refund. And this is a l.2 billion dollar budget with 200,000 members who elect the council of directors, who hire the full-time staff of consumer advocates, right? This is a major state. It works, right?<P>
+
+ Do you see how long it took me to describe it in its briefest fashion? Right? You're off the screen. And as far as journalism is concerned, they're not interested in this. The Times never ran an article on this. 13 years. There's one operating in San Diego as well.
+<P>
+ So, it's the culture of journalism that has to be severely jolted. In other words, newspapers have to be picketed, demonstrations have to occur, very tough across the table confrontations with editors and reporters in order to teach them what news judgment is all about. They're totally out to lunch in terms of their own ability to argue news judgement. They don't define news as news anymore. The only network that defines news in a little bit old-fashioned sense is AP. The rest, they want to write features. You go to the New York Times with a major news and they say, "We're thinking of a feature article on that. We'll put you in a paragraph or two three weeks from now."
+</BLOCKQUOTE>
+<FONT  COLOR=#400000> One amazing thing, though, I actually heard about you - briefly, on FEN, the Armed Forces' Far East Network over here, during the election reports. They had the usual tableful of pundits sitting there sounding off and the guy who was in charge of it, I don't remember his name, mentioned you, and they asked him, "how is Ralph Nader doing?" because he claimed he met you in a bar in Colorado sometime. And he said, "well, for somebody with no organization, no money, no agenda and no platform, I'm sure he's doing okay. And besides he's a nice guy." And then they said all these other kind things about you, but it was like you were totally floating directionless out there...</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> It's funny, I never heard of that one. First of all, most of these pundits are inside the beltway and they wouldn't have a clue of what's going on around the country, even if there was anything going on around the country, they wouldn't have a clue. So, obviously they're not particularly skilled in detecting trends, early trends and our whole political system is very uncongenial to small, political starts. And small political starts are very uncongenial to themselves because they have ....there's a winner take-all expectation in our system. It's more than an expectation, it's a winner take-all system. But it's created a winner take-all psychology and what we're trying to do is break that. And say, "look, it takes ten years at least to build a political movement. It should have started in '84 when Reagan got reelected and proved that the Democratic Party was totally inept." So, it should have started in '84. If it had started in '84, by '96 there really would have been something underway. I mean, I spent less than a penny a vote. Clinton and Dole spent l0 dollars a vote.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> Mmm. But your tactics...one of the major tactics is being able to break the balance in individual states in terms of the electoral college vote.</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Right. Even with one visit to Colorado, I took Colorado away from Clinton - by pulling more votes away from him than the difference between Dole and Clinton. Now that's the only language these guys understand. That's the language I'm going to convey to Gore in a meeting I hope to have with him shortly - that the days the Democratic Party can tell millions of Americans they got no where to go because the Democratic Party is not quite as bad as the Republican Party are over. Over. If they don't realize that they will when they start losing - 'cause not every election is going to be a gap like Clinton/Dole. I mean, Dole was a blunder a day. He was a joke to the press.</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> But this sounds like a polite version of the terrorist rationale that by creating "dis-ease" in the system, you get people starting to look for other kind of realities. And here, by turning, in tight races, turning the world over to the Republicans and then cutting loose the mad dogs, then we have a chance maybe of reforming the Democratic Party, which maybe will then implement some of our issues on the national level. That seems such a waste...</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> No, because I don't think the Democratic Party is going to reform. And the Republicans aren't that much worse. Look, tell me the difference between the Republicans and the Democrats in the following areas: foreign affairs; military intelligence; the military budget; corporate welfare (200 billion a year at least); enforcement policy on crime, fraud and abuse against workers, consumers and the environment. There is nothing. <P>
+
+What's the difference now in the area of recognizing the deficiencies of our dismantled democracy? Campaign finance reform? Neither have done anything on that. Do they talk about strengthening the tools of democracy for workers, consumers, taxpayers? Nope. There's a little bit of difference on torte law. I mean, Clinton finally vetoed the product liability limitation. But he's weakening on that, too as indicated in the first debate with Dole. Let's see, what else? Energy policy? Whatever happened to energy independence? They don't even talk about it in the elections. It's completely off the scale. Health insurance coverage? That wasn't even discussed. They're talking about expanding drive-through mastectomies to a minimum of one night in the hospital. And that's where they're at. So, what was a big issue in '92 has disappeared between them. <P>
+
+So, what is the difference? They're both pro-GATT, they're both pro-NAFTA, they're both pro-World Bank. Clinton reappointed Greenspan as head of the Federal Reserve. Their policy on Federal Reserve is the most powerful regulator for the banks of the economy. Exactly the same. Supreme Court appointments? What difference? <P>
+
+ Now, let's take a look at their poverty? Did you hear the word poverty at all in the election? Did any of them talk about the inner city? That's off the screen, too. So...</BLOCKQUOTE>
+
+<FONT  COLOR=#400000> So, why are you pitching for Gore's support?</FONT>
+
+<BLOCKQUOTE><strong>RN:</strong> Ah, because I want to wake him up. I want to make sure that they know what is at stake. I don't want them to go through an illusion just because the Third Parties have not done much in the last several decades that this winner-take-all is going to continue. They've got to know that this was, that this effort in '96 was equivalent of a corner of a little finger compared to what it is capable of. Now, and that will produce some interim victories for us. For example, it will start stiffening their spine on some regulatory issues. So you always have to worry about the interim, too. You don't want to lose the tort system which is the only decentralized system of justice left in America, or is it? They control the Legislature, they control the regulatory agencies. But they can't get good control, solid control of several thousand courtrooms and juries.</BLOCKQUOTE>
+
+
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+&gt;!&lt;  END OF PART ONE &gt;!&lt;<P>
+<A HREF="#toc">Return to Beginning</A> | <A href="${BASE_URL}advisors/naderb.html"><STRONG>Go to Part II</STRONG></A> | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, VISIT NADER CENTRAL:<BR> <A HREF="http://www.essential.org/" > WWW.ESSENTIAL.ORG</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1998 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsNadera;

@@ -1,0 +1,653 @@
+import { useEffect } from "react";
+
+const KyotoCueno = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom>  Chizuko Ueno </CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<IMG SRC="${BASE_URL}kyoto/graph/chizuko!.jpg" WIDTH=117 HEIGHT=150 HSPACE=15 VSPACE=15 BORDER=3  ALT="Lady Chizuko"></TD></TR>
+</TABLE>
+<BR><BR>
+<FONT  SIZE=4>
+
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+
+<BLOCKQUOTE><BLOCKQUOTE><FONT  COLOR=#800000>NANCHO ADVISORY: Armed with scholarly achievement, grassroots credentials, popular influence and a scalding wit, Chizuko Ueno has captured the high ground of gender equality and challenged Japan's authoritarian patriarchy on every front. Her ground-breaking works on coercive Asian gender stereotypes and the trivialized commercial exploitation of sensuality have helped foster a new , independent-minded and politically active generation of Japanese women unwilling to accept the drudging subordination of the past.</FONT></BLOCKQUOTE></BLOCKQUOTE>
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+
+<CENTER><img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+
+<FONT  COLOR=#400000>Nancho:  Over the last ten years you've become one of the most
+prominent and internationally recognized spokesmen - sorry,
+"spokespersons" - for Japanese women's rights. How were you
+baptized into the cause?</FONT>Z<P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Well, I'm sort of a product of the '60's and of the New Left
+movement of the time. We got very excited back then about the
+anti-war movement, about human rights - women's rights were still
+not an issue at the time - and social revolution. We were really
+going to change things - make society more fair, more humane and
+egalitarian. Men still ran most things, of course, and we women
+got the worst jobs. But it was a "revolution" and we were all in
+it together we thought, and we were willing to sacrifice. Well,
+when it became clear that things weren't going to change so
+easily, that the revolution wasn't about to happen, the men just
+took off! They went back home, or back to university, or into
+some company and there we were. The women. We couldn't believe
+it. Many of us had broken with our families, some of us had
+babies, some were pregnant and we just looked around at each
+other and woke up. That, I think, was the real beginning of the
+women's movement here. There had been radical women's
+organizations here before, of course - like the pink helmet
+types, but this post-60's disillusionment was the real beginning
+of the serious work it took to build the broad based movement you
+see today. I myself was just sort of worn out and I decided to go
+study sociology at Kyoto University's graduate school.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  Did you intend sociology to be of tactical use in the women's
+movement?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  [laughing] No, no, not then. Sociology at Kyodai [Kyoto
+University] hadn't even discovered women yet. There were a number
+of female students, of course, but they were all herded into
+Family Sociology. They ended up spending all their time doing
+surveys, charts and complicated statistical analyses to find out
+things everybody always knew. Women's study courses or women's
+sociology just did not exist then. That's one of our biggest
+gains, I guess. Everybody takes women's courses for granted now
+but they are quite a new thing. Anyway I wanted to be perverse,
+and specialized in theoretical sociology and semiotics. I was the
+only woman in half my classes.</BLOCKQUOTE><P>
+   
+<FONT  COLOR=#400000>  How did your male classmates react to your feminist
+sociology?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  I never really put women's issues and my theoretical work
+together then. I sort of kept feminism and sociology in separate
+boxes. I didn't bring them together until 1972 in my first book
+Sekshi Gaaru no Daigaku [The Great Study of the Sexy Girl]. It
+was a kind of semiotic analysis of what made girls "sexy" in this
+society, especially looking at media images. The research was
+serious but I meant and wrote it somewhat ironically. It
+backfired occasionally, though. Students would sometimes come up
+and tell me how the book had helped them be more feminine! And
+some of my most enthusiastic readers were advertising and
+marketing people. I don't even want to think how it helped them.
+But at least it was one of the first times many of these analytic
+techniques were used to look at women's situations here.
+After that I wrote on a lot of other things - labor organization,
+family history, theoretical things... and it really wasn't until
+5 years ago or so that I academically returned to feminist issues
+and really put the two boxes together.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  How would the sociological eye assess the state of Japanese
+feminism today?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Oh, we've made some undeniable gains. But if you look
+objectively at the women's movement here today, one of the first
+things you see is that it is aging. Most of the active people are
+in there 40' and 50's, some in their 30's. But it's not a young
+movement anymore. The members are veterans - women who have
+fought their way through. They have struggled to balance family
+and work or outside interests, have faced discrimination, have
+known bad times. Well, it's not like the battle is over and we've
+won or anything, but they know how important the issues are and
+they've worked to make things better for themselves and maybe for
+all of us. But there's a big generation gap. The younger women
+and students don't know what their mothers have gone through, are
+going through. Or they don't care to know. They take the gains
+for granted and don't really see what the movement means to their
+lives today. Part of it is probably our fault. The movement has
+focused a lot on older women's immediate problems - employment
+opportunity, working conditions, community attitudes. Things have
+actually improved in many ways but we haven't reached out to the
+young so much and helped them understand how much has been done
+and how much is left to do. Or how important it all is. So a
+movement that can't pass on its values to the young - no matter
+what short term gains it makes - it's not going to last. And
+that's a big, big problem.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  But inside or outside "the movement" women still seem to be
+much more visible and active. In the citizens' movements and
+reformist politics, especially, they seem to be the driving
+force...</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  They are much more active today - partly, I think, because
+they have the time and closer ties to their immediate
+communities; and partly because of their concern for the world
+their children will be handed. But it's not all it appears to be.
+For example, in the recent local elections many women stood for
+office and many in fact won. But I don't know how much we can
+expect from them in office. I have a lot of friends who were
+involved with those campaigns and many told the same kind of
+stories. Men ran almost all the campaigns and very few treated
+women as equals. Men treat campaigns like military contests, you
+know, and you're supposed to give your whole life to the battle
+18 or 20 hours a day. Well, women weren't going to give up their
+homes or families just because that's the way men like to play
+politics. Most of them said they would campaign from 9 to 5 or
+whenever their kids got home and that was it. The men couldn't
+say much because women were so vital to the campaigns but because
+they worked differently men sort of looked down on them. But the
+worst part is that when the men who were directing these
+campaigns chose women candidates, they often did it as a PR
+gimmick to attract the women voters or just get attention. So
+they didn't look for leaders. They tended to pick docile and
+obedient women - the kind they could use and order around. So
+having more women in the local assemblies may be good for our
+morale, but if they don't have ideas and agendas of their own,
+what is going to change? They'll just be puppets for the same old
+people.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> In Japan you've been one of the few women's issue theorists,
+one of the few theorists of any kind in fact, who has tried to
+find a larger pattern in social problems. You've related old
+peoples' difficulties, industrial pollution, militarism, family
+breakdown, and a host of other problems all to the corporatist
+system here...</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Well, the important thing is to define the main enemy, the
+main and common enemy of people in a variety of situations.
+Partly so groups working on different problems can cooperate and
+don't end up, like some of our discriminated minorities,
+competing with each other; and partly to just get better ideas on
+how to defend ourselves, how to survive.<P>
+   One problem is a shortage of new models and analytical tools.
+That's why lately I've become more interested in Marxist
+feminism. So far Marxist feminists have been accused of merely
+introducing Marxist economic terminology into family and women's
+issues - which is basically what they have been doing. But simply
+by introducing Marxist terminology into these fields they've
+generated a lot of new categories and concepts, new research
+ideas and findings. This approach may also just prove again I'm a
+product of the late '60's New Left. We were all familiar with
+Marxist analysis - though I personally was very disappointed with
+the male-headed Marxist movements then too. But at the same time
+I still kind of hope that by adapting and changing the
+traditional Marxist jargon we can view women's issues in a new
+light. But this approach is sometimes called economism. And I've
+often been accused of being too heavily materialist or
+economistic. I've had to face a lot of criticism, for example,
+for sometimes referring to kids as "economic products" or
+"economic resources". But it's not really fair, for one thing
+because these terms are taken out of context and for another I'm
+not personally materialist or economistic. The problem is the
+entire situation or the entire social system is itself so heavily
+materialistic and economistic. And therefore, I think, we can
+better see and understand what's going on in this society by
+using materialist concepts. That's why I still believe Marxist
+feminist points of view can be useful tools. Actually, though,
+when I met Marxist feminists in London recently a lot of them
+were deeply disappointed with responses to their analyses from
+the socialist side and many have almost given up on the future of
+Marxist feminism in the movement.  </BLOCKQUOTE>  <P>
+
+<FONT  COLOR=#400000>  Practically speaking, though, what countermeasures are there
+now?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Earlier we talked about Galbraith's idea that for self-
+protection small groups might have to organize together til they
+became as big and powerful as the corporate system - well, that
+just seems like a terrible bad dream to me. But on a large scale
+I really don't know what to do yet, though, so I am still
+concentrating on women's issues and finding 'nukemichi' - I don't
+know how you say it in English, maybe 'niches' - in the system
+that we can live in and survive. Even though this is primarily a
+corporate society it's not yet a monolithic society. And we can
+see in the case of venture businesses, for example, that there
+are still many pockets of opportunity in the system. This enables
+some newly developed or alternative businesses, like housewives'
+businesses and cooperatives, to grow. <P>
+
+Of course we understand
+that right now it's an almost impossible dream to replace the
+present corporate system with something else, something more
+humane. But while we are waiting for better ideas we can make up
+a kind of alternative underground society, underground community
+to survive. For instance, I've been in contact with a guy who is
+organizing a movement for kids, school drop-outs. In Japanese
+they're called "school-rejecting kids", but he just calls them
+"deschooled" or "deschooling kids" and he is organizing a shelter
+for them. He is saying that these kids, though they're not great
+achievers in the school context, are really quite able and
+talented. And if you can encourage them to do something they
+often show amazing power and energy. So by organizing appropriate
+activities, economically self-supporting activities like
+businesses, for them and ourselves - well, we can't take up the
+entire GNP, but we may be able to take up some portion of it.
+Maybe eventually 5%, or even 10% of it, to circulate things among
+ourselves. This doesn't mean we are setting up an autonomous or
+segregated community, of course. We are inevitably integrated in
+the wider community. But at the same time, if we can pool or
+circulate 5 or 10% of our resources through this underground
+economy we can support alternative lifestyles and even
+alternative institutions for ourselves. And that's the way we are
+trying to organize some kinds of women's businesses. <P>
+
+We are now
+in the second stage of the women's movement here. The stage of
+consciousness raising is pretty much over and women are starting
+to feel more powerful and confident. Now they feel the need for
+resources, for institutions, for places to organize their
+activities - all to gain some independence, which of course means
+money and economic independence. So in many places here and there
+- including among those "deschooled" kids - you're seeing people
+organize alternative, grassroots businesses. I'm personally
+connected to one of those businesses, a cooperative, which was
+started by five housewives last year. Previously none of them had
+ever earned money or worked outside their homes but they wanted
+to make a cooperative that would somehow help the movement or the
+cause of feminism. I've been working with them, helping to train
+them and it's going pretty well. The next stage is we're trying
+to develop a network among all these alternative institutions.
+It's very slow but at least it's clear we are beyond the talking
+and consciousness-raising stage. We are finally doing something.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  What is the status of Kyoto as a center of women's activities
+today?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Well, of course Tokyo is supposed to be the center of the
+women's movement, but there is a difference between the field of
+women's studies and the women's movement. In terms of women's
+studies there are two nationwide associations. One is located in
+Tokyo. The other is located in Kyoto - the one for which I have
+been working. And actually the activity level and the level of
+results is much higher in Kyoto than in Tokyo. Mainly we say this
+is because of the authoritarianism of Tokyo people [laughs]. But
+they do actually have a strong hierarchical relationship among
+each other. And the major or leading members of that association
+are the established academicians and their main purpose seems to
+be to catch up with the male standards in academic disciplines.
+<P>
+We in Kyoto don't agree with that. We are trying to create
+alternative disciplines - not just chasing down established male
+paths. And that makes us a lot more flexible. So it is said - and
+I mean it's not just me saying it, OK?  - so "it is said"
+[laughs] among people in women's studies that there is a 'seiko
+tote' in Japan - which is a meteriological term for when the air
+pressure in the West is consistently higher than in the East. In
+terms of women's studies it just means our contributions have
+been more vital, I think. But as for the women's movement, of
+course Tokyo is the center of the political scene. <P>
+
+For example, a
+some years ago when the Japanese Diet was about to pass the
+anti-abortion law, the most active movements opposing the law were
+among Tokyo people. So politically there's actually some lag or
+delay between Tokyo and Kyoto which I can't deny. But for some
+reason, perhaps just the geographical reason, Tokyo people are
+always complaining it's more difficult to network among
+themselves, because Kanto is so vast. But here the Kansai
+community is much tighter. You can say everyone knows everyone
+else and it's easier for us to attend meetings and events
+together, and to network...</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  What do your Japanese women's studies meetings currently
+focus on?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Well, the main focus is of course invading academia to get
+more posts, more status, more research money [laughs], more
+institutes. First of all, we need more employment for women.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  OK, but after the academics have been taken care of what
+strategies do you have for reaching out?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  There's no consensus but if I can tell you my personal
+opinion and about what I am trying to do - it's about time to
+spread the idea of women's studies below the high school level.
+And actually I"m trying to make a network among high school
+teachers, among secondary school teachers. They are now
+organizing themselves to prepare women's study courses among high
+school girls. For instance, although I am teaching at a women's
+college, in a way it's almost too late to tell them about the
+idea of women's studies. Because, you know, that now, at the age
+of eighteen, it's about the time most Japanese kids are choosing
+their life course. It's almost too late to introduce a new set of
+ideas. So now we're trying to prepare textbooks and curricula for
+high school students. <P>
+
+  I am working in two ways. One is organizing some voluntary
+networks among the high school teachers themselves, helping them
+and telling them what kind of resources we have. And the other
+way, since I'm finding myself more powerful on the political
+scene, I'm trying to put pressure on the local Boards of
+Education. I don't know whether I can do it or not, but I am
+asking them to look at the discrimination problem and to start to
+re-educate the teachers, the primary and secondary school
+teachers - to introduce them to women's courses early on.
+Otherwise, what they're doing in everyday life at school is they
+are discriminating against girls without even being aware of it.
+It's always impressed me when, after listening to my lectures at
+schools, many girls come up and complain how they have been
+discriminated against by their male teachers, especially when
+they went for counseling about their higher education. It's just
+been very interesting how many have asked me how to defend
+themselves and oppose their teachers in such cases.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  So you do recognize your influence - particularly you're
+growing political influence...</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Oh, it's so little, really. It's still just a kind of
+tokenism. You know, for example, for some reason I don't quite
+understand, Kyoto City picked me as one of their advisors on
+women's issues. And once a year we meet and hold consultations
+with the directors of all the major departments. And at the
+meeting all the directors come up and give us reports on what
+they've done regarding women's issues in their own department or
+in their own field. And on each of these occasions I say to the
+person from the educational committee that they have to have
+these re-education courses for the school teachers. Of course the
+position gives me such opportunities but I have no chance to
+follow how or if these suggestions work. We meet once a year!
+When I asked the chairwoman how these meetings were supposed to
+affect local politics she said, "Well, considering the average
+effort other cities are putting out for women, we are doing
+pretty good just meeting at all."</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  As these roles and responsibilities continue to pile up, how
+are you keeping it all together?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Well, I have three strategies, you could say, or three ways
+of behaving. The first, or the first two, are for the public. The
+last is with regard to my personal life. Of course I'm aware that
+I am now a public figure. I sort of represent some kind of
+feminist image or the widening interest in women's issues. So I
+have to behave differently on different occasions. If, for
+example, I have to make a public speech and the audience is not
+mainly feminists, I usually feel right presenting myself as a
+representative, an advocate of women's interests - that's
+actually the reason they invite me. But I make a distinction
+between speeches to non-feminist audiences and speeches to
+feminist audiences. I am very conscious about this. For the
+insiders and the activists and the people in the movements who
+have interests in common with me, I am more honest, more
+realistic. For a non-feminist audience, though, I make more
+positive statements and even take the role of a feminist
+propagandist. I try to take whatever advantage I can of the
+situation to try to make women's issues more visible, more
+important in peoples' minds. This causes me a lot of
+psychological conflict, however. I know what these groups want of
+me, but personally I'm not, how can I say, I'm not an actual
+representative of "the women's movement". There is such a
+diversity within the women's movement. And I'm just one of the
+members, one of the many active people. And, as you may know,
+there are many people who oppose me and my views, though we're
+all in the same "movement". So I don't really like people taking
+my standpoints as representative of Japanese women.
+I think this is very important because while I'm going out to
+represent "women's interests" before non-feminist audiences, it
+always should be stressed that I'm only the...well, I'm only
+myself, not any kind of official representative. I mean, the
+starting point of the whole feminist movement is that women are
+not a homogenious category. Women can be, and are, quite
+different from each other. And our common starting point is: "I
+want to be myself." So I will advocate women's interests to
+various groups "as a representative", but at the same time I will
+betray their expectations by insisting that I, too, am myself,
+not a representative, and that "women" are so many different
+people. <P>
+   But among the insiders of the women's movement, I want to
+share my thoughts on the common problems we are facing. And as
+I've picked up some influence in the movement, fortunately or
+unfortunately, my voice is louder than others', carrys farther
+than others'. So I have to deal with the everyday
+authoritarianism among the feminists themselves. They tend to
+follow too much, and to follow my voice rather than others'
+voices. So I find myself forced to fight against this feminist
+authoritarianism which my influence is ironically reinforcing.
+It's a very difficult, and annoying problem. So this is part of
+my second strategy.<P>
+   Thirdly, as for myself, you know all those public images and
+social identities are of course quite different from my own
+personal identity. And I haven't yet managed any happy harmony
+between them. Like everyone, I have a lot of aspects. Of course
+I'm interested in women's issues but I'm interested in other
+kinds of issues as well, issues that have nothing to do with
+women. Acting as a feminist spokesperson all the time can really
+stereotype you, make you appear very one-dimensional. Besides, I
+think it's a very unhappy situation for the movement to have such
+a limited number of representatives. And I'd rather stop taking
+this role. The most desirable way of demonstrating feminist
+ideals is to raise more women to visibility. And actually now a
+growing number of younger feminist scholars are starting to speak
+out. Individually they're not as prominent as myself yet, but
+individual prominence is not that necessary. If you have a large
+group of people who are speaking out in different ways but all
+respectively in favor of women's interests, well, this would be a
+lot more desirable than having only one or two prominent women.
+The present situation just isn't good for women or the movement.
+But for now I have to do it. So this personal aspect is the most
+difficult part of my "strategy" - because first of all I have to
+survive, have to survive this situation as a real person. It's a
+real balancing act.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  How's it working?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Oh, it's difficult, really difficult. For instance, in the
+last couple years since I've been ask to represent the women's
+movement so often I've felt obliged to show up in public as a
+kind of model or ideal "women's speaker". And I like to think
+that so far I've done it pretty well. But it's a kind of
+moralistic role, and very tailored to these situations. And I got
+very good at upsetting men [laughs], at criticizing them, and so
+forth. But actually this role disadvantaged me, you could say,
+because it makes it harder to see the reality of women in an
+unbiased way. Previously, as a writer and researcher, I could put
+some distance between myself and, say, for example, housewives.
+They live a different life from my own. And although I can say I
+have sympathy with them, my lifestyle is completely different. I
+can't share their everyday lives or emotional realities with
+them. So this distance has allowed me to see them more
+realistically. And I have been able to study and look at their
+lives more objectively, in fact in a very critical way. But in
+the last couple of years I've felt increasingly obligated to put
+more stress on saying "something in favor of women", for
+strategic reasons or whatever. And I've been able to do this too
+pretty well. So I can do both. But if I lose my sense of balance
+I could end up as simply a feminist ideologue, without seeing
+women and their situations realistically. And I definitely don't
+want to become just another optimistic ideologue feeding them
+fantasies and dreams. You see what I mean?</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> Yes, but on the other hand you still have to give them hope.</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Well, there's always some tiny hope in our movement. Although
+we don't have hope in the future in ten years, we can have hope
+for something a couple of days or a week ahead. So I encourage
+them to do something in everyday life, something immediate,
+without worrying about things ten or twenty years from now. You
+know, if you realistically look at the future of this society,
+you can't be optimistic about it at all. You cannot. And my
+experience this summer, meeting progressive feminists in Britain,
+gave me an even more pessimistic image of Japan's future.
+Actually, you know, this system is half decaying. As you can see,
+since last year, with this boom in stocks and land, there is
+growing disparity between the state of the corporations and the
+people of the nation. And what I saw in Britain too was that the
+mass of people are completely left behind. And with the
+prosperity and growth of the corporations the worst hurt are the
+very workers who sacrificed to make that success possible. And it
+was terrible, almost hopeless, to see how so many British people
+are living. But, you know, the stock market in London was booming
+and is still continuing to grow. And as long as you are watching
+the growth sectors, you don't see anything of the Britain in
+decline. And that whole upper level is growing at the sacrifice
+of the workers below. </BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  You see that happening in Japan, too?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  Yes, of course. Very much so. As this corporatization process
+proceeds there are of course a number of people who will occupy
+the upper positions and become very successful. There's no
+question about that. But it's also obvious there is a growing gap
+between the top and the bottom. It's all too obvious, and we
+cannot stop it. At least I don't see how we can. And I certainly
+can't be optimistic about it. And if you look at the future of
+this society, ten or twenty years ahead, you can't deny the
+inevitability of this gap increasing, of greater inequality
+between th few on the top and the many on the bottom. You can see
+it already happening among women. And that's why I can't be
+optimistic about the women's movement either. Women just can no
+longer be looked at as a group that shares the same basic
+interests. There's already a big gap between successful women and
+the mass of women. And you can see it growing...</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000>  So what keeps you going?</FONT><P>
+
+<BLOCKQUOTE><STRONG>CU:</STRONG>  In Japanese we have an expression "Daihikan ni shorakkan". It
+means a small optimism within a large pessimism. I think it's the
+way most activists are now living. If you look clearly at the
+future of this society or this system, well, it appears almost
+hopeless. But if you want to keep up your energy and activity in
+the movement you have to be optimistic in the short run, no
+matter how bad it looks down the line.  We all need hope to
+survive and enjoy our days, and often short term hope is enough,
+especially when it's all you've got...</BLOCKQUOTE><P></FONT>
+
+
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A> | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HER THYSELF,  VISIT:<BR> <A HREF="http://www.nichibei.org/je/steslicke.html" >CHIZUKO UENO</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}kyoto/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default KyotoCueno;

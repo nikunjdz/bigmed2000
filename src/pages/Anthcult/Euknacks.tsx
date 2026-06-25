@@ -1,0 +1,215 @@
+import { useEffect } from "react";
+
+const AnthcultEuknacks = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
+<STRONG> <FONT  SIZE=4 COLOR=#000055>COMMON POLLUTANTS  UNDERMINE MASCULINITY</font><br>
+
+New Dimensions in Desk People</STRONG><BR>
+
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
+<table width="550" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td><strong>
+<b><i>
+<font size="+1">SCIENCE NEWS</font><br>
+
+
+The Weekly Newsmagazine of Science</i></b></p>
+
+<p><font color="#CC0000"><b>Volume 155, Number 14 (April 3, 1999)</b></font></p>
+
+
+
+<font face="Arial, Helvetica, sans-serif" size="2">
+<p><font size="3"><b><B style="color:black;background-color:#ffff66"></B></b></font><a href="#References"><img src="${BASE_URL}sn_gifs/rball.gif" width="18" height="18" alt="References" border="0"></a></p>
+
+<p><b>By J. Raloff</b></p>
+
+<p>Some widespread pesticides and chemicals in plastics can induce reproductive impairment in males, according to seven new animal studies. These compounds wreak their havoc by blocking the action of male sex hormones as they program sexual development.</p>
+<p>Phthalates, ubiquitous oily solvents that make plastics flexible, have become the most abundant synthetic chemicals in the environment. One of the new studies examines the effects of fetal exposure to either diethylhexyl phthalate (DEHP), a softening agent found in most polyvinyl chloride (PVC) products, or di(<i>n</i>-butyl) phthalate (DBP), an additive in mosquito repellents.</p>
+<p>L. Earl Gray Jr. and his colleagues at the Environmental Protection Agency in Research Triangle Park, N.C., administered the chemicals to female rats from weaning through lactation. They gave doses of 200 to 1,000 milligrams per kilogram of body weight. Then, they examined the exposed animals' offspring.</p>
+<p>
+Compared with rats whose mothers had no phthalate exposure, these offspring produced far less testosterone and exhibited a range of abnormalities. Sometimes one testicle was absent or appeared as just a sac of blood. Says Gray, &quot;We've never seen anything like this.&quot;</p>
+<p>Prenatal exposure to either phthalate also markedly reduced the size of a muscle that runs from the colon to the base of the penis. In some offspring, the epididymis, a sperm-storing organ, was similarly just a fraction of its normal size.</p>
+<p>Gray's team catalogued these and also many abnormalities that had already been seen with compounds that block male sex hormones, or androgens. Many test animals bore classically feminine features such as permanent nipples. The data were presented at the Society of Toxicology meeting in New Orleans 2 weeks ago and in the just-released January�March issue of <i>Toxicology and Industrial Health</i>.</p>
+<p>Paul M.D. Foster and his coworkers at the Chemical Industry Institute of Toxicology in Research Triangle Park, N.C., have also been exploring the antiandrogenic effects of phthalates. At the toxicology meeting, they reported that developmental defects in males can be triggered by as little as 100 mg of DBP per kg of body weight in the mom.</p>
+<p>DBP halves testosterone production by the fetal testis, their data show. Foster says that the testis responds by making twice as many cells, a proliferation that resulted in testicular tumors after the animals became adults.</p>
+<p>Many commercial chemicals possess antiandrogenic activity. In four other papers in <i>Toxicology and Industrial Health</i>, Gray's group describes two fungicides (vinclozolin and procymidone), an herbicide (linuron), an insecticide (methoxychlor), and several other compounds that provoke various degrees of reproductive-organ abnormalities.</p>
+<p>Linuron's devastating effect had a surprising aspect. Usually, external genital abnormalities hint at disruption of internal organs. However, although few linuron-exposed offspring had external malformations, &quot;50 percent had a missing epididymis or malformed testis,&quot; Gray observes.</p>
+<p>His group also showed that exposing young male animals to an antiandrogenic pesticide just before puberty dramatically delays the maturation of their sexual organs.</p>
+<p>The doses at which all these adverse effects occurred in the rats approach the &quot;range where people are actually being exposed,&quot; says Boston physician Ted Schettler, science director of the Science and Environmental Health Network. Dialysis patients and people receiving fluids in most plastic intravenous bags get substantial exposure to DEHP, he notes. Many PVC-based teething toys also leach this phthalate.</p>
+<p>Peter L. deFur of Virginia Commonwealth University in Richmond worries, &quot;I think there is more than just a possibility that [current human] exposures to antiandrogens are having measurable health effects.&quot;</p>
+
+</font>
+
+
+<p><p>
+
+<font face="Arial, Helvetica, sans-serif" size="2">
+
+<p><b><i><a name="References">References:</a></i></b></p>
+<blockquote>
+<p>Gray Jr., E.L., <i>et al</i>. 1999. Administration of potentially antiandrogenic pesticides (procymidone, linuron, iprodione, chlozolinate, <i>p</i>, <i>p'</i>-DDE, and ketoconazole) and toxic substances (dibutyl- and diethylhexyl phthalate, PCB 169, and ethane dimethane sulphonate) during sexual differentiation produces diverse profiles of reproductive malformations in the male rat. <i>Toxicology and Industrial Health</i> 15(January-March):94.</p>
+<p>Gray Jr., E.L., <i>et al</i>. 1999. Environmental antiandrogens: Low doses of the fungicide vinclozolin alter sexual differentiation of the male rat. <i>Toxicology and Industrial Health</i> 15(January-March):48.</p>
+<p>Gray Jr., L.E., and J. Ostby. 1999. Profiles of effects of antiandrogenic pesticides and toxic substances on sex differentiation. Meeting of the Society of Toxicology. March. New Orleans.</p>
+<p>Gray Jr., E.L., <i>et al</i>. 1999. The estrogenic and antiandrogenic pesticide methoxychlor alters the reproductive tract and behavior without affecting pituitary size or LH and prolactin secretion in male rats. <i>Toxicology and Industrial Health</i> 15(January-March):37.</p>
+<p>Monosson, E. . . . and L.E. Gray Jr. 1999. Peripubertal exposure to the antiandrogenic fungicide, vinclozolin, delays puberty, inhibits the development of androgen-dependent tissues, and alters androgen receptor function in the male rat. <i>Toxicology and Industrial Health</i> 15(January-March):65.</p>
+<p>Mylchreest, E. . . . P.M.D. Foster. 1999. Dose-response for altered male reproductive development and function induced by Di(<i>n</i>-butyl) phthalate. Meeting of the Society of Toxicology. March. New Orleans.</p>
+<p>Mylchrest, E., and P.M.D. Foster. 1998. Antiandrogenic effects of Di(<i>n</i>-butyl) phthalate on male reproductive development: A nonreceptor-mediated mechanism. <i>Chemical Industry Institute of Toxicology</i> 18(September).</p>
+<p>Mylchreest, E., R.C. Cattley, and P.M.D. Foster. 1998. Male reproductive tract malformations in rats following gestational and lactational exposure to Di(<i>n</i>-butyl) phthalate: An antiandrogenic mechanism? <i>Toxicological Sciences</i> 43(May):47.</p>
+<p>Ostby, J. . . . and L.E. Gray Jr. 1999. The fungicide procymidone alters sexual differentiation in the male rat by acting as an androgen-receptor antagonist in vivo and <i>in vitro</i>. <i>Toxicology and Industrial Health</i> 15(January-March):80.</p>
+<p>Sar, M., E. Mylchreest . . . and P.M.D. Foster. 1999. Di(<i>n</i>-butyl) phthalate induces changes in morphology and androgen receptor levels in the fetal testis. Meeting of the Society of Toxicology. March. New Orleans.</p>
+<p>Shultz, V.D., E. Mylchreest, P.M.D. Foster, <i>et al</i>. 1999. Developmental analysis of gene expression in the male reproductive tract during in utero exposure to di-n-butyl phthalate. Meeting of the Society of Toxicology. March. New Orleans.</p>
+</blockquote>
+  
+<p><b><i>Further Readings:</i></b></p>
+<blockquote>
+<p>Vinyl IV bags leach toxic chemicals. Health Care Without Harm Health Alert. (Available from the Campaign for Environmentally Responsible Health Care)</p>
+<p>Di Gangi, J. 1998. Children at risk: Toxic chemicals found in vinyl children's products. Greenpeace International Report. November. (Available from Greenpeace)</p>
+<p>Hileman, B. 1998. Coalition asks U.S. to ban soft vinyl toys. <i>Chemical and Engineering News</i> 76(Nov. 30):8.</p>
+<p>Raloff, J. 1995. Newest estrogen mimics the commonest? <i>Science News</i> 148(July 15):47.</p>
+<p>Schettler, T., <i>et al</i>. 1996. Generations at risk: How environmental toxins may affect reproductive health in Massachusetts. Greater Boston Physicians for Social Responsibility (GBPSR) and the Massachusetts Public Interest Research Group (MASSPIRG) Education Fund Report. September. Available at <a href="http://www.igc.apc.org/psr/index.html">http://www.igc.apc.org/psr/index.html</a>.</p>
+<p>Tickner, J. 1999. A review of the availability of plastic substitutes for soft PVC in toys. Greenpeace International Report. February. (Available from Greenpeace)</p>
+</blockquote>
+
+<p><b><i>Sources:</i></b></p>
+<blockquote>
+<p>Campaign for Environmentally Responsible Health Care<br>
+P.O. Box 6806<br>
+Falls Church, VA  22040<br>
+E-mail: <a href="mailto:noharm@iatp.org">noharm@iatp.org</a><br>
+Web site: <a href="http://www.noharm.org">http://www.noharm.org</a></p>
+<p>Paul M.D. Foster<br>
+Chemical Industry Institute of Toxicology<br>
+P.O. Box 12137<br>
+6 Davis Drive<br>
+Research Triangle Park, NC  27709</p>
+<p>L. Earl Gray Jr.<br>
+U.S. Environmental Protection Agency<br>
+NHEERL, Mail Drop 72<br>
+Research Triangle Park, NC  27711</p>
+<p>Grenpeace<br>
+1436 U Street, N.W.<br>
+Washington, DC  20009<br>
+Web site: <a href="http://www.greenpeaceusa.org">http://www.greenpeaceusa.org</a></p>
+<p>Ted Schettler<br>
+Physicians for Social Responsibility<br>
+124 Peterborough Street, Apt. 12<br>
+Boston, MA  02215</p>
+<p>Society of Toxicology<br>
+1767 Business Center Drive<br>
+Suite 302<br>
+Reston, VA  22090</p>
+</blockquote>
+
+<p><font size="1">From <i>Science News</i>, Vol. 155, No. 14, April 3, 1999, p. 213. Copyright &copy; 1999, Science Service.</font></p>
+</font></td></tr></table>
+
+
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AnthcultEuknacks;

@@ -1,0 +1,308 @@
+import { useEffect } from "react";
+
+const MemesOrthodoc = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<div align="center"><TABLE BORDER=4 CELLPADDING=5>
+
+<TR><td><BR>
+<CENTER><IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH="600" HEIGHT=8>
+<H2>SO YOU WANT TO BE AN ORTHODOCTOR?</H2>
+<H3>Three Big Body Revelations <BR>&amp;<BR>A Little Heresy To Go</H3>
+<EM>by W.David Kubiak</EM><BR><a href="http://www.kyotojournal.org/kjback/kjback33-36.html" target="_blank">Kyoto Journal #34, 1997</a><br>
+<BR><IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH="600" HEIGHT=8></CENTER></td><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/swansunc.jpg" WIDTH=199 HEIGHT=250 BORDER=3 ALT="Keening kids at Kim Il Sung's funeral"><br>
+<div align="center">Bye bye to Ortho-Daddy...</div></TD></TR>
+</TABLE></div>
+
+
+
+<BR>
+<div align="center"><TABLE CELLPADDING=5 width=800>
+
+<TR><td>
+                                <H3><EM>"The man of belief is necessarily a dependent man. He does not belong to himself, <BR>but to the author of  the idea he believes."</EM>         Friedrich Nietzche<P>
+
+                                <EM>"A man who does not think for himself does not think at all."</EM>          Oscar Wilde<P>
+
+                                <EM>"Absence of thought is indeed a powerful factor in human affairs <BR>- statistically speaking, the most powerful."</EM>
+                                                                Hanna Arendt</H3><P><P>
+
+
+<FONT  SIZE=+1><BLOCKQUOTE>So you want to be an orthodoctor? Congratulations on a prudently authoritarian aspiration. Unlike orthography or orthodontics, orthodoctoring is a class profession. Orthodoctors are the medicine men of the social organism, and of late that is BIG medicine indeed. Formidable forebears include St. Paul, Torquemada, Goebbels, Joe McCarthy and Japan's last 18 Ministers of Education. The pay sucks (but from the plebes down below), the perks are monumental and, by convenient definition, you are always a head of the crowd. In a word, as scams go, it is invertedly macho as hell. (Hardwiring the attention of an entire people into a singular beast that unquestioningly upholds the preeminence of your ilk is no mean feat.) </BLOCKQUOTE><P>
+
+                        <H3><EM>"Power is in tearing human minds to pieces and putting <BR>them together again in new shapes of our own choosing." </EM> George Orwell</H3><P>
+
+<BLOCKQUOTE>Dr. Frankenstein had it easy. Stitching and twitching a few severed parts together was child's play compared to generating a monster social org like a Church, State or Multinational. And that's what orthodoctors essentially do - configure the psychic attention fields, the habits of mind, that animate and synchronize vast social bodies and render them agreeably servile to the current tenants in head-quarters.<P>
+
+Learning the trade - whether to conjure some august new body or just protect your ass from those now at large - is thus a perpetually provident career move. Unfortunately, the orthodoctoral fraternity (for they are overwhelmedly male if not fully masculine) are a notoriously jealous lot and white-knuckle tightfisted with their body-building secrets.<P>
+
+Lucky for you then to stumble upon this obscure page. Having narrowly escaped errant disciple-hoods in the Catholic Church, the American government, and corporate Japan, I have spirited away troves of lore which I should gladly reveal for a truly modest tariff. But we can talk business later - first a few free tastes of our orthodox bona fides.</BLOCKQUOTE><P>
+
+                <H3><EM>"For the great majority of mankind are satisfied with appearances, as though <BR>
+they were realities and are often more influenced by the things that seem <BR>than by those that are." </EM>            Niccolo Machiavelli<P></H3>
+
+<BLOCKQUOTE>Some of the best kept secrets are laid out buck naked right in your parlor dictionary, albeit low in the etymological underbrush. Consider the flagrant clarity of: <P><STRONG>or�tho�dox</STRONG> adj. 1. Upholding or adhering to accepted, traditional or established faith; or what is commonly accepted, customary. 2. Opposed to change or progress; extremely conservative -- [from Late Greek <EM>ortho</EM>-, straight, correct + <EM>doxa</EM>, opinion; see <EM><STRONG>dek</STRONG></EM>-).]<P>
+
+<STRONG> <EM>dek</EM></STRONG>-. (Important derivatives: decent, doctor, doctrine, dogma, disciple, discipline) - To take, accept. 1. Suffixed form *<EM>dek</EM>-. DECENT, from Latin <EM>decere</EM>, to be fitting ("to be acceptable"). 2. Suffixed causative form *<EM>dok-eye</EM>-. a. DOCILE, DOCTRINE, DOCTOR, from Latin <EM>docere</EM>, to teach ("<U>to cause to accept</U>"); b. DOGMATIC; ORTHODOX, from Greek <EM>dokein</EM>, to appear, seem, ("<U>to cause to accept or be accepted</U>").<P>
+
+<STRONG>he�ret�i�cal</STRONG> adj. 1. Departing from established faiths or beliefs 2. Marked by irreverence for what is accepted as sacred. [Middle English <EM>heresie</EM>, from Late Greek <EM>hairesis</EM>, a <U>choosing</U>, from <EM>haireisthai</EM>,<U> to choose</U>.]</BLOCKQUOTE><P>
+
+                                <H3><EM>"Freedom of belief is pernicious, it is nothing but the <BR>freedom to be wrong."</EM>
+                                        St. Robert Bellarmine (Italian Cardinal)</H3><P>
+
+<BLOCKQUOTE>Orthodoxy is thus the prime technology of conservatism. Technology being the application science to political or commercial ends, and the end here being indefinite retention of dominant power, orthodoxy applies science to enforce oblivious acceptance of the status quo. But how do you scientifically eradicate a people's power "to choose" and "cause them to accept" perpetual subservience to the current elite?</BLOCKQUOTE> <P>
+
+                                <P>
+                                <H3><EM>"A tyrant is always stirring up some war or other, <BR>in order that the people may require a leader." </EM>
+                                                                Plato</H3><P>
+
+<BLOCKQUOTE>Threats are obvious tools of the trade, but threats are tricky. The efficiency of a body that must individually threaten its members into line is abysmal. An orthodoctrinal threat must not just inspire a specific fear, it must conjure a nameless dread. The best threats are thus implicit, generic, and external to the hierarchy they benefit. <P>
+
+Where would the clergies of the world be without hellfire, Western military-industrial bureaucrats without communism, militant mullahs without satanic infidels, Reagan/Bush/Clinton without drugs, crime and terrorists?  Threats justify emotional appeals for individual self-sacrifice in the name of the Greater Good, which inexorably entail the sacrifice of personal rights, freedoms and liberties - "since we must single-mindedly resist this terrible scourge, you will immediately renounce any mind of your own..."<P>
+
+Such blunt tactics are fine if you are already in authority, but the challenge to a journeyman orthodoctor is innovative - how to beget a new orthodoxy within the old and insinuate your seminal influence so subtly and pervasively that the thrust of your endeavor is never noticed, let alone opposed. The occult insights empowering such seductions are threefold which, given your oath of silence, I guess I can whisper to you here: all reigning orthodoxies are invisible, yet alive and thus assailable. Let us savor these seditious profundities one by one.</BLOCKQUOTE><P>
+
+<CENTER><STRONG> <U>Orthodoxies are Invisible</U></STRONG></CENTER><P>
+
+                <H3><EM>"Let us consider, my Lords, that arbitrary Power has seldome or                         never been successfully introduced into any Country at once. It                         must be introduced by slow degrees, and as it were step by step,                        lest the people should perceive its approach."</EM>
+                                        Philip Stanhope, 4th Earl of Chesterfield</H3> <P>
+
+<BLOCKQUOTE>All the best or at least most durable orthodoxies are imperceptible from within. Their value spectra so completely suffuse their members' retinas that any discouraging word, deed or obscene fact that reflects poorly on their sacred premises is swiftly screened or filtered out. Indeed by definition, all viable orthodoxies dominate not only the content of their constituents' vision, but also its inclination. They must control who members look up to or down upon, what rules will be observed or overlooked, and how frequently their unifying symbols receive ritual re-spect and re-gard.<P>
+
+In fact, truly potent orthodoxies ordain not only the whither of outlook but all the big interrogatives of life - what you can do, where you can do it, who can say what, when you can say it, how far you can rise, how "normal" should feel, where you go when you die. But (after a few early attention-getting bloodbaths) these prescriptions must be inserted so silently and deeply in consciousness that people forget they have been pre-scripted at all.<P>
+
+Orthodox values only work when they appear, as the Japanese say, "atarimae" - normal, obvious, natural, manifestly true. Plainly, our Church/State/ Corporation is glorious; clearly, our mullahs/commissars/nobles/executives embody that great glory; and thus are obviously wiser, mightier, wealthier than we. And since their innate superiority (and a posse of goons) protect us from far worse calamities than their grandiose rule, we naturally owe them a
+life-long debt of gratitude, obedience and service. <P>
+
+Once this foundation is undisputed (i.e., all disputants are accommodated or extinct) the realm of the natural begins to flourish in the hierarchical interest: of course, Brahmins should feast first and freely rejoice in the lower castes' babes; obviously peasants/blacks/wogs should stoop and sweat for the noble lord; manifestly, thrilling nubs of tempting tissue have no place in god-fearing vaginas and must be piously excised; and naturally CEOs should earn 200 times more than their witless workers on the floor.<P>
+                      
+We can see all this must be "natural" because it (eventually) takes so very little effort to enforce. People not only embrace these values as their own, they lose capacity to conceive of life without them. (Last year when I asked my university students to visualize a world without mass media advertising, 90% confidently envisioned a paradoxical future of depression, famine, riots, war and relentless tedium.)</BLOCKQUOTE><P>
+
+<CENTER><STRONG>&lt &lt  Remedial Regress &gt;&gt</STRONG></CENTER><P>
+
+                <H3><EM>"Liberty evokes a need. Fraternity a hankering for an ideal. But equality makes a claim, <BR>offers a protest, forecasts a rebellion."</EM>
+                                                        Salvador de Madariaga</H3><P>
+
+<BLOCKQUOTE>Although you who know in your heart that Aryans, high priests or Japanese bureaucrats are intrinsically superior beings should be following the argument quite readily now, some innocents may still be wondering, "But why all the goddam secrecy?" Fair question, fast answer: without historical exception, orthodoxies exist solely to enforce and embody egregious inequalities. The social bodies they in-form are always vertically aligned - whether by caste, race, class or corporate ranking - with all those beneath the noble brow inescapably working more, owning little, deciding less, and being steeply looked down upon to boot. Since exploited inferiors regularly outnumber their exploiters by at least a factor of ten, the path to the top is always a perilous ascent which would-be head-men must scale with great force or stealth.<P>
+
+You could, theoretically, confect an egalitarian orthodoxy, but where is the profit in that? If no disproportionate benefits accrued to the founders, who would really bother? To bring such a bootless faith to fruition, you would have to defeat or defang every headquartered hierarch in the neighborhood. Given the fierce habituation of this crowd to their glitter, gold and skyscrapered grandeur, this is a messy prospect at best. Merely facing off against all the individual colonels, CEOs and bureaucrat clergy of the land would scare the equalitarian shit out of most Ghandian goo-goos, let alone confronting the corporate ferocity of their collective rile.<P>
+
+In fact, upon contemplation, it appears so self-evident that challenging the corporate crew's invulnerable power today would be so clearly, plainly and obviously futile, that we may justifiably suspect we are caught up in some vast translucent orthodoxy ourselves. For even if we do not personally inhabit either a major corporate org or recognizable hierarchy, we all still abide in a psycho-social environment that has for many intensive generations been cultured from Big Bodies, by Big Bodies, and for Big Bodies. And that ubiquitous miasma just has to affect our air, not to mention taste and vision. But if Big Body orthodoxy is so universal - especially in all the offices and appliances we consult for aid, info and entertainment - from what remove can we begin to observe it? Where do the fish go to view their water? <P>
+
+Here we should all genuflect and raise rowdy hallelujahs for macho Russo-Yankee missile envy and the graphic largesse of NASA. Even more than the great boons of Tang, Teflon and turkey in a toothpaste tube, their radiant astro-snaps of the home planet have elevated human prospects beyond belief. This potent imagery of the Earth now invites each of us to imaginatively evacuate the corporate premises and re-view our reality from a truly discerning height. And it is from such intuitive altitudes, that we descry our next great open secret:</BLOCKQUOTE><P>
+
+
+<CENTER><STRONG><U>Orthodoxies are Alive.</U></STRONG></CENTER><P>
+        <P>
+                <H3><EM>"If the co-operation of some thousands of millions of cells in our brain can produce our consciousness, a true singularity,             the idea becomes vastly more plausible that the co-operation of         humanity, or some sections of it, may determine what Comte calls a 'Great Being'."</EM>                J.B.S. Haldane</H3><P>
+
+<BLOCKQUOTE>As intimated above, an orthodoxy is not merely a static assortment of canons, codes and myths of regulation. It is above all a vital morphogenetic force field that aligns and synchronizes our beings within a hierarchical Greater Whole. Over time, these Wholes become tightly integrated entities bonded with common symbols, customs, language, etc. But the key adhesive is attention.
+Ultimately, it matters little how unified your values, myths or goals if your members don't pay any attention to them. Rapt attention, whether elicited with fear, love or fascination, is thus the vital precursor of all social synchronization and the life force that in-forms, nourishes and animates all corporate bodies.  <P>
+
+(Just think how important it is on the human level. Loss of attention entails loss of allegiance, affection, even courteous regard. Fewer people look up to you, look to you, even look at you. This can seriously debilitate an otherwise healthy person, and is absolute murder for hierarchs and Big Bodies.)<P>
+
+Whether we're talking Islam, Communism or Coca Colonialism, orthodoxies all enlarge the same way - by attracting, capturing and if necessary riveting the attention of new humans until they are obediently incorporated within the psychic membranes of the group. (True, methods do differ. Some capture their attendance with the sword, others with siren song, and still others with addictive sweets, but the finally effected Collective Beings are all huge, hierarchical and ambitiously the same.)<P>
+
+From our orbital vantage, we can look down upon the planet's history and observe quite clearly how orthodox bodies arise from natural hopes and fears, engulf millions and spread their sway across all the lands of the world. One of the most unnaturally fertile lands for these beasts appears to be modern Japan where terminal incorporation remains a fate devoutly to be wished.<P></BLOCKQUOTE>
+
+        <H3><EM>"In the Japanese pattern, the entire group becomes one functional body<BR>      with all individuals, including the managers, amalgamated into a single         entity...<BR>With group-consciousness so highly developed there is virtually <BR>       no social life outside the particular corporate body on which an <BR>   individual's life depends. Thus group participation is simple and unitary.      <BR>It follows then that each group or corporation develops a high degree of    <BR>independence and closeness, with its own internal law which is totally      binding on all members.<P>
+        Consequently, the power and influence of the group not only affects     and <BR>enters into the individual's actions; it alters even his ideas and ways         <BR>of thinking. Individual autonomy is minimized and the point where group     <BR>life ends and where private life begins no longer can be distinguished.     <BR>There are those that perceive this as a danger, an encroachment upon their  <BR>dignity and integrity as individuals; others, however, feel safer in total  <BR>group-consciousness. There seems little doubt that in Japan the latter      <BR>group is in the majority."</EM>
+                                                Dr. Chie Nakane</H3><P>
+
+<BLOCKQUOTE>Next to Japan, Inc., the happiest exemplar of social organismics has to be our ancient amigo, the slime mold. The slime mold is not a civilized beast but, for a brief and shining moment at least, it is a paragon of orthodoxy and a startling corporate parable. A typical specimen starts off as hundreds of thousands of rugged individual amoebas trysting and boogying across the forest floor. One day, however, if the good life starts to wane and the living gets un-easy, low frequency angst starts to reverberate through the population. Out of this troubled time, a leader or "founder cell" rises up and sends forth a gaseous clarion call. The masses quickly throng to its charismatic chemistry, swarm atop its bandwagon, and eventually form a micro skyscraping spire of sweaty melded bodies called a <A href="${BASE_URL}kipower/kipower1.html#grex"><EM>grex</EM></A>. This pulsing phallic collective then magically comes alive with its own esprit de corps, subordinates all individual liberties to the Will and Progress of the Greater Whole, and single-mindedly inches off toward a promised Babylon. OK, that part is civilized enough. <P>
+
+The wild part is that grex leaders keep their promises. After long but swift migrations, they bring their incorporated brethren to some auspicious eminence and expose them to the light. When a shaft finally strikes a grex from behind, it reacts with yet another miracle. Its leadership hunkers down and launches its members aloft in a glowing group gondola where each working class cell reclaims its individuality, identity and a buoyant spore parachute. They burst free, ride the wind and resume singular life in some brave new world. This final rite of passage is called fruition, and is doubly wondrous because the leaders profit not. In a truly mythic display of public spirit, they selflessly deliver their charges, re-equip them for independence, and philosophically remain behind tidying up the launch pad of liberation.</BLOCKQUOTE><P>
+
+
+                <H3><EM>"He who is firmly seated in authority soon learns to think
+                security, <BR>and not progress, the highest lesson of statecraft."</EM>
+                                                James R. Lowell</H3><P>
+
+<BLOCKQUOTE>The only visible difference between grex execs and all known orthodox leaders is the latter never willingly let go. Whatever their mandate or proclaimed purposes, once in charge of the corporate body, they get hooked on the collective's power and stubbornly resist any thoughts or behavior that might lead to its fulfillment, completion or liberation. Left to their own centripetal devices, these bodies would never stop growing, let alone dis-integrate. But luckily or otherwise, there are other ecological forces at work capable of breaking down these bodies and letting us momentarily believe anew:</BLOCKQUOTE><P>
+
+<CENTER><STRONG><U>Orthodoxies are Assailable.</U></STRONG></CENTER> <P>
+
+<BLOCKQUOTE>As living entities, orthodox hierarchies are always in some sense vulnerable. They can certainly be drowned in their dotage or strangled in the cradle, and perhaps, like the noble slime mold, even deliquesced in their prime. The most common demise to be sure is just old-fashioned rot. Witness the fall from grace of the Hopi male.</BLOCKQUOTE><P>
+
+        <H3><EM>"All political establishments die at last of swallowing their own lies."</EM>
+                                                        John Arbuthnot</H3><P>
+
+<BLOCKQUOTE>It probably took centuries of ancestral conspiration for the Hopi menfolk to mythologize their sacred realm over and above the profane visible world. Shrewdly, they declared this realm separate and superior to the land itself which they dismissively handed off (with all its attendant stoop labor) to the womenfolk and retreated to the cool, hallowed depths of their cellar kivas. From these fraternal sanctuaries, the men would patiently woo the gods with endless dances, doll play and dainty feasts while the women sweated a livelihood from the sun-scorched earth above. (The Hopi women were not stupid, however, and at least kept the land titles in their own names.) This scam worked wonders for long patriarchal generations, until craftier Christian and consumerist cults invaded the local mental environment. When these new boys on the block ran up the youth-abducting flags of cartoon bliss and unskilled orgies, the old Hopi hierarchy swiftly lost its status, students, and subservient attendance. For the Hopi OBs the first traumatic demotion arrived with the government schools which restricted their children's (compulsory) religious training to either Catholic, Mormon, Lutheran or Baptist mythologies. The final blows were delivered by television which tutored the kids in far flashier, star-studded cosmologies, and by technology which gave the women tractors, plumbing and a few free hours to mull new options. So not only were the old boys left bereft in their clubhouse kivas, they had to beg the women to co-sign their new car loans. No status with the kids, no juice at the bank, no culture of physical prowess to call their own - this is now a fallen fraternity, thirsty for stupor and high octane nepenthe.<P>
+
+Same story with the Lamas. For a thousand years they ritually craft an elegant and leisured parasitic preeminence, feeding off honeyed peasant sweat, and BAZAM! - an alien horde of flatland freeloaders swarm over the mountains, snatch their perks and rustle their chattel. The invaders excusably presumed these admirably supine peasants were now in the proper frame of mindlessness to accept any form of servitude, and if they simply stampeded the old boys out with a few militant clerks of their own, all that indolent eminence was theirs. The Chinese were pretty much right, of course. Only the downscaled monks still rattle the cage. The populace as anticipated is professionally resigned. Indeed a good number claim to be better off now, or at least sweating less to sustain their new masters. Others grudge this truth but maintain that sugar rations, sewer pipes and one-channel radios are pretty poor excuses for the extravagant Disney demons and fascinating dread the Lama crowd purveyed. (Don't get me wrong - I'm sure many peasants still sorely miss their saffron overlords. After all, Lamas told much better stories - if they ever stooped to talk to you - and had infinitely better taste in public architecture. Besides compared to marauding packs of Sino-skinhead assassins, the torpid inertia of their own bald boss men must look pretty damn nostalgic.)<P>
+
+The dotage demise is thus always quite similar and strangely pathetic. All harried hierarchs bless the day their inferiors are sufficiently subjugated to cheerfully (or at least unconsciously) render them far more than their fair share of the pie. Now they can finally stop terrorizing the poor bastards and enjoy the fruits of sovereign sloth. Unfortunately, too much slack and success tend to soften the brain and start intoxicating you with the same puerile fantasies your subjects have swallowed.<P>
+
+Then when well armed interlopers abruptly arrive, and your palms emit not thunderbolts, but clammy quivers, and your people are too beaten down to rise up in defense of their own children, let alone your abysmal rule - well, then you finally know how your bandit-raped farmers feel on a dark harvest moon. In fact, you probably feel a damn sight worse. The peasants only invested a year of sweat in their confiscated crops, while your forefathers spent bloody generations conquering, culling and cowing your now plundered herd. <P>
+
+The hacking collapse of enfeebled elder orthodoxies are thus occasionally moving, but how far more poignant the tragic murder of promising beliefs in childhood. Take the treacherous infanticide of Saul of Tarsus who as the self-styled apostle Paul indoctrinated the holy spirit right out of Christ's newborn church. </BLOCKQUOTE><P>
+
+                                <H3><EM>"Fundamentalism is the triumph of Paul over Christ."</EM>
+                                                                        Will Durant</H3><P>
+
+<BLOCKQUOTE>Consider the record. "St. Paul" implanted 17 times more words, ideas and opinions into the Bible and Christian dogma than Christ himself did. In his Acts and Epistles, read with dismay as he stifles the transformative love Christ strove to kindle by damning the body, stoking hellish fears and suffocating the women's oracular ecstasies. He rages on to persuade the faithful that Christ-consciousness was not a foretaste of what we each can and should achieve on our own, but simply an inexplicable angelic anomaly to be adored, entreated and wheedled in church. When Paul set out, the gifts of the Holy Ghost were dynamic powers - healing, exorcism, mantic vision, the gift of tongues (inspired utterance everyone could understand) - that people could personally experience and often transmit to others. When he finished they were emasculated to submissive "virtues" - meekness, humility, forbearance, the New Gift of Tongues (gibberish no one could follow) - that safely sequestered power back at the top of the pyramid. He exhorted his flocks not to try to induce the Rapture on their own, but to simply shut up, kneel down and wait ("And, hey, while We're waiting why don't We just see what We have here in your pockets...") Like most hungry hierarchs, Paul was a ruthless fund-raiser and estate developer - a prototype MBA who routinely pumped the take by lying to competitive flocks, telling each the others had given more than they to build new incarcerations for the Lord.  In short, he set out in his youth to destroy Christ's work and within a few short decades, he had built a church that gloriously succeeded. Not only did Paul make a pious mockery of every enlightened thing Christ lived, died and arose for, he got the virtual last word and absolute last laugh in the cooked book every Christian now holds holy.<P>
+
+But our real concern here is not with senile satrapies or ideological infanticide, it is with a species of corporate orthodoxy at the height of its hidden power. The Establishment-applauded "End of History" doctrine did not just hail the passing away of orthodox communism, it celebrated the death of heretical opportunity, the end of significant choice. None of the remaining ideological options are now likely to menace the primacy of the incorporated powers-that-be.<P>
+While the celebration may be somewhat premature and our current covert hierarchy may yet be exposed to the light and, ready or not, dis-integrated, they are in indisputable charge at the moment. But enough blab and theory, we shall never know until we try and the best way to learn our trade is by practising it. So for our introductory and hopefully ultimate lesson, let us try loosing a new breed of orthodoxy upon the Zeitgeist and see how it flies.</BLOCKQUOTE><P>
+
+<CENTER><STRONG>Introducing the Amaranthine Heresy <BR>- The rift that keeps on riving...</STRONG></CENTER><P>
+
+<STRONG>Step 1. Cover my butt</STRONG><P>
+
+<BLOCKQUOTE><STRONG>Liability disclaimer:</STRONG> Although we intend to plunge you through the hairy parts as briskly as possible, engendering a new orthodoxy is always a somewhat risky insemination. In their immature stages "new breeds of orthodoxy" are predictably abominated as "heresies" which would technically make each of you an "abominable heretic." Since heretics are still thesaurused up with the "dissident, apostate, schismatic, separatist, freethinking, blasphemous, sacrilegious, godless. ungodly, and unholy" crowd, this notoriety may abruptly abbreviate your dance card and badly frost lunches with Cardinal Ratzinger, your in-laws and/or Lee Kuan Yew.<P></BLOCKQUOTE>
+
+<STRONG>Step 2. Research demand in the ideational marketplace.</STRONG><P>
+
+<BLOCKQUOTE>Since people are known to hunger for heresy when the foreseeable path no longer leads upward, when ubiquitous contradictions threaten sanity and the grace stops trickling down or, often and paradoxically, when they are both perpetually stressed and chronically bored, our timing is impeccable.</BLOCKQUOTE><P>
+
+<STRONG>Step 3. Select the client whose interests you will serve.</STRONG> <P>
+
+<BLOCKQUOTE>As this is still an instructive exercise and thus a pro bono endeavor, we needn't worry about the highest bidder problem for now (although don't rule out some lucrative counteroffers as we progress).  Since pro bono denotes "for the good", we should arguably opt for the greatest good which would logically be that of the planet Herself.</BLOCKQUOTE><P>
+
+<STRONG>Step 4.  Itemize the client's grievances and identify the parties responsible. </STRONG><P>
+
+<BLOCKQUOTE>Gaian grievances might reasonably include mega-industrial purulence of the air/water/soil, deforestation, mass extinctions, toxic chancres, and a host of other painful planetic eczemas.<P>
+
+The most common pathogens of these plagues, we can't help but observe, are none other than our beloved Big Bodies, which both ravage the biosphere directly and exploit their control of schools, politics and media to program our brethren for lethally insupportable levels of consumption. </BLOCKQUOTE><P>
+
+<STRONG>Step 5. Map out strategy and lines of offense</STRONG><P>
+
+<BLOCKQUOTE>To combat the malignancies caused by Big Bodies' vast sway, anti-biotic appetites and GATT-accelerated metabolisms, we apparently have to adopt a more radical anthem than "small is beautiful" which seemed to hit all the right notes but has obviously fallen on deaf ears. Since we know that an effective heresy, like a winning political campaign, cannot contain more than 3 forceful points, where should we focus ours? <P>
+
+My best strategic intuitions are both hopeful and slimy To crash the gates to millennial glory we simply have to: a) Fruit! (publicly illuminate the dark side of perpetuated grexhood and finally trigger the Great Fruition); b) Spore! (make our media, schools and opinion leaders help us again assume the self-sufficient, compassionate and sensual individuality needed for the long flight home); and c) Celebrate! (ordain 2001 a global jubilee, a year of forgiveness, pause and sacred pleasures, which we prepare for by invoking and extending the magic of esprits de corps - but without all the hierarchical overhead. Using ancient techniques and modern communications, we should be able to evoke increasingly dramatic and well attended hours of global empathic experience that confirm our essential unity and erotic affinity to the Earth). </BLOCKQUOTE><P>
+
+<STRONG>Step 6. Confect tactics that deliver the Goods</STRONG><P>
+
+<BLOCKQUOTE>Alchemically, our strategies imply we must quickly: a) enlighten the upper chakras re the BIG problem, and propagate awareness that after a certain (smallish) point, bigness by and of itself is both baleful for our being and the dominant bane of the biosphere; b) arouse the lower chakras with calls to the atavistic animal and a ballsy campaign against corporate eunuchism and educational/industrial anesthesia; and c) slyly placebo the heart chakra open with a monthly simultaneous hour of worldwide meditation, prayer, or sensual rapture. (Placebo power guarantees that at least 10% of a population always experience an anticipated effect, which is why Judaic 10-man minions and medieval 12+-woman covens could always count on at least one divine connection. Scientifically we may thus expect that every celebration of this hour for the Earth will bring at least one in ten of us across the threshold to a powerful experience of our identity with the true Greater Whole. One in ten may seem a fragile decimal, but ten of every hundred breaking through ultimately means thousands of new voices to speak and ultimately act for the Earth. See <A href="${BASE_URL}earthour/earthour.html">"earthour.html"</A>)</BLOCKQUOTE><P>
+
+<STRONG>Step 7. Cover your butt</STRONG><P>
+
+        <H3><EM>"When bad men combine, the good must associate; otherwise they will     fall, <BR>one by one, an unpitied sacrifice in a contemptible struggle."</EM>
+                                                        Edmund Burke</H3><P>
+
+<BLOCKQUOTE>Having aligned our heresy with common sense, the pleasure principle and our best evolutionary instincts, we are obviously irresistible. In other words, we could get monstrous big extremely fast and again face mortal peril. So, to avoid enormity and the gross irony of growing into all we abhor, let us once again wildly affirm the Taoist Centrifugal Principle: <STRONG>Thou Shalt NOT Counter-Organize! </STRONG>Aggregate, associate, alchemically synergize - fine, but for Christ's sake, just don't get your shit together en masse.</BLOCKQUOTE><P>
+
+<STRONG>Step 8. Massage your media</STRONG><P>
+
+                <H3><EM>"The press, with very few exceptions, is a kept press. Kept
+                by the big corporations <BR>the way a whore is kept by a tycoon."</EM>
+                                                        Theodore Dreiser</H3><P>
+
+<BLOCKQUOTE>Admittedly this is a tough heresy to hawk in the face of corporate mass media. And local sales prospects are also a drag, with the only sympathetic outlets being video, bumpers, pamphleteers and perhaps sexy skywriting. Globally, however, propagation's a snap with the great awakening organ of the Net at our sweaty fingertips, so that's where the first heretical cascade is now loaded. You, on any other hand, are urged to concoct your own disseminative devices. Stunt, shout, rap, seditiously insinuate - anything but kneel and wait until Small Change finally comes...<P>
+
+OK, people, that's it for the freebies. If you made it this far, perceive the methods of this madness and deem its heading reasonable, pray persist - either on your own or with a few factious fellows. Those caring to conspire, collude or simply brave more orthodoctoral enigmas may find something apt or odd to do at: <A HREF="http://www.bigmed.org /">www.bigmed.org</A>...  (Fat-ass Fortune 500 flacks bidding for our soul are always welcome, too.)</BLOCKQUOTE></FONT><P>
+<P>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+</TD></TR>
+</TABLE></div>
+ <hr>
+<p>
+<HR WIDTH=300 ALIGN=center SIZE=3>
+<CENTER><A href="${BASE_URL}memes/memework.html#memelinx">Back to Memework</A> | <A href="${BASE_URL}arcmain.html">Nancho Main Archive</A></CENTER>
+<HR WIDTH=300 ALIGN=center SIZE=3>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default MemesOrthodoc;

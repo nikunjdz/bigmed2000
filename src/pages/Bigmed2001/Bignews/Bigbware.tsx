@@ -1,0 +1,232 @@
+import { useEffect } from "react";
+
+const Bigmed2001BignewsBigbware = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=75% HEIGHT=5 vspace=7><BR>
+<FONT  SIZE=5 COLOR=#000055><STRONG>B<FONT SIZE=-1>IG </FONT>B<FONT SIZE=-1>ODY</FONT> N<FONT SIZE=-1>EWS</FONT> A<FONT SIZE=-1>LERT</FONT><BR><FONT  SIZE=3>Wake Up Calls for the Rising Resistance</STRONG></FONT></FONT><BR>
+
+<IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=75% HEIGHT=5 vspace=7></CENTER>
+<P>
+<BLOCKQUOTE><BLOCKQUOTE><STRONG>
+<CENTER><FONT  SIZE=4>Announcing<BR> "<U>OUTRAGE</U>" <BR> New Targeting Software <BR>to Smart-Bomb Activists</FONT><P>Recon c/o <A HREF="mailto:morrill@pcan.org">Michael Morrill</A>, 
+PCAN</CENTER><P>
+
+This info comes from the 
+<A HREF="http://www.prwatch.org/99-Q1/outrage.html">Center for Media and Democracy</A>. 
+We've been talking about how to research Big Bodies.  Here's
+how Big Bodies research us.
+This is a sample of the kinds
+of things corporations  will be using against us in the future.  Be
+afraid.
+ Be VERY afraid.
+
+</STRONG></BLOCKQUOTE>
+<P>
+
+<CENTER>
+<IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=350 HEIGHT=5 >
+<H3>Mad as Hell? <BR>This Program May Have
+Your Number</H3>
+<P>
+by Bob Burton<BR>
+<IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=350 HEIGHT=5 vspace=7></CENTER>
+<P><STRONG>
+ Is ToxicSludgeCo trying to build in your neighborhood? Are you and your
+neighbors swarming like angry bees to attack and drive away the intruder?
+If so, you may be have become a blip on someone's "Outrage" meter.
+<P>
+"Outrage" is a software package based on Peter Sandman's risk
+communications theories. As the name suggests, it is designed to assist
+companies in "predicting and managing" the anger of "stakeholders"
+affected by corporate actions.
+<P>
+Like many PR consultants, Sandman says he is working to make corporations
+more open and accountable. His theories about "outrage" can be used, he
+says, both to help companies reduce community anger and to mobilize
+activism for improvements in public health.
+<P>
+A glance at the software, however, suggests where its loyalties lie. A
+demo version for Windows is downloadable at <www.qest.com.au. If you
+want the real thing, though, it sells for \$3,000 a copy (\$36,000 for a
+national corporate license, or \$48,000 for a worldwide license).
+<P>
+Obviously, these prices were not set with grassroots community groups in
+mind. Corporations with deep pockets are Sandman's primary market, and
+the demo package is tailored to appeal to that audience.
+<P>
+The demo offers a hypothetical sample "situation definition" which lays
+out the following scenario: "Our factory in the South Side neighborhood
+has long had visible air emissions, sometimes very thick. The poor,
+minority residents, with whom we have very little relationship, recently
+began organizing to do something about the problem, maybe even shut us
+down."
+<P>
+The demo then leads users through the steps needed to track and
+categorize people as allies, neutrals, or opponents. Among the sample
+"opponents," it lists names including "S.S. Latino Assn.," "Mrs.
+Charles," "City Air Quality Board," "Sierra Club," "Greenpeace," "South
+Side Elementary School" and "nearest neighbors."
+<P>
+<U>Computing Power</U><P>
+
+"For obvious reasons, we are also interested in how much power each
+important stakeholder can bring to bear," the software explains.
+<P>
+Sandman's strategy relies on a fairly crude but undoubtedly effective
+formula which invites PR managers to map the overlap between "passion"
+and "power" among stakeholders. Depending on how they rank in these two
+areas, the company can choose one of four strategies: "deflect, defer,
+dismiss, or defeat."<P>
+
+Stakeholders with power but no passion should be "deflected." Distract
+them, change the subject, or just wait them out until their attention
+wanders elsewhere.<P>
+
+People with passion but no power, on the other hand, can be "defeated."
+Sure they care, but can they do anything about it? And people with
+neither passion nor power are easier still. Just "dismiss" them.
+<P>
+The one occasion when Sandman says real reform is necessary is when
+dealing with people who have both high passion and high power. Those
+people he says, are "a force to reckon with," and the company will
+eventually have to "defer" to their demands--"one way or another, to one
+extent or another."
+<P>
+The "Outrage" software is marketed by the Qest Consulting Group, an
+Australia-based joint venture between Sandman and the global
+environmental consulting firm Dames and Moore. The Australian launch of
+the software included a panel discussion at which community activist
+Colleen Heartland was invited to participate as a representative of the
+Hazardous Materials Action Group (HAZMAG).<P>
+
+HAZMAG, a local activist group in Melbourne, Australia, was formed after
+a series of chemical plant fires in the area. More recently, it has
+worked to organize area residents affected by a massive explosion that
+destroyed much of the Coode Island chemical plant and sent a toxic plume
+across Melbourne.<P>
+
+"The more I sat through the presentation, the more worried I became,"
+Heartland said after the demonstration of Sandman's software. "The
+program is very, very sophisticated and based on the assumption that
+working with the company can be effective and the company can be
+trusted," she said. "From my practical experience neither assumption is
+true."
+<P>
+Heartland said she "found the concept behind the software frightening. No
+longer are we up against PR people just trying to be nice to us, but they
+are being quite systematic in analysing activists to make sure they get
+their way."
+<P>
+This sample screen from the demo version of Peter Sandman's "Outrage"
+software invites users to "list your opponents -- declared opponents and
+potential opponents. This is the group we're going to analyze further, so
+don't stint on your list."
+</STRONG>
+</BLOCKQUOTE>
+
+
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2001BignewsBigbware;

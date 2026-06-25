@@ -1,0 +1,580 @@
+import { useEffect } from "react";
+
+const AdvisorsCooder = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<div align="center"><H4><FONT  COLOR=#400000><EM>The Nancho Consultations</EM></FONT></H4></div>
+
+<div align="center"><TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Ry Cooder </CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<IMG SRC="${BASE_URL}advisors/graphics/cooder.jpg" WIDTH=113 HEIGHT=150  HSPACE=15 VSPACE=5 BORDER=3  ALT="Dr. C"><BR>
+</TD></TR>
+</TABLE></div>
+<BR><BR>
+
+
+
+
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6></div><<P>
+
+<!----******************************************MAIN TEXT******************************************-->
+<BLOCKQUOTE>Fretboard legend, Ry Cooder visited Japan in 1994 as part of the The Great Musical Experience, a "high concept" extravaganza which used Nara's grand Todaiji temple as a globally broadcast, laser lit backdrop for Dylan, monk choirs, the Chieftans, Bon Jovi, Joni Mitchell, Okinawan funk, 3-meter taiko drums, Osaka glam-rockers et exceedingly incongruous alii. Though the result was far less than the sum of the parts, Cooder immediately homed in on the improvisational virtuosos among the Okinawans, Chieftans, and local rockers, creating the most memorable music of the event far from the stage, cameras or public performance schedule. Cooder's shamanic collusion approach to music  (e.g., <A HREF="https://www.youtube.com/watch?v=6Lnys8R2fXk" target="_blank">A Meeting by the River</A>) greatly inspired us and the whole <A HREF="http://udaipurshaktiworks.com/index.php/kyoto-coven-works-enchantment-works-48"  target="_blank">Kyoto Coven Works</A> project, and offers perhaps our last, best antidote to the sensual anaesthesia of corporate MTV.</BLOCKQUOTE>
+
+<CENTER><H3>- <EM>Full Transcript</EM> -</H3></CENTER>
+
+<CENTER><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR><center> 
+<table width="85%"> <tr> <td> 
+
+<STRONG><FONT  COLOR=#400000><STRONG>Nancho</STRONG>:  Well, sire, having been so blessed with curiosity, success and virtuosity, when you
+reflect on your gifts, what do you see?</FONT></STRONG><P>
+
+<BLOCKQUOTE>  <STRONG>Ry Cooder</STRONG>:  Well, I don't reflect on gifts because it doesn't seem
+possible for a person to reflect...I don't know about that. You can
+but I can't. See, all I can say is that today I'm here, you know and
+I have to eat my breakfast and I have to talk to you and then I have
+to get in a car and go see some Buddhist statue. So, you have a
+series of little events leading to something we hope, you know.
+Sometimes it's a good thing, sometimes it's a little weird. </p><p>So, what
+it amounts to for me, so far, it's just that the instrument was
+given to me to do, you know, when I was pretty young. Four years
+old. A man came, gave me a guitar and
+said, "here, play this." And he seemed to know something. And I did.
+I just took it up and played it and have ever since. So, sometimes I
+get a sense of where things are going and sometimes I don't. You
+know because the phone rings or somebody asks you to do something or
+you get an impulse to go somewhere and do something, but there are a
+lot of distractions and a lot of impediments, and you just
+have to live through all that. </p><p>So to reflect means that you're
+maybe in some high place looking down and you have a minute. And I
+don't generally seem to be able to do that. I'd like to. I might
+learn something. But I seem to be always kind of shuffling along.
+You have to make
+time to reflect.</BLOCKQUOTE>  </p><P>
+
+<STRONG><FONT  COLOR=#400000>  When you received that guitar at the age of four, what do
+you think the person who gave it to you saw in you?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:   What had happened was I had injured myself. I had blinded
+myself in this eye with a knife by mistake. You know, a kid will
+make mistakes, you know. And I was despondent, I was four-years-old,
+I was scared to death, you know, I think. I can't remember exactly.
+But I have a sense that it was terrifying and I was afraid and I
+didn't know what to do, you know, because a kid is an energy machine
+and just running towards everything. Then if something happens you
+put on the brakes and you say, "whoa, something is wrong here with
+this. There's danger out there."  So what I used to do generally was
+sit in a room and listen to records and that seemed good. I liked
+it, I could understand it and it made me feel good 'cause music is
+healing and it's soothing and it's lots of things - it's spatial and
+it's pictorial. So if you're not going to run into the world and
+jump into it for some reason at age four, I guess you have to get
+your information some other way. So there's a lot of information in
+music to be gleaned out and there's a lot of story and all that. And
+this man was a violinist, a concert violinist, a friend of my
+parents and he just said, "here." And I didn't know what it was. How
+do I know?  A little guitar, four strings, it was about yay big. I
+still have it. And he presented it. I was lying in bed and he put it
+on my stomach and strummed this chord so the box vibrates and you
+think, "oh, I can do this. Somehow this is for me to do."  You know,
+your little four-year-old mind. So, at that time it was just a good
+thing and a way of seeing, a way of learning or just being safe. 
+
+<P>Now
+I can see that.Then I thought, I thought, well,
+what got me into this? ' Cause I really don't like all the 'ladies and
+gentlemen,' routine, and when
+I'm out there on that stage in front of that poor abused temple
+(Todaiji) and we're
+sitting there and playing and I'm thinking, "well, I'm really not so sure about this and I feel stupid, but let's see
+if I can't find something to do out there. And maybe I'll play a note or two
+that...just for a moment you have this sense, this little sweet
+sense of 'yes, there it is.'" Well, I'm feeling so stupid. And then I'm feeling,
+"well, it's not possible." 
+
+<P>I remember the first night, the shock after the rehearsals which were
+really fun because rehearsals are always fun because they're just
+exploring, you know.  But the shock of the
+horror of the realization on that stage that first night was almost
+too much for me. And I thought again, a little voice in my mind
+said, "Quit. Get out. Go be a gardener. Go look at pebbles." Because
+I hear that and there's a call to do that a lot. And I haven't played
+much music in the last year and I've been thinking, "Maybe this is
+all wrong."  
+
+<P>So I'm looking around
+and I look back and see this building with this strobe light trip
+flashing and I going, "No. Yes and no, you know." So I just think
+what they always have said. I've read a lot about musicians and read
+a lot of life stories and they all say the same thing, you know,
+"just keep playing, keep in practice, and you go through
+periods." As far as reflecting is concerned, it's not so easy when
+you're standing up on the stage and you know it's wrong. </BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  Well,  here you are 
+in Japan right now with Bob Dylan,
+Joni Mitchell and a bewildering assortment of musicians to participate in
+the Great Musical Experience. So, your assessment of what is
+happening is that it's possibly not as great as you had expected?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Well, we all know these things are kind of a gamble you take
+but I really must say that it's a scandal and a shame.  Do you know
+that the head monk for music  here is resigning because of this thing. It
+comes to that. He's personally in disgrace he thinks, 'cause there's
+no hierarchy that says, 'you're fired." They don't operate that way.
+So, I mean, I would probably quit, too. I would say, "okay, we were told this ...but it's such
+a different deal."</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  Well, what were you told? What did you expect?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Well, we expected that...we were told, preached at even, this is going to be a serious attempt to
+unify the nature of the site, the temple, the religion, the monks,
+the Japanese culture, wherever you can find it anymore.
+Maybe that's where you find it.  You find it somewhere in the air
+around the idea of these places. They're relics but still
+there's something there. And there's some great musicians in Japan,
+but of course, hardly any of them are here. 
+
+<P>But they said, 'you
+come.' And I'm standing there in New York City with the Chieftains.
+"And you, the Irish, the soul of the Irish, the old sod and you, the
+guitar player with all this experience...yadayadayada." So I look at
+the pictures and I hear the preach and I go thinking, "well, actually, you
+know, even if nothing happens, it's still an interesting place. I like going there. And we'll be together." And I say to Paddy
+Maloney, 'right, Paddy, you know, it's fun, huh?'" "Oh, it's grand.
+It's terrific," he goes. All right, whatever. Then you think, "well,
+let's see how it develops." 
+
+<P>And one thing leads to another and the
+next thing I hear, Joni Mitchell. Good. Bob Dylan. Well, good. We're
+all old timers and we understand.  And if
+these people seriously mean to do this, we know how to do it. I
+know that the Chieftains and the Okinawans can play together. In
+reality it is a good idea. It's not just something that you catered
+and phoned up for, you know. It's not theme park. It's real. It can
+be. It just takes a little doing. But we've got almost two weeks to
+rehearse and practice and that ought to be enough. I'm an old hand
+at this kind of stuff. Listen, I'm doing this a long time. The
+Chieftains, a real long time. So, we'll march into it. Best foot
+forward and then we hit the deck running at the rehearsals and I see
+all the musicians and this insane collection of people with the
+Chinese orchestra and stuff. And I'm thinking, "well, is there any
+room, you know, do they have any real room for us to do this kind of
+exploration or is this just going to be a list, a running order?" </p><P>
+     Then they add the rock guys in, which I kind of
+thought they would keep in a different place. We would do our thing,
+then they would focus on that. You know  to please
+everybody you have to sell this thing and you have to package it.
+Like TV has a certain level of mass taste that must be served. I
+don't mind that at all. But somehow you get to the thing, and it just feels like this fascist operation, jack boots up
+the stairway. Then I'm thinking, "oy, I hate and fear this because
+it fills me with dread and I think, 'oy, I've done it again, you
+know. I'm in the wrong place."</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  Why do you think the 
+producer of this thing had to go back so far, you know...Ry Cooder,
+Joni Mitchell, Bob Dylan, the Chieftains...I mean, most of the
+western musicians represented here have been in the
+business for 30 years or so. What does that say about contemporary
+music today that he had to reach so far back?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Well, I don't begin to understand his true motivations and his
+true agenda, which I only see signs of. Because he and I are not
+speaking of such things naturally; don't even need to. But, I mean,
+the point is, I guess, he had to have an element here that would be
+credible in this theory. We had a press conference. We all sat in a
+big semi-circle and talked church about how it was going to be. We
+sat there and talked and talked on about it; it went on and on at
+great length - real preachy. So in order to do this, you can talk
+all you want to about people getting together and music getting together and all this but it takes some knowledge - that tale requires some knowledge. <P>
+     Now, those of us who grew up in folk music as an idea, you
+know, say 50s and 60s, and know what that means in a situation where
+you're given a kind of puzzle to solve - you look around, you listen
+and say, "I've done this before. I can do it now. I know what
+works."  The kids today, the younger people, have pretty much
+grown up in a different time where it's not so handworked, you know.
+So, that the thing is that it's packaged. Like this country is the
+shining example - it's the ultimate package. And the package is
+always first. And you look at it and you say, "Okay, I hit a foot
+pedal, I have this purple graphite guitar and I make a sound." But
+in order to really fill that out and flesh that out - it's haircut
+and it's suit and it's whatever else. We know what that is - it's a
+package. </p>
+
+<P>But to really sit down with your instrument and really move
+the air, you have to be in touch with some simple thing that comes
+from another time, I guess. So, somewhere along the line this
+ancient thread of sound hits the package era. I don't fully
+understand that except that's the way it is. It's still out there.
+We can still do it. We can still ring in. </BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  Well, what do you think was so special about that era that you
+came of age in?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Well, I don't know. I think it was the tail end of everything,
+that's what I think. See because there was this hope in that the war
+had been fought and that people were going to get together - 
+all the leftwing thinkers and all the utopian thinkers. You
+know,  we were going to do this somehow by singing. Pete Seeger
+said it alot, he used to say "if we all sing 'We
+Shall Overcome' in 'G', it will happen." That's that theory - you know,
+visualize a thing and it becomes a fact. So, then a lot of things
+happened along the way and it didn't quite work out that way, except
+that all of a sudden now, I can't help but see that people are
+turning some attention to these ideas again. The era is different
+now. But we went through this doldrum period, see. I can't explain
+it. I don't know. All I know is that I used to sit around with older
+guys and they would play and we would play and I learned a lot of
+music, you see.  Then I began to think that it was all useless. Rock and roll is dead now, you know, in an essential sense.  Not to
+the people who love "X (Japan)" but these bands are just disposable, throway
+fountain pens anyhow. But real rock and roll is dead, it's long
+dead. And because of that people are going to have to start
+listening to other things, you know, and they're going to have to go
+somewhere else for their vibe. So, some of us older folk, we
+know that, we recognize that.</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  So, what do you want to do with the rest of your life? </FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>: Well, I'm not a rock player anyhow, so I'm not bothered
+by that. It doesn't hurt me. In fact, it opens up the air a little
+bit for someone who's doing something different. I did this record
+with this Indian man. A guy from Rajasthan who's a raga player.
+It's quite something. He's a guitar player.
+He's a Brahman class guy; trained from childhood, high technician.</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  Who's this gentleman?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  His name is Vishwa Mohan Bhatt and he plays a guitar that he
+made with a sitar neck and he plays it flat  like a
+Hawaiian. But he plays all the classical repertoire on this thing.
+Unbelievable. Truly. So, I sat down with him, we recorded in a
+church, directly with a DAT tape recorder and me just basically trying
+to keep up with him. But he's really good. And it's really soft and
+it's real like searching and good. Not jive but actually good and
+not silly. And I put this on a little label, and boy, people just
+couldn't buy enough of them. <P>
+     Wonderful to feel...the feeling of the little search, the
+little quest that you do means something now, goddamit, you're not
+just cloning yourself, repeating yourself or living in some sort of
+toxic dream of endless cliches. I'm so tired of all that, people are
+probably tired of it by now. And rock is dead. And black music is
+dead. What are they gonna do? You can't get off anymore by turning a
+radio on. And James Brown is not with us now, more or less. And
+that's just not a vital thing right now. </p>
+
+<P>But there's a lot of music
+in the world that's incredible now - Africa, a whole cooking
+thing. Now, that's gonna be the place. Mandela, he's just starting
+up. So, all this energy is gonna start being released from that
+continent. It's gonna be incredible, I think.  I heard this guy from
+North Vietnam, a blind guitar player who lives in Hanoi. Whoa! I
+say, "Follow that. Go find that guy and just sit there with him and
+have an experience." So, I guess what I'm gonna do now at age 47 or
+so, I'm just going to hang out. </BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000> You did an album with Robin Williams back at the end of the 80s
+for children - Pecos Bill. What was the purpose of that? Were you
+trying to turn on a new generation?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  No, I just got a phone call. A guy called who does these
+children's packages, a sharp character and he said that,"Robin will
+do the text. Do I want to do the music?" And I said, "sure." He sent
+me the narration, I took two days, I did it. We got a grammy for it.
+Those kinds of jobs and those kinds of things that you do are like
+the little task events, you know, that you just stay up with. And if
+in one week, somebody says, "do you want to go do this, this, this?"
+I say, "I've got time for this one here." You can't do
+everything. But the Robin Williams thing, at least you know you'll
+enjoy it - cowboys and all that stuff.</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000> But why has so little been done relatively, creatively for
+children?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Well, because people haven't seen any money in it and there was
+no market. It was hard to market, it was hard to sell it. Then this guy who does Pecos Bill, he saw that he could connect with the mail
+order business, he saw that he could connect with the yuppies who like
+packaging, who want their children to grow up in a beautiful world
+where actors and actresses are charming and do good readings and
+exciting musicians do the music and we can all listen and have a
+'quality time,' and all that bullshit, which I think is stupid,
+except that that one is good because it's too funny. You know, 
+Robin Williams is just too funny. You have to love it. 
+<P>
+And then we got our Grammy. And that's a fine thing. You
+know, Grammy's "church." Also got a Grammy for this Indian record.
+Can you believe it?  Here's the high church, the very high church
+of the music business. And there's me and Vishwa Mohan Bhatt standing on
+stage for this weird little Indian record that we made in four
+hours. So, I'm thinking, "Well, times have changed. People want
+something else." The Grammy simply reflects that - the prize.
+Wherever the prize is being bestowed is a mark, it's a benchmark for
+where we all are; at least, in the Western scene.</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000> Well, you appeared with your first group and  your
+first solo album back in l970,  establishing you at the age of 23 as
+one of the finest fingerpickers of the generation. But if you knew then, what you know now, how different would be your
+entry into the music industry?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Well, I knew then what I know now. I was doing sessions and
+stuff and suddenly, you know, in a couple of years, I learned that
+there was this great big umbrella of business, and records were made
+in a certain way. And as a player, all of the musicians I had known
+prior to that time were folk players who were poor and had short
+life spans and it was kind of rough. 
+<P>
+But they didn't care because
+they had a calling and this was all that they could do. And at least
+it beat chopping cotton or working in a factory and they had a gift
+and they went out and simply pursued it and without too much
+question. "You want me there, I'll go there." That's the musicians'
+response generally - "where do you want me?" What else can a
+musician do? And in the times past they didn't have much choice -
+either somebody hired you or they didn't or you starved or you died
+in a hotel room. It was terrible. But this folk thing opened it up.
+A lot of people came flooding in that I'd heard on record and that I
+had seen only or heard about. And looking and spending time with
+these people, and they're wonderful people and beautiful, and I saw
+that there's a whole world out there and, in America especially, so
+much variety and so much experience. 
+<P>
+So, then I got to doing these
+records and I realized that you could actually do this for a living;
+people would actually pay you to play and you could
+have fun and learn. We could learn, you know, get better. And I saw
+that the job is to learn more, play with more people, get
+experience. And then using these people I had known as an example of
+what you could sound like: you see, Louis Armstrong was born great,
+I guess, but he had to learn, too. And you could hear him getting
+better as the years went on if you listen to those records, just as
+an example. So, there's a great attainment. It's just this
+path and you just walk down and you keep learning your instrument.
+Now that's great. That means you're never going to be bored. You're
+never going to not have something to do. You just keep doing it.</p><P>
+
+Miles Davis never really learned the instrument. He just kept trying
+to get it right. Living in LA, the beauty of that was that someone
+would pay you to do it. Living in Mississipi,  a) you're lucky to be
+alive, b) you're lucky not to be shot for playing music and maybe
+some folk guy hires you to come out to Hollywood. But living in LA
+anything is possible such as me, me getting a job at age 15 to play
+and record and what the hell it's not so bad. But what I liked
+nobody was really interested in so I had to learn how to do other
+things. But I could sneak my stuff in and I thought, "well, this will
+just take a while."</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000>  Why are musicians getting paid these astronomical fees these
+days?</FONT></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Because there's astronomical money that the other people are
+earning. And as my friend, Jim Keltner said the other night, as we
+looked upon the scene up here, he said, "well, if you['re gonna be
+humiliated and degraded like this, you really need to get paid, you
+need to get paid a lot. There's so much money on the table. This
+thing cost so much and the greed is so rampant. And we;'re just
+cotton pickers and food coloring up there." 
+    <P>So, I'm thinking, well,
+I'm not surprised. I'm  not even unhappy about it, I'm
+just a little wary of the whole thing. The secret time that you
+have like with your pals in rehearsal - there was some great stuff
+going on that you knew was not going to happen in the show. It just
+wasn't going to happen. But you make do. </p>
+        <P>You have these happy little
+times - maybe a few minutes, maybe an hour - me and the Okinawans
+and the Irish got into a room and just wailed and stomped. No
+cameras, no microphones. That should have been cut on DAT. My god,
+it was incredible. It was really something - it was like new Asian
+trance dance music. It was beautiful. Just to feel that happening
+just one damn time. and the room was starting to pump and I thought
+well, dig it because you don't have much else. So, I'm happy I'm
+here now.</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000> Is there any kind of formula to make that magic happen.</FONT></STRONG><P>  
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  Yes, there is. You have to have an intention that says, "we
+could approach this different." But it can't be hierarchy and it
+can't be fascist. It has to be musician oriented and really given
+space. Bob Dylan asked, "why do they hate us?" That's his comment.
+Well, what's the matter? We can all really play good. We can play
+great and people would love it, too. They wouldn't scream for the
+heavy metal guys if they saw something really going on on stage.
+    <P>
+Yeah, the formula is get into it. Let us sit up there on stage, just
+relax and let's get into it. Us oldtimers, we  really know how to do
+that. We could run a rehearsal on stage - it wouldn't look like
+quick cut, go to the house, take a commercial break. But I'm telling
+you that it would be fascinating. And I tried to do some of that in
+rehearsal, some of us were trying to do that in rehearsal, but there
+just wasn't an opportunity to let it loose on stage. </p>
+        <P>So, it just means
+that the big things - you avoid them, maybe. But if you avoid the big
+things you might miss something good. If I hadn't taken this job...I
+had all kinds of experiences in the last two weeks that I wouldn't
+have had. So, I can't say I'm sorry. I'm just tired. But the formula
+is just play the music. Don't play for the TV cameras. Jesus, just give us a shot. It's just hard because commerce and
+business brought us here.</BLOCKQUOTE>  <P>
+
+<STRONG><FONT  COLOR=#400000> The big record companies have kind of sabotaged the whole music
+scene. Pumping out the same sort of thing throughout the world.</FONT></STRONG></STRONG>  <P>
+
+<BLOCKQUOTE>  <STRONG>RC</STRONG>:  But little labels have come up now. That's the beauty of
+them. Because the majors went that way and have now ascended into
+some sort of air where no one wants to journey any more. It took the
+music far from the listener. The little label comes along and brings
+the music back. They always have. The independents in the '50s did
+that with rhythm and blues. You were close to those records - you
+could hold them in your hand and say, "I'm closer here than I am to
+a Capitol release somehow." It's a closer experience, more familiar,
+more real, more like the proximity. That;'s what's going on now. And
+that CD thing, little as I like CDs sonically, they have made it
+possible for anybody to make their own record; and all you have to
+do is go get one of these things and you really can feel closer.<P>
+That's why they like this thing I do with the Indian guy - it's not
+corporate. So the corporation tends to so heavily process everything
+that it's remote and the little label comes in and says, "we are
+able to draw the listener closer to the musical experience they
+want." People respond gladly. They say, "yeah, I want
+to have that experience. " Christ, that's what music is. We don't
+experience on the village level any more much - the beauty of
+sitting under a tree with somebody or some people - that's the music
+experience. Now, we have to have it on tape or radio, TV, CD. But
+somehow you can still feel that everybody wants to be closer, get
+closer. And that's the job to do - that's the way to handle it if
+you can do it that way. It's just that you can't do it with
+bodyguards and helicopters and laminated passes and shit like that. <P><CENTER>- End - </CENTER></FONT><P><FONT  SIZE=-1>Interviewed by: W. David Kubiak<br> <br>initially for excerpted release in <br>Tokyo's ALC Publications</FONT></BLOCKQUOTE>  
+
+</td></tr></table></center>
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsCooder;

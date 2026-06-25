@@ -1,0 +1,306 @@
+import { useEffect } from "react";
+
+const TantraTantween = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER><EM><U>TANTRA FOR TERRA EROTICA I</U></EM></CENTER>
+<BR><BR>
+<TABLE BORDER=4 CELLPADDING=3 HSPACE=30 ALIGN=LEFT>
+<CAPTION ALIGN=bottom>Erotic Armature</CAPTION>
+<TR><TD><IMG SRC="${BASE_URL}graph/grbigkis.jpg" WIDTH=207 HEIGHT=258 ALT="KISS by Joel Grey"></TD></TR>
+</TABLE>
+
+
+<BR><BR><BR>
+<CENTER><IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=75%  HEIGHT=4><BR><BR>
+
+<FONT  COLOR=#D70000><H2> <U>SONG TO OMEGA</U></H2>
+<H2> Epiphany & the Torrents of Tween</H2></FONT>
+                    
+<FONT  SIZE=0> <EM>by W. DAVID KUBIAK</EM></FONT><P>  
+<IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=75%  HEIGHT=4><BR><BR>                                         
+<P><BR>
+<FONT  SIZE=+1><STRONG>"Love is the subtlest <BR>form of self-interest."</STRONG>
+<P><P></CENTER><BR><BR><BR><BR>
+
+<TABLE>
+<TR><TD><IMG SRC="${BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<FONT  SIZE=4>
+     <STRONG>The alchemy started quietly</STRONG>, just a tremor at first - slow
+silver flames dancing toward the body's surface, without apparent
+rhythm or strength or sensual intent. Was it the drum that finally
+called them or the pollen spume from the climaxing hills or, more
+lovely to contemplate, the scent rising from the moonlight at her
+breasts?<P>
+
+<P>
+     Her fingers trembled and listened, but the glow was too pale,
+too tentative, the source too shadowed beneath the quickening skin
+to reach out to. Gradually gathering strength it mounted forays. One
+moment, a delicate throbbing - small bright firefly pulses in the
+neural vines entwining her rectum. Now, a curving thrill rising from
+the white, shadowed fold below the spine, cresting through the womb,
+breaking into hidden rainbows that filled her belly with heat and
+color. Or, and most often, a slow warm vortex cycling deep within
+the pelvic cradle.
+     She only knew that somewhere down in secret flesh beneath the
+umbilical cave, behind the sweat-pearled tangles of maiden hair, she
+was being touched, tasted, visited.<P>
+     "It's beginning. And I can't..." She tried to continue but when
+the tonsils flushed and melted with a taste like hazelnut nectar,
+her tongue deserted the effort, arching back greedily into the
+sweetness. "I know," she murmured, rising to kiss the rocking
+shoulders. "Shakti's back in town."<P>
+     She paused to don a black gospel baritone, "an' she be lookin'
+for trouble!" In the candled mirror she saw the mirth rise in the
+eyes behind her full seconds before it billowed warm and throaty
+through her hair. <P>
+     As the laugh leaped between them, her mouth, still awash with
+the rich honey brine, spewed it forth, setting the altar flames
+jumping and hissing in the staccato mists. She wiped her lips slowly
+with the silk bandana knotted at her wrist and felt quite giddy and
+shy.
+</FONT>
+</TD></TR>
+</TABLE>
+<TABLE>
+<TR><TD><IMG SRC="${BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<FONT  SIZE=4>
+     They still were not completely relaxed together. In some ways
+they barely knew each other, barely knew what they were attempting
+in the first place. Neither had ever given much credence to the
+goddess cult nonsense or militant lesbian spiels on primal sister
+power. In fact, the very word 'lesbian' was a threat to the work.
+they shared a visceral aversion to the stereotype and exiled it from
+thought and conversation as a dangerous distraction. Neither had
+ever slept with another woman before this and when it was finished
+both doubted they ever would again. They calmly accepted the
+enterprise, the whole relationship, as anomalous, outside the bounds
+of conventional sense. Their very cells were conspiring at a furious
+level of intimacy and yet as people, outside the ritual, they were
+just new, awkward friends. Once, trying to verbalize what they
+shared they broke into old Mafia parodies - "Nothin' personal now,
+Vito baby, dis is strickly business..." Emotionally, though, they
+really wanted to keep it there, cool and tough, in the impersonal
+intensity of working professionals. It still was not easy.<P>
+     When first introduced at an artist friend's party, both had felt more
+avoidance than attraction in the encounter, and were surprised to
+find themselves so open and willing to talk when next they met.
+     Caught unprotected in a squalling May shower, they collided wet
+and cold on a backstreet corner. Swapping quick bedraggled smiles,
+she gestured ahead to a sheltering doorway. They sat in the crowded
+cafe mildly cursing the afternoon rain and offering up details of
+their lives. They had both dabbled for years in yoga, experienced
+psychedelics, fallen in love with the body and a lot of hot music.
+They had difficult families, liked dark wiry men. Both were
+quasi-religious. One worshipped Lord Buckley. The other's bedroom
+door rajneeshed in orange: "Everything You Know is Fucked!" Enough
+in common for easy camaraderie. What they weren't prepared for was
+the chemistry.<P>
+     After barely an hour of confessional compare and contrast, each
+found herself helplessly staring at the other's nose. Their nostrils
+were flaring like a ferret's in a sausage shop. They were sniffing
+each other, for Christ's sake. Their eyes double-sized in mock (and
+sincere) horror so quickly that both broke into sputtering,
+embarrassed laughter. Sobering: 
+
+<BLOCKQUOTE> "New perfume or something?"<P> "No,
+never touch the stuff. You?" <P>"No...must be the pollen, maybe. Lots
+around now." <P>"Yeah. Strange feeling though." <P>"Yeah, very, very
+weird..."</BLOCKQUOTE><P>
+     The moment passed but neither could forget the quick
+interrogative inhalations, the molecular inquiries. Each tried to
+puzzle out what had been asked, what was answered, what they had
+learned. It was not love at first whiff, they would laugh later.
+Neither recalled a seductive or even a pleasant fragrance at this
+time. In fact, neither could remember any smell at all. But
+somewhere behind the eyes, in the glistening caves where nerve
+tendrils bloom like dark anemone, quickened synapses licked the air,
+and tasted power. Hundreds passed the whisper on but most were
+quickly censored, misrouted, shunted as foolish mistakes. The few
+that eluded the nets of expectation, though, arrived with enough
+harmony to be heard. And deep in the turbulence of their genes, the
+music spread, charming asunder long latent tangles of need. New
+circuits for light, fresh channels for growth - a chance.<P>
+     "Was it me or her or some of us both that first sparked the
+alarms?" she wondered once, but quickly decided it was a pointless,
+male sort of question. What counted was that the sensation seemed
+mutual, simultaneous. Also, in some infuriatingly vague way,
+"significant." Something was recognized between them, something more
+anciently amoral than they could grasp, something that scared them
+into polite distance for most of the following year.<P><BR>
+
+<CENTER><IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=75%  HEIGHT=4></CENTER><P><BR>
+
+     The rolling explosion died away to cobweb sparkles along the
+nerves. After a long stillness she opened her eyes and rummaged
+among the lunar shadows for the hour. The soft, steady breathing
+behind her paused, "you were away..."<P>
+     The moon through the latticework now fell at her back, striping
+their bodies together with a staff of pale light. She half turned
+toward her, eyes swimming in tears. "Please don't move, " she
+whispered. Her fingertips began to play along the reclining flesh,
+tracing out octaves, searching for chords. As the touch grew attuned
+and excitation chorused back through the skin, she abandoned intent
+and let the power take control. "It was like this..."<P>
+     Again it started softly, but kindled now by her lingering fire
+it spread quickly and deep through the union. Muscles humming to
+heat, her hands picked up rhythm, urgency. Out beyond art or
+expertise, they poured through the salt wet skin till she felt her
+own touch from within the answering thrill. The feedback fused their
+being, firing her caresses with erotic assurance. Out along the
+forearms, down the clenching calves, opening lush erogenous meadows
+in the serest working class tissues. They swept hungrily across her
+nakedness, teasing and flooding the trickling meridians with
+torrential expectation.
+</FONT>
+</TD></TR>
+</TABLE>
+<TABLE>
+<TR><TD><IMG SRC="${BASE_URL}bulls/dot_clea.gif" WIDTH=1 HEIGHT=1></TD><TD>
+<FONT  SIZE=4>
+     Her body echoing arousal, she drew away and looked down at her:
+mouth open, wet with delirium, the fragile animal form liquefied and
+heaving with free energy like a storm-lit sea.<P>
+     "Bless this...our body," she breathed and threw the half that
+she still wore back into the tempest totally now, all attention on
+the loins. Lips, breasts, prayers and glistening palms poured down
+through the shadows from her cleft to the womb, soaking the ground,
+shorting out all control. Out in the thrashing extremities, lambent
+plasmas felt the drench and cry at the center, and cycloned inward
+for release.<P>
+     Pulling energy from earth and sky and memory, the first gusts
+of climax broke over them. Weeping openly and half lost to the
+ecstasy herself, she struggled to will the final act: "now, god,
+please...home." Twisting suddenly and sliding up alongside, she wed
+their breath, lips, life, and with one last involuntary "please,"
+slapped her brilliantly across the ass. The orgasmic focus veered,
+shattering the whirling formation of the cauldron. All the power
+erupting outward now flashed back to blind the staring nerves. Then,
+and only then, the patient magic of the appendix burst forth in
+answering cascades of fire, detonating the chakras, igniting the
+spine.<P>
+     Seconds before the rapture struck, their eyes met one last
+time. They had done it, consummated the intimate solar mystery -
+breaching repulsion, conjunctive in heat, birthing new light - and
+all quite "manfully," they might have laughed, had either still been
+around. But the numen of the firestorm was ascendant now and sang
+them out of the temple, the moon-dappled night, into love beyond
+remembering...
+</FONT>
+</TD></TR>
+</TABLE>
+
+<BR>
+<CENTER><IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=350  HEIGHT=3><P>
+
+<A href="${BASE_URL}tantra/tangrail.html">Part II: Tantric Grail</A> 
+<HR WIDTH=180 ALIGN=center SIZE=2>
+ <A href="${BASE_URL}tantra/tantrain.html">Tantra Intro</A> | <A href="${BASE_URL}arcmain.html#tantra">Main Archive</A><BR>
+<IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=350  HEIGHT=3>
+</CENTER>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default TantraTantween;

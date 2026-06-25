@@ -1,0 +1,746 @@
+import { useEffect } from "react";
+
+const AdvisorsInamori = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Kazuo Inamori</CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<IMG SRC="${BASE_URL}advisors/graphics/inamori.jpg" WIDTH=101 HEIGHT=150  VSPACE=15 BORDER=3  ALT="Sri Kazuo"></TD></TR>
+</TABLE>
+<BR><BR>
+
+
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+<FONT  SIZE=4>
+<BLOCKQUOTE><BLOCKQUOTE>"<EM>There is no fixed boundary to human creative potential. You must become unshakably convinced that nothing is impossible... Make your own considered judgments independent of others' 'common sense'... And in all your endeavors strive to position yourself in the center of the whirlpool.</EM>"
+<P align=right><FONT  SIZE=-1>From <U>The Kyocera Philosophy</U> <BR>- Selected Speeches & Meditations <BR>of Inamori Kazuo</FONT></P></BLOCKQUOTE></BLOCKQUOTE>
+
+<BLOCKQUOTE>Preaching from his own practice, entrepreneurial visionary Inamori Kazuo has turned creativity (Japanese-style) into a creed, crusade and powerful profit center.<P> In 1959, 27-year-old Inamori and seven friends pooled �3 million to found Kyoto Ceramics, an R&D venture business dedicated to fine-ceramic engineering. Today a multinational high-tech conglomerate employing over 30,000, Kyocera defines the frontier in a dozen fields of ceramics research, and is aiming at breakthrough technologies for communications, imaging systems and energy generation.<P>Meanwhile Inamori's commitment ot technical innovation has broadened to a fascination with new thinking in general -- how it is generated, propagated and profitably applied, both to industry and the wider society. Determined that Japan must soon begin contributing to urgent world problems, he has crafted three synergistic careers to accelerate the process.<P>As president of the Inamori Foundation, whose �4.5 billion endowment backs the Nobel-class Kyoto Prize, he is focusing research interest on target probelm areas with annual grants totalling over �200 million.<P>As founder of Dainidenden, Japan's second largest telecommunications network, he successfully broke the NTT monopoly and defined an entirely new research and communications matrix for the country.<P>Finally as the directive power behind Kyocera (now capitalized at over �50 billion), he has the labs, funds and factories to see a wide variety of new concepts through to social fruition.<P>Though he has since also been ordained as a Zen Buddhist monk, Inamori eschewed all vows of poverty, silence or quiescent passivity, and remains the guiding force behind all aspects of his diverse international empire.</BLOCKQUOTE>
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+
+<CENTER><img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+
+
+<P>
+<FONT  COLOR=#400000><STRONG>Nancho</STRONG>: Despite your engineering degree from Kagoshima 
+
+University, part of the Inamori legend around Kyoto holds that you
+
+never got further than middle school, a "fact" often cited to 
+
+account for your personal creativity and Kyocera's explosive 
+
+success...</FONT><P>
+
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: Well, I've never heard that one, but there are precedents, I 
+
+suppose, for those kinds of rumors. Some of Japan's most famous 
+
+business personalities - Matsushita Konosuke, Sanyo's Inoue 
+
+Toshio, or Sharp's founder, Hayakawa-san, for example - none of 
+
+them ever finished school. So when people were assembling my 
+
+legend, as you call it, that pattern of unschooled, 
+
+unconventional success may have gotten worked in.<P>
+
+   I myself do hold a degree in applied chemistry. But, on the 
+
+other hand, accepting the complimentary implications of these 
+
+rumors, I was a country boy, brought up in Kagoshima Prefecture. 
+
+In some respects it is a background that offered me 'advantages' 
+
+similar to an incomplete formal education. That is, many people 
+
+who didn't finish school and yet managed to achieve distinction 
+
+in Japan often had one thing in common - they were "sunao", or 
+
+had a meekness or innocence about them. When you've graduated 
+
+from university, you have supposedly attained something, your 
+
+knowledge and achievement is certified. You thus lose your 
+
+meekness and begin nurturing pride and egotism. You stop 
+
+listening to other opinions and ideas, and begin to insist on the
+
+superiority of the knowledge you already possess. In short, you 
+
+stop progressing, stop growing. To progress, you need to be 
+
+"sunao", to be humble and open, and to recognize the necessity of
+
+continuous study and re-evaluation. That "sunao" quality is, I 
+
+believe, the primary secret of many success stories among  
+
+unschooled Japanese.<P>
+
+   In my case it was a rural background that helped. I still 
+
+consider myself pretty countrified but I really felt like a 
+
+wide-eyed bumpkin when I first came to Kyoto - it seemed like 
+
+such a huge and sophisticated metropolis. And wandering around 
+
+wide-eyed is a lot like being awake, and I think it helped me 
+
+stay comparatively "sunao" and open to new ideas and 
+
+opportunities.</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> This relationship between "sunao" and creativity - how does it
+
+inform the way you cultivate creativity among your people at 
+
+Kyocera?</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: Well, that relationship is a little difficult to explain. For
+
+example, though, among people fresh out of school - graduates 
+
+with little actual knowledge, little specialized training, and 
+
+even less experience in research and development - there emerge 
+
+individuals with unique vision and innovative theories of their 
+
+own. This type of innovator is, I believe, most characteristic of
+
+creativity in Europe and America - young, confident individuals 
+
+coming forward, as if from nowhere, with often brilliant 
+
+concepts.<P>
+
+   In the case of Japan, however, the pattern is rather 
+
+different. Students who will later be innovators often start out 
+
+with a great humility, listening to and learning from everyone. 
+
+Gradually they acquire a wide familiarity with the basics and 
+
+history of their specialties. At a certain point - usually long 
+
+after they have graduated - they find they know all that has gone
+
+before. And from that point on each further step that they take 
+
+is new and their own. That is, I think, the typical Japanese 
+
+pattern. And it as an ancient pattern. For example, one of our 
+
+traditional "high technologies", swordmaking, was not a matter of
+
+intellectual instruction at all. The master didn't verbalize 
+
+much. He just worked with his apprentices. But it was incredibly 
+
+strict and severe training. The slightest mistake on the 
+
+apprentice's part could outrage the master and start him throwing
+
+rocks at you. It kept you focused. In this master/apprentice 
+
+education you would join the master's household as a child and 
+
+work there til you were maybe well into your twenties. During all
+
+those years you would be absorbing the master's skills and 
+
+techniques. In Japanese we use the word "nusumu" [to steal or 
+
+pirate] for this process. Since the master is not specifically 
+
+instructing or pointing things out, it is up to the apprentice to
+
+watch and pick up techniques as they collaborate. So it is a 
+
+respectful and respected form of larceny, you could say. Then 
+
+when the apprentice had learned all the master's secrets and 
+
+could equal his skills he was permitted to set off on his own. 
+
+And upon that foundation he was prepared to build something of 
+
+excellence and originality, something that was his own. For 
+
+instance, pupils of a great swordsmith like Masamune would break 
+
+away after decades of training and begin to forge blades with the
+
+purpose of surpassing their mentor. That was how you honored him.
+
+By taking his work and pushing it further. And that was how they 
+
+made their own names, and developed new techniques, and perhaps 
+
+even founded their own "schools". And that was how traditional 
+
+Japan could both keep traditions alive and train its youth for 
+
+creative independence. It was an admirable system. <P>
+
+   So at Kyocera you could say we use traditional means to 
+
+generate non-traditional thinking. During our staff's 
+
+apprenticeship - while they are accumulating basic knowledge and 
+
+techniques - we encourage a "sunao" attitude. And once they are
+
+up to speed in their fields we cut them loose to devise and 
+
+invent on their own.<P>
+
+   But training here is not just a matter of accumulating basic 
+
+knowledge, it's also acquiring an ambition. Of course we want our
+
+people to fully understand the status quo, to be abreast of the 
+
+state-of-the-art in their specialties. But then we want them to 
+
+burn to go out and make that knowledge obsolete as fast as 
+
+they can with new discoveries, techniques, processes, etc. <P>
+
+   In other words, to generate consistently significant 
+
+discoveries, we think you need a sense of context - of where we 
+
+are and how we got here. Then you don't waste or duplicate effort
+
+and your gains yield real growth. This is all an important part 
+
+of our Kyocera philosophy. We believe its effectiveness is borne 
+
+out by the fact that nearly 90% of the technologies we employ in 
+
+our product lines here are Kyocera in-house developments.</BLOCKQUOTE><P>
+
+
+<FONT  COLOR=#400000> Back in 1959 when you established the company what did you 
+
+think or hope it would look like 10 or 20 years down the line?</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: I never looked that far ahead. Even looking back on it now I 
+
+don't really know how it all happened. We started as a very 
+
+small-scale company, a basic venture business. We just hoped to 
+
+hold it together and to make a decent living. We naturally looked
+
+forward to some growth but we never dreamed it would come to 
+
+this... There have been problems though. As head of a small 
+
+company I could communicate directly with all our staff and 
+
+demonstrate the kind of thinking we were after. But as our 
+
+expansion picked up speed I saw that this personal approach would
+
+soon be impossible. And thinking how to manage a really large 
+
+enterprise with the same principles I decided to compile our 
+
+"Kyocera philosophy" and put it into book form. Our executives 
+
+then studied and internalized it and passed it on to all the 
+
+people they worked with. I suppose you could compare it to the 
+
+way Christ's disciples spread his teachings to lands he couldn't 
+
+visit...</BLOCKQUOTE><P>
+
+<FONT  COLOR=#400000> And thus you've converted your multitudes to the gospel of 
+
+Kyocera?</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: [Laughs] Of course we are hardly a religion but the dynamics 
+
+for spreading ideas are pretty similar.</BLOCKQUOTE><P>
+   
+
+<FONT  COLOR=#400000> But having accomplished your basic miracles in Kyoto and 
+
+having come to symbolize a potential for rebirth in the city, you
+
+must realize there was a lot of disappointment when you recently 
+
+ran off to head up Daini Denden in Tokyo, a feeling that Kyoto 
+
+had once again lost out to Edo...</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: That's a basic misunderstanding. I love this city very much. 
+
+But Kyoto is still primarily a repository of ancient culture and 
+
+values. It hasn't really been developing new ideas or leading us 
+
+into the future. Especially regarding industry and on many other 
+
+fronts, Kyoto has fallen way behind. So we started thinking about
+
+what were the most important things to do to bring new life and 
+
+prosperity to the town.<P>
+
+   When talk started about the liberalization or privatization of
+
+telecommunications in Japan and the Daini Denden idea was born, 
+
+all the action, all the players were concentrated in Tokyo. The 
+
+attitude was Tokyo will decide, Tokyo will manage, Tokyo will 
+
+lead. And I thought, "No, when liberalization comes, when our 
+
+telecommunications revolution occurs, Kyoto should provide the 
+
+leadership. Yes, a Kyoto person should lead it. And I am going to
+
+do it." So I went to Tokyo. And there was enormous opposition. 
+
+There are so many huge companies in Tokyo, so many powerful 
+
+industrial leaders. The idea of a Kyoto leader appearing there 
+
+proposing to lead this revolution was opposed all around. But I 
+
+thought it would be a great challenge and stimulus to Kyoto's 
+
+people, proving that even from Kyoto you could move and influence
+
+the whole nation. So my family and home are still in Kyoto and I 
+
+commute to Tokyo everyday on the Shinkansen. <P>
+
+   And I do believe the effort is benefitting Kyoto, showing that
+
+the city is not just a museum of culture, shrines and temples 
+
+feeding off its past; that it's not a stagnant backwater. It 
+
+shows, I think, that though Kyoto's cultural framework is 
+
+ancient, it is also capable of great innovation and creativity - 
+
+often because of, rather than in spite of, its traditions.</BLOCKQUOTE><P>
+
+
+<FONT  COLOR=#400000> More generally, as Japan becomes more economically dependent 
+
+on innovative research, new technologies and information - and 
+
+thus more in need of creative individuals - what reforms would 
+
+you advise in its educational system?</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: To generate the kind of creativity we need there are going to
+
+have to be massive changes in the system. Japanese education is 
+
+still shovel-oriented. They shovel in the facts and knowledge and
+
+the students with the largest piles are called "superior". 
+
+Education for creativity is not like that of course. It stresses 
+
+thinking, logical processes, insight - not the quantity and 
+
+accessability of memorized information. So I think the present 
+
+system is a waste. We've got to watch for and encourage 
+
+originality in our children, to help those with useful new ideas 
+
+to develop them, to recognize their talents, too, as "superior".
+
+So in that sense, Japanese education...well, it's not just a 
+
+problem of Japanese education, is it? It's a problem in all of 
+
+Japanese society. We're incessantly taught to obey the rules, 
+
+observe the precedents, don't step out of line. You do something 
+
+slightly different from others and you're criticised. It's still 
+
+that kind of society. You can probably trace it to our 
+
+agricultural heritage. Agricultural life was highly patterned. If
+
+you wanted your rice to survive you didn't get experimental. You 
+
+followed the seasons, the traditional ways. Innovative behavior 
+
+was risky - one mistake and you starved. So it bred a 
+
+conservative outlook. But today conditions are much different, 
+
+and if we are going to cope, both our educational system and 
+
+socal system will have to be changed.</BLOCKQUOTE><P>
+
+
+<FONT  COLOR=#400000> That's fine, but what about some concrete measures? What is 
+
+Kyocera doing?</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: Well, first of all we've rejected the "designated school" 
+
+system in which most companies will only recruit students from 
+
+certain "first class" schools. We recruit everywhere and judge 
+
+applicants individually on their own merits, not on the basis of 
+
+their alma mater. (Of course this may have something to do with 
+
+the fact that I myself came out of a relatively obscure country 
+
+school.) But we do give a lot of weight to interviews and there 
+
+have been many cases when Tokyo University graduates and 
+
+graduates from much less prestigious schools have applied for the
+
+same jobs and we have talked to them all and gone with the 
+
+latter. So in our employment decisions we put the individual 
+
+first. It may seem commonsensical but it's still quite rare here.<P>
+
+   Overall, though, there have been a lot of good specific 
+
+suggestions for improving Japanese education. The reason none of 
+
+them have never been put into practice, however, is because of 
+
+resistance from the government bureaucracy, the "Monbusho" 
+
+[Ministry of Education] in particular. Compared to those 
+
+bureaucrats politicians have very little power over policy. Even 
+
+when a politician's appointed Minister of Education he first has 
+
+to listen to his staff of ministry bureaucrats to find out what's
+
+going on. Then even if he wants to implement reforms they hold up
+
+a tangle of existing laws to be dealt with. And to rewrite all 
+
+that legislation...one thing you should realize is that in Japan 
+
+bureaucrats produce the legislation - the research and drafting 
+
+of bills is done by the bureaucracy. Although they're called 
+
+legislators, the politicians don't do it. They can't do it. It's 
+
+all done by bureaucrats. So as a politician, even if you think, 
+
+"I want to reform the Monbusho, I want to restructure the 
+
+"Tsusansho" [Ministry of International Trade & Industry - MITI], 
+
+if we don't change our policies the system will terminally stifle
+
+our national creativity..." Even if they understand this and 
+
+really want to change things, neither the Minister of Education 
+
+nor the head of the Tsusansho have the slightest idea of how to 
+
+actually do it. So they can say, "here is a terrible problem. 
+
+Here's what we have to do..." The bureaucrats just say, "Sorry, 
+
+but it's all written into laws." Then you say, "Well, let's 
+
+change the laws." But the bureaucrats don't want to change 
+
+things. They wrote the laws in the first place to make things 
+
+easier for themselves, to enhance their positions and consolidate
+
+their authority. And nobody's going to willingly write laws that 
+
+undermine their power. So one way or another they refuse. Now if 
+
+the politicians were then to say, "well, I'll assemble a staff 
+
+myself and start drafting bills for the Diet myself" - which is 
+
+what they should say - it would be alright. But that's not how 
+
+things work here. Our parliamentarians just won't or don't write 
+
+laws.<P>
+
+   A while back I was talking to the Education Minister, 
+
+Shiokawa-san, and the Postal Minister, Karasawa-san. I suggested 
+
+that as Chief Ministers they should form their own legislative 
+
+staffs. Since they're so good at throwing these political 
+
+fund-raising parties, they should use some of the money to gather
+
+a few really capable people and start drafting their own bills. 
+
+They said that as politicians they just didn't have the money. So
+
+I asked, "What about all the money from those parties?" And they 
+
+said, "Well, ah, we have other uses for that." [Shrugs & laughs]
+
+   So, I don't know, but I think to bring a revolution to the 
+
+system you're going to need a real autocrat. Prime Minister 
+
+Tanaka was the closest thing we've had to one in a while, but he 
+got so dictatorial that people really resented it and many 
+
+collaborated to pull him down. But without that kind of strongman
+
+to pull it off I don't see any hope for real reform here.<P>
+
+   I mean, they can't even put through education reforms in the 
+
+United States, in spite of the fact that their system offers a 
+
+lot more opportunities for change than ours. In America they have
+
+almost the opposite problem. They've got a good number of 
+
+creative individuals, but people interested in serious 
+
+workmanship and turning out fine products are almost 
+
+disappearing. Nobody wants to concentrate anymore. Your average 
+
+working man is into chewing gum and not overworking his brain. 
+
+He's very, very "relaxed". And because the labor force doesn't 
+
+concentrate, they make cars that break down, appliances that 
+
+malfunction. Hardly anybody seems to really apply themselves to 
+
+their work and you just can't produce reliable products like 
+
+that. There are innovative people in America but as a 
+
+manufacturing center I think it's almost finished. Of course that
+
+can and must be changed.</BLOCKQUOTE><P>
+
+
+<FONT  COLOR=#400000> Well, there are more than a few people in the U.S. who are 
+
+happily resigned to a future running on Japanese hardware and 
+
+American software. Of course, when Japan starts innovating 
+
+software things could get a little mean...</FONT><P>
+
+
+<BLOCKQUOTE><STRONG>KI</STRONG>: Perhaps, but let's look at our situation another way - and 
+
+not just with regard to U.S./Japan relations. I mean, consider 
+
+all the countries in the Pacific area. Each has its own culture, 
+
+its own history, and naturally they are all different. But to 
+
+raise living standards in each of them we are all going to have 
+
+to work together and cooperate. And I think the best form of 
+
+cooperation is going to be something like the E.E.C., a 
+
+pan-Pacific concept. I mean, isn't it really time we got rid of 
+
+nation-states. We just don't need them anymore. After all, our 
+
+economies are already interdependent, interpenetrating. And our 
+
+political thinking is eventually going to have to reflect that. 
+
+And I'm not just talking about an economic alliance with the yen 
+
+as the common currency. Let it be the dollar. But let's at least 
+
+start thinking about reality and the implications of our 
+
+increasing integration.<P><CENTER>- End - </CENTER></FONT></FONT><P><FONT  SIZE=-1>Nancho Rep: W. David Kubiak</FONT></BLOCKQUOTE>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, VISIT INAMORI CENTRAL:<BR> <A HREF="http://www.kyocera.com/corporate/biography.html" > DR. INAMORI BIOGRAPHY</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsInamori;

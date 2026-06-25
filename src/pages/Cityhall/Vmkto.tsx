@@ -1,0 +1,204 @@
+import { useEffect } from "react";
+
+const CityhallVmkto = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+<CENTER><EM>Kansai Time Out on the '94 Nancho Campaign </EM></CENTER><P><P>
+<div align="center"><table align="center" width="700" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td width="200" align="center"><TABLE BORDER=4 CELLPADDING=2 ALIGN=LEFT HSPACE=30>
+<TR><TD ALIGN=MIDDLE><IMG SRC="${BASE_URL}graph/virmakts.jpg" ALT="KTO Lead Page" WIDTH=143 HEIGHT=188 BORDER=1 ALIGN=LEFT></TD></TR>
+</TABLE></td>
+    <td width="400" align="center"><STRONG>Local Press Coverage <BR>of the Virtual Mayoral Campaign for Direct Democracy </STRONG><BR><BR>
+<IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=250 HEIGHT=5><BR><BR>
+
+<FONT  SIZE=+1><STRONG>"DAVID AND GOLIATH"</STRONG><BR>by John Ashburne</FONT><BR>
+Kansai Time Out<BR><BR>
+<IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=250 HEIGHT=5></td>
+</tr>
+</table></div>
+
+<BR><BR>
+<BLOCKQUOTE><H4>[ NANCHO ADVISORY: Kansai Time Out is the major English news magazine in Western Japan. John Ashburne is a friend, wild rock musician, and anachronistic journalist who notes down rather than tapes his interviews. Which is to say, take the quotes below with a grain of salt. It's a sympathetic, lightly proofed and liberally reconstructed rendition of our encounter. ]</H4></BLOCKQUOTE><P>
+<HR WIDTH=85% ALIGN=center SIZE=4><P>
+<BLOCKQUOTE>	<STRONG>INTRO:</STRONG> <EM>The chances of long-time resident W. David Kubiak being elected Mayor of Kyoto come the August 8th election are, well, nil.  As a U. S. citizen the 47-year-old lecturer in media studies at Kyoto's Ritsumeikan University is neither eligible to register as a candidate nor serve in office.  Rather, he is taking the opportunity to mount his own "virtual campaign" for mayor, to highlight the lack of true democratic empowerment for the average citizen.
+ 	John Ashburne talks to him about taking on the giants of the Japanese corporate and political Establishment.</EM></BLOCKQUOTE><P>
+<HR WIDTH=85% ALIGN=center SIZE=4><P>
+
+<STRONG>When you first came to Kyoto you set up a coffee-shop-cum-activist meeting-place with the splendid name "Foon" (the Chinese ideogram means "grace", the Japanese reading means "excrement").  Even then you came into conflict with one of Japan's vested interest groups.</STRONG><P>
+
+	<BLOCKQUOTE>That was my first encounter with the Yakuza.  A guy we knew had gotten into debt with some gangsters and put up a house he had as collateral on the loan.  A friend and I  ran it as a coffee shop and gave the profits to him to repay the loan.  Two years later, the day our contract was up and while we were negotiating an extension, they moved in and leveled the place with bulldozers.  No negotiating with bulldozers.</BLOCKQUOTE>
+
+<STRONG>Then you started a live-house, named after a legendary priest-robber-poet? </STRONG><P>
+
+	<BLOCKQUOTE>After "Fun" we started "Jittoku".  Back in 1972 we realized that Kyoto had a potentially flourishing musical underground, but there were no places to perform.  We needed a stage.  There were a number of rock bands around, and some excellent blues bands.  So "Jittoku" was born.  You know the legend? Jittoku was a cook at a big monastery out in the middle of the Tendai mountains.  He and his buddy Kanzan used to steal food from the kitchen and feed assorted itinerants up in the hillsides.  One day the Emperor, consumed by problems of metaphysical magnitude, sent his Prime Minister out into the realm to find the Wisest of the Wise.  As he traveled, the PM was repeatedly directed to Jittoku and Kanzan's place.  The Prime Minister finally found the temple, burst into the kitchen with his entourage, did the full-length bow and begged enlightenment.  Jittoku and Kanzan promptly fell into hysterical giggles, fled into the mountains and disappeared into a cave -- forever.  End of story.  This presented a problem for the Prime Minister who had to deliver something to the Emperor, so he took off up the mountain looking for marks of Jittoku and his mate's wisdom.  He collected poetry he found inscribed on stones and trees all over the mountainside.  Many were in fact composed by Jittoku.  Gary Snyder's translations of them are excellent, his Cold Mountain poems.  Anyway Jittoku was something of a rogue, a poet and a vagabond who stole from those who had too much and gave to the creative have-nots.  We could identify with that.</BLOCKQUOTE><P>
+
+<STRONG>Next came KOSAC, a grassroots networking and media organization designed to put activists in touch with each other, via computer, world wide.  You've set up a community radio station and now a project in India?</STRONG><P>
+
+	<BLOCKQUOTE>The India project  is called the Kyoto Shimin Gaiko Association - Shimin Gaiko meaning "citizen diplomacy".  The Kyoto City Government in all its wisdom could only manage to select one Asian city for sister city status -- Xian, the city in China that served as the original model for Kyoto.  We wanted to redress the balance.  So we set up a project that would work as a seed for a citizen-level links between Kyoto and another Asian city.  We chose Udaipur, in Rajasthan, partly because it was a place I knew personally having lived there for some years, but more importantly because it is so culturally removed from Japan.  We've sent scores, mostly housewives and students, on various exchanges, most recently to study a big reforestation project there.  The Japanese government promised 100,000,000 yen for the project and some local NGOs asked us to put some people on the ground there to monitor how the project developed and keep an eye on where the funds were really going.</BLOCKQUOTE><P>
+
+<STRONG>And now you are running for mayor?</STRONG><P>
+
+<BLOCKQUOTE>The city elections are coming up in August and I'm "standing for office", though not in the conventionally accepted manner.  As an American citizen I'm prevented from even registering as a candidate let alone becoming mayor.  The whole point of running the "virtual" campaign is to highlight our group's attempt to introduce a proposal to the assembly at City Hall.  Technically speaking, we are trying to get them to introduce an Initiative &anp; Referendum system.  We have to start with the current <EM>Chokusetsu Jorei Setei Seikyu</EM>.  In layman's terms, it's a direct application from the people for the enactment of a law.</BLOCKQUOTE><P>
+
+<STRONG>How do you  go about that?</STRONG><P>
+
+	<BLOCKQUOTE>To get a law or ordinance considered we need to collect a petition signed by at least two percent of eligible voters.  That means we need 24,000 signatures in Kyoto.  Once the signatures are validated, the Mayor is compelled to put the proposed law before the assembly, where it is then put to a vote.</BLOCKQUOTE><P>
+
+<STRONG>What happens thereafter?</STRONG><P> 
+
+	<BLOCKQUOTE>Once the petition has been presented to the assembly, they have every right to vote it down, which they almost always do.  The most notorious example of this happened in Hokkaido. A group of concerned citizens wanting to hold a referendum on the opening of a nuclear facility there were told they had to gather signatures of 5% of the population within 2 months. They actually got 35% in six weeks.  The governor put their resolution to the assembly who promptly voted it down. And that was that.</BLOCKQUOTE><P>
+
+<STRONG>What law are you trying to put through?</STRONG><P>
+
+	<BLOCKQUOTE>The law that we're trying to introduce would allow citizens to propose and vote on ordinances related to nuclear power, conservation and environmental issues, and above all gain access to information.  Establishing freedom of information is one of our major goals.  Without it we can never achieve anything other than a veneer of real democracy.  Who the hell is representing anyone as the system stands?  In the West, elected representatives feel the ground swell of public opinion and act upon it accordingly.  They have no choice.  If they don't listen to the demands of their constituents they're out.  Here, there's nothing to make the elected representatives answer to anyone.</BLOCKQUOTE><P>
+
+<STRONG>But the politicians are by no means your only adversaries.</STRONG><P>
+
+	<BLOCKQUOTE>When we established KOSAC, to initiate the networking process, we invited various disparate groups to come together to talk about their activities.  There were people concerned for Chinese students, East Timor, Buraku people (Japan's outcaste class), anti-nuclear groups, human rights groups, anti-apartheid groups, people worried about toxic waste, garbage and agro-chemicals.  When we all sat down in a room together it was total anarchy.  Everyone was preoccupied with their own issues.  It was only after three hours that we finally managed to address ourselves to the important question: what is it we have in common.  The answer was revealing.  We found that almost every organization was in some way ranged against the same bunch of multinational corporations.  We discovered we were up against a common and very powerful enemy. Of the top Fortune 500 companies, we found that we were fighting  against perhaps a hundred of them.  The companies that were getting their oil from Indonesia and tacitly supporting what was happening in East Timor were the same ones deforesting the Burmese rainforests, investing ever more heavily in South Africa, and destroying the Thai mangrove swamps.  They are also the companies that are knocking down Kyoto.<P>
+	Have you ever heard of the Fuyo Group?  They are almost unheard of even here in Japan, but they are possibly one of the most powerful organizations on the planet.  Born out of the remains of the Y<EM>asuda Zaibatsu</EM>, they're the least respectable of all the <EM>keiretsu</EM>.  Marubeni Corporation and the Fuji Bank are at the heart of the group.  Nissan, Hitachi and Asahi Beer are heavily involved too. It's the Fuyo corporations that are behind the <A href="${BASE_URL}cityhall/kybudnyt.html">Kyoto Hotel project</A>.</BLOCKQUOTE><P>
+
+<STRONG>So you want to introduce a law that will empower small grassroots organizations to fight against these mega-corporations?</STRONG><P>
+
+	<BLOCKQUOTE>Sitting around at KOSAC, the groups agreed that once they'd identified their enemy, there was not much they could do about it.  Mass meetings only served to preach to the converted, and they were rarely all that "mass" either. And petition drives didn't mean a damn thing when it came down to it.  We were running around with bamboo spears against invincible adversaries.</BLOCKQUOTE><P>
+
+<STRONG>Hence your fight in August?</STRONG><P>
+
+	<BLOCKQUOTE>We're running this "virtual candidacy" to draw people's attention to the fact that representative democracy here isn't really representing anyone, and at the same time campaigning for a procedure that should allow us to take on the multinational corporations that are hell-bent on destroying the planet.  It isn't easy.  No one has really done this before.  We've just heard that there's a technicality which prevents us from demanding a <EM>Chokusetsu Jorei Setei Seikyu</EM> prior to an election.  It's a minor, but annoying setback.  Still, we'll be back.</BLOCKQUOTE><P>
+
+<STRONG>It must feel at times as though your banging your head against a brick wall?</STRONG><P>
+
+	<BLOCKQUOTE>The Japanese are simply not used to this level of democratic empowerment.  Someday we will finally get to put our demands to the city assembly, whereupon they will doubtless vote them out of existence.  But the educational value of what we're doing remains.  We're setting up the public conversation.  Some cities will have reformist elements in their assemblies.  Things will change.</BLOCKQUOTE><P>
+
+<STRONG>This country isn't exactly renowned for its capacity for change is it?</STRONG><P>
+
+	<BLOCKQUOTE>Introducing innovations to communities anywhere is complex, but social research has indicated that if 10% of any group support an idea, and 40% are aware of it, then there is a strong chance it will be adopted.  That's our target.  As long as we're increasing awareness were serving a very positive role.  But, yes, introducing real democracy to Japan will be something akin to introducing the condom to the Philippines. </BLOCKQUOTE><P> 
+
+<STRONG>The Western concept of democracy is a relatively new arrival to these parts.</STRONG><P>
+
+<BLOCKQUOTE>	Does democracy lurk in the heart of the Japanese?  The Japanese establishment likes to say not.  It would, of course.  On a one-to-one basis I've found the Japanese to have the same legitimate concerns as their Western counterparts - about their children, about education, and health, about the livability of their environments.  Like Westerners, they want to have a say in the decisions that affect their lives.  That's the definition of democracy.</BLOCKQUOTE><P>
+
+<STRONG>Yet the people, individuals, remain essentially powerless?</STRONG><P>
+
+	<BLOCKQUOTE>Japan is one of the most envied countries in the world, not least by the corporate giants.  IBM would love to be Japanese. Why?  People here don't have the power to reign in the huge corporations, to force them to examine their environmental and human-rights records.  There are no effective product liability laws, no necessity for public environmental impact assessments.  All the companies move together to cartelize the market.  When you go to the beer machine and find out the price has gone up 20 yen, it has gone up across the board.  And no one says a damn word.  In other parts of the world these same enormous companies can afford to sell at a loss for 3-5 years, the dumping being subsidized by the huge profits they accrue in the home market.  Then hostility rises up against the same victimized Japanese citizens who are unwittingly financing the whole operation.</BLOCKQUOTE><P>
+
+<STRONG>So in a real sense the Japanese people are losing out both at home and abroad?</STRONG><P>
+
+	<BLOCKQUOTE>Kyoto's getting torn down.  Is that the worst of it?  We can always go somewhere else.  Marubeni strip-mines the Philippines and those people have nowhere to go.  Japan has created these corporate monsters and totally lost control of them.  If we can help to reign in these huge corporations we'll be performing an international service, even though we're acting at a local level.  We can't generate much <EM>gaiatsu </EM>(foreign pressure), but maybe we can introduce a little democratic <EM>gaieikyo </EM>(foreign influence). What we can do here on the ground is bring in the cameras.  It's unfortunate in a way, but it's one of few the levers we've got.
+</BLOCKQUOTE>
+</FONT><P>
+<BR>
+
+<CENTER><IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=250 HEIGHT=5 vspace=8><BR>
+
+<HR WIDTH=140 ALIGN=center SIZE=3>
+<A HREF="http://web.kyoto-inet.or.jp/people/cityhall/index.html">City Hall</A> | <A href="${BASE_URL}arcmain.html">Archives</A>
+<HR WIDTH=140 ALIGN=center SIZE=3>
+<IMG SRC="${BASE_URL}bulls/brnblk.gif" WIDTH=250  HEIGHT=5>
+
+</CENTER>
+
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default CityhallVmkto;

@@ -1,0 +1,198 @@
+import { useEffect } from "react";
+
+const FdlapSwissdd1 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `<BASEFONT SIZE=3>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<BR><BR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3>
+<H3>"DIRECT DEMOCRACY IN ACTION"</H3> 
+<H4>Edited excerpts from <U>Switzerland's Political Institutions</U> by Oswald Sigg <BR>
+<FONT  SIZE=2>Published by PRO HELVETIA, Zurich, 1983</FONT></H4>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
+</CENTER>
+
+
+	<FONT  SIZE=4>
+
+
+
+
+
+
+<CENTER><H3>HISTORICAL ASPECTS</H3></CENTER>
+<BLOCKQUOTE>September 12th, 1848, the Diet (Parliament) announced that the Federal Constitution of the Swiss Confederation had been approved by 15 cantons.<P>
+The Swiss Constitution gave legislative powers to two chambers, the National Council and the Council of States. The executive duties of government are assigned to the Federal Council, made up of seven members. The new constitution stipulated that the Council of States, which represents the cantons, should have the same powers as the National Council, which represents the people, and that there never be more than one member from each canton in the Federal Council.... The Confederation, which had already been responsible for defense and internal security, undertook to protect the rights and liberties of the people. Courts, schools, churches and social welfare became the responsibility of the cantons.<P>
+The popular veto existed even before 1850. From the 1860s on, the referendum was also introduced in these and other cantons. This was a further step in the direction of popular legislation, which the radical democratic movements achieved despite opposition from certain liberal governments of the cantons. The referendum (what the people have to report to the Government) took two forms. There were legal enactments, especially decisions on the Constitution, which always had to be put to the people: this was the compulsory referendum. For other forms of legislation, a certain percentage of the electorate could demand (by petition or request) that any law be put to the vote: this was the optional referendum. <P>
+The next step was including the right of popular initiative in the democratic program. This made it possible for a certain number of voters to submit their own proposal for legislation (as a legislative initiative) or a constitutional amendment (as a constitutional initiative), and to legally demand that it be submitted to the electorate for a vote. The Democrats also demanded that the people elect the government and be able to dissolve Parliament whenever they should so decide.<P>
+In 1869 the people of Zurich enacted a new constitution for themselves based on direct democracy, which included such political rights as initiative, referendum, direct election of their government deputies to the Council of States, etc. Other cantons followed suit, and with their new popular sovereignty, they became a proving ground for the political rights of the Confederation.
+What occurred at cantonal level had a direct impact on the Confederation as a whole. The desire to amend the Constitution marked the beginning of what was to become a typical feature of the Swiss constitutional history: the constant amendment and adaptation of the constitution to changing circumstances. 
+The Constitutional Initiative, introduced into the Confederation by a popular referendum in 1891, allowed any group of at least 50,000 voters to propose an amendment to the federal Constitution and then legally demand a Confederation-wide vote on it.</BLOCKQUOTE>
+<CENTER><H3>FEDERALISM</H3></CENTER>
+<BLOCKQUOTE>Swiss cantons are not simply administrative regions. Each is a small autonomous state. Together they form the Swiss Confederation. The term "Federalism" is used to describe this affiliation and also to indicate the cantons' continual striving to maintain and protect their autonomy. Besides the system of direct democracy and the opportunities it offers citizens to control public policies, Federalism is also a basic concept and characteristic feature of Swiss political life. Federalism has a fundamental influence on the distribution of rights and responsibilities between the Confederation and the cantons. <P>
+
+
+
+
+As noted above, the 23 cantons that make up the Swiss Federal State are not simply administrative regions of a central state. The cantons, or states, as they are also called, are sovereign. They are small states, each with the usual political trappings of a government, parliament and courts. In fact, most of the cantons existed as true states long before the birth of the Confederation. They have thus exercised an active form of federalism to preserve their identities and protect their independence from being overwhelmed by the Confederation... Federalism interpreted and employed as a means to sustain cantonal autonomy and character has been a central precept of Swiss political affairs ever since the Federal State came into being. <P>
+This incessant tension between the Federal State and the constituent cantons means that federalism is very much alive in Switzerland and that as many decisions as possible must be reached at the cantonal or even the communal level. This differs dramatically from centralism, in which everything is controlled and decided from one center. Direct democracy, too, with its tendency towards autonomy leads by its very nature to decisions being made by smaller units.<P>
+Before the Federal Constitution existed, the cantons were also territorially sovereign, levying customs duties on their borders, having their own currencies, and generally only collaborating together to coordinate certain foreign policy matters. The 1848 Constitution and the revised version of 1874 created a federalist state in which equal partners voluntarily associated to jointly tackle specific tasks. The signatories' major concerns were to create the supra-cantonal and national conditions essential for the unimpeded growth of a national economy, without impinging upon the historic rights and distinctive characteristics of the cantons.
+This has largely worked as envisioned and the cantons and communes strongly resist any federal legislative encroachments on their autonomy to this day.<P>
+The history of the canton of Jura shows that federalism is more than mere words. The people of Jura fought a relentless battle for their autonomy, i.e. to be free of the canton of Berne, in which they felt themselves to be disadvantaged as a linguistic, denominational minority. The founding of the new canton of Jura was decisively approved by the Swiss people and all the other cantons in 1978. The ability to even create new cantons shows that Swiss federalism offers peaceful means to solve minority problems in a way that is acceptable to the majority of those involved.</BLOCKQUOTE>
+<CENTER><H3>COMMUNES & CANTONS</H3></CENTER>
+<BLOCKQUOTE>Switzerland consists of 3017 communes and 23 cantons, of which three are divided into half-cantons. These communes and cantons provide their citizens with extensive rights of political participation. The cantons as such exert a marked influence on political events in the Confederation.<P>
+The smallest political unit is the commune. Some of them are as large as Zurich, with over 400,000 inhabitants, while others are very small, with fewer than 50 inhabitants. The political fortunes of a commune are determined by its citizens as a whole. In smaller communes, a communal assembly is held for this purpose. It meets at regular intervals and makes decisions on local current affairs such as the budget, accounts, elections, etc. Among the most important responsibilities of the communes are the school and welfare systems, traffic police, gas, electricity and water supplies, and in urban communes, local public traffic.<P>
+The most important elements in the Swiss Confederation are the cantons that initially formed the Confederation and created the communes on their territory. The cantons occupy a vital intermediary position between the commune and the Confederation. The significance of the cantons is illustrated by the fact that a Swiss tends to feel he is less a Swiss than a citizen of a certain canton.<P>
+The Council of States is the chamber of the Federal Parliament that reflects the opinions of the cantons. Each canton, regardless of its size or population, is represented in the Council of States by two members. This council is paired with the National Council 
+
+to form the Federal Assembly, and it serves to emphasize the autonomy of the member cantons.</BLOCKQUOTE>
+<CENTER><H3>ELECTIONS & VOTING</H3></CENTER>
+<BLOCKQUOTE>Every four years the Swiss people elect a National Council (200 members). The elections for the Council of States (46 members) take place in accordance with cantonal law. Three to four times a year the Swiss are also called to the polls to vote on specific questions. Every Swiss citizen is entitled to take part in these elections, either as a voter or as a candidate provided he or she is at least 20 years of age.
+In Switzerland there is no obstacle for the parties as regards the number of votes needed to be represented in Parliament. On the contrary, thanks to the system of proportional representation, small political groups have a relatively good chance of winning a seat in the national Council. As a consequence, there are representatives from over a dozen different parties and movements in the National Council.<P>
+Referenda are the classical examples of, and probably the most important elements in, Swiss direct democracy. The Swiss have the right to vote at the polls on amendments to the Federal Constitution and, in principle, on any new or amended federal legislation. In contrast to most other countries, Parliament does not create new laws but only submits them. It is the people who decide whether or not they should be passed or implemented.<P>
+All amendments to the Constitution passed by the Federal Assembly must be put to the people. If a bill on the Constitution is to be legally binding, it must be accepted not only by the people, but also by the majority of states, i.e. the cantons. This dual requirement of approval by the people and the cantons corresponds to the division of Parliament - the Federal Assembly - into a people's chamber (National Council) and a states chamber (Council of States). It is yet another striking example of the important role played by the cantons in the Swiss Confederation and of the number of federal checks and balances built into the system.</BLOCKQUOTE>
+<CENTER><H3>INITIATIVES & REFERENDA</H3></CENTER>
+<BLOCKQUOTE>With the popular initiative, political ideas can be put forward as new constitutional amendments which then have to be put to the people and the cantons for a vote. For a popular initiative to be valid, 100,000 signatures must be collected within eighteen months. For a referendum, a vote can be demanded for any new or revised federal law but the demand must be supported by 50,000 signatures gathered within three months. 
+Initiatives and referenda are the primary aspects of the Swiss political system. They complement the right to vote and round off the concept of direct democracy.<P>
+Through their right to initiate legislation, at least 100,000 Swiss citizens may, on their own initiative, propose amendments to the Constitution and submit them to the approval of people and the cantons. 
+Even if an initiative is rejected by the Federal Council and Federal Assembly, the matter is only over and done with when it has also been rejected by the people and the cantons. However, if it is accepted in a referendum, an Article of the Constitution so approved can come into force even against the wishes of the federal authorities.<P>
+The legislative referendum, too, is designed to control elected authorities. Federal laws and ordinances are generally subject to this optional referendum. Within three months after the Federal Assembly decides to pass a new or amended law, if 50,000 signatures are collected from the voters, the law in question must be put to a vote by the people (in this case a cantonal vote is not required). The law then only comes into force if it is accepted by a majority of the voters. <P>
+A characteristic feature of the referendum is that it is not only effective when a law is actually put to a vote. A simple referendum threat is almost equally effective in shaping public policy. Public interest groups can often exert pressure or enforce their will by threatening to resort to a referendum if their wishes are ignored. Since the authorities are often reluctant to put a bill to a vote in such 
+
+circumstances and thus risk defeat, they usually try to accommodate such groups.</BLOCKQUOTE>
+<CENTER><H3>FEDERAL ASSEMBLY & FEDERAL COUNCIL</H3></CENTER>
+<BLOCKQUOTE>The Federal Assembly (parliament) consists of the National Council, (people's chamber, 200 members) and the Council of States (cantonal chamber, 46 members). The Federal Council (government) consists of seven members, from four different parties. The Federal Council has an administrative staff of over 30,000. The Federal Supreme court in Lausanne is the supreme court of appeal for court judgments in the cantons.<P>
+The Federal Council is what is known abroad as the Cabinet or Government. It consists of seven members elected by the Federal Assembly and is currently recruited from four parties - two each from the Radical Democrats, the Christian Democrats and the Social Democrats and one from the Swiss People's Party. This grouping, often known as the "magic formula", has been in existence since 1959 and is remarkably stable. 
+Stability is in any case a noteworthy feature of Swiss politics. The Federal Council, whose members remain in office for an average of ten years, is regarded as the most stable government in the world. Another reason for the stability of the Federal Council is that Parliament cannot vote a Federal Council out of office. Nor is there such a thing as a vote of no-confidence that can force a Government or a Minister to resign. It is not the President, but the Federal Council as a whole that is the Swiss Head of State and that bears corporate responsibility for decisions, reports, and motions sent to the Federal Assembly.</BLOCKQUOTE>
+<CENTER><H3>POLITICAL PARTIES & INTEREST GROUPS </H3></CENTER>
+<BLOCKQUOTE>There are a great number of political parties in Switzerland: In the Federal Assembly alone there are representatives of thirteen different party affiliations. The activities of the parties are closely connected with the rights of the people, since it these rights and not party policies that determine politics in. Switzerland. Indeed Swiss political parties have often been called the offspring of popular rights. <P>
+Unlike the situation in other democracies, the Swiss electoral system has not led to the elimination of small parties, there being no specific vote percentage required for a seat in Parliament. In Switzerland many small political groups have always been able to survive thanks to the proportional representation system. It is this very plurality of Swiss political parties that has made them willing to compromise and reach agreement, which, in turn, guarantees political stability. There is a great willingness to cooperate because no one party can ever hope to obtain a majority. <P>
+By its very nature direct democracy - in which all important political decisions are made by the people - depends on different currents of public opinion being given clear and organized expression. Although all parliamentarians are party members... and are expected to toe the party line of the group to which they belong, each member is also absolutely free to express his own views and vote as he pleases. Under the Constitution each representative is free to vote against his or her own party.</BLOCKQUOTE> 
+<CENTER><H3>ASSOCIATIONS & UNIONS</H3> </CENTER>
+<BLOCKQUOTE>Switzerland is a highly industrialized country, but during the modern age it has lost fewer working days to strikes than perhaps any other industrialized country. Swiss trade unions are notable in that they are very enduring, stable organizations, universally recognized, and fully integrated into the political process. <P>
+Industrial peace has existed in Switzerland for a long time. It can be traced back to the Industrial Peace Agreement reached in 1937 between the leading industrial associations and the unions of the metal, engineering and watch-making industries, which decided to renounce strikes and lock-outs and settle differences by binding arbitration. The trade unions and industrial associations are in fact even more firmly integrated into political life than are the political parties. They play a great role in determining important economic and social policies as well as ensuring the long-standing peace of industrial relations in the country.</BLOCKQUOTE>
+
+</FONT>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}fdlap/fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+<FONT  SIZE=2><A HREF="mailto:fdlap@chollian.net"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
+<A href="${BASE_URL}fdlap/fdlorg.html#address">Our Address...</A></FONT>
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default FdlapSwissdd1;

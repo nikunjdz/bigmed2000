@@ -1,0 +1,725 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 30 25% 95%;
+    --foreground: 0 0% 10%;
+
+    --card: 30 20% 92%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 30 20% 92%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 0 70% 45%;
+    --primary-foreground: 30 25% 95%;
+
+    --secondary: 30 15% 88%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 30 15% 88%;
+    --muted-foreground: 0 0% 35%;
+
+    --accent: 30 30% 85%;
+    --accent-foreground: 0 0% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 20% 75%;
+    --input: 30 20% 75%;
+    --ring: 0 70% 45%;
+
+    --radius: 0.25rem;
+
+    --link: 210 70% 35%;
+    --heading: 0 70% 40%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-size: 112.5%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  #root {
+    min-height: 100vh;
+    width: 100%;
+  }
+}
+
+@layer components {
+  .site-prose {
+    font-feature-settings: "kern" 1;
+    word-spacing: normal;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-wrap: pretty;
+  }
+
+  .site-prose :where(p, li, blockquote, dd, td, th) {
+    line-height: 1.65;
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+
+  .site-prose :where(h1, h2, h3, h4) {
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  @media (max-width: 767px) {
+    .site-prose .text-justify {
+      text-align: left !important;
+    }
+  }
+}
+
+/* ============================================================
+   LEGACY HTML CONTENT — readable on desktop, comfortable on mobile
+   ============================================================ */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.top-frame {
+  flex-shrink: 0;
+  background: #000033;
+}
+
+.logo-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 10% 10% 10% 10%;
+  min-height: 55px;
+  background:
+    linear-gradient(
+      to right,
+      #3366ff 0,
+      #3366ff 60%,
+      #0000cc 60%,
+      #0000cc 70%,
+      #000099 70%,
+      #000099 80%,
+      #000066 80%,
+      #000066 90%,
+      #000033 90%,
+      #000033 100%
+    );
+  text-align: center;
+}
+
+.logo-box {
+  align-self: start;
+  justify-self: center;
+  margin: 0;
+  padding: 4px;
+  background: #000066;
+}
+
+.top-logo {
+  width: 250px;
+  height: 35px;
+  max-width: 70vw;
+  vertical-align: middle;
+}
+
+.app-logo-text {
+  display: none;
+  color: #ffffe8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.legacy-nav-row {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  align-items: start;
+  min-height: 24px;
+  padding: 2px;
+  background: #000033;
+}
+
+.pulse-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 18px;
+}
+
+.legacy-top-nav {
+  color: #ffffe8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.legacy-top-nav a {
+  color: #45a4f1;
+  text-decoration: underline;
+}
+
+.legacy-top-nav a:visited {
+  color: #3366ff;
+}
+
+.legacy-top-nav a:hover {
+  color: #ffffe8;
+}
+
+.nav-separator {
+  color: #ffffe8;
+}
+
+.body-frame {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.side-frame {
+  flex: 0 0 130px;
+  width: 130px;
+  background: #fff url("/bgflag.jpg") repeat;
+  overflow: hidden;
+}
+
+.side-link {
+  display: block;
+  margin: 0 0 2px;
+}
+
+.side-link img {
+  display: block;
+  width: 128px;
+  height: auto;
+  max-width: 128px;
+  margin-left: 2px;
+}
+
+.main-frame {
+  flex: 1;
+  min-width: 0;
+  overflow-y: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* Page wrappers for dangerouslySetInnerHTML content */
+.legacy-page-content {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.legacy-page-content p {
+  margin-bottom: 1em;
+}
+
+.legacy-page-content blockquote {
+  margin: 1.5em 2em;
+  padding: 1em;
+}
+
+.legacy-page-content h1,
+.legacy-page-content h2,
+.legacy-page-content h3,
+.legacy-page-content h4 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+.legacy-page-content font,
+.legacy-page-content p,
+.legacy-page-content li,
+.legacy-page-content td,
+.legacy-page-content th,
+.legacy-page-content dd,
+.legacy-page-content dt,
+.legacy-page-content blockquote,
+.legacy-page-content span,
+.legacy-page-content div,
+.legacy-page-content address {
+  font-size: inherit;
+}
+
+.legacy-page-content font[size="1"] {
+  font-size: 10px !important;
+}
+
+.legacy-page-content font[size="2"] {
+  font-size: 13px !important;
+}
+
+.legacy-page-content font[size="3"] {
+  font-size: 14px !important;
+}
+
+.legacy-page-content font[size="4"] {
+  font-size: 16px !important;
+}
+
+.legacy-page-content font[size="5"] {
+  font-size: 18px !important;
+}
+
+.legacy-page-content font[size="6"] {
+  font-size: 24px !important;
+}
+
+.legacy-page-content font[size="-1"] {
+  font-size: 12px !important;
+}
+
+.legacy-page-content font[size="-2"] {
+  font-size: 10px !important;
+}
+
+.legacy-page-content font[size="+1"] {
+  font-size: 16px !important;
+}
+
+.legacy-page-content font[size="+2"] {
+  font-size: 18px !important;
+}
+
+.legacy-page-content h1,
+.legacy-page-content h2 {
+  font-size: 24px !important;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.legacy-page-content h3 {
+  font-size: 18px !important;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.legacy-page-content h4 {
+  font-size: 16px !important;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.legacy-page-content h5 {
+  font-size: 14px !important;
+}
+
+.legacy-page-content h6 {
+  font-size: 13px !important;
+}
+
+.legacy-page-content p,
+.legacy-page-content li,
+.legacy-page-content td,
+.legacy-page-content th,
+.legacy-page-content dd,
+.legacy-page-content blockquote {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.legacy-page-content a {
+  font-size: inherit !important;
+}
+
+.legacy-page-content table {
+  max-width: 100%;
+}
+
+.legacy-page-content p,
+.legacy-page-content dl,
+.legacy-page-content dt,
+.legacy-page-content dd {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+/* Legacy HTML alignment overrides */
+.legacy-page-content center, center {
+  display: block;
+  text-align: center;
+}
+.legacy-page-content center table,
+.legacy-page-content [align="center" i] table,
+.legacy-page-content [align="middle" i] table,
+table[align="center" i],
+table[align="middle" i] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.legacy-page-content center hr,
+.legacy-page-content [align="center" i] hr,
+.legacy-page-content [align="middle" i] hr,
+hr[align="center" i],
+hr[align="middle" i] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.legacy-page-content hr[align="left" i] {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+.legacy-page-content hr[align="right" i] {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+.legacy-page-content [align="left" i] {
+  text-align: left !important;
+}
+.legacy-page-content [align="right" i] {
+  text-align: right !important;
+}
+.legacy-page-content [align="center" i], .legacy-page-content [align="middle" i] {
+  text-align: center !important;
+}
+.legacy-page-content td, .legacy-page-content th {
+  text-align: left;
+}
+
+/* Explore Navigation Links */
+.explore-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.explore-link {
+  color: #007339;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.explore-separator {
+  color: #000;
+  margin: 0 4px;
+}
+
+@media (max-width: 768px) {
+  .body-frame {
+    flex-direction: column;
+  }
+
+  /* Side Menu Navigation */
+  .side-frame {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px 16px !important;
+    padding: 12px !important;
+    justify-items: center !important;
+    align-items: center !important;
+    background: #fff url("/bgflag.jpg") repeat;
+    border-bottom: 2px solid #000055;
+    width: 100%;
+    min-height: 0;
+  }
+
+  .side-link {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .side-link img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 120px !important;
+    object-fit: contain !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .side-link:first-child {
+    grid-column: span 2 !important;
+  }
+
+  .side-link:first-child img {
+    max-width: 80px !important;
+    border: 1px solid #000055 !important;
+  }
+  
+  /* Main Content Layout and Spacing */
+  .main-frame {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .legacy-page-content {
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .legacy-page-content p {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 1em;
+  }
+  
+  .legacy-page-content li {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+  
+  .legacy-page-content blockquote {
+    margin: 1em 8px;
+    padding: 12px;
+    font-size: 15px !important;
+  }
+  
+  /* Heading spacing and alignment */
+  .legacy-page-content h1 {
+    font-size: 24px !important;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    text-align: center !important;
+  }
+  
+  .legacy-page-content h2 {
+    font-size: 20px !important;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    text-align: center !important;
+  }
+  
+  .legacy-page-content h3 {
+    font-size: 18px !important;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    text-align: center !important;
+  }
+  
+  .legacy-page-content h4 {
+    font-size: 16px !important;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  }
+  
+  /* Header & Navigation */
+  .legacy-nav-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 6px;
+  }
+
+  .pulse-link {
+    margin-bottom: 2px;
+  }
+
+  .legacy-top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 12px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.4;
+    width: 100%;
+  }
+
+  .legacy-top-nav > span {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .legacy-top-nav .nav-separator {
+    display: none; /* Hide pipes on mobile */
+  }
+
+  .legacy-top-nav a {
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    white-space: nowrap;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+  }
+
+  .legacy-top-nav a:hover,
+  .legacy-top-nav a:focus {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffe8;
+  }
+  
+  .logo-row {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 8px 0;
+  }
+  
+  .top-logo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+  
+  /* Larger font for legacy small font sizes on mobile */
+  .legacy-page-content font[size="1"],
+  .legacy-page-content font[size="-1"],
+  .legacy-page-content font[size="-2"] {
+    font-size: 14px !important;
+  }
+  
+  .legacy-page-content font[size="2"] {
+    font-size: 15px !important;
+  }
+  
+  .legacy-page-content font[size="3"] {
+    font-size: 16px !important;
+  }
+
+  /* Table responsiveness */
+  .legacy-page-content table {
+    width: 100% !important;
+    display: block !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box !important;
+  }
+
+  /* Explore navigation page-specific links styling */
+  .explore-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 12px;
+    font-size: 1rem;
+  }
+
+  .explore-link {
+    color: #007339;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 6px 12px;
+    background: rgba(0, 115, 57, 0.06);
+    border: 1px solid rgba(0, 115, 57, 0.15);
+    border-radius: 4px;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+  }
+
+  .explore-link:hover {
+    background: rgba(0, 115, 57, 0.12);
+  }
+
+  .explore-separator {
+    display: none;
+  }
+}
+
+/* Loading spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Performance optimizations */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optimize rendering */
+.main-frame,
+.legacy-page-content {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

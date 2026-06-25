@@ -1,0 +1,239 @@
+import { useEffect } from "react";
+
+const FdlapKhosla = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `<BASEFONT SIZE=3>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4 VSPACE=6><BR>
+<FONT  SIZE=+2 COLOR=#007339><STRONG><EM>FDL-AP Archives</EM></STRONG></FONT><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=350 HEIGHT=4>
+<BR><BR>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3>
+<H3>"Turn the Systems of Governance Upside Down"</H3> 
+<H4>An Interview with Dr. Ashok Khosla<BR><A HREF="http://www.peoplefirstindia.org/" target="_blank">People First</A></H4>
+<FONT  SIZE=2>by W. David Kubiak</FONT>
+<HR WIDTH=300 ALIGN=CENTER SIZE=3><BR>
+</CENTER>
+
+
+	<FONT  SIZE=4>
+
+
+
+<H4><FONT  COLOR=#007339>Nancho: Well, sir, here the country is observing a half century of independence and the 50th anniversary of the Indian Constitution, but instead of celebrating this Constitution, you are hard at work trying to rewrite it. Would you explain why?</FONT></H4>
+
+<BLOCKQUOTE>Ashok Khosla: Well, if you analyze the Constitution of India objectively and without any bias, it becomes very quickly apparent that it is actually the Constitution of colonial India borrowed almost verbatim from the Government of India Act 1935 which was passed from the Westminster to India by the British, with the addition of national elections and state elections. We came to the conclusion that like any organism which has a genetic code built into it, a Constitution which has the genetic code of a colonial system built into it cannot possibly solve the problems of an independent vibrant new economy. 
+<P>
+We have been trying very hard for ways in which to rectify this at the least possible cost. If it is possible to fine-tune the Constitution with a few amendments, that would be wonderful and we tried that, and subsequently we came to the conclusion nothing short of pretty radical surgery would do the trick. So we have been working very hard to find a way to raise public opinion efficiently to rewrite this Constitution, to get rid of the remnants of colonial and feudal regimes which are built into it and start a new India which is truly democratic.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>So what in essence would be the necessary major revisions?</FONT></H4>
+
+<BLOCKQUOTE>AK: Well, one of the first revisions is that the institutions that the Constitution envisages for governance particularly at the local level don't exist. The institutions that were needed at the community level, at the district level, which would be the county level in England or America, or at the State level are very weak; and India by the year 1950 had largely adopted the worst of both worlds. It had the colonial system with Soviet-style centralized planning superimposed on it. With that it just couldn't move, which has led us to believe what we truly need is to introduce grassroots democracy, essentially to turn the systems of governance upside down and to make national government accountable to local government rather that vice versa, which is the case today, and to give power to people to decide their own future. 
+<P>
+If you are asking what specifically it would mean in terms of enactment of laws, it would mean enactment of laws to get rid of the Collector. The very word Collector -- which is the head of a district, the administrative head of a district posted from the central government -- means to collect taxes. Who was he collecting taxes for during the past two hundred years? For Queen Victoria and her successors. The Collector basically is totally antithetical in terminology as well as in concept to the needs of the people in the village. We would like to see elected governments who are directly responsible to the people and mechanisms in the village and at the district level. We would like to see true oversight by citizens of their governance, so that at any time citizens are able to call their representatives back, able to tell them that that is not what they want. To be able to essentially insure that their interests are always foremost in the minds of their elected representatives.....</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>In terms of the formulations of the law below the Constitutional level, what role would representatives then play?</FONT></H4>
+
+<BLOCKQUOTE>AK: We have not done away with legislatures. Clearly to legislate you need people who know a certain amount with certain skills. It is not necessary to assume that you need a gathering of large numbers of citizens to make a law, but we do believe that, when your interests are affected then you have a right to be heard, and public hearings are very important when new development projects are set up in your neighborhood to find out and to ascertain what your views are on having a power plant or a refinery or a fertilizer plant in your village. And without those kinds of mechanisms for consultations and public hearings it is not possible to get the right answers.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>But there are certain societies in the world that call themselves democracies that do hold these kinds of hearings and do not feel obligated to abide by the opinions that they hear ...</FONT></H4>
+
+<BLOCKQUOTE>AK: That's true, and that's probably true in any rational society. I have no problem with that, but if their views are not heard in the first place then I think that there is virtually no chance of rational decision. It is certainly the case that in certain places public hearings are farces, but we are not talking about a farce. We are talking about genuine input from citizens about their concerns. About their concerns on new issues, new policies, new projects and I believe that very few people in the long run can get away with ignoring those. You might get away in one or two cases, but it is not possible in the long run.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>Well, you are essentially talking about authoritarian structures in society whether at the court level or at the administrative executive level. How do you break down the hierarchies? When you are talking about citizen input how does this effect the actual structure of the government?</FONT></H4>
+
+<BLOCKQUOTE>AK: Today in India... we are talking about my country and in my country, national level government in Delhi has basically assumed all the roles of decision-making. It is basically all-knowing. It is basically self-assured that what it says is good for the country. Now in a country the size of India with a thousand million people, it is hard to imagine that a handful of people sitting in Delhi are going to know everything that everybody wants or needs or can have, and we have basically come to the conclusion that that is inherently not possible. So the mechanisms of decision-making have to be broken up into different levels of hierarchy. <P>
+
+There are certainly important issues that central governments have to face: foreign policy, defense, large scale national level infrastructure, currency management. They are all things that national governments have to do, but there are zillions of things they don't have to do. Things like deciding where I can build and what I can use for building material, what do I have to wear and what food do have to eat, which are decisions that are made by centralized governments for large numbers of people who don't take part in the decision. So we are looking at ways to decentralize decision-making as far down as possible. It is called the principle of subsidiarity. It is a common word in Europe, not a very pronounceable word, but it basically means that every decision should be taken at the lowest possible level where it can be best taken. And we are convinced that India needs subsidiarity. Funnily enough the word subsidiarity originated in India about a hundred and fifty years ago when in a document on the British government of India it was described as the proper way to govern India. But of course we forgot that. </BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>On the other hand, the British were credited with being able to manage a country of this size and complexity by inventing the Civil Service and then not paying them enough so that they would have to absorb a certain amount of graft, if I may call it that, from the population and therefore divert the resentment of the population onto the Civil Service and away from the Colonial masters. And yet when India gained independence instead of doing away with this the rather brilliant and cynical ploy, they enshrined it even further. So now in a country, for example, like Japan that is seeing that bureaucracy has been a fundamental impediment to democratization for the last 25 years, the Japanese are finding it almost impossible to take power away from these people...</FONT></H4>
+
+<BLOCKQUOTE>AK: Exactly ...</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>So how would this be achieved in India?</FONT></H4>
+
+<BLOCKQUOTE>AK: Well, there are two ways. As Mao said it power comes from the barrel of a gun. That is one possibility, and the other is that there is a mass movement which the government cannot ignore. I wasn't given target practice when I did my Ph.D. So I don't know how to use the gun well enough to undertake the first method, so my colleagues and I have chosen the second. We choose essentially to try and work up enough people about these issues, particularly influential people who cannot be ignored, but perhaps we need a combination of both. </BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>How would you gauge the popular understanding of the movement so far?</FONT></H4>
+
+<BLOCKQUOTE>AK: Very low yet. I think the appetite in the country for change is very strong, is very vibrant, and people are looking for change. I think the results of recent elections indicate that people are not happy. I think the newspapers and behavior of various groups in our country demonstrate that change is in the offing, but nobody has actually provided the adequate leadership for that change to occur yet. And we don't quite know yet who is going to show the way. Each of us is trying, but leadership of that kind is very nebulous, but when it finally clicks, then for sure we will have a change.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#007339> Among your current array of tactics and strategies, what are you banking on the most in terms of getting the word out?</FONT></H4>
+
+<BLOCKQUOTE>AK: Well, we are trying to be subtle about it to get the legislatures to cut the ground from under their own feet by suggesting to them that it would be in their own interest to reduce their stranglehold on decision-making processes, and that if they were to do so they would in fact get more power. Our hope is that they would believe our story that by increasing the political networks all the way down to the village level, then there is more space for politics all around. There is more power for political leaders if there are strong political institutions. <P>
+
+If they go along with that, then we hope that they will loosen their grip on the levels of decision-making which they have access to. If we can convince them of that then we think that there is a chance. Otherwise they have to be eliminated forcibly.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>There was a good deal of foreign press attention in the last couple years to the new Constitutional amendments 73 and 74 that installed the panchayat system of local democracy, or reinstalled it, or revivified it. Could you give a brief description of what those amendments intended, and what actually happened, or is happening?</FONT></H4>
+
+<BLOCKQUOTE>AK: Any political decision is a result of negotiation among very disparate interests and this one was certainly a very good example of that. What was needed in terms of empowering village government was not actually achieved at the end of it, simply because different forces were at work in the negotiating process, although the rhetoric and the constitutional amendment texts seemed to indicate that village governance was much more empowered then before. What actually transpired was they were really emasculated just as much as before. This has not been apparent to people without the kind of recent analytical work we have been doing to look at what it means in terms of institutions and results. What has happened is that the village government is now only capable of dealing with very minute local problems. Most of the impacts on village life are fed by decisions at higher levels too, and that was not taken account of in the amendments. So these amendments are actually not adequate. They are described in political discussions as being major breakthroughs, but they are not actually major breakthroughs.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>And the new system ...?</FONT></H4>
+
+<BLOCKQUOTE>AK: The system that we would like to see.. it would be basically much more empowering of the individuals. Now, for instance, let me give you an example: the constitutional amendments set up a small government within each village of five people. Five is in Hindi "panch" and these are "Panchayats", five village elders who are elected by the people for a period of time, say five years, to make decisions on their behalf. We have come to the conclusion that village politics is just as venal as any other politics, just as corrupt, just as self-seeking, and that the only solution to that is to involve the whole village in the decision-making. Something like a Greek city-state, where you bring the entire community in once a month, or once every two months to make full scale decisions. These would be called "Gram Sabhas" rather than "Panchayats". So with such an arrangement, the village participating in the council as a whole, with all the men and all the women and all the poor and all the rich being together, there will be a real chance of transparency and openness towards decision-making. This would be far better than the Panchayats, where all kinds of small time pressures and corruption can take place. Therefore, there is a major difference between what we propose and what these Constitutional amendments allow for.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>These would be equivalent to what we call town meetings in New England...</FONT></H4>
+
+<BLOCKQUOTE>AK: Yes, exactly the town hall meeting.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>And how is this being received by villagers?</FONT></H4>
+
+<BLOCKQUOTE>AK: The villagers would be very happy with them.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>Is it being discussed at that level?</FONT></H4>
+
+<BLOCKQUOTE>AK: Yes, not only in the country, but wherever we go and wherever like-minded people go. It is the only way. That is the way it was historically. The Gram Sabha is a very Gandhian kind of institution where people basically determine the future of their own lives with all that goes with it, negotiations, give and take, and understanding of the pros and cons for each person.</BLOCKQUOTE>
+<H4>
+<H4><FONT  COLOR=#007339>Is there anything in Indian society, This question is from a foreigner's point of view, but isn't village society so perhaps riven with caste-based divisions that it would be difficult to gather everybody in the village together. Wouldn't there would be tiers with the upper seats reserved for the upper castes and the lower seats accorded smaller voices?</FONT></H4>
+
+<BLOCKQUOTE>AK: That will happen. It will happen in some villages, but you know the numbers count too. The Brahmins normally constitute a small minority and they may be powerful individually, but there are not that many of them. If you have got five upper caste people and a hundred and fifty lower caste people, it is going to be very hard to ignore the numbers. So you are right - these are the issues that we have to solve. They are more sociological issues than political issues in the long run. Those are issues that we all are very deeply concerned about, but I think the chances of a power structure like a Panchayat of five people hijacking political power are much higher than of a thousand people who are making decisions in the open, in front of everybody else. <P>
+
+People are able to ask where did that money go or who sanctioned this road? Where are the trees? What happened to the pond? Where is the water coming from? These are all issues that are very hard to avoid if you've got a thousand people or eight hundred people standing around asking the same questions. Whereas five people sitting in a little smoke-filled room are able to do things that large numbers are not. Or the other way around, it seems to me the chances of getting a better decision with large numbers, with everyone entitled to a say, are much better than with a few elected representatives.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>Do you have a best case / worst case scenario for the time frame? How long it might take?</font></h4>
+
+<BLOCKQUOTE>AK: Things are pretty bad and it seems to me that a country like India is now pretty fed up with being stagnant economically and socially and to that extent politically. It is losing ground, it is losing its environmental resources very rapidly. A recent estimate shows some ten percent of the GNP is lost every year in environmental degradation. Now this is a very major loss and people are paying the cost of that, so I would be surprised if it could last much longer before people actually decide to take things in their own hands. I would imagine it is years rather than decades but I can't say more than that.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#007339>In terms of involving people at the grassroots level, one of the approaches in other countries seeking relatively radical democratization or redemocratization has been to bring people back into the court systems and back into the legislative systems by giving them a voice in the creation and enforcement of laws. In the courts, for example, the jury system would vastly accelerate the litigation process, and referenda would allow them to directly create or amend laws when they felt it necessary. Is any of that envisioned within your agenda?</FONT></H4>
+
+<BLOCKQUOTE>AK: It is envisaged in our system, not as explicitly as you stated, but it is a part of rejuvenating the confidence of the people in the system. Courts certainly play a very major role in the lives of Indian citizens. It is a litigant society. It spends a lot of time in courts and lives are tied up for long periods of time with court cases and therefore we are very deeply concerned about the issues that you are raising. It hasn't figured centrally in our democratization process, because we see it as a specific area that needs to be dealt with as another irritant which prevents people from getting on with their lives.<P>
+
+We haven't seen it as a governance issue as much as a issue of quality of life in a variety of ways. It could be like the environment, it could be like productivity, and we believe it is crucial, but in our eyes governance is really much more to do with how people participate in decision-making at a macro level on issues of resource management, of investment, of activities that effect their lives. So we haven't really seen it as central to that set of issues. So we think that this is really very important but I wouldn't have classified it under the rubric of governance. <P>
+Your other point is the same really. It seems to me that people can set up all kinds of mechanisms for taking part in decision-making, but ultimately if they are not formalized in a Constitutional sense, in a legislative sense, it is not going to work, so we are trying basically to work at that level.</BLOCKQUOTE> 
+
+<H4><FONT  COLOR=#007339>But would the Constitution restrict legislative powers to representative democracy as opposed to direct democracy or would they allow a mixture of both?</FONT></H4>
+
+<BLOCKQUOTE>AK: That depends on how we design the next Constitution, but I imagine it would be worthwhile to explore a judicious mix in which you get it right. Actually you need a mix, at different levels you are obviously going to have to do it differently. </BLOCKQUOTE>
+
+</FONT>.<P>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+<H4>
+Besides serving as co-trustee of "People First!", <BR>Dr. Ashok Khosla is founder/director of <A HREF="http://www.devalt.org/" target="_blank">Development Alternatives Group</A>, <BR>a network of appropriate technology think tank and R&D centers <BR>that combine modern science with traditional knowledge to develop "sustainable livelihoods." <BR>They have created over 700,000 new jobs in India over the last five years.<P>
+"<A HREF="http://www.devalt.org/newsletter/aug01/of_7.htm" target="_blank">Democracy for Sustainability</A>", People First's draft proposal 
+for the <A HREF="http://www.earthcharter.org/" target="_blank">Earth Charter</A><BR> is an important blueprint for a sane, just and sustainable world.
+
+
+
+
+</H4>
+<HR WIDTH=300 ALIGN=left SIZE=2>
+
+<P>
+
+<CENTER>
+
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<A href="${BASE_URL}fdlap/fdlpaper.html#essayarc"><STRONG>Back to Main Archives</A></STRONG><BR>
+<IMG SRC="${BASE_URL}fdlap/graph/fdline5.gif" WIDTH=250 HEIGHT=4 VSPACE=9><BR>
+<P>
+</CENTER>
+<FONT  SIZE=2><A HREF="mailto:fdlap@chollian.net"><STRONG><U>Contact FDLAP...</U></STRONG></A><BR>
+<A href="${BASE_URL}fdlap/fdlorg.html#address">Our Address...</A></FONT>
+<HR WIDTH=105 ALIGN=LEFT SIZE=2>
+<FONT  SIZE=-2 COLOR=#007339>Pagework by Nancho East</FONT>
+
+
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default FdlapKhosla;

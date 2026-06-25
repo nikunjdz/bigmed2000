@@ -1,0 +1,207 @@
+import { useEffect } from "react";
+
+const AdvisorsSuzuki = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<H4><FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT></H4>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> David Suzuki</CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD><BR>
+<IMG SRC="${BASE_URL}advisors/graphics/suzuki.jpg" ALT="David Suzuki" WIDTH=130 HEIGHT=150 BORDER=3>
+<BR><BR>
+<I!MG SRC="${BASE_URL}advisors/graphics/" WIDTH=118 HEIGHT=150 HSPACE=15 VSPACE=15 BORDER=3  ALT="Sri Ralph"></TD></TR>
+</TABLE>
+<BR><BR>
+
+
+
+
+<img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+<CENTER><H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+
+<CENTER><img align=middle src="${BASE_URL}bulls/advline1.gif" WIDTH=90% height=4><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+
+
+<P>
+<STRONG>
+<FONT  COLOR=#400000><STRONG>Nancho:</STRONG>First off, how did a nice ivory tower guy like you get into a nasty brawling place like TV?</FONT>  <P>
+
+<BLOCKQUOTE>  <STRONG>Suzuki:</STRONG> I really felt that science had implications that affected people in every aspect of their lives and as a geneticist I was astounded - after I had become a scientist - to learn that what had happened in Nazi Germany had in fact been supported and fueled by many of the leading geneticists of the time in Germany. I, myself, spent three years in a Canadian camp because I was considered an enemy alien of Canada because I had Japanese genes in me. And looking back on that, it was clear that it was because of genetic claims that so much of human behavior was inherited that parliamentarians then called us enemy aliens. So from that basis I realized in my own area of genetics that there were huge impacts on the general public from what we were learning. And yet the public is effectively kept out of understanding this because scientists don't often talk to the general public. So that led me into getting involved in television to try to communicate what was going on, and it became very, very clear in the years after I got involved that the environment was the dominant issue.</BLOCKQUOTE>  <P>
+
+<FONT  COLOR=#400000> But over the years you've been involved or, hell. since the time of  Rachel Carson, there have been scores reports: U.N. Reports, World Watch Reports, Club of Rome reports. So there's been a very obvious increase in consciousness about environmental problems and yet in many ways the pace of destruction, pollution, and carnage has never been worse.</FONT>  <P>
+
+<BLOCKQUOTE>  <STRONG>Suzuki:</STRONG> It's very, very discouraging to reflect that it has been 30 years since Rachel Carson published her book; that it's been more than 20 years since the first U.N. meeting on the environment in Stockholm; that already a year has gone by since Rio; that the rhetoric certainly has been pumped up, but at the very time we have unprecedented awareness, the rate of destruction continues. I just heard yesterday that new data that indicates the depletion of the ozone layer above the northern hemisphere is far beyond anything that was ever predicted. We're now having lower levels of ozone in the upper atmosphere than ever recorded. We've known about that since l974 and we're still not talking about phasing out CFCs until the end of this century! 
+
+<P>It's absolutely horrifying to realize how glacial our response is. And what I see in a place like British Columbia, for example, as we destroy the last old grow forest the level of the fight is getting worse because there is tremendous pressure on the remaining areas. So now the value of the forest increases, people are very concerned - they want to save the remaining old growth forest and the heat continues but every minute the logging and cutting also continue. We saw it on the east coast of Canada - fishermen had been warning that the Atlantic cod, the northern cod were disappearing over 20 years ago and yet they continued to fish them right down until last year when the Canadian government admitted they're essentially extinct. 
+
+<P>So, I agree with you that  we've had 30 years now of justly elevated awareness of the problem, but the rate of destruction if anything has accelerated. So, it's not surprising the World Watch Institute says that the l990s should be the turnaround decade. I was at a dinner with Prince Charles last year and hearing all of the arguments back and forth about the need for jobs and the economy and all of this, I said I feel like we're all sitting in a car heading at a brick wall at a hundred miles an hour and everybody in the car is debating about where they want to sit. OK,  there are a few people in the car who are saying, "For god's sake, slow down and turn the car." Unfortunately, they're locked in the trunk. So, it's a pretty desperate situation but I think anyone who has children and an investment in the future has no choice but to keep banging away.</BLOCKQUOTE> <P>
+
+<FONT  COLOR=#400000> When you talk to activists, activists around Asia particularly, they're facing a lot of different problems right across the board from corruption and economic imperialism to abuse of human rights and the environment. But one common thread you find is that in the background they can all trace their problems to a relative handful of major corporations, transnationals (Yes.) that seem to be causing most of the large-scale damage. So now some people are talking about the need for a germ theory of Gaian illness that starts to identify these corporate bodies as pathogens and treat the problem in a more biological way.</FONT>
+
+<P><BLOCKQUOTE>  <STRONG> Suzuki:</STRONG> Well, I certainly think economics is at the heart of the current crisis affecting the planet. And I think the fact that every government on earth seems to have bought into the current idea of economics virtually assures that we will continue at the same destructive rate. The whole drive for GATT agreements, for greater free trade and globalization of the marketplace absolutely assures that we're going to destroy the planet. And the reason is because economics - the way it's been constructed - is not connected to the real world. If you ask an economist where in your economic graphs - with all these little arrows going from the manufacturer to the dealer to the household and so on - where in these graphs of how the economy works are air, water, soil and biological diversity? They'll tell you, "oh, those are externalities." They've been externalized from the economic system. Well, then these guys live in a loony tunes world that's not connected to reality at all. They live in a world which they take to be infinite, a world where human creativity is so great that if we run out of something , well, we'll find some other alternative. They do not live in the real world, and the things which sustain our very lives they completely discount as of no concern. 
+
+<P>At one time in our world, money simply symbolized something. You used money as a means of transfer, to form labor into an object. Money stood for some real things that you could then trade on. Today what's happened with money is that it has come to stand for itself. Nothing more than money. We think that people who have this dirty paper in their hands are rich. It's got to such a crazy state that every day on the marketplace around the world, 600 billion dollars in currency are bought and sold. What for? To make more money. So you take money, you just crank it out, you buy it and you sell it and you make more money. And of course the problem is that money, when it's disconnected from nature, can be cranked out faster than you can crank out anything living. So, we have forests in British Columbia that grow at the rate of 2 or 3 percent per year. Now you don't have to be a genius to know that if you only cut 2 or 3 percent of your trees each year, you can have forests forever. The problem is that that makes no economic sense, because what investor is going to settle for a 2 or 3 percent return on their investment each year. If you clear-cut the whole forest, however, you can make 8 or 9 percent and put it in the bank. If you then take the money and put it into Malaysian or Papua New Guinea forests, you can make 20 percent. And once all the forests are destroyed, you just take the money out - it's fluid, it's money - and you can invest it in fishing, and when the fish disappear, you can put it into computers or biotechnology. So because there are no borders to money, it just travels around and it liquidates biological systems. Yes, it makes more money, but it also absolutely insures that we're going to trash the planet. So, unless we begin to reconstruct an economics that is fundamentally connected to the things that keep us alive, economics itself is going to destroy the world. 
+<P><P>That's why it grieves me to see how the most progressive politicians - politicians elected with green plans, with ideas for greater pollution control and so on - when it comes to the crunch, they will always say that we have to do everything we can to insure steady economic growth. In the end then, they plug into the same system that is going to destroy the planet because economics is so fundamentally disconnected from reality.</BLOCKQUOTE>  <P>
+
+<FONT  COLOR=#400000> So, now we have these two-headed beasts like the Gore/Clinton team with Gore mumbling ecology while Clinton preaches growth and jobs, and presses the world to increase consumption demand to pump up the trade balance. Where do you see the turning point coming from?</FONT>  <P>
+
+<BLOCKQUOTE>  <STRONG> Suzuki:</STRONG> Well, I was at Rio reluctantly - because I didn't expect Rio to accomplish anything. I went to Rio only because my daughter insisted that she wanted to go and she was only 12 years old at the time and I couldn't let her to go by herself. But what Rio did for me was to confirm the fact that politicians and the business community operate in spheres where the rules are such that they simply cannot act in a way that will put the global ecosystem before their own priorities. This is something that Al Gore told me when I interviewed him in . He said, "Don't expect people like me, politicians like me, to lead the way." He said, "If you want change you must get people at the grassroots to understand what you want, to agree with it and to demand it, and then, people like me will fall all over ourselves trying to jump on board." 
+
+<P>Anyway, he convinced me with his arguments, and my whole focus now is on the grassroots. Rio convinced me more than ever that the real action has to be at the fundamental grassroots level. So,  the thrust of what I'm doing now is to work within my own local community to develop ideas of what are ecological ground rules for sustainable living. What do you have to observe in order to assure a future for all coming generations? And then once you have the ecological ground rules for sustainable living, what does life look like? People come up to me and say, "what do you guys want? Am I going to have to live in a cave?" They're afraid of the future because they don't know what it's going to look like. And I understand that. I think that's a perfectly acceptable concern. So, we have to flesh out a vision of a sustainable future in the cities and in the country. And once we have that vision, then we have to say how we get from where we are now, which is totally unsustainable, to that vision within 10 to 15 years? What are the concrete steps that we have to go through to transform society? 
+
+<P>Our working vision is based on a model called bioregionalism, in which we have to learn to live within the ecological carrying capacities of our ecosystems. We are living right now trying to force nature into our categories of counties, prefectures and countries which make no biological sense. We have to observe nature's biophysical boundaries, see what the productive and carrying capacities of those regions are and learn to live within them. So, based on this bio-regional model then, we want to get the ground rules, get a vision, get a strategy for transforming ourselves and then the major challenge is to go out and sell it to the grassroots. My wife always says that we have to find Suzuki samurai all over the place; people who will take the facts and insights that we gather and use them as a manual for transforming their towns and neighborhoods into sustainable communities.</BLOCKQUOTE>  <P>
+
+<FONT  COLOR=#400000> And you will pipe this out through the media?</FONT>  <P>
+
+<BLOCKQUOTE>  <STRONG> Suzuki:</STRONG> Well, if I have any ability at all it is to communicate, and we are focusing on British Columbia as our area, but what we hope to develop for our province should be applicable right across North America. And then we will try to find groups of people who will take our manual and begin to transform it or apply it to their own regions, and I would hope it would eventually become international. I don't have the conceit that we're going to save the world. But that's at least the strategy for what I'm trying to do.</BLOCKQUOTE>  <P>
+
+<FONT  COLOR=#400000> For creating visions that people can understand and desire or at least not fear, it always seemed that movies or even television could play a much greater role by showing what a hopeful future might look like...</FONT>  <P>
+
+<BLOCKQUOTE>  <STRONG>Suzuki:</STRONG> I'm not a big fan of technology as a way of really making a big transformation. I know that at the Global Forum in Kyoto there was a proposal for a global television network that would be grassroots based and would be plugged in around the world to show people how to live sustainably. I just totally disagree with that because I don't see that technology is going to be the solution to the problems that technology creates. I think television must take a great deal of the blame for the problems that we face and that's a whole other speech which we don't have time to talk about. But I think that television does the opposite of what we want which is to think conservatively, to think in long terms, to think holistically. That's what we need for our new way of looking. Television does exactly the opposite. 
+
+<P>So, I don't see the mass media helping. I really see it happening at the level of individuals meeting individuals and individual groups and communicating in person. Now, the main message that we're going to carry is that it's not a life of sacrifice. I think one of the problems today is that environmentalists are being painted as negative - they're against progress, they're against human beings, they're against development and technology. What I say is that we simply recognize that there are limits. We have to finally learn to say how much is enough. Is it really so hard to say that we have more than we need? Come to a place like Japan - my God - how dare anyone in this country say that we have to have more? Just go out and look at the garbage that is discarded every week. This is insane. Do we think Mother Earth can continue to give us more and more and we can throw out more and more and act as if this can go on forever? Surely we've reached a point where we've got more than enough. And what is the world this brings - this great "wealth?" We have tremendous unhappiness in this world. We have loneliness, alienation, violence, sexual abuse. We have crime, we have all kinds of problems that come from living in a way that makes no ecological sense. And I say that we offer a vision now of communities, of cooperation, of sharing - of, yes, living with a lot less, but having a much richer quality of life. Lives that don't waste three hours every day sitting in a bloody car in a traffic jam. Can you imagine if every person had three extra hours each day to spend with his wife or husband or children or doing what they really wanted to do? You could have that if you lived right near where you worked and could walk there. 
+
+<P>Wouldn't it be wonderful if every time you walked out the door you saw people around who you knew and cared for and could talk to? I'm talking about the returns of a sense of community and higher quality living, not this insane dream world we live in where we think that things can substitute for human relations and spiritual values. So I think the challenge for us now is to go out and sell a very positive notion that making do with less assures a future for our children and gives us a much higher quality of life.</BLOCKQUOTE>  
+</STRONG>
+<BR><BR>
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, VISIT SUZUKI CENTRAL:<BR> <A HREF="http://www.davidsuzuki.org/main_menu.html" target="_blank" >THE DAVID SUZUKI FOUNDATION</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsSuzuki;

@@ -1,0 +1,310 @@
+import { useEffect } from "react";
+
+const AdvisorsBrook = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<FONT  COLOR=#400000><CENTER><EM>The Nancho Consultations</EM></FONT>
+
+<TABLE BORDER=5 CELLPADDING=5>
+<CAPTION ALIGN=bottom> Peter Brook </CAPTION>
+<TR><TD ALIGN=MIDDLE><BR><BR><IMG SRC="${BASE_URL}graph/demonr.gif" ALT="Nancho Lite" hspace=15 WIDTH=84 HEIGHT=150 HSPACE=2 BORDER=0 > </TD><TD>
+<IMG SRC="${BASE_URL}advisors/graphics/brooke.jpg" WIDTH=112 HEIGHT=150 HSPACE=15 VSPACE=15 BORDER=3  ALT="Sri Peter"><BR><BR></TD></TR><BR><BR>
+</TABLE>
+<BR>
+
+
+
+
+<IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6></CENTER><P>
+
+<!----******************************************MAIN TEXT******************************************-->
+<CENTER><H2>Nancho Consults Peter Brook</H2>
+<FONT  SIZE=5>On Audience, Energy and <BR>Alchemical Communion</FONT>
+<BLOCKQUOTE><FONT  COLOR=#800000><STRONG>Peter Stephen Paul Brook CBE, director, filmmaker, author, painter, pianist and theater man to the bone, is a giant of world culture. Born on the spring equinox in 1925, Brook produced an acclaimed Faust at Oxford at 17 and at 20 became the youngest-ever director of the Royal Shakespeare Theatre. He has since directed over 40 major stage productions, created ten films, and with multiple stage, cinema and television versions returned the dramaturgically languishing gods of India's Mahabharata to full-time international employment. Although he has produced works as varied and bizarre as Marat Sade, Lord of the Flies, Conference of the Birds, and The Ik, the Paris-base Brook constantly cycles back to the Shakespearean canon for renewal. His primary legacy to the modern stage is a sense of immediacy bordering on possession, taking theater back to the numinous ground where ritual, seance and coven convene. </STRONG></FONT></BLOCKQUOTE>
+<H3>- <EM>Verbatim Excerpts</EM> -</H3></CENTER>
+
+<CENTER><IMG SRC="${BASE_URL}bulls/advline1.gif" WIDTH=399 HEIGHT=6><P></CENTER>
+
+
+<!----*******************************************LINKD****************************---->
+
+<BR>
+<FONT  SIZE=4>
+
+
+
+ 
+
+<H4><FONT  COLOR=#400000>Nancho: Among all the institutions collectively known as "Japanese culture" today, the few indigenous ones are actually the dramatic forms - kabuki, bunraku, noh, even ankoku buyo. And despite what you see on television, there is a lot of dramatic talent in this country, like Britain perhaps. What does it mean when a culture or a country has a high "histrionic quotient" or level of thespian ability?</FONT></H4>
+
+<BLOCKQUOTE>  <STRONG>Peter Brook</STRONG>:  I remember a number of years ago an English actor saying to me that he felt that there was something very much in common between England and Japan in relation to acting. He said that one of the reasons why the English are normally more gifted for acting than Latin countries is that any Latin, as everyone knows, acts naturally. He has no inhibition whatsoever about immediately and completely expressing himself outwardly. There is nothing that holds him back. This absence of resistance, of course, leads to bad art. It leads to natural communication, but no need for the creative act that comes from difficulty and friction. And he said that the English paradox, that the English who are normally not considered a theatrical nation, a theatrical people, can express themselves through the theatre because there is a meeting between two opposing impulses - an inner impulse that wishes to express itself powerfully outwards, and an inhibiting influence that prevents that through the nature of the education and culture. And he said there is the same thing to be found in Japan, where you have this tremendous meeting between two opposing pressures: the pressure to express outwardly and the pressure not to express outwardly. And this produces a very intense need to create, not easy forms, but in the end, difficult forms. I think this analysis is very convincing.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Do you think the Japanese theatre traditions have anything to offer to modern theatre, or are they simply traditions?</FONT></H4>
+
+<BLOCKQUOTE>  <STRONG>PB</STRONG>:  The answer can't be yes or no. Everywhere in the world there are traditions, traditional theatre. When I started working in England there was a Shakespeare tradition. It was abominable. There wasn't anything whatsoever to be preserved or respected, and it had nothing to do with Shakespeare anyway. On the other hand, you come to these great traditions - the Noh, the bunraku, kabuki - and one has to salute and respect some of the greatest forms the world's theatre has ever known, forms of extraordinary beauty, making enormous demands which, to begin with, set a standard of quality, of pure quality, quality on all levels. Most of all in the bunraku, for the simple reason that, apart from the quality of the image, there is something which has to be brought to life every time - this incredibly fine, living interrelation between the operators and the puppets. This is something in the present, like in a martial art. This is not something that exists in the past, because however long bunraku operators have been operating, in each performance they have to rediscover that extraordinary interrelationship between their teams, the dolls that they are bringing to life, and the actions that the dolls make together. It is a supreme exercise, quite apart from the story that it is telling, This sets a standard for the body, for the sensitivity, for the lightness and quickness and execution of all actors in all styles all over the world. - It is a peak in interrelation, in teamwork, in group feeling, requiring the highest level of bodily, emotional and intellectual sensitivity. In that way it is not just a monument, but a monument in terms of its life for each performance.<P> But from another point of view, one can't say that any pictorial form that has become frozen can truly express what is needed to be expressed in the present day. You can relate it also to similar forms in India and Southeast Asia. These forms are there to be admired in the way that you can admire great works of art in a museum, which are very important, or great works of music from the past, as showing a degree of quality that today, when our general sense of quality is so low, it's very hard to reach. They have to be there and they have to be preserved in as living a form as possible, but they mustn't be thought to be a substitute for the obligation there is to find the present form. <P>In the Japanese tradition one sees this renewal into the present in an immensely interesting way in fashion design, where without the great beauty of traditional Japanese dress being in any way challenged, the great designers of today have found a true renewal, using methods, materials and a vision that comes out of the present day, yet doesn't deny their heritage.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>In theatrical traditions such as kabuki, great importance is attached to the formalized movements called kata. How do you assess this style of learning?
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>:  Again it's not yes or no. It is much more, how do you feel yourself in front of a formalized movement? If you feel that what is needed is to imitate it perfectly, then it can be a barrier, because imitating it perfectly leads to one saying: So what? I have taken something very difficult and I have learned to do it like someone else once did it. So what's the value? However, and this is very very rare, if you can go beyond this and say: This difficult form is like a bridge, and if I can completely absorb it to a point where I come to the other side, I can find something that comes to life in myself - this is a very different attitude. <P>I don't know about Japan, but in India I saw a lot of this in classical dancing. Once the great dancers were so completely free of the difficult forms that they could use them to express deep human truths. It's the same in Europe in Western classical ballet. The very rare great dancer goes beyond the form, and the form then is a support, and something very simple can come through. I've seen an Indian dancer, a great dancer, doing very artificial movements, but what came through was a mother calling to her child. Her child was the little god Krishna, and all that one saw, all that one could be touched by, was the pure quality of the feeling of Krishna's mother. One wasn't seeing the complicated form. In the same way, I've seen a great European ballet dancer playing Giselle, and all one sees is the true feeling of madness in this character. But this is very very rare. In India it is more and more rare, and in all the classical schools it is recognized that today all the pupils end at the level of virtuosity. They've reached the point where they can do and show the difficult movement, and that's where the question comes, who cares? You only care if the person wishes to use this like a line of Shakespeare, to lead to something far beyond.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>You've spent many years celebrating Shakespeare, and presumably studying his era and society. What is your position on the "pit question?" Did the common people, the audience in the "pit, " really only come because of the few bawdy scenes or obscene references, or was there a higher level of searching or understanding among common audiences than we see today?
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+Well, I don't think that there is much area for controversy here. Shakespeare, more than any other dramatist that we know, recognized the need to make what happens on the stage a reflection of all forms of life. And by all forms, I mean both philosophical life, spiritual life, inner life, intellectual life, sophisticated life, and popular life - all as being interrelated facets of this great mass that we call living experience.
+
+<P> And he knew - and this is something that I've found confirmed by experience all through my life - that you can only do that if it is matched by a corresponding audience. That you produce in the theatre just as much as your audience can receive. So if you have an entirely academic audience, to satisfy them you produce intellectual plays. If you have an entirely popular audience, in the lowest sense of the word, you produce crude popular entertainment. Linking levels is one of the hardest things in all human activities. But Shakespeare's aim and his art was constantly to engage each part of the audience at the same time. And very recently, English poet Ted Hughes has written a penetrating book on Shakespeare, which has yet to be published, in which he even analyzes this in terms of the single line. How within one line of Shakespeare, he will use an elaborate word that most of the audience could not understand, but which would excite the intellectuals who were sitting close to the stage, and then by the use of the word "and" he would immediately follow it by a second word, which turns the same sense into very everyday use. And the two together, the elaborate word and the ordinary word put side by side, give an excitement to both parts of the audience and, in a lightning flash, both parts of the audience were equally involved. 
+
+<P>I think that you'll find that Shakespeare did something that we learn all the time in the theatre, and which every orator knows as well, which is to never
+let any part of your audience slip for too long. Because one recognizes that there is this phenomenon in audiences - an audience that switches off. And the aim of all theatre work is never to lose your audience for a moment. Because if you lose an audience, even for a matter of seconds, it's very hard to capture them again. And if you look at the structure of Shakespeare's plays, you can find that he alternates all the time between one level and another. And, in this fluctuating movement, he keeps in touch with everyone. There is an element of crude melodrama followed by an element of sophisticated politics, and at once something else that comes in, and something that refers to a very difficult idea. 
+
+<P>You can take Hamlet. If you think that Hamlet is inexhaustible as a deep, philosophical play, and yet it is totally accessible and eternally popular as one of the most widely played pieces of dramatic writing in history. And there's a perfect example of how he could write for an enormous audience. He was only doing what big film-making always strives to do, and which succeeds to a degree. 
+
+<P>Very, very good films, on the whole, do bring together enormously different people. And if you think of the very best American movies, there have been a great number of extraordinary pictures that have played to, in New York for instance, to very sophisticated people, and are then playing in remote parts of the Middle East and Asia to very popular audiences. And all of them are held by the same film at the same time, and yet they are seeing different aspects of it. That is the great Shakespearean art and no one has outdone that. 
+
+<P>Because the one thing that no one can deny about Shakespeare is that... Well, there are two things you can't deny. The popular nature is proven by statistics because of the amount his works are played all over the world. But I don't think that anyone would say that in all writing there is anything spiritually and philosophically deeper than what is in the core of Shakespeare's writing. And there, there is no concession. That the deepest ideas are expressed without being popularized or cheapened. And for that there is no precedent in theatre writing. The only equivalents are in novel writing. We have a writer like Dostoyevsky, who has also those two sides, whose depth or thought go very deep, and yet whose form is irresistible to a very, very wide audience for its dramatic intensity.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>I wasn't questioning his art, but there was this debate as I remember about the quality of the audience itself, that we haven't come so far educationally and culturally, that the kinds of things the audience of the Elizabethan era were fascinated with were not merely the vulgar scenes, the same popular baiting that we get in the media today, but that they were actually concerned with deeper issues. That there was an active interest, even among the lower segments of society, in greater questions.
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+Well, I think you touch on two very important and interesting things. One is that always audiences - their level of understanding - is always underestimated. And that every section of the population is capable of more than the people responsible for creating mass entertainments are aware of. That is a universal truth. But then there's a more specific truth. That is that every theatre event is a process. And by that I mean that something happens which is not the same in the middle as at the beginning, and not the same at the end as the middle. And when the event is right, in other words, when the words are properly conceived by the author, when the acting is properly conceived and implemented by the actors, there is a change of temperature. That, whatever the audience, it is hoisted to a higher level of understanding than it is normally capable of. And one sees this with an actor. An actor may be a very ordinary and dull person in everyday life. But as he begins to play a great play like Hamlet or King Lear, gradually he becomes a higher level of human being than he is before or after. And the same thing happens to an audience. But an audience, if the work is right, is carried to a higher level. Now this is not only true of Shakespeare's audience - we imagine because we can't know how it really was in Elizabethan times - but it is true today. But a good Shakespeare performance will take people, who most likely will say, "oh, I never even thought Shakespeare could interest me," and because they're seeing a good performance, which is rare, and not a dull, academic performance, they, despite themselves, are led to be interested in questions, experience feelings that are above their normal level of quality of experience. And that's what the theatre is for.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>That's what the church used to be for...
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+No longer, of course. The only difference is that - of course in Japan the temple and the theatre are much more, were much more, closely related than in the European tradition - the great difference is that the church spiritual experience is meant to take hold of the person and last longer than the theatre experience. So the difference is that both aim toward the same goal, but the theatre is like, in show business terms, like the trailer for a great movie. The theatre experience can lift you to a spiritual height for two minutes, and then that's taken away and you leave the theatre and you've gotten it. Then you realize that there is something called a spiritual way that, in a much more painful and much harder and much slower process, can lead you there on a more permanent basis. And that's where the two are intertwined.
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>To then address the subject of theatre "magic" from a director's perspective, there are some simple questions, like when an actor disappears into his role, where does he or she go?</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+
+Well, there you are touching the great mystery, the great paradox of theatre. If you have a bad actor, he disappears entirely. And this is the way you can tell a bad actor. A bad actor is swamped by his role and so he doesn't really know what he's doing. So he can leave the stage feeling that he's given the greatest performance of his life. He has been carried along by a flood of emotion that has caught hold of him, and he is lost. So when he leaves the stage, and perhaps the director says to him, "that was dreadful," he is surprised, because he has lost all self-awareness. He has become his role. But he has become like a racing car where the driver turns into the car so there is no longer anyone driving it. 
+
+<P>However, the greater the artist, the truer the actor, what happens is that his personality gives way to his individuality. In other words, the personality - which is a lot of external habits and mannerisms which we all recognize one another by, which we live by - yield to the role. But within the role - and the image I've used is like a hand within the glove - the true individual is totally conscious and filling the space, so he doesn't disappear. One can almost say that he appears, the more completely he has surrendered to the role. And that is why a true artist reaches this paradox: every fiber of him is invested with the role, and yet within in it, there is a space of complete freedom in which he is fully in control. 
+
+<P>I made the most interesting discovery once in Africa, when I went to one part of Nigeria to the Yorubas, where they practiced possession in the way that happens in so many of the countries of the world. In every country from Haiti, South America through to other African countries, when somebody is possessed they lose consciousness, they've no idea what happens to themselves. Except among the Yoruba, where the opposite is true. It is considered that the higher the level the person reaches, the more he is totally conscious when he is possessed. So that ultimately, when he is totally evolved, he is possessed by a god and yet he is totally there to everything that happens. And at that point, this mystery of possession, where you are and you are not, becomes reconciled into one person. 
+
+<P>One of the exercises I like to do with actors is to ask them to hold up their hand and clench their fist very, very tightly. And then I say to them, "supposing that we take a photograph of that clenched fist, can there be any difference between your fist genuinely clenched because you are angry, or now clenched tightly as possible because I've asked you to clench it?" And of course you can see that there can be no difference, not only externally, but even internally. A clenched fist is a clenched fist. Exactly the same way, the actor should so totally invest his role that whatever angle you put your microscope on, you shouldn't be able to detect two levels. 
+
+<P>And in fact, this is one of the ways in which third-world actors, if I can use that old-fashioned phrase, in other words non-Western actors, are so often truer than highly cultivated English, French, German, or American actors. Because in the case of the cultivated Western actor, you can actually see that the man is performing. In fact, actors will get great acclaim for being recognizably themselves doing it very cleverly. Which is why a lot of Western acting is busy and demands a lot of superficial activity, which signals to the audience that the actor is working hard. And that is an essential mode of virtuosity among Western actors. 
+
+<P>Now when we recently did the Tempest, we had in the two main parts of Prospero and Ariel two African actors. And one of the reasons was that in that play, I felt, one should go beyond this - this is not a play for virtuosity. And in each case, for instance the African actor playing Prospero, because he had been brought up in the forests of Africa, for him magic is an everyday reality. When he was playing Prospero, it was impossible for anyone, for any of us, to see a difference between the man and the imaginary man. They became the same thing. But all the Prosperos I've known - and I've known many in the Western theatre - you can always see a performer trying with artifice - perhaps with false beards, false noses, a false voice - to create an artifact of a magician. Now you can choose between the two forms of theatre art, and I personally believe that the art which vanishes completely is superior to the art of virtuosity, where you're conscious of the skill of the performer.</BLOCKQUOTE>
+
+<H4><FONT  COLOR=#400000>To ratchet that up one more level, beyond  the individual performer, there are certain times in even a simply good play, when the cast will sort of congeal <FONT  COLOR=#000000>[Yes.]</FONT> into a living, intuitive whole or awareness. <FONT  COLOR=#000000>[Yes!]</FONT> Can you as a director intuitively participate in that unity, and what do you think of that state of group mind?
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+That is what the director is for. More than anything else, the director is there to create that. Certainly he is not there to use the actors as instruments to project his own personal, private visions. That is not what theatre is about. Films, yes. Theatre, no. Theatre is there to do exactly what you have just said - ratchet this up to another level. The process of rehearsal is to take a group of people who are not unified, and through a series of practices, bring them to the point when they become what we in our own private jargon in our theatre call "a storyteller with many heads." So that it is like one man telling a story, except this comes through many colours of many personalities.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>How do you deal with conflict that may arise in a group while working on a play?
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+All the work of preparation is to make it possible for conflict never to be unhealthy. In almost all the situations I can think of, conflict in rehearsal is something completely healthy which is the meeting of the different viewpoints, which leads to something valuable. The first way of creating conflict for a director is for him to refuse other people's ideas or interventions. The moment a
+
+
+director feels that his idea or authority is threatened if somebody dislikes one of his own ideas, the seeds of conflict are there. But if the basis of the preparation of the work is that everything is an exchange all the time, then a large part of conflict is automatically eliminated. Normally there shouldn't be conflict in the negative or destructive sense. That doesn't produce good work.
+<P>
+The other way of avoiding conflict is very carefully to avoid working with people who are clearly there to make trouble. That is a reason why, for instance, after having worked for many years in grand opera, I never would work again with an opera singer, until I could work with one who is a different sort than the famous great opera singers, who arrive at the hall for one rehearsal, and with whom it is obvious that the only ground of discussion is conflict. So the best way of avoiding conflict is to avoid not conflictual issues, but conflictual people.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Supposing a conflict-free group - I guess more common analogies are sports teams or bands, jazz bands for example, where players don't have to refer, don't need peripheral vision to know what's going to happen next. I mean, there's a certain point where it synchs and, as you said, you are expressing a single reality. <FONT  COLOR=#000000>[Yes.] </FONT>With what alchemy does the director create this?</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+
+You mustn't forget that people often falsely relate a theatre director to an orchestra director. And you can immediately see why this is a false analogy, because the great moment, the moment of truth, is the moment of performance. At the moment of performance the conductor is there. You can't do without him. You can't have a conductor rehearsing an eighty-piece orchestra and saying on the day of performance, "I'm sorry, I've got flu. Play without me." Because the result with any orchestra we know would be very inadequate. In the theatre exactly what happens is that the director rehearses so that he can withdraw. So at the moment of truth, which is the performance, the directing body is the playing body. They are one and the same thing. They are directing themselves. So you have a choice: either holding them together by drilling them into a very, very rigid form, so that even though the director goes, his shadow is there, like a sergeant-major, holding them to the form he has drilled into them; or the other, which is the director is there to induce a state in which, when the time comes, this body can fluently, flexibly and in all freedom, create a form which they are all part of, and which they are all inseparable from.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>To what extent are these bodies limited? Can they be extended to the audience?</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+
+If the performance is good, there is a moment when the audience ceases to be a thousand separated individuals and becomes what every language reflects: a single entity - The Audience, The Public. They were the spectators and they become The Audience. And that fusion happens either in laughter or in silence or eventually in applause, if the performance is going the right way. And the pleasure for an audience is, in fact, at a certain moment finding itself part of a whole.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Why is so little written about this phenomenon? It seems so important psychologically as a model of what human beings are capable of in terms of unifying, even if just for a moment, to recognize their common coevolution or whatever. To have that sense of unity in total difference. But I don't hear musicians talk about it. I don't hear actors talk about it. I mean, I don't hear people bring it out as an explicit, important fact of reality that this happens.</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+
+I think that this is the only fundamental function that the theatre can have, One has to accept that fragmentation and conflict are part of the human lot. And one also recognizes that the aspiration to go beyond that is also a part of the human psyche. And so this healing process of the fragmented social body - which has to exist - can only be brought about by moments of reminder, and that's what the word "communion" really means. That you don't try to reform the world, you don't try to establish a paradise now. You only attempt to remind yourself and others that a communion is a highly desirable possibility for mankind. And this is the meaning of public performance.<P>
+
+And my own conviction is that in our time, in the theatre, professionally and technically, enormous importance has been given to debates about the role of the writer, the education of the actor, the need or not need for a director, without recognizing that something infinitely more important is at the root of that, which is the nature of the relationship between performance and audience. And that what gives theatre its justification, its reality, is neither more nor less than the audience.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>And the subjective experience they take
+away from it?</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+
+
+Well, I think that if they take away a subjective experience that's all very well, but on rare occasions it is possible for them to take away an objective experience. Objective because it is beyond their individual subjectivity and, eventually, beyond the overall subjectivity of that block of people who makes up that particular audience.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>When these effects begin to occur, somewhere in the process you hear a lot of actors or orators or other stage people speak of the charge at the stage, or the hot bask of the audience. Do you think there's an actual psycho-physical aspect to that concentration of attention on a play, on a person?</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+
+Oh, of course. Of course. It is as clear as playing in darkness and switching on the light. Everyone in the theatre knows that what you see and experience at the last run-through of a play is nothing compared with what happens when the same work, perhaps a few hours later, is suddenly surrounded by a thousand people. The moment those thousand people are there a chemical process, a physical process, a magnetic process comes into operation, and there is a flow of energy. And the flow of energy starts through the play by the actor working upon a passive ground, which is the audience. But the moment he starts working on that passive ground, he excites it. Excites it, I mean in the technical sense, he awakens something in it. What he awakens is the awareness of that audience, and that produces an energy. We don't need to express in specific terms what that energy is, because that is beyond our instruments. But an energy is produced, an energy that flows back in many, many different ways towards the stage. This energy will first of all encourage the actor, and then it will go beyond encouragement. It will inspire the actor. The more it inspires the actor, the more he gives something back to the audience, which will be inspired in turn and will give something back to him.<P>
+
+And this is why earlier on I said the theatre is a process. Comparable to cooking. It's not just a hot bath that the audience gives; it is a heating process by which the collective temperature rises, and like all temperature that rises, it goes through changes of state. The state changes only at certain points. So at one moment it will be like water, the same substance, and then suddenly it'll reach a point when it turns into steam. Now in the same way, a theatre performance will get more and more vibrant, and then suddenly there will be a change of state and it becomes an experience of another quality.
+
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Certain ancient philosophers or the religious anthropologists of their day have noted that when people come together for a common moment of devotion or dedication or whatever, that they not only recognize in themselves a certain degree of godhead or numinous inhabitance, but that there are things that happen, over and above the content of the ritual or ceremony... I mean "Phenomena." In all your years of directing have you ever had any experiences within a play, an audience situation, that were somewhat other?
+
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+ Oh yes, because any play, from the lowest to the highest, is never an end in itself. It is a support. It is a basis. And overtones are being produced. Harmonics are being produced all the time. And there are moments that you can only call moments of grace. Moments of grace are moments when something way beyond the support suddenly comes to existence, but without the support it wouldn't have been there....
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Personally, I just don't understand why these phenomena haven't become a major, major focus within universities, within churches, within political circles...
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+Those are the times we live in. One has to recognize that humanity goes through waves like a performance. That there is a beginning, a middle, an end, and the general level of thought, understanding and concern rises and falls, And I think that today it is universally recognized that, in a process that started a long time back, we are in a period when we need desperately this Age of Aquarius, because even the sense of a spiritual basis to life has been swamped. Now, today, the world is in perhaps the worst state it has been in a long time. For the Indians, it is no problem because they say we have entered the "Black Age," the "Age of Kali." But we can see this is truly the case. And we can only pray and hope that the Age of Aquarius won't let us down as being the moment when mankind is so sick of descending, that having hit rock bottom, the interest you speak of will be re-awakened.
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Okay, on to the world as stage: recently there have been a lot of so-called planetary benefits - Band Aid, Sports Aid, Art Aid - where prominent professionals dedicate a work or performance to some global problem. I haven't heard of such things in the directorial world, whether for film or theatre, But if you were to dedicate a work to the planet or some of its ills, what do you think would be appropriate?</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+I think that if you are director, one of the things that you have to learn is realism, because you are working in a very realistic field. So you have to have a dream and you have to link that dream to all the elements of practical reality. And because of this you realize that you have a possibility of perhaps introducing something real and positive within Your own field. And your own field is exactly the number of people who are present around a particular performance. The moment you see this, you realize this is where you must concentrate your energy. So that, as I say to actors very often, "We may be in all twenty people. If we find, having worked on a particular subject and played it for a long time, we have actually introduced something of value to twenty lives, this is enormous. And we have to be very, very proud and content that we have managed to get that far. " 
+
+<P>If we go along with a dream that we can stop wars, change the movement of the planet, we are lost in the same tragic naivete that leads to revolutions that fail and other global calamities. What one must do is not cultivate one's garden as though the rest of the world doesn't exist, but introduce all that one wishes to introduce into the widest field into one's own area, where, like with acupuncture, a true touch can reach an actual nerve. And that's why my answer to you is "within our field."
+
+</BLOCKQUOTE>
+<H4><FONT  COLOR=#400000>Finally, you did the Mahabharata, and, I believe, one of your first, if not the first play you produced, was Faust. And throughout your career you have produced many works that addressed the interface or dialogue between good and evil, or sane and insane, or numinous and profane. Over the last five decades, how have all these plays and pondering affected your own sense of right and sanity?
+</FONT></H4>
+<BLOCKQUOTE>  <STRONG>PB</STRONG>: 
+By giving me the good sense not to answer that sort of question. [Laughter]
+</BLOCKQUOTE>
+
+
+  
+ <P><CENTER> - End -</CENTER></FONT>
+<P>
+<FONT  SIZE=-1 COLOR=#400000>Nancho Rep: W. David Kubiak</FONT>
+</BLOCKQUOTE>  <P>
+
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+<BR>
+<CENTER>
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<A HREF="#toc">Return to Beginning</A>  | <A href="${BASE_URL}arcmain.html">Go to Archives</A> 
+
+<HR WIDTH=250 ALIGN=center SIZE=2>
+
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+TO CONSULT HIM THYSELF, SEE <BR>CHAPTER I OF HIS BEAUTIFUL BIOGRAPHY:<BR> <A HREF="http://www.realbooks.com/chapterone/brook_p01.txt"  target="_blank">THREADS OF TIME</A>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+
+<!----******************************************************MORE INTERNAL LINKS AND THE END********---->
+
+<HR>
+<CENTER>
+<TABLE BORDER=3>
+<TR><TD ALIGN=MIDDLE><A HREF="#toc"><IMG SRC="${BASE_URL}butts/btlback.gif" WIDTH=100 HEIGHT=36 border=0 ALT="Back"></A></TD><TD><A href="${BASE_URL}arcmain.html#consultations"><IMG SRC="${BASE_URL}butts/buttarch.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Archives"></A></TD><TD><A href="${BASE_URL}advisors/vcabinet.html#portfolios"><IMG SRC="${BASE_URL}butts/btlindex.gif" WIDTH=100 HEIGHT=36 BORDER=0 ALT="Index"></A></TD></TR>
+</TABLE>
+</CENTER>
+
+
+
+<H5>
+<A href="${BASE_URL}sharight.html">Shareright </A>(S) 1999 : Nancho Ijin Butai 
+</H5>
+</CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default AdvisorsBrook;

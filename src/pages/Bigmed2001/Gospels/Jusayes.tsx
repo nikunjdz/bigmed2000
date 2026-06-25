@@ -1,0 +1,472 @@
+import { useEffect } from "react";
+
+const Bigmed2001GospelsJusayes = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+
+
+<BLOCKQUOTE><BLOCKQUOTE><FONT  COLOR=#800000><STRONG>Nancho Advisory: 
+Rancher/Lyricist. Republican/Mystic, Professional Writer/Information Anarchist, John Perry Barlow is a walking Cartesian nightmare who refutes all the either/or limits of life with all of the above and a rocking good deal from below. His true calling, however, is anthems. Whether for Dead Heads, the new civilization of cyberspace, or simply those too touched and grateful to disavow the grace of reverent drugs, John Perry has crafted us songs and words to live by.
+My own favorite, for present and future purposes, is his following hymn to youth, life and the wild expansion of hope.
+</FONT>
+ </FONT> </BLOCKQUOTE></BLOCKQUOTE>
+<CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=400 HEIGHT=5></CENTER>
+<CENTER><H2>Just Say Yes
+</H2>
+<H3>Commencement Address<BR> to the Class of 1992<BR>
+Fountain Valley School<BR>
+Colorado Springs, Colorado</H3>
+<P>
+by John Perry Barlow<BR> Class of 1965</CENTER><P>
+<CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=400 HEIGHT=5></CENTER>
+<STRONG>
+<BLOCKQUOTE>You people are so beautiful. And I'm not saying this simply because of the
+dramatically improved estrogen to testosterone ratio over my graduating class,
+but I was watching you last night and I found you marvelously erect, alert,
+self-possessed, and, most importantly, openly affectionate to one another.
+The Class of '65 was not like this. And lord knows, we were all homelier...
+<P>
+So I'm very happy to be here today. But I didn't come because I thought I'd
+like you so much. I came because I love irony and I knew I'd find some
+here.
+<P>
+Not there was any shortage in my last venue. In order to be here today, I
+abandoned the company of the Grateful Dead in Las Vegas, a cultural
+combination as deliciously paradoxical as any I might dream of.
+<P>
+But, nevertheless, Fountain Valley was able to up the ante in this
+department. I say this because distinguished person up here before you now
+spent his entire  Fountain Valley career on disciplinary and academic
+probation. To return here in this honorific role feels less like
+vindication...though there is a small and nasty bit of that...than it does
+like a holy joke, the sort of prank which God loves to play on humans.
+<P>
+That I would be here today would not have been a particularly plausible
+prediction on this day 27 amazing years ago. At that point, I wasn't even
+planning on living to such an advanced age as I have since beat all peril
+to achieve, much less doing so in such a fashion as to render myself a fit
+speaker for anyone's commencement. But, as I am fond of saying, man plans
+and God laughs.
+<P>
+This seems especially true at the moment. Never has the act of planning
+been a more ridiculous waste of time and imagination than it is in a world
+as whimsical, chaotic, cut-loose, and plain unpredictable as this one has
+become.
+<P>
+I mean, the news is now so regularly surreal that I find it helps to flap
+my arms while reading the paper...if I take flight, then it's likely that I
+am dreaming.
+<P>
+Anyone who doesn't have an an appreciation of irony will miss a lot of the
+fun over the next 20 or so years. It is the kind of world which will favor
+those with a high tolerance for ambiguity and confusion. It is the kind of
+world which will reward courage and audacity and the ability to leap on the
+ephemeral opportunity. It is the kind of world which will sharply penalize
+rigidity.
+<P>
+In such a world as this, your greatest enemy is, as it always has been,
+what Franklin Delano Roosevelt called, "Fear itself."
+<P>
+This is not, or should not be news. Fear has always been the only enemy.
+Over 2500 years ago, Lao-Tsu wrote these words in the Tao Te Ching:
+<P>
+There is no greater illusion than fear,
+no greater wrong than preparing to defend yourself,
+no greater misfortune than having an enemy.
+<P>
+Whoever can see through all fearwill always be safe.
+<P>
+Neither Roosevelt nor Lao-Tsu were talking about a literary abstraction.
+They were talking, as I am, about your fears and mine, the little fears we
+fear too much to admit to any one.  Like the fear that we might be
+unattractive or stupid or unlovable.  The fear that we might fail
+completely and fall all the way to the streets.  The fears each of us
+harbors.  I'm now going to let you in on the best kept and most destructive
+secret of life among the adults:  Everyone else is just as scared as you
+are.<P>
+
+That may be especially hard for you to swallow this morning.  I remember
+my own high school graduation.  I was scared.  I felt like I was staring
+into an abyss...something called the Real World.  In this hazy realm
+dwelled monsters, each aware of my hidden inadequacies, each ready to
+exploit them.  I stood on the brink of the Real World and I just knew that
+it was going to have me for breakfast.
+<P>
+That was twenty seven years ago this week.  I don't believe I've
+encountered this terrible Real World yet.  What I have encountered is a
+safe place, a nurturing place, a good place to raise kids. What I've
+encountered, despite many misadventures,  has convinced me that the
+universe is on our side.
+<P>
+Now that is a basically theological state ment, and this is not a pulpit.
+So I won't talk about the real source of that belief, but I will give you
+one somewhat scientific supporting example.
+<P>
+I want you to consider the phenomenon of life.  Those of you who paid any
+attention to your physics or chemistry know about the Second Law of
+Thermodynamics.  This grim little piece of cosmic legislation essentially
+states that the universe is going flat on us, that a process called entropy
+is irreversibly dimming all light, cooling all heat, and disarranging all
+order.  20 or 30 billion years from now, gray will be a very big color
+around here.
+<P>
+The pessimists often take entropy to be a metaphor for human affairs as
+well, confirmation of their suspicion that every change is for the worse.
+And as a physical law, entropy's airtight.  But as a metaphor it doesn't
+hold up so well.
+<P>
+Life, human or otherwise, flows directly against entropy.  The accelerating
+spiral of history is ascending.  It is not a whirlpool.  Life sprays into
+the cosmos like a fountain of order, layering complexity on complexity,
+miracle on miracle.  Whether you want to call the source of that fountain
+God or some thing else, there exists a process in the universe which
+defies the forces of decay.  Each of you owes his or her existence and
+future to that process.
+<P>
+Big talk, huh? What about the fact that you didn't get into college or
+don't have a job this summer or think you are just plain hopeless.  What's
+all this universal energy stuff got to do with the really important things?
+<P>
+My point is that if there is a positive design in which all of life
+participates, that design asserts the existence of every living thing,
+including such apparently trivial examples as me or you.
+<P>
+But you can cross-thread yourself with nature.  The preference of your own
+willed impositions to the bounty of Providence will be honored...to your
+disadvantage.  To avail yourself of this invisible safety, you've got to
+believe in it.  Like Wile E. Coyote, if you look down, you will fall.  This
+is why paranoids are so often right.
+<P>
+This too may seem a little unhelpful.  I feel kind of like the guy with the
+big, crazy R�ttweiller who says, "Hey, don't worry, he only attacks if he
+thinks you're afraid of him."
+<P>
+It's not enough for me to get up here and tell you that you have nothing to
+fear.  For one thing, you've got an entire society which is, every day,
+filling your ears with a message precisely contrary to mine.  Years ago, I
+saw a bumper sticker which seemed funny at the time.  It said, "Help, the
+paranoids are after me." It's not funny.  The paranoids are after us!
+<P>
+I think the primary reason they're on the move is spiritual.  This is a
+spiritually impoverished era.  Once great enveloping metaphors have been
+reduced to articles of scientific fact.  Even religion seems increasingly
+obsessed with history and embarrassed by mystery.  The universe becomes an
+increasingly wild and windswept region, unmapped by divinity,
+miscellaneously hostile to all which inhabit it.
+<P>
+They're left with a kind of nameless dread.  Well, no one likes his dread
+to be nameless, so the first task is to divide it up and put some names on
+it, names like child abductors, or sharks, or, my personal favorite,
+terrorists.  Now we can all agree that these are threats worthy of our
+fear, right?  A closer look will show you how arbitrary this process really
+is.
+<P>
+Take the matter of missing children.  Milk cartons, billboards, post office
+walls stare back at you these days with the forlorn eyes of missing
+children.  Tens of thousands of them, we're told, are snatched away every
+year.  It's heart rending stuff, especially if you're the father of three
+little girls.
+<P>
+However, when I call the National Missing Children Help Center, I learn
+that in the 9 years they've been open, they've dealt with only 93 cases
+nationwide in which the miss ing child was actually abducted by a
+stranger...about 10 a year.  That's 93 more than there ought to be, but it
+hardly justifies training the other 60 million children to fear all
+strangers.
+<P>
+What about sharks?  Surely sharks are some thing to worry about.  Actually,
+the marvel is how gracefully two such abundant and dangerous animals as
+sharks and humans share our little planet .  Among animals weighing more
+than 40 kilograms, sharks are second in number only to humans.  There are
+almost as many of them as there are of us.  And yet, in an average year,
+fewer than 30 shark attacks are reported worldwide.  You're probably more
+likely to be fatally bitten by a loved one than you are by a shark.
+<P>
+Ok, what could be scarier than a terrorist?  The name says it all.
+Certainly they have had a profound effect on American life.  Everything
+from the main focus of our foreign policy to what you go through to get to
+Des Moines has been altered by our national terror of terrorists.  (Which
+is, by the way, exactly what they want...) Do you know how many Americans
+died in terrorist attacks in 1987?  Seven. Worldwide. That's fewer people
+than were killed by lightning while golfing.
+<P>
+In a very real sense then, we are the terrorists.  The handful of lunatics
+who bear that name for us merely oblige our need to fear something
+concrete.  And in being afraid, we do their best work for them, limiting
+civil liberties and covertly amending the constitution to meet the peril
+they pose.  As St. Theresa of Avila said 500 years ago, "I do not fear
+Satan half so much as I fear those who fear him."
+        <P>
+In addition to the popular support for bogey men, there are institutions
+and individuals which owe their very existence to insecurity, mistrust, and
+dubious danger.  I don't attach any real wickedness to their intentions,
+but neither do I expect them to violate self-interest by joining me in my
+sunny assessment of our chances.
+<P>
+Among these are the legal profession, the military, and the corporation.  A
+tough trio to buck if you believe in power at all.  But nevertheless, they
+all have a stake in your fear.
+<P>
+Each and every one of us is now represented by two and one half times as
+many attorneys as we were in 1970.  That's two and a half times as many
+people trying to imagine and prepare for every conceivable ill which could
+befall us, two and a half times as many people painting for the rest of us
+a world filled with treachery and negligence.
+<P>
+Where would they be if you suddenly started living on faith in the good
+will of your fellow man?
+<P>
+Then there is the military. There are billions and billions of dollars
+riding on the proposition that we are in imminent danger from a country
+whose leader consistently rates higher in American public opinion polls
+than our own president.
+<P>
+Could America go on building all those expensive new nightmares if you
+suddenly decided that our fear of the Soviets was more dangerous than the
+Soviets themselves?
+<P>
+And finally there is the corporation.  I'm currently writing a book about
+corporations so I think about them a lot these days.  To me the most
+striking aspect of corporate life is the extent to which they exert almost
+totalitarian control over their employees.  Not only is there no real
+freedom of speech inside modern corporations, the requirements of team play
+exert a form of thought control which is as thorough as anything you'd find
+in eastern Europe.
+<P>
+What, I wondered, are those employees get ting which would be worth giving
+up such a precious thing as liberty?  What they are getting is the delusion
+of security.  What big business provides its constituents is the assurance
+that as long as they remain within the corporate veil, as long as they
+don't step out of line, they will bear little direct responsibility for
+their actions and they will never go hungry.  Until, of course, their
+corporation is taken over by somebody who decides they are expendable.
+<P>
+In the meantime, they strike precisely the same bargain with their company
+that the people of the Soviet Union once struck with the State: they trade
+freedom for certainty and diminished vulnerability.  In a society which is
+as basically pessimistic as Russia has been and the United States is
+becoming, it isn't hard to find people willing to make such a cruel trade.
+<P>
+What will corporate America do for employees if folks like you suddenly
+decide that life itself is safe enough for you to live it without hiding
+within the vast immune system of a corporation?
+<P>
+Whatever our motivations, I think we're making most of this stuff up just
+to scare our selves.  And in the process we ignore the mir acles of safety
+which surround us every day.
+<P>
+The other afternoon I was on 101 heading south of San Francisco right
+before rush hour.  I had one of those clear moments in which I saw this
+spectacle as though for the first time.  Here were 8 lanes of traffic, tens
+of thousands of people hurtling along at 65 mph, separated by inches,
+talking on car phones, fiddling with their bio-feedback tapes.  And nobody
+was getting killed!  These people worry themselves sick about nuclear
+energy and then pull this death-defying stunt twice a day.  Very strange.
+<P>
+Or take a look at your own young lives.  Unless teenagers have changed
+since I was one, you have all senselessly risked your necks more often than
+your parents could stand to know, and yet here you are.  Something is
+looking out for you.  Trust in it.
+<P>
+Now I'm not saying that there are no legitimate causes for concern.   I'm
+not Rebecca of Sunnybrook Farm.  As even paranoids have real enemies, the
+human race faces real problems.  I wouldn't council we ignore them.  We
+really ought to stop clear-cutting rainforests. We probably shouldn't
+manufacture any more fluorocarbons.  I'm not even sure we should be venting
+250 million cubic feet of CO2 every day down at Shute Creek.
+<P>
+But before we allow a sense of on-rushing doom to paralyze us, we should be
+mindful of two things:  First, the world has been going to hell for the
+entire length of recorded history and it hasn't made it yet.  I think we
+can trust this trend to continue indefinitely.
+<P>
+Second, the one thing we can say with certainty about the future is that
+our present visions of it will look pretty silly by the time we get there.
+As recently as 70 years ago, the darkest shadow on the future of urban
+America was what to do with all that horse manure.
+<P>
+In other words, there will be problems, but they aren't likely to be the
+ones we predict.
+<P>
+This will apply equally to you as individuals.  I can stand here tonight
+and promise you that the looming disasters which will keep you awake years
+from now will either never come to pass at all or will seem far less dire
+when they do.  As Mark Twain put it, "I'm an old man and have known many
+troubles, but most of them never happened."
+<P>
+I wasted literally years of sleep on the impending loss of my ranch.  And
+finally I lost it...leaving me the opportunity to lead a life of such a
+rich adventure that I if someone offered to give me back the Bar Cross,
+free and clear, I'm not sure I'd take it.
+<P>
+In other words, you won't really know the object of your fear until it's
+realized.  And then you may find, as I did, that the dreadful thing is
+preferable to the certainty it replaced.
+<P>
+Besides, such safety as you can make yourself is really only secure from
+within.  It will imprison you but it will not keep you safe.  It will
+force you to lead a life which is short on meaning and low on memories.
+The most it can give you in return is money.
+<P>
+But the accumulation of money is an accelerating treadmill.  I know a lot
+of extremely wealthy people. Not one of them has enough money.  Not one of
+them feels secure in his wealth.  In fact, life around the rich has led me
+to what I call Barlow's Law of Economic Insufficiency:  "The more you make,
+the shorter it feels."
+<P>
+There are no walls you can build around your self which can't be swept away
+in an instant.  There are no Keogh plans or IRA's which can't go belly up,
+no stocks which can't plummet, no jobs that can't be eliminated, no
+security systems which can't be breached. Indeed, it sometimes seems that
+our most vigorous efforts to smooth the twists of fate become like
+lightening rods for disaster.
+<P>
+If the pursuit of wealth is an exercise in futility and all manufactured
+security is illusory, what makes it worth getting up in the morning?
+Meaning, accomplishment, bliss, love.  When you find something to do that
+makes you feel whole and excited and interested, do that thing and do it as
+well as you can.
+<P>
+Joseph Campbell said, "Don't spend your life struggling to climb the ladder
+of success only to discover that it was leaned up against the wrong wall."
+You can choose your own ladder and you can choose your own wall.  You can
+do what makes you happy.
+<P>
+How do you do that?  It's really very simple.  You decide not to be afraid.
+You adopt an attitude of faith and trust in the safety of the world.  You
+make of yourself an open vessel for opportunity and chance.  You learn to
+say Yes to the universe.  As the Egyptian poet C. P. Cavafy wrote:
+<P>
+For some people the day comes
+When they have to declare the great Yes
+or the great No. It's clear at once who has the Yes
+ready within him; and saying it,
+<P>
+He goes from honor to honor, strong in his conviction.
+He who refuses does not repent. Asked again,
+He'd still say no. Yet that no - the right no -
+Drags him down all his life.
+<P>
+
+So just say Yes!  Say Yes to experiment and risk and your own hidden
+greatness.  Say Yes to the unknown and the unforgettable experience.  Say
+Yes to a life lived wide awake.
+<P>
+If we had the time, there's a lot more free advice I'd like to lay on you.
+I'd like to talk to you about kindness.  I'd like to tell you how much I
+think it means to come from a place like Pinedale.  I'd like to persuade
+you that all worldly importance is overestimated.
+<P>
+But actually I think all that will be covered if you'll just say Yes.</BLOCKQUOTE><P> </STRONG>
+<HR WIDTH=65% ALIGN=center SIZE=3>
+<HR WIDTH=50% ALIGN=center SIZE=2>
+<HR WIDTH=65% ALIGN=center SIZE=3>
+<I> Recycled here from <A HREF="http://www.eff.org/~barlow/barlow.html" target="_blank">John Perry's Personal Archive</A> <BR>at the <A HREF="http://www.eff.org/" target="_blank">Electronic Frontier Foundation</A></I><P>
+
+<CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=300 HEIGHT=5></CENTER>
+
+<CENTER><H4><A href="${BASE_URL}bigmed2001/2000ally.html">Allies</A> | <A href="${BASE_URL}bigmed2001/advisors.html">Advisors</A> | <A href="${BASE_URL}bigmed2001/nanmain.html">Home</A> | <A href="${BASE_URL}bigmed2001/bigstudy.html">Study</A></H4></CENTER>
+<CENTER><IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=300 HEIGHT=5></CENTER>
+ `;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default Bigmed2001GospelsJusayes;

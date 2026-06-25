@@ -1,0 +1,182 @@
+import { useEffect } from "react";
+
+const NanchoGhqemps2 = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+<CENTER><EM>Declassified Documents from the MacArthur Archives</EM></CENTER>
+
+<P>
+
+<CENTER><IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=75%  HEIGHT=4><BR><BR>
+<H1>MacArthur Archives</H1>
+<H2>Classified GHQ Intelligence Reports<BR> on the History of  the Chrysanthemum Throne</H2>
+<H3>Second of Six Parts</H3>
+<IMG SRC="${BASE_URL}bulls/rainstk7.gif" WIDTH=75%  HEIGHT=4><BR>
+</CENTER>
+<BR><BR><HR WIDTH=80% ALIGN=center SIZE=2>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+<HR WIDTH=80% ALIGN=center SIZE=2><P>
+<CENTER><IMG SRC="${BASE_URL}graph/mactitl4.gif" WIDTH=458 HEIGHT=168 ALT="MacArthur Headquarters Intelligence Briefings" ></CENTER>
+
+<BR><HR WIDTH=80% ALIGN=center SIZE=2>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+<HR WIDTH=80% ALIGN=center SIZE=2><P>
+<FONT  SIZE=+1>
+
+<BLOCKQUOTE><UL>
+<LH><STRONG>Series Contents</STRONG></LH>
+<LI>Part 1: <A href="${BASE_URL}nancho/ghqemps1.html">"Unbroken" Dynasty"</A>
+<LI>Part 2: <A href="${BASE_URL}nancho/ghqemps2.html">Broken Dynasty</A>
+<LI>Part 3: <A href="${BASE_URL}nancho/ghqemps3.html">Imperial Family Loses Status</A>
+<LI>Part 4: <A href="${BASE_URL}nancho/ghqemps4.html">Royalty Promoted to Citizenship</A>
+<LI>Part 5: <A href="${BASE_URL}nancho/ghqemps5.html">Princely Houses Abolished</A>
+<LI>Part 6: <A href="${BASE_URL}nancho/ghqemps6.html">New Imperial Families &amp; Last Supper of the Imperial Family</A>
+</UL></BLOCKQUOTE>
+
+<HR WIDTH=80% ALIGN=center SIZE=2>
+<HR WIDTH=90% ALIGN=center SIZE=3>
+<HR WIDTH=80% ALIGN=center SIZE=2><P>
+<HR WIDTH=100 ALIGN=center SIZE=3>
+<CENTER><FONT  SIZE=+2><STRONG>PART  II</STRONG></FONT></CENTER>
+<HR WIDTH=100 ALIGN=center SIZE=3><P>
+
+<STRONG>13 December 1947</STRONG><P>
+<CENTER><H2><U>Broken Dynasty</U></H2>
+
+<H3> [ Comment ] <BR> (Second of series)</H3></CENTER><BR>
+
+
+
+
+	<STRONG>(a)	Facts Withheld from Nation:</STRONG>  Histories heretofore have not been allowed to give the facts about the succession quarrels between families which often resulted in civil war in Japan.  The fact is, the Japanese dynasty is one of the most broken dynasties which ever occupied a throne.<P>
+		The gaps between reigns not explained in the table of the sovereigns.  Imperial princes were murdered.  Willard Price states, "In 592 the Emperor SUJUN was killed by one of his subjects.  The SOGA family tried to establish itself as a new dynasty.  The Throne of Japan was the prize in a wrestling match in 858.  The two aspirants settled their claims in a bout, and the winner, who a moment before had been like other men, suddenly became God-on-earth.<P>
+
+	<STRONG>(b)	War of Succession:</STRONG>  "For four centuries there was almost unremitting war centering on the right to the Throne.  In the 14th Century there were actually two lines of emperors--one in the north of Japan and one in the south--each backed by a faction claiming its man was the Emperor.  After 57 years the southern dynasty surrendered to the northern.  The Emperor GO-KAMEYAMA came to Kyoto and yielded the royal insignia to Emperor GO-KOMATSU of the northern dynasty.  Later Emperors are therefore descended from GO-KOMATSU.<P>
+
+		"That renders the entire line since GO-KOMATSU spurious if we accept the official list at its word.  This list, issued by the Government, includes all Emperors from the mythical JIMMU to the present.  It omits the first four Emperors of the northern dynasty--KOMIO, SHUKO, GO-KOGEN, and GO-ENYU-- since the northern dynasty are listed as illegitimate.  But when the legitimate surrendered to the illegitimate, then the illegitimate GO-KOMATSU, last of the spurious northern dynasty, was by a sudden trick of legerdemain accepted as legitimate." <P>
+
+		<STRONG>(c)	Kumazawa Appeals for Throne:</STRONG>  In 1946 KUMAZAWA Hiromichi began to gather followers around him.  They organized a political party and proclaimed KUMAZAWA as Emperor.  This "Emperor" spoke in Tokyo and received wide publicity, to the utter amazement of most Japanese.  He traced his lineage back through five centuries to Emperor GO-KAMEYAMA, the deposed Emperor of the legitimate southern dynasty.  He claimed that he is the real Emperor of Japan and that HIROHITO is an impostor and has no right to the Throne.
+	In 1947 "Emperor KUMAZAWA" appealed to President Truman to depose HIROHITO and the spurious northern dynasty and have the peace conference recognize the heir to the southern dynasty as the Emperor of Japan.<P>
+		In his petition to President Truman, "Emperor KUMAZAWA" presented evidence of the war of the succession, and numerous photographs and documents, relics, and tombs, in an effort to prove his right to the Throne.  He claimed that his ancestors were the first victims of the militarism and aggression of the present dynasty.  He revealed that the Imperial Household had investigated the claims of his family to imperial lineage in 1910 and had found it authentic.  He said that the Emperor MEIJI had tried to compromise the issue by offering the title of marquis to the father of KUMAZAWA who promptly rejected it.  After that the head of the family was closely watched by the secret police.  During the recent war the Imperial Prince KAYA visited the tombs of the KUMAZAWA family and paid the respects of the northern dynasty to the southern dynasty. <P>
+	<STRONG>(d)	Emperor--Forgotten Man:</STRONG>   Lafcadio Hearn says "To the ordinary samurai, an imperial order would not have been law; he recognized no law above the law of his daimyo (feudal lord).  As for the daimyo, he might either disobey or obey an imperial command according to the circumstances his direct superior was the shogun."<P>
+		The Shogun IYEYASU issued the following order to the Emperor:  "The ruling Emperor shall no longer leave his palace, except when he takes himself to visit the Emperor who has abdicated." (d)  As a result of this policy, for many centuries the masses of the Japanese people did not know that the Japanese Emperor existed.  A Chinese priest of an inquiring mind made a journey through 16th Century Japan asking people about the Emperor.  Few of the peasants he interrogated knew of such a being or believed when they were told.<P>
+		Foreign nations were as ignorant as the Japanese about the existence of the dynasty.  "The Jesuits, Dutch writers, and Will Adams all referred to the Shogun as the Emperor." (a)  Upton close says,  "When Daniel Webster composed President Fillmore\`s  message to the Emperor of japan, no Western Government knew that Japan had a ruler outside of the Shogun at Tokyo, and Perry Delivered the Message to the Shoguns officials.<P>
+		"When the first American Consul, Townsend Harris, arrived in Japan, he was unaware of the existence of the Emperor and supposed the Shogun to be the sole ruler.  Nor was he promptly informed.  Harris' diary states that he was in Japan for more than a year before he discovered that the Emperor of Japan was a powerless recluse in Kyoto and that while the powerful TOKUGAWA family in Yedo ruler in his name, they flouted his authority; that the ruled of Japan was a taboo  concealed as carefully as the taboo of Polynesian witchcraft."  <P>
+	<STRONG>(e)	History of Dynasty: </STRONG>  The powerful men in Japan always have used abdication as a clever scheme to keep the dynasty weak and pliable.  The Emperor SEIWA was removed at the age of 26,  SHUJAKU at 23, REIZEI at 20, ENYU at 26, KWAZAN at 19, SHUTOKU at 24, NIJO at 26, ROKUJO at four, and TAKAKURA at 21, according to Willard Price.  "Naturally in this swift succession, the lives of Emperors overlapped and in 1300 there were actually six Emperors extant; one on the Throne and five meditating." <P>
+		The removal of Emperors when they became old enough to have minds of their own was not confined to other days.  When Emperor TAISHO, father of HIROHITO, ascended the throne in 1912 he showed some signs of ability and independence.  The militarists who ruled Japan invented the myth of  "divine dynasty unbroken for ages eternal."  Therefore they dated not murder their unwanted Emperor or dispose of him.  They could and did succeed in removing him.<P>
+		Many Japanese believe that Field Marshal Prince YAMAGATA, known as "the father of the Japanese Army," was responsible for the introduction of diseased beauties into the Emperors bed, and his subsequent contraction of a malady which eventually affected his brain.  This belief was so widely held that several attempts were made to assassinate YAMAGATA in later years.  In any event, the Emperor TAISHO'S mental powers showed marked deterioration, culminating in a scene which took place before foreign and Japanese dignitaries on the occasion of the opening of a session of the Imperial Diet in Nov. 21.  Rising  from the Throne to read his rescript, TAISHO rolled up his manuscript and peered at his audience through it as he walked to the edge of the dais.  He was hastily removed from the chamber, much to the amusement of the foreigners and the intense humiliation of Japanese officialdom.  That same afternoon TAISHO retired and the present HIROHITO became Regent.<P>
+		In 1910 a plot was discovered which had as its purpose the murder of the Emperor MEIJI and the Crown Prince during army maneuvers.  As a result, 34 persons were sentenced to death. <P>
+		An attempt was made on the life of the present Emperor, then Prince Regent, in Dec 23 as he rode from the palace to the Diet.  The son of a Diet member, convicted of firing the shot, was executed.<P>
+		The abortive coup d'etat in 1936 failed to depose HIROHITO and place his brother CHICHIBU on the Throne.  Since that time Prince CHICHIBU has lived in seclusion on a farm at the foot of Mt. Fuji due to "ill health," although he had been known as the strongest of the imperial Princes and a good athlete.  His fellow army officers, implicated in the plot, were executed.  <P>
+		"One Emperor was stabbed to death as he lay in his bed," according to Willard Price, "One was deposed, sent to the island of Awaji, and there strangled.  Several were banished.  One, while, in exile, died of starvation.  A child  Emperor and his mother were drowned.  One shogun trussed up the imperial Prince KOREYASU, put him in a palanquin with his heels upward and thus sent him back to the court.  The HOJO rulers were particularly rough on Emperors.  They put three Emperors in jail, deposed another, and banished two Princes.<P>
+		"The Shogun ASHIKAGA Takauji threw the Emperor's son into a dungeon, later murdered him, and put an impostor on the Throne.  The year America was discovered the Emperor GO-TSUCHI died and lay 40 days rotting beside the Palace gates because the Royal Family lacked funds to bury him.  Finally his son borrowed enough money from a Buddhist priest to pay funeral expenses.  The son was unable to take the Throne because there was no money for the necessary enthronement ceremonies.  Twenty years went by before he could be seated.  During that time Japan went without an Emperor, but does not seem to have minded it in the least.  One Emperor begged in the streets.  One copied poems for a living.  One sold autographs.  One lived in a hut with a roof that would not keep out the rain."  <P>
+		In the light of these facts the Imperial Rule Association in 1934 stated, "The Emperor of Japan is solemn and venerable and throughout several thousand years, no one has ever attempted to violate the sacredness of the Imperial Throne. (f)  That lie, along with the other one,  "dynasty unbroken for ages eternal," must die a natural death and be supplanted by the truth as expressed by Lafcadio Hearn, "At the time of the opening of Japan, society had not evolutionary advanced beyond a stage corresponding to that of the antique Western societies in the seventh or eighth century before Christ."<P>
+	
+
+</FONT>
+<BR><CENTER><HR WIDTH=420 ALIGN=center SIZE=2>
+<A href="${BASE_URL}nancho/ghqemps1.html">GHQ Imperial History: Part I</A> | <A href="${BASE_URL}arcmain.html#nanchohistory">Nancho Archives</A> | <A href="${BASE_URL}nancho/ghqemps3.html">GHQ Imperial History: Part III</A>
+<BR><HR WIDTH=420 ALIGN=center SIZE=2></CENTER>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default NanchoGhqemps2;

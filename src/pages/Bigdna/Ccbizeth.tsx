@@ -1,0 +1,410 @@
+import { useEffect } from "react";
+
+const BigdnaCcbizeth = () => {
+  const BASE_URL = import.meta.env.BASE_URL;
+  useEffect(() => {
+    document.body.style.backgroundColor = "beige";
+    document.body.style.backgroundImage = `url(${BASE_URL}barks/paper2.gif)`;
+    document.body.style.color = "#000000";
+    return () => {
+      document.body.style.backgroundColor = "";
+      document.body.style.backgroundImage = "";
+      document.body.style.color = "";
+    };
+  }, []);
+
+  const html = `
+
+
+<a href="${BASE_URL}demorule/index.html"><img src="${BASE_URL}graph/BMSPLICE.jpg" width="117" height="300" hspace="12"  border="0" align="left" alt="Return to Big Gene Splicing Index"></a>
+
+<br>
+<div align="center"><IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5 vspace=9><BR>
+<STRONG> <FONT  SIZE=4 COLOR=#000055><em>BIG BODY GENE THERAPIES</em> <br>
+<hr width="260" size="2">
+HOW CORPORATE LAW INHIBITS SOCIAL RESPONSIBILITY</STRONG></STRONG><br>
+<font size="3">- A Corporate Attorney Proposes a 'Code for Corporate Citizenship' in State
+                                    Law<br>
+by Robert C Hinkley<p>
+<font size="2">A Corporate Social Responsibility Report<br>
+from Business Ethics, January/February 2002 issue</font>
+</font><br>
+
+
+<IMG SRC="${BASE_URL}bulls/advline2.gif" WIDTH=75% HEIGHT=5  vspace=9><P>
+
+<table width="600" cellspacing="2" cellpadding="2" border="0">
+<tr>
+    <td>
+<hr width="500" size="3">
+<div align="center"><em>We can make corporations more responsible to the public good by amending<br>
+
+the law that says the pursuit of profit takes precedence over the public
+interest.</em> <br>
+--- Robert Hinkley, former corporate attorney</div>
+<hr width="500" size="3">
+
+
+
+
+
+
+                  
+
+
+<p>
+After 23 years as a corporate securities attorney-advising large
+corporations on securities offerings and mergers and acquisitions-I left my
+position as partner at Skadden, Arps, Slate, Meagher & Flom because I was
+disturbed by the game. I realized that the many social ills created by
+corporations stem directly from corporate law. It dawned on me that the
+law, in its current form, actually inhibits executives and corporations
+from being socially responsible. So in June 2000 I quit my job and decided
+to devote the next phase of my life to making people aware of this problem.
+My goal is to build consensus to change the law so it encourages good
+corporate citizenship, rather than inhibiting it.
+
+<p>
+
+The provision in the law I am talking about is the one that says the
+purpose of the corporation is simply to make money for shareholders. Every
+jurisdiction where corporations operate has its own law of corporate
+governance. But remarkably, the corporate design contained in hundreds of
+corporate laws throughout the world is nearly identical. That design
+creates a governing body to manage the corporation-usually a board of
+directors-and dictates the duties of those directors. In short, the law
+creates corporate purpose. That purpose is to operate in the interests of
+shareholders. In Maine, where I live, this duty of directors is in Section
+716 of the business corporation act, which reads: ...the directors and
+officers of a corporation shall exercise their powers and discharge their
+duties with a view to the interests of the corporation and of the
+shareholders....
+
+<p>
+
+Although the wording of this provision differs from jurisdiction to
+jurisdiction, its legal effect does not. This provision is the motive
+behind all corporate actions everywhere in the world. Distilled to its
+essence, it says that the people who run corporations have a legal duty to
+shareholders, and that duty is to make money. Failing this duty can leave
+directors and officers open to being sued by shareholders.
+
+<p>
+
+Section 716 dedicates the corporation to the pursuit of its own self-
+interest (and equates corporate self-interest with shareholder self-
+interest). No mention is made of responsibility to the public interest.
+Section 716 and its counterparts explain two things. First, they explain
+why corporations find social issues like human rights irrelevant--because
+they fall outside the corporation's legal mandate. Second, these provisions
+explain why executives behave differently than they might as individual
+citizens, because the law says their only obligation in business is to make
+money.
+
+<p>
+
+This design has the unfortunate side effect of largely eliminating personal
+responsibility. Because corporate law generally regulates corporations but
+not executives, it leads executives to become inattentive to justice. They
+demand their subordinates "make the numbers," and pay little attention to
+how they do so. Directors and officers know their jobs, salaries, bonuses,
+and stock options depend on delivering profits for shareholders. Companies
+believe their duty to the public interest consists of complying with the
+law. Obeying the law is simply a cost. Since it interferes with making
+money, it must be minimized-using devices like lobbying, legal
+hairsplitting, and jurisdiction shopping. Directors and officers give
+little thought to the fact that these activities may damage the public
+interest. Lower-level employees know their livelihoods depend upon
+satisfying superiors' demands to make money. They have no incentive to
+offer ideas that would advance the public interest unless they increase
+profits. Projects that would serve the public interest--but at a financial
+cost to the corporation--are considered naive.
+
+<p>
+
+Corporate law thus casts ethical and social concerns as irrelevant, or as
+stumbling blocks to the corporation's fundamental mandate. That's the
+effect the law has inside the corporation. Outside the corporation the
+effect is more devastating. It is the law that leads corporations to
+actively disregard harm to all interests other than those of shareholders.
+When toxic chemicals are spilled, forests destroyed, employees left in
+poverty, or communities devastated through plant shutdowns, corporations
+view these as unimportant side effects outside their area of concern. But
+when the company's stock price dips, that's a disaster. The reason is that,
+in our legal framework, a low stock price leaves a company vulnerable to
+takeover or means the CEO's job could be at risk.
+
+<p>
+
+In the end, the natural result is that corporate bottom line goes up, and
+the state of the public good goes down. This is called privatizing the gain
+and externalizing the cost.
+
+<p>
+
+This system design helps explain why the war against corporate abuse is
+being lost, despite decades of effort by thousands of organizations. Until
+now, tactics used to confront corporations have focused on where and how
+much companies should be allowed to damage the public interest, rather than
+eliminating the reason they do it. When public interest groups protest a
+new power plant, mercury poisoning, or a new big box store, the groups
+don't examine the corporations' motives. They only seek to limit where
+damage is created (not in our back yard) and how much damage is created (a
+little less, please).
+
+<p>
+
+But the where-and-how-much approach is reactive, not proactive. Even when
+corporations are defeated in particular battles, they go on the next day,
+in other ways and other places, to pursue their own private interests at
+the expense of the public.
+
+<p>
+
+I believe the battle against corporate abuse should be conducted in a more
+holistic way. We must inquire why corporations behave as they do, and look
+for a way to change these underlying motives. Once we have arrived at a
+viable systemic solution, we should then dictate the terms of engagement to
+corporations, not let them dictate terms to us.
+
+<p>
+
+We must remember that corporations were invented to serve mankind. Mankind
+was not invented to serve corporations. Corporations in many ways have the
+rights of citizens, and those rights should be balanced by obligations to
+the public.
+
+<p>
+
+Many activists cast the fundamental issue as one of "corporate greed," but
+that's off the mark. Corporations are incapable of a human emotion like
+greed. They are artificial beings created by law. The real question is why
+corporations behave as if they are greedy. The answer is the design of
+corporate law.
+<p>
+
+
+We can change that design. We can make corporations more responsible to the
+public good by amending the law that says the pursuit of profit takes
+precedence over the public interest. I believe this can best be achieved by
+changing corporate law to make directors personally responsible for harms
+done.
+<p>
+
+
+Let me give you a sense of how director responsibility works in the current
+system. Under federal securities laws, directors are held personally liable
+for false and misleading statements made in prospectuses used to sell
+securities. If a corporate prospectus contains a material falsehood and
+investors suffer damage as a result, investors can sue each director
+personally to recover the damage. Believe me, this provision grabs the
+attention of company directors. They spend hours reviewing drafts of a
+prospectus to ensure it complies with the law. Similarly, everyone who
+works on the prospectus knows that directors' personal wealth is at stake,
+so they too take great care with accuracy.
+
+<p>
+
+That's an example of how corporate behavior changes when directors are held
+personally responsible. Everyone in the corporation improves their game to
+meet the challenge. The law has what we call an in terrorem effect. Since
+the potential penalties are so severe, directors err on the side of
+caution. While this has not eliminated securities fraud, it has over the
+years reduced it to an infinitesimal percentage of the total capital
+raised. I propose that corporate law be changed in a similar manner--to
+make individuals responsible for seeing that the pursuit of profit does not
+damage the public interest.
+
+<p>
+
+To pave the way for such a change, we must challenge the myth that making
+profits and protecting the public interest are mutually exclusive goals.
+The same was once said about profits and product quality, before Japanese
+manufacturers taught us otherwise. If we force companies to respect the
+public interest while they make money, business people will figure out how
+to do both.
+
+
+<p>
+The specific change I suggest is simple: add 26 words to corporate law and
+thus create what I call the "Code for Corporate Citizenship." In Maine,
+this would mean amending section 716 to add the following clause. Directors
+and officers would still have a duty to make money for shareholders, ...
+
+<p>
+
+<blockquote>"but not at the expense of the environment, human rights,  public safety,
+the communities in which the corporation operates or the dignity of its
+employees."</blockquote>
+
+<p>
+
+This simple amendment would effect a dramatic change in the underlying
+mechanism that drives corporate malfeasance. It would make individuals
+responsible for the damage companies cause to the public interest, and
+would be enforced much the same way as securities laws are now. Negligent
+failure to abide by the code would result in the corporation, its
+directors, and its officers being liable for the full amount of the damage
+they cause. In addition to civil liability, the attorney general would have
+the right to criminally prosecute intentional acts. Injunctive relief-which
+stops specific behaviors while the legal process proceeds-would also be
+available.
+
+<p>
+
+Compliance would be in the self-interest of both individuals and the
+company. No one wants to see personal assets subject to a lawsuit. Such a
+prospect would surely temper corporate managers' willingness to make money
+at the expense of the public interest. Similarly, investors tend to shy
+away from companies with contingent liabilities, so companies that severely
+or repeatedly violate the Code for Corporate Citizenship might see their
+stock price fall or their access to capital dry up.
+
+<p>
+
+Many would say such a code could never be enacted. But they're mistaken. I
+take heart from a 2000 Business Week/Harris Poll that asked Americans which
+of the following two propositions they support more strongly:
+
+<p>
+
+Corporations should have only one purpose--to make the most profit for
+their shareholders--and pursuit of that goal will be best for America in
+the long run. --or-- Corporations should have more than one purpose. They
+also owe something to their workers and the communities in which they
+operate, and they should sometimes sacrifice some profit for the sake of
+making things better for their workers and communities.
+
+<p>
+
+An overwhelming 95 percent of Americans chose the second proposition.
+Clearly, this finding tells us that our fate is not sealed. When 95 percent
+of the public supports a proposition, enacting that proposition into law
+should not be impossible.
+
+<p>
+
+If business people resist the notion of legal change, we can remind them
+that corporations exist only because laws allow them to exist. Without
+these laws, owners would be fully responsible for debts incurred and
+damages caused by their businesses. Because the public creates the law,
+corporations owe their existence as much to the public as they do to
+shareholders. They should have obligations to both. It simply makes no
+sense that society's most powerful citizens have no concern for the public
+good.
+
+<p>
+
+It also makes no sense to endlessly chase after individual instances of
+corporate wrongdoing, when that wrongdoing is a natural result of the
+system design. Corporations abuse the public interest because the law tells
+them their only legal duty is to maximize profits for shareholders. Until
+we change the law of corporate governance, the problem of corporate abuse
+can never fully be solved.
+
+<p>
+
+Robert Hinkley lives in Brooklin, Maine.
+
+
+
+</td>
+</tr>
+</table>
+<br>
+<hr width="300" size="3">
+<font size="-1">Email the author: <a href="mailto:rchinkley@media2.hypernet.com">rchinkley@media2.hypernet.com</a></font>
+<hr width="300" size="3">
+<br><div align="center"><a href="${BASE_URL}newchau/" target="_top"><img src="${BASE_URL}graph/revolt.gif" width="430" height="53" border="0" alt=""><br>
+<font size="-1">The Way  Home</font></a></div><p>
+`;
+
+  return (
+    <div
+      className="min-h-screen w-full legacy-page-wrapper"
+      style={{ fontFamily: "Times New Roman, Georgia, serif", backgroundColor: 'beige', backgroundImage: `url(${BASE_URL}barks/paper2.gif)`, backgroundRepeat: 'repeat', color: '#000000' }}
+    >
+      <style>{`
+  a { color: #1a40b8; text-decoration: underline; font-weight: bold; }
+  a:hover { color: #cc0000; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; margin-bottom: 0.75em; }
+  strong, b { font-weight: 900; }
+  ul, ol { padding-left: 2em; margin-bottom: 1em; }
+  li { margin-bottom: 0.5em; }
+  img { max-width: 100%; height: auto; display: inline-block; }
+  blockquote {
+    padding-left: 1.5em;
+    margin: 1em 2em;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 1.5em auto !important;
+  }
+  /* Center tag should center its children */
+  center {
+    display: block;
+    text-align: center;
+  }
+  center table, table[align="center"], table[align="CENTER"], [align="center" i] table, [align="middle" i] table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  center hr, hr[align="center"], hr[align="CENTER"], [align="center" i] hr, [align="middle" i] hr {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  hr[align="left"], hr[align="LEFT"] {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  hr[align="right"], hr[align="RIGHT"] {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Alignment attribute mappings */
+  [align="left"], [align="LEFT"] {
+    text-align: left !important;
+  }
+  [align="right"], [align="RIGHT"] {
+    text-align: right !important;
+  }
+  [align="center"], [align="CENTER"], [align="middle"], [align="MIDDLE"] {
+    text-align: center !important;
+  }
+  
+  td, th {
+    text-align: left;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 767px) {
+    blockquote {
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    hr {
+      width: 100% !important;
+      margin: 1em auto !important;
+    }
+    table {
+      width: 100% !important;
+      display: block !important;
+      overflow-x: auto !important;
+    }
+  }
+
+  .legacy-page-wrapper, .legacy-page-wrapper :where(p, li, td, th, dd, dt, blockquote, div, span, font) { color: inherit; }
+  a { color: #007339; }
+  a:visited { color: #1866C5; }
+`}</style>
+      <div className="legacy-page-content">
+        <div dangerouslySetInnerHTML={{ __html: html }} className="w-full" />
+      </div>
+    </div>
+  );
+};
+
+export default BigdnaCcbizeth;
