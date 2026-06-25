@@ -324,7 +324,7 @@ CIA Unveils New Ghetto Drugs For '98</A>
 <BLOCKQUOTE>  <DT><STRONG><FONT  SIZE=+1><A NAME="vision">T</A><FONT SIZE=-1>HE</FONT> V<FONT SIZE=-1>ISION</FONT> T<FONT SIZE=-1>HING</FONT></FONT> <BR>- Sources and samples of ideas for brave, diverse new worlds</BLOCKQUOTE>
         <DL><p><DL>
 
- <DT><A HREF="http://www.wtp.org/index.html>We the People</A><DD>Oakland City Hall appears to have refocused WTP and Jerry Brown's revolutionary concerns on a far more local landscape. Yet the populist fire seems to endure, and somebody needs to be creating new municipal paradigms for life after corporate rule.<BR>
+ <DT><A HREF="http://www.wtp.org/index.html">We the People</A><DD>Oakland City Hall appears to have refocused WTP and Jerry Brown's revolutionary concerns on a far more local landscape. Yet the populist fire seems to endure, and somebody needs to be creating new municipal paradigms for life after corporate rule.<BR>
 
  <DT><A HREF="http://www.planetdrum.org/" target="_blank">Planet Drum</A><dd>Bioregionalism Central - Led by Sixties Black Knight Peter Berg, Planet Drum is activating/organizing/educating around the principle of sustainable bioregionalism - the undeniable insight that the environment comes first and our administrative/political units should conform to its living features and demands.<BR>
 

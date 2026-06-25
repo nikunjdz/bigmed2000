@@ -20,8 +20,8 @@ const Bigmed2001BignewsBigbnews = () => {
 
 <IMG SRC="${BASE_URL}bigmed2001/graph/advline2.gif" WIDTH=75% HEIGHT=5 vspace=7></CENTER>
 <P>
-<TABLE align=left border=2 BGCOLOR="#B0D0FF" cellpadding=12>
-<TR><TD ALIGN=left width=195><FONT  COLOR=#000080 face="arial,helvetica">We first planned to feature "Big Bodies in the News" here, but then realized that would be pretty dumb since Big Bodies largely ARE the news or at least behind 80% of the disastrous tidings not due to clumsy gods. In fact, once you learn to see them yourselves, any old morning paper  is an endlessly rich revelation. Therefore we'll simply present  a few odd, illuminating items here that either clarify their morbid nature, offer acute new angles of immune attack, or chart  the progress of Big Medicine in magnum vivo. </FONT></TD></TR>
+<TABLE align=center border=2 BGCOLOR="#B0D0FF" cellpadding=12>
+<TR><TD ALIGN=left><FONT  COLOR=#000080 face="arial,helvetica">We first planned to feature "Big Bodies in the News" here, but then realized that would be pretty dumb since Big Bodies largely ARE the news or at least behind 80% of the disastrous tidings not due to clumsy gods. In fact, once you learn to see them yourselves, any old morning paper  is an endlessly rich revelation. Therefore we'll simply present  a few odd, illuminating items here that either clarify their morbid nature, offer acute new angles of immune attack, or chart  the progress of Big Medicine in magnum vivo. </FONT></TD></TR>
 </TABLE>
 <BR>
 

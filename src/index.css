@@ -406,6 +406,19 @@ All colors MUST be HSL.
   line-height: inherit !important;
 }
 
+.legacy-page-content ul {
+  list-style-type: disc;
+}
+
+.legacy-page-content ol {
+  list-style-type: decimal;
+}
+
+.legacy-page-content li {
+  display: list-item;
+}
+
+
 .legacy-page-content a {
   font-size: inherit !important;
 }
