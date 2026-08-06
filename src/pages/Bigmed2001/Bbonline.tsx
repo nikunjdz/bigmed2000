@@ -387,7 +387,7 @@ Excerpted from a work in progress:
 </BLOCKQUOTE>
 <HR WIDTH=400 ALIGN=left SIZE=3>
 <STRONG> <A NAME="pluribus">Ref </A>#2: Excerpts from "E Pluribus Yamato: The Culture of Corporate Beings" </STRONG><BR>
-(Full text available on Internet at: <A href="${BASE_URL}kipower/kisoma.html">http://www.nancho.net/kipower/kisoma.html</A>)
+(Full text available on Internet at: <A href="${BASE_URL}kipower/kisoma.html">https://nikunjdz.github.io/bigmed2000/kipower/kisoma.html</A>)
 <HR WIDTH=400 ALIGN=left SIZE=3><BR>
 <BLOCKQUOTE>
 <STRONG>We live in the age of corporate organisms.</STRONG> Though no formal announcements have been issued it's becoming harder to ignore that they have wrested control of the Earth from Homo Sapiens and supplanted us as the planet's dominant species. It is they - the multinationals, government bureaucracies, religious hierarchies, military bodies, et al. - not individual humans, that generate our era's character - its patterns of wealth & poverty, its technological progress & ecological peril, its entertainment & political agenda. They have, in short, taken over, and nowhere more so than in Japan. 
@@ -417,7 +417,7 @@ Nakane: "The <EM>kaisha </EM>[corporation] is the community to which one belongs
 <HR WIDTH=400 ALIGN=left SIZE=3>
 <STRONG><A NAME="lusion">Ref </A>#3: Excerpts from LUSIONS:
 Suggestive Parallels between <BR>Japanese Corporations & Biological Systems</STRONG> collated by WDK<BR>
-(See complete text at <a href="${BASE_URL}bigbody/lusions1.html">http://www.nancho.net/bigbody/lusions1.html</a>) 
+(See complete text at <a href="${BASE_URL}bigbody/lusions1.html">https://nikunjdz.github.io/bigmed2000/bigbody/lusions1.html</a>) 
 <HR WIDTH=400 ALIGN=left SIZE=3>
 <BR>
 <BLOCKQUOTE>

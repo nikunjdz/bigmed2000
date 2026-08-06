@@ -21,16 +21,16 @@ const Av = () => {
 
 </CENTER>
 <UL>
-<LI><A HREF="http://www.nancho.net/bigmed2000/bbmusing/milicom.ram"><STRONG>Excerpts from President Dwight D. Eisenhower's Military-Industrial Big Body Alert</STRONG></A><BR>Ike's last and most personally heroic national service</FONT> <BR><FONT  SIZE=2>(This prophetic speech was broadcast on all channels nationwide exactly 40 years ago. <BR>If someone had actually listened, the Sixties might have turned out a hell of a lot differently <BR>- and we wouldn't have to fight off the cynical rebirth of Star Wars today.)</FONT><BR><BR>
+<LI><A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/milicom.ram"><STRONG>Excerpts from President Dwight D. Eisenhower's Military-Industrial Big Body Alert</STRONG></A><BR>Ike's last and most personally heroic national service</FONT> <BR><FONT  SIZE=2>(This prophetic speech was broadcast on all channels nationwide exactly 40 years ago. <BR>If someone had actually listened, the Sixties might have turned out a hell of a lot differently <BR>- and we wouldn't have to fight off the cynical rebirth of Star Wars today.)</FONT><BR><BR>
 <LI>Matt Damon & Ben Affleck's Short Course in Big Body Geo-Politics: <BR>
-<B><A HREF="http://www.nancho.net/bigmed2000/bbmusing/goodwill.ram">Why shouldn't YOU join the National Security Agency?</A></B></FONT><BR><FONT  SIZE=2>(Courtesy of Good Will Hunting)</FONT><P>
-<LI> <A HREF="http://www.nancho.net/ram/bigspeak.ram"><STRONG>Corporate America Speaks!</STRONG></A> - A fatherly lesson in the real ways of the world<BR> All you anti-globalization ingrates, listen up...
+<B><A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/goodwill.ram">Why shouldn't YOU join the National Security Agency?</A></B></FONT><BR><FONT  SIZE=2>(Courtesy of Good Will Hunting)</FONT><P>
+<LI> <A HREF="https://nikunjdz.github.io/bigmed2000/ram/bigspeak.ram"><STRONG>Corporate America Speaks!</STRONG></A> - A fatherly lesson in the real ways of the world<BR> All you anti-globalization ingrates, listen up...
 <BR><FONT  SIZE=2>(Courtesy of Network & Paddy Chayefsky)</FONT>
 <LI> <STRONG>BIG BODY GENESIS</STRONG>
 <UL>
-<LI><A HREF="http://www.nancho.net/ram/spermwar.ram"><STRONG>Catholic Sperm Wars</STRONG></A> - Global growth tips from the Mother Big Body of them all.
+<LI><A HREF="https://nikunjdz.github.io/bigmed2000/ram/spermwar.ram"><STRONG>Catholic Sperm Wars</STRONG></A> - Global growth tips from the Mother Big Body of them all.
 <BR><FONT  SIZE=2>(Courtesy of Sir Montrose Python)</FONT>
-<LI><A HREF="http://www.nancho.net/ram/kingart.ram"><STRONG>Monarchic Manifest Destiny</STRONG></A> - the Camelot Gambit <BR>- wherein mutant political myths overtake the early democrats
+<LI><A HREF="https://nikunjdz.github.io/bigmed2000/ram/kingart.ram"><STRONG>Monarchic Manifest Destiny</STRONG></A> - the Camelot Gambit <BR>- wherein mutant political myths overtake the early democrats
 <BR><FONT  SIZE=2>(Ibid.)</FONT>
 
 </UL>
@@ -54,19 +54,19 @@ const Av = () => {
 Enjoy the entire hour interview or drag the sound player's slider <BR>
 to the 20-minute mark for a particularly rich 10-minute run.</FONT> <BR>
 
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/noam1.ram">
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/noam1.ram">
 Noam Chomsky on Corporate Personhood, Primacy &amp; Tyranny</A><BR>
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/mosdef.ram">Mos Def  on the Corporate Brutalization of Hip Hop</A><BR>
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/kortenbb.ram">David Korten on Global Corporate Rule</A><br>
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/ralph1.ram">Ralph Nader on Big Bodies &uuml;ber Alles</A><BR>
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/suzuki.ram">David Suzuki on Big Body Economics' Guarantee to Trash the World</A><BR>
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/crichton.ram">Michael Crichton on Big Body Feudalism</A><BR>
-<A HREF="http://www.nancho.net/bigmed2000/bbmusing/ralph2.ram"> Ralph Nader on the Corporate Coup d'Etats in America</A>
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/mosdef.ram">Mos Def  on the Corporate Brutalization of Hip Hop</A><BR>
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/kortenbb.ram">David Korten on Global Corporate Rule</A><br>
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/ralph1.ram">Ralph Nader on Big Bodies &uuml;ber Alles</A><BR>
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/suzuki.ram">David Suzuki on Big Body Economics' Guarantee to Trash the World</A><BR>
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/crichton.ram">Michael Crichton on Big Body Feudalism</A><BR>
+<A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbmusing/ralph2.ram"> Ralph Nader on the Corporate Coup d'Etats in America</A>
 <P>
 
 <P>
 <STRONG>Still available on-line:</STRONG><BR>
-<FONT SIZE=4><A HREF="http://www.nancho.net/bigmed2000/bbintros.html" target="_blank"><B>Big Body Conference Preliminary Papers</B></A> <BR>
+<FONT SIZE=4><A HREF="https://nikunjdz.github.io/bigmed2000/bigmed2000/bbintros.html" target="_blank"><B>Big Body Conference Preliminary Papers</B></A> <BR>
 <P><P><P>
 </CENTER>
 `;

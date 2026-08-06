@@ -36,7 +36,7 @@ const Bigmed2001Nhpr2 = () => {
 <H2> <U><FONT  COLOR=#00458A>BIG MEDICINE</FONT> <FONT  COLOR=#CC061F>SWEEPS </FONT><FONT  COLOR=#00458A>NEW HAMPSHIRE !</FONT> </U><BR>
 Big Body critic Kubiak carries<BR> every county in the State!</H2></CENTER><P>
 <FONT  SIZE=+1><BLOCKQUOTE>It is finally official. Though the pace of the count brought tears of nostalgia to the Upper Voltan, Honduran and North Korean immigrant communities, the results of the NH Democratic Vice Presidential Primary are now in, and the citizens have once again cried out against Big Body rule. Yes, the thoughtful voters of New Hampshire in yet another display of mega-corporate disdain gave Big Medicine candidate W. David Kubiak a clear plurality and resounding mandate to continue Big Med�s populist campaign against the corporate takeover of our media, schools, politics and evolutionary heading. Official confirmation and vote counts now available at: 
-<CENTER><H3><A href="${BASE_URL}bigmed2000/nhfinal.html">http://www.nancho.net/bigmed2000/nhfinal.html</A></H3> </CENTER>
+<CENTER><H3><A href="${BASE_URL}bigmed2000/nhfinal.html">https://nikunjdz.github.io/bigmed2000/bigmed2000/nhfinal.html</A></H3> </CENTER>
 <STRONG>FROM THE CANDIDATE'S VICTORY ADDRESS</STRONG><BR> 
 The Big Medicine staff and I gratefully credit this decisive victory to the work and support of New Hampshire�s Greens, populists, concerned mothers and activist youth as well as the many, many ordinary citizens we met who expressed heartfelt concern about the spreading symptoms of Big Body pathology (e.g., toxic waste, nuclear power, bioengineered foods, media violence, electoral corruption, income inequality, foreign sweatshops, corporate welfare, downsizing, agro-toxins, etc, etc.). Since our campaign could not afford any paid advertising whatever and was totally blacked out by the corporate media, we particularly appreciate the state�s progressive Internet community which generated such a gratifying storm of activity at the Big Medicine web site. Thank you New Hampshire for your blessing. Who can ever go the distance without it?<P>
 <STRONG>ABOUT THE CAMPAIGN</STRONG><BR>
@@ -58,7 +58,7 @@ Josh "<FONT  SIZE=-1><STRONG>Corporate Planet</STRONG></FONT>" Karliner, David "
 Ralph "<FONT  SIZE=-1><STRONG>The Big Business Reader</STRONG></FONT>" Nader, Kirkpatrick "<FONT  SIZE=-1><STRONG>Human Scale</STRONG></FONT>" Sale, 
 Robert "<FONT  SIZE=-1><STRONG>Corporate Predators</STRONG></FONT>" Weissman and many, many more.<P>
 <STRONG>To preview or join the conference, visit: <BR>
-<A href="${BASE_URL}bigmed2000/bbonline.html" target="_blank">http://www.nancho.net/bigmed2000/bbonline.html</A></STRONG>
+<A href="${BASE_URL}bigmed2000/bbonline.html" target="_blank">https://nikunjdz.github.io/bigmed2000/bigmed2000/bbonline.html</A></STRONG>
 </CENTER>
 <P>
 <HR  ALIGN=center SIZE=3>
@@ -74,7 +74,7 @@ Big Med press liaison, Kathy Arlyn Sokol, at:<BR></FONT>
 <STRONG>Box 13, Kennebunkport, Maine  04046<BR>
 Tel: 207-967-2390 Fax: 207-967-2808<BR>
 Email: <A HREF="mailto:bigmed@nancho.net">bigmed@nancho.net</A><BR>
-WWW: http://www.nancho.net/bigmed2000</STRONG><BR>
+WWW: https://nikunjdz.github.io/bigmed2000/bigmed2000</STRONG><BR>
 <HR WIDTH=380 ALIGN=left SIZE=3>
 </BLOCKQUOTE>
 

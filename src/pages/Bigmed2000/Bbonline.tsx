@@ -28,44 +28,44 @@ const Bigmed2000Bbonline = () => {
 
 <table border="0">
   <tr valign="top"><!-- row 2 spreader -->
-   <td><img name="http://www.nancho.net/bigmed2001/image_r02_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="12" border="0"></td>
+   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r02_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="12" border="0"></td>
   </tr>
 
   <tr valign="top"><!-- row 3 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
 	  <tr valign="top"><!-- row 1 -->
-	   <td><img name="http://www.nancho.net/bigmed2001/image_r3_c1" src="${BASE_URL}images/image_r3_c1.gif" width="2" height="19" border="0"></td>
+	   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r3_c1" src="${BASE_URL}images/image_r3_c1.gif" width="2" height="19" border="0"></td>
 	   <td><a href="${BASE_URL}bigmed2000/notnow.html" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','image_r3_c2','images/image_r3_c2_f2.gif','images/image_r3_c2_f3.gif',1);"  onClick="MM_nbGroup('down','navbar1','image_r3_c2','images/image_r3_c2_f3.gif',1);" ><img name="image_r3_c2" src="${BASE_URL}images/image_r3_c2.gif" width="106" height="19" border="0" alt="Five simple steps to access the conference rooms"></a></td>
 	   <td><img name="image_r3_c3" src="${BASE_URL}images/image_r3_c3.gif" width="2" height="19" border="0"></td>
 	  </tr>
 	</table></td>
   </tr>
   <tr valign="top"><!-- row 4 -->
-   <td><img name="http://www.nancho.net/bigmed2001/image_r04_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
+   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r04_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
   </tr>
   <tr valign="top"><!-- row 5 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
 	  <tr valign="top"><!-- row 1 -->
-	   <td><img name="http://www.nancho.net/bigmed2001/image_r5_c1" src="${BASE_URL}bigmed2001/images/image_r5_c1.gif" width="2" height="19" border="0"></td>
+	   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r5_c1" src="${BASE_URL}bigmed2001/images/image_r5_c1.gif" width="2" height="19" border="0"></td>
 	   <td><a href="${BASE_URL}bigmed2000/bbintros.html" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','image_r5_c2','images/image_r5_c2_f2.gif','images/image_r5_c2_f3.gif',1);"  onClick="MM_nbGroup('down','navbar1','image_r5_c2','images/image_r5_c2_f3.gif',1);" ><img name="image_r5_c2" src="${BASE_URL}images/image_r5_c2.gif" width="106" height="19" border="0" alt="BigBody Participants set some context"></a></td>
-	   <td><img name="http://www.nancho.net/bigmed2001/image_r5_c3" src="${BASE_URL}bigmed2001/images/image_r5_c3.gif" width="2" height="19" border="0"></td>
+	   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r5_c3" src="${BASE_URL}bigmed2001/images/image_r5_c3.gif" width="2" height="19" border="0"></td>
 	  </tr>
 	</table></td>
   </tr>
   <tr valign="top"><!-- row 6 -->
-   <td><img name="http://www.nancho.net/bigmed2001/image_r06_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
+   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r06_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="14" border="0"></td>
   </tr>
   <tr valign="top"><!-- row 7 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
 	  <tr valign="top"><!-- row 1 -->
 	   <td><img name="image_r7_c1" src="${BASE_URL}bigmed2001/images/image_r7_c1.gif" width="2" height="19" border="0"></td>
 	   <td><a href="${BASE_URL}bigmed2000/bookdump.html" onMouseOut="MM_nbGroup('out');"  onMouseOver="MM_nbGroup('over','image_r7_c2','images/image_r7_c2_f2.gif','images/image_r7_c2_f3.gif',1);"  onClick="MM_nbGroup('down','navbar1','image_r7_c2','images/image_r7_c2_f3.gif',1);" ><img name="image_r7_c2" src="${BASE_URL}images/image_r7_c2.gif" width="106" height="19" border="0" alt="References and resources"></a></td>
-	   <td><img name="http://www.nancho.net/bigmed2001/image_r7_c3" src="${BASE_URL}bigmed2001/images/image_r7_c3.gif" width="2" height="19" border="0"></td>
+	   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r7_c3" src="${BASE_URL}bigmed2001/images/image_r7_c3.gif" width="2" height="19" border="0"></td>
 	  </tr>
 	</table></td>
   </tr>
   <tr valign="top"><!-- row 8 -->
-   <td><img name="http://www.nancho.net/bigmed2001/image_r08_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="15" border="0"></td>
+   <td><img name="https://nikunjdz.github.io/bigmed2000/bigmed2001/image_r08_c1" src="${BASE_URL}bigmed2001/images/dot_clear.gif" width="110" height="15" border="0"></td>
   </tr>
   <tr valign="top"><!-- row 9 -->
    <td><table border="0" cellpadding="0" cellspacing="0" width="110">
@@ -387,7 +387,7 @@ Excerpted from a work in progress:
 </BLOCKQUOTE>
 <HR WIDTH=400 ALIGN=left SIZE=3>
 <STRONG> <A NAME="pluribus">Ref </A>#2: Excerpts from "E Pluribus Yamato: The Culture of Corporate Beings" </STRONG><BR>
-(Full text available on Internet at: <A href="${BASE_URL}kipower/kisoma.html">http://www.nancho.net/kipower/kisoma.html</A>)
+(Full text available on Internet at: <A href="${BASE_URL}kipower/kisoma.html">https://nikunjdz.github.io/bigmed2000/kipower/kisoma.html</A>)
 <HR WIDTH=400 ALIGN=left SIZE=3><BR>
 <BLOCKQUOTE>
 <STRONG>We live in the age of corporate organisms.</STRONG> Though no formal announcements have been issued it's becoming harder to ignore that they have wrested control of the Earth from Homo Sapiens and supplanted us as the planet's dominant species. It is they - the multinationals, government bureaucracies, religious hierarchies, military bodies, et al. - not individual humans, that generate our era's character - its patterns of wealth & poverty, its technological progress & ecological peril, its entertainment & political agenda. They have, in short, taken over, and nowhere more so than in Japan. 
@@ -417,7 +417,7 @@ Nakane: "The <EM>kaisha </EM>[corporation] is the community to which one belongs
 <HR WIDTH=400 ALIGN=left SIZE=3>
 <STRONG><A NAME="lusion">Ref </A>#3: Excerpts from LUSIONS:
 Suggestive Parallels between <BR>Japanese Corporations & Biological Systems</STRONG> collated by WDK<BR>
-(See complete text at <a href="${BASE_URL}bigbody/lusions1.html">http://www.nancho.net/bigbody/lusions1.html</a>) 
+(See complete text at <a href="${BASE_URL}bigbody/lusions1.html">https://nikunjdz.github.io/bigmed2000/bigbody/lusions1.html</a>) 
 <HR WIDTH=400 ALIGN=left SIZE=3>
 <BR>
 <BLOCKQUOTE>
